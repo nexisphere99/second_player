@@ -1,0 +1,62 @@
+:: R1-Bedroom [release1]
+<<scene "img/characters/jess-bed.png" "Jess, scrolling, unaware she's being watched">>
+
+Jess is already in bed. Her laptop sits open beside her, the editing software paused mid timeline on one of my highlights, half cut. She was working on it, then she stopped. The progress bar sits at maybe forty percent, cursor blinking in the gap between two clips like it's waiting for permission to continue.
+
+Her phone is in her hand instead. TikTok on autoplay, the screen throwing colors across her face. She's beautiful in that absent way people are when they don't know they're being watched. Brown hair fanned across the pillow, tank top, bare shoulders. Three years of my life curled up in this bed, and she still makes my chest tighten when I catch her unguarded.
+
+She looks up.
+
+<div class="pt-phone">\
+<<phonehead "Jess" "in bed, half asleep" "J">>\
+<<msg "" "How'd the stream go?" "left">>\
+<<msg "" "Fine. One eighty average." "right">>\
+<<msg "" "That's solid." "left">>
+</div>
+
+It's not solid. She knows it, I know it, and we both let the word sit there, generous and hollow, because the alternative is saying one eighty is exactly where you were three months ago and three months before that, and the word for that isn't solid, it's stuck.
+
+She goes back to TikTok. I go to the bathroom, brush my teeth, stare at myself in the mirror longer than is healthy. Soft jaw. Eyes that look tired even when I'm not. Features my mom once called pretty when I was fourteen, and I spent the next decade trying to bulk past that word.
+
+I slide into bed. She's warm, always runs warm, like a space heater in human form. I press my lips to the back of her neck, the familiar opener, three years of the same move. She tilts her head, giving me access, and the gesture is generous the same way her solid was generous, allowing rather than pursuing.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Keep going" "R1-Bedroom-Intimate">><</link>>
+</div>
+
+:: R1-Bedroom-Intimate [release1 intimate]
+I kiss down her neck. My hand slides along her hip. She makes a small sound, an mm, and her body stays where it is, facing away. She doesn't turn toward me.
+
+I go down on her. Pull the sheets back, settle between her thighs. She's warm here too, warm everywhere, and she opens for me with the practiced ease of a thousand identical nights. I lick slow, broad strokes, the technique I learned in year one that used to make her gasp.
+
+She doesn't gasp now. She breathes, steady, present but not consumed. No hands in my hair, no fingers gripping the pillow, no whispered instructions. I'm performing, she's receiving, and somewhere between mouth and flesh there's a gap that didn't used to be there.
+
+I come back up. She opens her legs wider, a permission rather than a demand. I push in and she's wet enough, warm enough, tight enough, all the physical qualifiers present and accounted for. Her legs wrap around me, loosely, the hold of someone who's along for the ride, not driving it.
+
+I move. The rhythm is familiar, automatic, like a song you've played so many times your fingers know the chords but your brain has left the building. Her breath hitches once and I chase that sound, try to find it again, but it was a random fluctuation, not a pattern.
+
+Five minutes pass, maybe less. I feel it building and there's nothing poetic about it, no fireworks, just the mechanical inevitability of friction and biology. I finish with my forehead against her shoulder, breathing into her skin, smelling her shampoo, coconut and something herbal, the same shampoo since year one.
+
+//"Mmmh,"// she exhales beneath me.
+
+//"That was nice,"// she says.
+
+Her phone is already back in her hand. I'm still inside her and she's reaching for the screen. The glow lights up the space between her face and the ceiling. TikTok, some video of a dog doing something stupid, tinny audio playing while I soften and slip out and roll to my side.
+
+I lie on my back, staring at the ceiling. The purple LED from the desk paints shadows across the popcorn texture.
+
+My PC pings. New follower notification, one, a single new follower from tonight's stream. One person out of the millions scrolling through Twitch decided that what I do is worth a follow button.
+
+Just one. The number feels almost deliberate, like the universe is being specific about how much I matter.
+
+I used to make her grab the headboard. She'd pull me in with her heels on my back and call me baby and come so hard she'd go silent, just this open mouth nothing sound, then laugh after, this breathy amazed laugh, and say holy shit like she'd surprised herself.
+
+When did she start checking her phone before I'd even pulled out.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Lie awake" "R1-Riley-DM">><</link>>
+</div>

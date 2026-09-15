@@ -1,0 +1,71 @@
+:: R1-Side-Gym [release1 sidequest]
+<<set $timeOfDay to "Midday">>
+<<scene "img/characters/marcus-gym.png" "Marcus Reeves, six hundred thousand followers, easy reps">>
+
+I should go to the gym. I haven't gone in three weeks. The membership runs thirty bucks a month, which is thirty bucks I feel guilty about every time the charge hits, but canceling it feels like admitting something I'm not ready to admit. So I pay for a gym I don't go to, because the idea of going is worth thirty dollars and the reality of going requires energy I've already spent streaming.
+
+Today I actually go, force of will, or maybe force of guilt. Either way I'm in basketball shorts and a hoodie walking three blocks to Planet Fitness at 11 AM on a Tuesday.
+
+The gym is mostly empty, a few retirees on treadmills, a mom doing bicep curls with five pound dumbbells while her toddler sleeps in a stroller, and one guy on the bench press I recognize from his Instagram before I recognize his face.
+
+Marcus "MarcKing" Reeves.
+
+He's benching 225, easy reps, the bar moving like it weighs nothing. He's in a cutoff that shows arms the circumference of my thighs, sweat gleaming on dark skin. AirPods in, nodding to whatever he's listening to, phone propped against his water bottle, recording.
+
+Of course he's recording. Content is oxygen for people like Marcus. Every rep is potential footage, every bead of sweat a thumbnail waiting to happen.
+
+I grab dumbbells, thirties, my usual. I curl them in the mirror and try not to look at him. I fail. In the reflection we're a split screen of two trajectories. His body takes up space like it has a right to. Mine occupies space like it's apologizing for being there.
+
+He catches me looking, smiles, that smile I've seen on a thousand clips and it hits different in person. It's not performed. It's reflexive, like smiling at people is his resting state.
+
+//"Hey, bro. You're EthX, right? I've seen your ranked clips. Your crosshair placement is nasty."//
+
+He knows my name. Marcus Reeves, six hundred thousand followers, knows my name. The fact that this matters to me is its own kind of pathetic.
+
+<div class="pt-choice-label">Marcus, at the gym</div>
+<div class="pt-choices">
+<<link "Play it cool, chat briefly" "R1-Side-Gym-Cool">><</link>>
+<<link "Nod and keep working out" "R1-Side-Gym-Nod">><</link>>
+</div>
+
+:: R1-Side-Gym-Cool [release1 sidequest]
+<<set $marcusMet to true>>
+<<set $marcusRapport to "warm">>
+//"Yeah, man. Thanks. Your content's been popping off."//
+
+We talk for five minutes. He's easy, funny, the kind of person who makes conversation feel like he's doing you a favor just by being present, and somehow doesn't come off as arrogant about it. He asks about my setup, my game settings, my stream schedule, genuine questions, and he actually listens to the answers.
+
+//"We should collab sometime. For real."//
+
+He claps my shoulder on his way out, his hand huge. I feel the warmth of it through my hoodie for about ten minutes after he leaves.
+
+<<goto "R1-Side-Gym-Walk">>
+
+:: R1-Side-Gym-Nod [release1 sidequest]
+<<set $marcusMet to true>>
+<<set $marcusRapport to "distant">>
+//"Appreciate it, man."// Short, polite, done. He nods, goes back to his set, I finish mine. We exist in the same space without intersecting further. The gym feels smaller with him in it, somehow.
+
+<<goto "R1-Side-Gym-Walk">>
+
+:: R1-Side-Gym-Walk [release1 sidequest]
+<<scene "img/locations/apartment-exterior.png" "Walking home, sun still out">>
+
+I walk home. The sun is out and the neighborhood looks different in daylight than it does at midnight through my monitor's glow. Regular people doing regular things, a woman walking a dog, a kid on a skateboard, everybody's life looking manageable from the outside.
+
+My phone buzzes, a text from Jess.
+
+<div class="pt-phone">\
+<<phonehead "Jess" "iMessage" "J">>\
+<<msg "" "Crazy day at work. Will be late. Pizza ok for dinner? 🍕" "left">>\
+<<msg "" "Yeah pizza's good" "right">>\
+<<msg "" "❤️" "left">>
+</div>
+
+The heart emoji, automatic, reflexive, the muscle memory of love.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Go live again" "R1-Stream2">><</link>>
+</div>

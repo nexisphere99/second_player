@@ -1,0 +1,100 @@
+:: R1-Riley-DM [release1]
+<<set $timeOfDay to "Late Night">>
+<<scene "img/ui/discord-bg.png" "Riley, mod channel, still awake">>
+
+I can't sleep. Jess is breathing slow beside me, phone dark on the nightstand, out cold in the efficient way she sleeps, like even unconsciousness is something she does competently.
+
+I pull up Discord on my phone, brightness turned low. Riley's messaged.
+
+<div class="pt-phone">\
+<<phonehead "Riley" "Discord DM" "R">>\
+<<msg "" "yo for real tho, stream felt solid tonight. TTVShadowMerc was asking about the Invicta Open in the after chat. you thinking about it?" "left">>
+</div>
+
+The Invicta Open. Collab bracket format, five hundred dollar entry, first place gets five grand and a feature on DuskBlade's channel. A hundred and fifty thousand followers watching the winner. The kind of exposure that could uncork the bottle and let the genie breathe.
+
+Five hundred dollars.
+
+I have three hundred and forty in checking. Rent's due in twelve days. Jess's retail checks cover maybe sixty percent of her half. My streaming income covers maybe eighty percent of mine. The gap gets filled by credit cards and the specific kind of optimism that looks a lot like denial when you hold it up to the light.
+
+<div class="pt-choice-label">The Invicta Open</div>
+<div class="pt-choices">
+<<link "Entry fee is $500. Can't swing it." "R1-Riley-ChoiceA">><</link>>
+<<link "Maybe. Need to grind more first." "R1-Riley-ChoiceB">><</link>>
+<<link "Tournaments are a money pit. Not worth it." "R1-Riley-ChoiceC">><</link>>
+</div>
+
+:: R1-Riley-ChoiceA [release1]
+<<set $invictaOpen to "fundraiser">>
+<<set $rileyTrust += 5>>
+I type it out, stare at it, backspace, type it again, send.
+
+<div class="pt-phone">\
+<<phonehead "Riley" "Discord DM" "R">>\
+<<msg "" "Entry fee is $500. Can't swing it." "right">>\
+<<msg "" "what if we did a community fund thing? like a subathon but specifically for the entry fee? your people would show up for that" "left">>
+</div>
+
+My people, 180 viewers, most of whom don't donate because they also can't swing it. The idea of asking them to fund my tournament entry makes my stomach clench. It feels like begging. It feels like admitting out loud that I can't afford my own career.
+
+I don't shut it down though. I just type maybe, and Riley takes the maybe and runs with it, already planning donation goal overlays and countdown timers, and for a second I feel the thing Riley always gives me, the sense that someone believes in this more than I do.
+
+<<goto "R1-Riley-Continue">>
+
+:: R1-Riley-ChoiceB [release1]
+<<set $invictaOpen to "maybe">>
+<<set $rileyTrust += 2>>
+The deflection that sounds like preparation. Riley sees through it but plays along.
+
+<div class="pt-phone">\
+<<phonehead "Riley" "Discord DM" "R">>\
+<<msg "" "Maybe. Need to grind more first." "right">>\
+<<msg "" "dude you're ready skill-wise and you know it. your aim is cracked. you just need the stage." "left">>
+</div>
+
+The stage, like I'm some undiscovered talent waiting for a spotlight. The compliment lands warmer than I expect, maybe because Riley says it without qualification, not you're good for your viewer count or you've got potential, just, you're ready.
+
+I screenshot the message. I don't know why. I just want it somewhere I can find it later.
+
+<<goto "R1-Riley-Continue">>
+
+:: R1-Riley-ChoiceC [release1]
+<<set $invictaOpen to "declined">>
+<<set $rileyTrust -= 5>>
+Cynical, true enough to be defensible. Riley pauses, the typing indicator blinking for a long time.
+
+<div class="pt-phone">\
+<<phonehead "Riley" "Discord DM" "R">>\
+<<msg "" "Tournaments are a money pit. Not worth it." "right">>\
+<<msg "" "aight. your call. just... dont let the grind make you forget why you started, yeah?" "left">>
+</div>
+
+The message sits there. I leave it on read, not because I'm angry, because I don't have an answer. Why did I start. I can't remember the version of myself who thought this was going to work.
+
+<<goto "R1-Riley-Continue">>
+
+:: R1-Riley-Continue [release1]
+Riley shifts topics.
+
+<div class="pt-phone">\
+<<phonehead "Riley" "Discord DM" "R">>\
+<<msg "" "also random but, jess hasn't been in the mod discord in like 2 weeks. she used to hang in there, you know? just vibes. everything cool?" "left">>\
+<<msg "" "She's been busy with work stuff." "right">>
+</div>
+
+Everything cool, the two word question that means I notice things you wish I wouldn't.
+
+Riley doesn't push. That's the thing about Riley, they know when to push and when to leave the door open. Tonight it's the door.
+
+<div class="pt-phone">\
+<<phonehead "Riley" "Discord DM" "R">>\
+<<msg "" "cool cool. get some sleep E. tomorrow's another one. ❤️" "left">>
+</div>
+
+The heart emoji from Riley always lands different than it does from anyone else, not romantic, just steady, like a hand on your shoulder.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Get up for water" "R1-Side-Dale">><</link>>
+</div>

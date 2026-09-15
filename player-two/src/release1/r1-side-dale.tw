@@ -1,0 +1,51 @@
+:: R1-Side-Dale [release1 sidequest]
+I need water, mouth tasting like ramen and regret. I ease out of bed, trying not to wake Jess. She doesn't stir. I could probably knock over the nightstand and she'd sleep through it. She sleeps like someone who isn't carrying the weight I am.
+
+I fill a glass in the dark kitchen and I'm standing there drinking when I hear it through the wall. Our neighbor, Dale, forty something, divorced, works nights at a warehouse. But tonight he's home, and he's streaming too.
+
+I can hear his voice through the thin drywall, muffled but distinct. He's got maybe twelve viewers, I know because I checked once out of curiosity. He plays retro games and talks about his day, no webcam, no production, just Dale and a microphone and a screen name I forget.
+
+He's laughing about something, genuinely laughing. At midnight, in a studio apartment, with twelve viewers, Dale is having the time of his life.
+
+I stand in my kitchen in my boxers and listen to a man enjoying the thing I've turned into a job.
+
+<div class="pt-choice-label">Through the wall</div>
+<div class="pt-choices">
+<<link "Drop by Dale's stream and lurk for a bit" "R1-Side-Dale-Lurk">><</link>>
+<<link "Put in earplugs and go back to bed" "R1-Side-Dale-Earplugs">><</link>>
+</div>
+
+:: R1-Side-Dale-Lurk [release1 sidequest]
+<<set $daleLurked to true>>
+I pull up Twitch on my phone, find his channel, DalePlaysRetro. He's playing some SNES game I half recognize, dying repeatedly at the same boss, and his twelve viewers are coaching him through it with the kind of patience chat only has when the room is small enough to feel like a living room.
+
+<div class="pt-chat">\
+<<chathead 12>>\
+<div class="pt-chat-body">\
+<<chatline "EthX" "you got this dale" "#c084dc">>\
+</div>
+</div>
+
+He reads it aloud. //"EthX! What's up, man! Hey chat, my neighbor's here. This guy's a real streamer, for real."//
+
+The way he says real streamer makes me want to put my head through the wall. To Dale, I'm the dream. Eighty thousand followers, a ring light, the illusion of success viewed from twelve viewers away.
+
+I stay for twenty minutes. Dale beats the boss. His chat erupts, twelve people losing their minds, the energy pure and unfiltered.
+
+I close the tab and go back to bed feeling something I can't name. Jealousy, maybe, or nostalgia for a feeling I've lost somewhere along the way.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Back to bed" "R1-Side-Email">><</link>>
+</div>
+
+:: R1-Side-Dale-Earplugs [release1 sidequest]
+<<set $daleLurked to false>>
+Some nights you can't afford to think about what you've lost. I find the foam earplugs in the bathroom drawer, squeeze them in, and the world goes muffled. Jess, Dale, the hum of the monitor I forgot to turn off, all of it compressed into white noise and the sound of my own heartbeat.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Back to bed" "R1-Side-Email">><</link>>
+</div>

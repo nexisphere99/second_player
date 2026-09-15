@@ -1,0 +1,79 @@
+:: R1-Side-Email [release1 sidequest]
+<<set $timeOfDay to "Morning">>
+<<set $dayLabel to "Day Two">>
+<<scene "img/ui/sticky-note.png" "u got this">>
+
+Morning arrives and Jess is already gone, morning shift at the retail store. Her side of the bed is cold but she left a sticky note on my phone.
+
+<div class="pt-sticky">stream was good last night! u got this ❤️<br>- J</div>
+
+She didn't watch the stream, I know because I can see the viewer list and her account wasn't on it. But she saw my social post about going live, and she wrote a sticky note anyway, and the sticky note is an act of love even if the content is a guess.
+
+I make coffee, the cheap stuff. The grinder broke two months ago so now it's pre ground from the bargain shelf at the grocery store. Tastes like what it costs.
+
+I open my laptop at the kitchen table and check emails, mostly junk. Twitch newsletters I never read. A spam invite to a Creators Summit that costs two hundred bucks to attend.
+
+One email catches my eye.
+
+<div class="pt-phone">\
+<div class="pt-phone-head"><div class="pt-phone-avatar">S</div><div><div class="pt-phone-name">LunaFrag, Sarah Chen</div><div class="pt-phone-sub">Potential collab? Saw your ranked clips</div></div></div>\
+<div class="pt-msg left">Hey EthX! I've been watching your ranked VODs and your crosshair placement is genuinely elite. I'm putting together a team for the Invicta Open collab bracket and I need a second. Entry is $500 total, split between us. Would you be down? I think we could make a real run. Let me know! - Sarah</div>
+</div>
+
+LunaFrag, an FPS streamer with fifty thousand followers. I've seen her in ranked lobbies before. She's cracked, aim like a surgical instrument, movement like water.
+
+Two hundred fifty dollars, half the entry fee, still money I don't have, but half the money I don't have, which is the kind of math that passes for optimism in my tax bracket.
+
+<div class="pt-choice-label">The LunaFrag email</div>
+<div class="pt-choices">
+<<link "Reply yes" "R1-Side-Email-Yes">><</link>>
+<<link "Reply maybe, ask for time to think" "R1-Side-Email-Maybe">><</link>>
+<<link "Don't reply" "R1-Side-Email-Silent">><</link>>
+</div>
+
+:: R1-Side-Email-Yes [release1 sidequest]
+<<set $lunaFragReply to "yes">>
+I type the response before I can talk myself out of it.
+
+<div class="pt-phone">\
+<<phonehead "LunaFrag" "Direct message" "S">>\
+<<msg "" "I'm in. When do we start practice?" "right">>
+</div>
+
+Send. The two fifty will come from somewhere, it has to, because if I don't take this shot I'll spend the next three months wondering, and wondering is worse than failing.
+
+LunaFrag responds within the hour, practice schedule, strat docs, a shared Discord server. She's organized the way Jess used to be organized about my career. The comparison stings and motivates in equal measure.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Time to hit the gym" "R1-Side-Gym">><</link>>
+</div>
+
+:: R1-Side-Email-Maybe [release1 sidequest]
+<<set $lunaFragReply to "pending">>
+<div class="pt-phone">\
+<<phonehead "LunaFrag" "Direct message" "S">>\
+<<msg "" "Hey Sarah, this sounds great. Let me check my schedule and finances and get back to you by end of week?" "right">>\
+<<msg "" "Sure! Just LMK soon, I've got a backup if you can't. No pressure ❤️" "left">>
+</div>
+
+Safe, measured, the kind of response that protects you from disappointment and also from opportunity.
+
+A backup, someone else ready to take my slot. The clock is ticking and I haven't decided if I'm in or out.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Time to hit the gym" "R1-Side-Gym">><</link>>
+</div>
+
+:: R1-Side-Email-Silent [release1 sidequest]
+<<set $lunaFragReply to "ignored">>
+I close the email, stare at the inbox, open it again, close it. The cursor blinks on the reply field like a heartbeat. I leave it. Some doors are easier to walk past than to walk through.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Time to hit the gym" "R1-Side-Gym">><</link>>
+</div>

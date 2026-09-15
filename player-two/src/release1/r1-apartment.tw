@@ -1,0 +1,24 @@
+:: R1-Apartment [release1]
+<<scene "img/locations/apartment-kitchen.png" "The kitchen, one person wide">>
+
+I walk to the kitchen and the apartment walks with me. Three steps from desk to door, eight steps down the hallway, four steps to the fridge. I've counted them. When you live somewhere small enough to memorize in footsteps, you stop calling it home and start calling it what it actually is, a container.
+
+One bedroom. The gaming setup sits in the corner, three feet from the bed. When I stream, Jess has to either sit quietly or leave the room. She used to sit on the bed with headphones on and work on my highlights. Now she leaves.
+
+The kitchen is a galley, one person wide. Open the fridge while someone walks behind you and somebody's getting hip checked. The living room fits a couch, a TV, and the specific kind of sadness that comes from knowing this is your mid twenties and you thought it would look different by now.
+
+Jess's part time retail schedule is pinned to the fridge with a cat shaped magnet. Color coded, because that's who Jess is. Blue for morning shifts, green for closings, red for requested off days. She requested off last Friday. I don't remember what we did with it. Probably nothing.
+
+I heat up leftover ramen, the packet kind, not real ramen, the kind that costs thirty cents and tastes like salt and unfulfilled potential. Steam rises while I stand at the counter eating, because we only have two chairs and one of them has a wobbly leg I keep saying I'll fix.
+
+My phone's in my other hand because I can't stand alone with my own silence anymore. I scroll through other streamers' highlight reels. Someone I used to scrim with just hit 50K followers. A girl I collabed with last year is doing sponsored content for an energy drink brand. Everybody's trajectory is a curve. Mine is a flatline.
+
+The apartment smells like leftover ramen and the synthetic coconut of the air freshener Jess bought because she said the place smells like boy. She's not wrong. It smells like boy, like unwashed hoodies and energy drinks and the slow evaporation of ambition.
+
+I finish the ramen, rinse the bowl, walk to the bedroom.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Go to the bedroom" "R1-Bedroom">><</link>>
+</div>

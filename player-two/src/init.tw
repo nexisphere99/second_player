@@ -1,0 +1,46 @@
+:: StoryData
+{
+  "ifid": "92F88D4E-2318-43DE-9F9E-2001DA7B3F02",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Start",
+  "tag-colors": {
+    "release1": "#9b59b6",
+    "sidequest": "#e0b84d",
+    "intimate": "#e0556f"
+  },
+  "zoom": 1
+}
+
+:: StoryTitle
+Player Two
+
+:: StoryInit
+<<set $viewers to 200>>
+<<set $followers to 80000>>
+<<set $donationsMonthly to 400>>
+<<set $jessCloseness to 85>>
+<<set $jessMarcusBond to 0>>
+<<set $feminization to 0>>
+<<set $streamPersona to "EthX">>
+<<set $chatMood to "neutral">>
+<<set $suspicion to 0>>
+<<set $selfImage to "insecure">>
+<<set $rileyTrust to 70>>
+<<set $moneyStress to "high">>
+<<set $currentRelease to 1>>
+<<set $money to 340>>
+<<set $rent to 750>>
+<<set $rentDays to 12>>
+<<set $invictaOpen to "undecided">>
+<<set $lunaFragReply to "none">>
+<<set $marcusMet to false>>
+<<set $marcusRapport to "none">>
+<<set $daleLurked to false>>
+<<set $r1EndChoice to "none">>
+<<set $hopeSpark to false>>
+
+<<set $timeOfDay to "Night">>
+<<set $dayLabel to "Night One">>
+
+<<set $donationsTonight to 0>>

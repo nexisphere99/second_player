@@ -1,0 +1,53 @@
+:: R1-End [release1]
+I lie in bed, Jess beside me, the ceiling above me, the life around me.
+
+Somewhere in this city Marcus Reeves is sleeping in an apartment with marble counters and a streaming setup that costs more than my car. Somewhere, six hundred thousand people follow his name. Somewhere, the algorithm is deciding who matters tomorrow, and my name isn't in the running.
+
+But 80,001 people know I exist. One more than yesterday.
+
+<<if $r1EndChoice is "tryDifferent">>
+The word no is still sitting in my chest where I left it an hour ago. I close my eyes anyway.
+<<elseif $r1EndChoice is "dateNight">>
+Her hand is still loosely in mine. Whatever this weekend's account balance says, we'll figure it out, or we won't, and either way there's a small warm fact I get to keep, that she wanted to go.
+<<elseif $r1EndChoice is "lateStream">>
+Forty people stayed up with me tonight for no reason at all, and for the first time in a while that felt like enough.
+<</if>>
+
+I close my eyes. Tomorrow I'll stream again, tomorrow I'll try again, tomorrow Jess will go to work and come home and we'll eat something cheap and watch something free and go to bed in a room where the monitor hums three feet from the pillow.
+
+This is the grind. Not glamorous, not tragic, just the specific relentless mediocrity of almost making it.
+
+The LED strips paint the ceiling purple. I watch the color until my eyes close.
+
+<<endcard "Release 1, Complete" "The Grind" "Ethan Marsh streams into the void one more night. Whatever happens next carries forward.">>
+
+<div class="pt-choices">
+<<link "See where things stand" "R1-Stats">><</link>>
+</div>
+
+:: R1-Stats [release1]
+<div class="pt-endcard">
+<div class="kicker">End of Release 1</div>
+<h2>Stats so far</h2>
+</div>
+
+<<statbar "Viewers" $viewers 250 $viewers "">>
+<<statbar "Followers" $followers 100000 $followers "">>
+<div class="pt-hud-line"><span>Donations, month</span><b><<= "$" + $donationsMonthly>></b></div>
+<<statbar "Jess Closeness" $jessCloseness 100 $jessCloseness "">>
+<<statbar "Riley Trust" $rileyTrust 100 $rileyTrust "trust">>
+<div class="pt-hud-line"><span>Jess, Marcus Bond</span><b>$jessMarcusBond</b></div>
+<div class="pt-hud-line"><span>Feminization</span><b>$feminization</b></div>
+<div class="pt-hud-line"><span>Stream Persona</span><b>$streamPersona</b></div>
+<div class="pt-hud-line"><span>Chat Mood</span><b>$chatMood</b></div>
+<div class="pt-hud-line"><span>Suspicion</span><b>$suspicion</b></div>
+<div class="pt-hud-line"><span>Self-Image</span><b>$selfImage</b></div>
+<div class="pt-hud-line"><span>Money Stress</span><b><<moneybadge $moneyStress>></b></div>
+<div class="pt-hud-line"><span>Invicta Open</span><b>$invictaOpen</b></div>
+<div class="pt-hud-line"><span>LunaFrag Reply</span><b>$lunaFragReply</b></div>
+<div class="pt-hud-line"><span>Marcus Met</span><b>$marcusMet</b></div>
+<div class="pt-hud-line"><span>Dale Lurked</span><b>$daleLurked</b></div>
+
+<hr class="pt-hr">
+
+<p class="pt-hud-sub">Release 2 picks up from here. Use Restart in the sidebar menu to run Release 1 again from a clean save.</p>

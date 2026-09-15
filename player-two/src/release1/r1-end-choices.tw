@@ -1,0 +1,106 @@
+:: R1-EndChoices [release1]
+<<set $timeOfDay to "Late Night">>
+The night pools around me. Purple light, cold pizza, the follower count on my dashboard sitting at 80,001. Tomorrow I'll stream again and the number might go up by one or stay the same or go down by three, and none of those outcomes will change the fundamental equation of my life.
+
+Jess is in bed, asleep or close to it. The space beside her is warm and waiting and I should fill it because that's what boyfriends do. They show up, they lie down, they hold the person they chose and pretend that holding is enough.
+
+But something's restless tonight, in my chest, behind my ribs, in the place where ambition used to live before it got evicted by reality.
+
+<div class="pt-choice-label">Night's end</div>
+<div class="pt-choices">
+<<link "Go to bed. Try something different." "R1-EndChoices-A">><</link>>
+<<link "Suggest a date night." "R1-EndChoices-B">><</link>>
+<<link "Fire up a late night stream." "R1-EndChoices-C">><</link>>
+</div>
+
+:: R1-EndChoices-A [release1]
+<<set $jessCloseness -= 5>>
+<<set $r1EndChoice to "tryDifferent">>
+I slide in beside her, press my body against her back. She stirs.
+
+<div class="pt-msg right">Jess?</div>
+<div class="pt-msg left">Mm.</div>
+<div class="pt-msg right">Can we try something? Different, I mean. Like... I don't know. Something new.</div>
+
+Her body stiffens, almost imperceptibly, the kind of tension that lives in the shoulders and radiates outward.
+
+<div class="pt-msg left">Babe, I'm exhausted. Not tonight, okay?</div>
+<div class="pt-msg right">Yeah. Sure. No, yeah. Of course.</div>
+<div class="pt-msg left">Tomorrow, maybe?</div>
+<div class="pt-msg right">Yeah. Tomorrow.</div>
+
+Tomorrow, the universal code for never. She rolls over, kisses my cheek, falls asleep. I lie on my back and feel the word no settle into my bones alongside all the other nos that have accumulated like sediment over time.
+
+I'm not mad. I'm not even disappointed exactly. I'm just aware, suddenly and clearly, that something between us has shifted from always yes to usually not, and I don't know when, and I don't know why, and asking would require a kind of vulnerability I'm not sure I have left in me.
+
+<div class="pt-hud-line"><span>Jess Closeness</span><b>-5</b></div>
+<div class="pt-hud-line"><span>Self-Image</span><b>stays Insecure</b></div>
+
+<<goto "R1-End">>
+
+:: R1-EndChoices-B [release1]
+<<set $moneyStress to "critical">>
+<<set $jessCloseness -= 3>>
+<<set $r1EndChoice to "dateNight">>
+<div class="pt-msg right">Hey Jess?</div>
+
+She's half asleep. <div class="pt-msg left">Mm?</div>
+
+<div class="pt-msg right">What if we did dinner this weekend? Like, a real dinner. Not pizza. Somewhere with cloth napkins and a menu that doesn't have a dollar sign section.</div>
+
+She opens her eyes, looks at me. The idea lands on her face like a bird landing on a wire, sitting there for a second, balanced, hopeful.
+
+Then gravity takes over.
+
+<div class="pt-msg left">Can we afford that?</div>
+
+The question isn't cruel. It's real. We can't afford it, we both know we can't afford it, but hearing her say it, hearing the math come out of her mouth before the desire does, something cracks a little.
+
+<div class="pt-msg right">I don't know. Maybe.</div>
+<div class="pt-msg left">Let's see what the account looks like after rent. Okay?</div>
+<div class="pt-msg right">Okay.</div>
+
+She reaches over and squeezes my hand. The squeeze is real, the love is real, the constraint is also real. We live inside a budget that doesn't have a line item for romance, and pretending otherwise doesn't change the spreadsheet.
+
+We lie there holding hands in the dark, and I feel the weight of money pressing down on us like a physical thing, not crushing, just constant, the low grade pressure of never quite enough.
+
+<div class="pt-hud-line"><span>Money Stress</span><b><<moneybadge "critical">></b></div>
+<div class="pt-hud-line"><span>Jess Closeness</span><b>-3</b></div>
+
+<<goto "R1-End">>
+
+:: R1-EndChoices-C [release1]
+<<set $viewers += 10>>
+<<set $hopeSpark to true>>
+<<set $r1EndChoice to "lateStream">>
+<<scene "img/scenes/late-night-stream.png" "40 viewers, no pressure at all">>
+
+I get back on, headset on, LEDs on, 2 AM.
+
+//"What's up insomniacs and international legends. EthX late night. Let's vibe."//
+
+Forty viewers, the skeleton crew, people in time zones where it's afternoon, people who can't sleep, people who are alone and need a voice in the room, any voice, even mine.
+
+Something loosens. With forty viewers the pressure evaporates, nobody to perform for, nobody to impress. The analytics don't matter at 2 AM because 2 AM streams don't count. They exist outside the metrics, in a pocket of time where streaming is just talking to people while you play a game.
+
+I play ranked but I don't care about rank. I take stupid fights, push angles that would get me flamed in a tournament, die in creative ways and laugh about it. Chat laughs with me.
+
+<div class="pt-chat">\
+<<chathead 40>>\
+<div class="pt-chat-body">\
+<<chatline "NightOwl_Sam" "this is peak ethx tbh" "#63b3ed">>\
+<<chatline "TokyoDrift_JP" "3pm here king keep going" "#e0b84d">>\
+<<chatline "sleepless_in_ohio" "this is so much better than his regular streams ngl" "#e0556f">>\
+</div>
+</div>
+
+Riley clips a moment. I whiff an entire magazine at point blank range, scream how, and the clip is actually, genuinely funny, not polished, not clean, just real.
+
+//"Thanks for hanging, night crew. You're the real ones."//
+
+I mean it. I stream for forty minutes and it's the best I've felt behind the mic in months.
+
+<div class="pt-hud-line"><span>Viewers, next stream</span><b>+10</b></div>
+<div class="pt-hud-line"><span>Self-Image</span><b>stays Insecure, but a faint maybe lingers</b></div>
+
+<<goto "R1-End">>

@@ -1,0 +1,43 @@
+:: R1-Stream2 [release1]
+<<set $timeOfDay to "Evening">>
+<<set $viewers to 190>>
+<<scene "img/locations/stream-setup.png" "Second stream of the release">>
+
+Second stream of the release. Same setup, same purple light, same cracked bezel. The follower count reads 80,001. That single follower from last night, preserved in the number like a fossil.
+
+I go live at 8 PM. Riley's modding. The usuals trickle in, 190 tonight, ten more than average, which is either statistical noise or the beginning of something. Probably noise.
+
+I'm playing ranked again. The gameplay is sharper tonight, whether it's the coffee or the LunaFrag email or the residual adrenaline of standing within arm's reach of Marcus Reeves at the gym, I'm hitting shots that feel important, flicks that snap, crosshair placement that anticipates rather than reacts.
+
+Nobody clips it. The plays dissolve into the VOD, uncaptured, unseen except by the 190 people who happen to be watching at this specific second on this specific night.
+
+<div class="pt-chat">\
+<<chathead $viewers>>\
+<div class="pt-chat-body">\
+<<chatline "TTVShadowMerc" "theorycrafting loadouts in chat" "#63b3ed">>\
+<<chatline "xX_FragQueen_Xx" "backseat gaming your rotations, sorry not sorry" "#e0556f">>\
+<<donation "GhostReaper42" "$5" "goated as always king">>\
+</div>
+</div>
+
+I read donations, do my bits, say let's get it and we're cooking and clean play, clean play. The words come out and they sound like me and they also sound like a recording of me, and I can't tell the difference anymore.
+
+Two hours in, a notification pops on my second monitor. Not Twitch, Instagram. Marcus posted a story.
+
+I shouldn't check it mid stream. I check it mid stream.
+
+Marcus is streaming, shirtless, horror game. The clip that autoplays shows him flinching at a jump scare, his entire torso doing something involuntary and muscular. His laugh after is deep and rolling and genuine, and chat is moving so fast it looks like the Matrix.
+
+The donation ticker in his overlay hasn't stopped moving, not once in the twenty second clip, an unbroken scroll of money and adoration.
+
+I close Instagram, return to my game, hit a nice triple kill that chat appreciates with moderate enthusiasm.
+
+//"Let's gooo. EthX gaming."//
+
+190 viewers. The number sits in the corner of my screen like a grade I didn't study for.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "End the stream" "R1-PostStream">><</link>>
+</div>

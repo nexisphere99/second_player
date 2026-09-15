@@ -1,0 +1,44 @@
+:: R1-PostStream [release1]
+<<set $timeOfDay to "Night">>
+<<set $donationsTonight to 8>>
+<<scene "img/scenes/ethan-poststream-alone.png" "Cold pizza, the monitor still on">>
+
+Stream ends at eleven thirty, didn't make it to midnight tonight. The energy ran out. I blamed it on an early morning tomorrow, which is a lie, because I don't have mornings. I have the same unstructured void I have every day, stretching from wake to stream to sleep.
+
+Eight dollars in donations tonight, GhostReaper's five and a random three from someone named ttv_brokeboi69, message attached, "ur underrated fr." The irony of the username is not lost on me.
+
+Jess isn't home yet.
+
+<div class="pt-phone">\
+<<phonehead "Jess" "iMessage" "J">>\
+<<msg "" "Staying late to close. Manager called in sick. Ugh." "left">>
+</div>
+
+The apartment is dark except for the LEDs. I sit in the glow and eat cold pizza from the box on the counter, two slices, the cheese congealed into something that requires commitment to chew.
+
+I should shower. I should go to bed. I should do a lot of things.
+
+Instead I sit at my desk and watch Marcus's VOD, the full stream, three hours, skipping through it, stopping at moments, the jump scares, the ASMR segments where he leans into the mic and murmurs things that make my skin prickle even through laptop speakers, the donation reads where he says every person's name like it matters.
+
+He's good, that's the thing. If he were a fraud, a gimmick, a pretty face with nothing behind it, I could hate him cleanly. But he's good, funny, his timing impeccable. The shirtless thing isn't the whole brand, it's the hook, and what keeps people is the actual human being behind the abs.
+
+I close the VOD at 1 AM. Jess's key turns in the door.
+
+<<phonehead "Jess" "just got home" "J">>
+<div class="pt-msg left">Hey. Long night?</div>
+<div class="pt-msg right">The worst. Janet called in again and I had to solo close.</div>
+
+She kicks off her shoes, drops her bag. She looks tired in a way that's different from my tired. Hers is physical, feet hurt, back sore, retail tired. Mine is existential. The difference matters but we never talk about it, because comparing tiredness is a competition nobody wins.
+
+She microwaves a slice of pizza, eats it standing. We're parallel structures in a galley kitchen, two people who love each other eating bad food in a small space and not saying the things that would change everything.
+
+<div class="pt-msg left">I'm beat. Coming to bed?</div>
+<div class="pt-msg right">In a minute.</div>
+
+She goes. I stay. The monitor hums.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Sit with it a while longer" "R1-EndChoices">><</link>>
+</div>

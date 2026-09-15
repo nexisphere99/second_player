@@ -1,0 +1,109 @@
+:: Widgets [widget]
+\
+<<widget "scene">>\
+<<set _img to $args[0]>>\
+<<set _cap to $args[1]>>\
+<div class="pt-scene">\
+<img @src="_img" @alt="_cap">\
+<div class="pt-scene-caption"><b>_cap</b></div>\
+</div>
+<</widget>>
+
+<<widget "statbar">>\
+<<set _label to $args[0]>>\
+<<set _val to $args[1]>>\
+<<set _max to $args[2]>>\
+<<set _disp to $args[3]>>\
+<<set _mod to $args[4]>>\
+<<set _pct to Math.max(2, Math.min(100, (_val / _max) * 100))>>\
+<<set _cls to "pt-stat-fill" + (_mod ? " " + _mod : "")>>\
+<div class="pt-stat-row">\
+<div class="pt-stat-top"><span>_label</span><b>_disp</b></div>\
+<div class="pt-stat-track"><div @class="_cls" @style="'width:' + _pct + '%;'"></div></div>\
+</div>
+<</widget>>
+
+<<widget "moneybadge">>\
+<<set _v to $args[0]>>\
+<<if _v is "critical">>\
+<span class="pt-badge critical">CRITICAL</span>\
+<<elseif _v is "high">>\
+<span class="pt-badge high">HIGH</span>\
+<<elseif _v is "low">>\
+<span class="pt-badge low">STEADY</span>\
+<<else>>\
+<span class="pt-badge">MODERATE</span>\
+<</if>>
+<</widget>>
+
+<<widget "hud">>\
+<div class="pt-hud-brand">PLAYER <span>TWO</span></div>\
+<div class="pt-hud-sub">$dayLabel &middot; $timeOfDay</div>\
+<div class="pt-hud-block">\
+<div class="pt-hud-heading">Channel</div>\
+<<statbar "Viewers" $viewers 250 $viewers "">>\
+<div class="pt-hud-line"><span>Followers</span><b>$followers</b></div>\
+<div class="pt-hud-line"><span>Donations, month</span><b><<= "$" + $donationsMonthly>></b></div>\
+</div>\
+<div class="pt-hud-block">\
+<div class="pt-hud-heading">People</div>\
+<<statbar "Jess Closeness" $jessCloseness 100 $jessCloseness "">>\
+<<statbar "Riley Trust" $rileyTrust 100 $rileyTrust "trust">>\
+</div>\
+<div class="pt-hud-block">\
+<div class="pt-hud-heading">Life</div>\
+<div class="pt-hud-line"><span>Cash on hand</span><b><<= "$" + $money>></b></div>\
+<div class="pt-hud-line"><span>Rent due in</span><b>$rentDays days</b></div>\
+<div class="pt-hud-line"><span>Money Stress</span><b><<moneybadge $moneyStress>></b></div>\
+<div class="pt-hud-line"><span>Self-Image</span><b>$selfImage</b></div>\
+</div>
+<</widget>>
+
+<<widget "phonehead">>\
+<<set _name to $args[0]>>\
+<<set _sub to $args[1]>>\
+<<set _ini to $args[2]>>\
+<div class="pt-phone-head">\
+<div class="pt-phone-avatar">_ini</div>\
+<div><div class="pt-phone-name">_name</div><div class="pt-phone-sub">_sub</div></div>\
+</div>
+<</widget>>
+
+<<widget "msg">>\
+<<set _name to $args[0]>>\
+<<set _text to $args[1]>>\
+<<set _side to $args[2]>>\
+<div @class="'pt-msg ' + _side">\
+<<if _name is not "">><div class="pt-msg-name">_name</div><</if>>_text\
+</div>
+<</widget>>
+
+<<widget "chathead">>\
+<<set _watching to $args[0]>>\
+<div class="pt-chat-head"><span><span class="live-dot"></span>LIVE, _watching watching</span><span>$streamPersona</span></div>
+<</widget>>
+
+<<widget "chatline">>\
+<<set _user to $args[0]>>\
+<<set _text to $args[1]>>\
+<<set _color to $args[2]>>\
+<div class="pt-chat-line"><span class="pt-chat-user" @style="'color:' + _color + ';'">_user</span>_text</div>
+<</widget>>
+
+<<widget "donation">>\
+<<set _user to $args[0]>>\
+<<set _amt to $args[1]>>\
+<<set _text to $args[2]>>\
+<div class="pt-chat-donation"><span class="amt">_amt</span> from <b>_user</b>, "_text"</div>
+<</widget>>
+
+<<widget "endcard">>\
+<<set _kicker to $args[0]>>\
+<<set _title to $args[1]>>\
+<<set _body to $args[2]>>\
+<div class="pt-endcard">\
+<div class="kicker">_kicker</div>\
+<h2>_title</h2>\
+<p>_body</p>\
+</div>
+<</widget>>

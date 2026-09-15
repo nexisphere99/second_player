@@ -1,0 +1,11 @@
+:: StoryCaption
+<<hud>>
+
+:: StoryMenu
+<<link "Stats so far" "R1-Stats">><</link>>
+
+:: PassageHeader
+<div class="pt-topbar">
+<div class="pt-brand">PLAYER <span>TWO</span></div>
+<div class="pt-daytime">$dayLabel &middot; <b>$timeOfDay</b></div>
+</div>

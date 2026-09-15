@@ -1,0 +1,89 @@
+:: Start [release1]
+<<set $timeOfDay to "Night">>
+<<set $dayLabel to "Night One">>
+
+<<scene "img/locations/stream-setup.png" "The setup, three feet from the bed">>
+
+The monitor hums. That's the first thing, before the chat loads, before the webcam light blinks green, before I paste on whatever version of myself tonight's audience gets. The hum gets into my teeth if I sit here long enough.
+
+Cracked bezel, lower right corner. Six months I've been meaning to replace this thing. Six months of telling myself next paycheck, next sponsor deal, next big break. The crack runs diagonal across the corner like a fault line through my career.
+
+I click Go Live.
+
+//"What's good, chat. EthX here. Let's get into it."//
+
+Two hundred faces, or two hundred usernames anyway. Maybe a hundred actual humans, the rest bots and lurkers and people who left the tab open while they went to take a shit. My ring light is clamped to a bookshelf because a real stand costs eighty bucks, and eighty bucks is two weeks of ramen for two people.
+
+The LED strips paint everything purple. I bought them during a manic 3 AM impulse buy, back when I thought aesthetic could fix what skill couldn't. Twenty two dollars. The apartment looks like a low budget cyberpunk set, which tracks, because that's basically what it is.
+
+I queue ranked. The matchmaking wheel spins. Chat trickles in.
+
+<div class="pt-chat">\
+<<chathead $viewers>>\
+<div class="pt-chat-body">\
+<<chatline "TTVShadowMerc" "yooo ethx whats good" "#63b3ed">>\
+<<chatline "xX_FragQueen_Xx" "early tonight king" "#e0556f">>\
+<<chatline "GhostReaper42" "lets get this bread" "#e0b84d">>\
+</div>
+</div>
+
+Three regulars. The same three regulars who show up every stream like clockwork, like some kind of parasocial obligation they can't shake. I love them. I also want to ask them why, why here, why me, when there are ten thousand streamers doing exactly what I do and most of them have better equipment.
+
+//"Shadow, Frag, Ghost. The holy trinity. Let's run it."//
+
+Match starts. I drop clean. Crosshair placement is solid, movement is crisp, I hit a flick shot that in any other context would be clip worthy. Nobody clips it. Nobody clips anything anymore. My highlight reel is a graveyard of plays that deserved better than 180 concurrent viewers.
+
+I check analytics on the second tab while I'm in queue between matches. I shouldn't. I always do.
+
+Follower growth sits flat, a line so horizontal it looks like a heart monitor on a corpse.
+
+Average watch time is declining too. Twenty two minutes last month. Nineteen this month. People are staying shorter, getting bored faster, finding the door quicker than they used to.
+
+The algorithm stopped recommending me at some point I never pinpointed. There's no email, no notification, no dear EthX, you are no longer interesting enough for us to promote. It just happens. The suggestions tab forgets you exist and you become a ghost in a machine that only feeds the living.
+
+//"Nice shot, nice shot. Let's rotate left, team."//
+
+I'm performing enthusiasm I don't feel. The catchphrases that used to erupt on their own now come from a script I keep in my head. Let's get it. Clean play. Chat, we're cooking. Rehearsed, hollow, the laugh track of a show that's been canceled but nobody told the actors.
+
+Ninety minutes pass. One donation shows up.
+
+<div class="pt-chat">\
+<<chathead $viewers>>\
+<div class="pt-chat-body">\
+<<donation "GhostReaper42" "$5" "nice shot king">>\
+</div>
+</div>
+
+//"Ghost. My man. Appreciate the five, brother. You're the real king."//
+
+I mean it, for about three seconds I genuinely mean it. The warmth cracks through the exhaustion like sunlight through a gap in a wall. Then it seals back up.
+
+Riley's in the mod channel. They DM me mid stream.
+
+<div class="pt-phone">\
+<<phonehead "Riley" "Discord, mod channel" "R">>\
+<<msg "" "Good energy tonight E, chat's vibing 👍" "left">>
+</div>
+
+Kind lie. I can feel the room's indifference the way you can feel humidity, everywhere, in every pause between chat messages. They're not vibing. They're waiting for something worth vibing about, and I'm not providing it tonight.
+
+<div class="pt-chat">\
+<<chathead $viewers>>\
+<div class="pt-chat-body">\
+<<chatline "TTVShadowMerc" "when's the next tourney?" "#63b3ed">>\
+</div>
+</div>
+
+I give a vague answer, something about looking into options and might have something lined up. Translation, the tournaments that matter cost five hundred bucks to enter and I have three hundred and forty dollars in checking and rent is due in twelve days.
+
+Midnight comes and I end the stream. Raid target, some kid with forty viewers playing the same game I was playing, worse than me but with a joy that makes me feel ancient at twenty four. I hit the raid and watch my 180 viewers flood his tiny channel like relatives showing up uninvited to a kid's lemonade stand.
+
+I can't raid up anymore. That's the metric nobody talks about. When you raid, you're supposed to punch up, send your viewers to someone bigger, build alliances and networks. I used to raid five hundred viewer channels and they'd notice, thank me on stream, sometimes raid back. Now I raid downward, into the dark, into the forty viewer channels where nobody knows my name and my 180 viewers are a tsunami for maybe fifteen minutes before they drain away.
+
+Headset off, dropped on the desk. The LED strips keep going because I'm too tired to reach the switch. Purple light and silence. The energy drink cans along the windowsill catch the glow, nine of them lined up, a small city of caffeine and desperation.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Head to the kitchen" "R1-Apartment">><</link>>
+</div>
