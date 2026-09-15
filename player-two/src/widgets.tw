@@ -107,3 +107,11 @@
 <p>_body</p>\
 </div>
 <</widget>>
+
+<<widget "patreoncard">>\
+<div class="pt-support">\
+<div class="pt-support-kicker">Support The Grind</div>\
+<p>If you want early access to newer chapters, or just want to help keep this thing running, Player Two lives on Patreon.</p>\
+<a class="pt-support-btn" href="https://www.patreon.com/player_two_guys" target="_blank" rel="noopener">Visit Patreon, @player_two_guys</a>\
+</div>
+<</widget>>
