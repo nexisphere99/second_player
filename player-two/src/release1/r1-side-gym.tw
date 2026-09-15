@@ -67,5 +67,5 @@ The heart emoji, automatic, reflexive, the muscle memory of love.
 <hr class="pt-hr">
 
 <div class="pt-choices">
-<<link "Go live again" "R1-Stream2">><</link>>
+<<link "Go live again" "R1-Stream2">><<set $timeOfDay to "Evening">><</link>>
 </div>

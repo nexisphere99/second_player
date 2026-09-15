@@ -1,0 +1,29 @@
+:: R2-Closing [release2]
+<<set $timeOfDay to "Late Night">>
+The apartment settles around us. The fridge hums. The neighbor's TV mumbles through the wall. My PC fans spin down with a sound like a long exhale.
+
+Jess is asleep. She fell asleep fast, the way she does when her brain has been running hot all day and the crash comes sudden. Her phone is face down on the nightstand but the screen lights up every few minutes with notifications she doesn't hear.
+
+I lie on my back. The ceiling has that water stain. Florida shaped. Or maybe Italy. Depends on the angle.
+
+Tomorrow Jess will email Marcus. Or DM him. Or call him. The conversation will begin. The professional relationship will establish itself. Schedules will be made. Meetings will be set. She'll enter his world the way water enters a crack in the wall. Slowly, then everywhere.
+
+I'll stream. Two hundred viewers. The same games. The same catchphrases. The same raid into smaller channels because I can't raid up.
+
+Marcus's face is in my recommended feed. Jess's excitement is in our apartment. I'm lying in the dark doing math on how many months we can keep paying rent if nothing changes.
+
+Something needs to change. I just don't know yet what that change is going to cost.
+
+Tonight I stare at the ceiling and listen to Jess breathe and count the minutes until her alarm goes off and the world starts spinning again.
+
+The phone on the nightstand lights up. I glance at it. The notification preview shows a blue bird, Twitter, a message. The first two words visible before the preview cuts off.
+
+"Hey Jess."
+
+I close my eyes.
+
+<<endcard "Release 2, Complete" "The Rival Appears" "Marcus never once walks into the room. He doesn't have to. Whatever happens next carries forward.">>
+
+<div class="pt-choices">
+<<link "See where things stand" "R2-Stats">><</link>>
+</div>

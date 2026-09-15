@@ -40,5 +40,5 @@ She goes. I stay. The monitor hums.
 <hr class="pt-hr">
 
 <div class="pt-choices">
-<<link "Sit with it a while longer" "R1-EndChoices">><</link>>
+<<link "Sit with it a while longer" "R1-EndChoices">><<set $timeOfDay to "Late Night">><</link>>
 </div>

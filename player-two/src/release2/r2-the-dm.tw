@@ -1,0 +1,135 @@
+:: R2-TheDM [release2]
+<<set $timeOfDay to "Night">>
+<<scene "img/scenes/dm-moment.png" "Hey Jess">>
+
+Jess's phone lights up on the coffee table. The screen flashes a notification and I catch the blue bird icon before she grabs it. Twitter DM.
+
+Her eyebrows rise. Her lips curve into something that isn't quite a smile but isn't not one either. It's the expression of someone reading something that flatters them in a way they weren't prepared for.
+
+//"Babe. Look at this."//
+
+She angles the phone toward me. I take it.
+
+<div class="pt-phone">
+<<phonehead "MarcKing" "Twitter DM, verified" "M">>
+<div class="pt-msg left">Hey Jess. I've been following EthX's channel for a minute and honestly the work you do on his socials and content is really impressive. The graphics, the scheduling, the way you build narrative around his streams. I don't know if you'd be interested but I'm looking for someone to manage my brand full time. Real compensation, not the exposure economy stuff. Would love to chat if you're open to it. No pressure either way. Marcus 🙂</div>
+</div>
+
+A DM from Marcus "MarcKing" Reeves. Verified check mark. Six hundred thousand followers. Messaging my girlfriend at 9.47 PM on a Tuesday.
+
+The smiley face at the end. A regular smiley face. Not a winking one, not a heart eyes one, just the plainest one there is, and somehow it radiates more charm than any emoji ever made.
+
+I hand the phone back.
+
+Jess's eyes are bright. Not the analytical brightness. Something underneath it. Something I haven't seen in a while. The look she gets when a door opens that she thought was locked.
+
+//"It's just business, babe. This could really help us."//
+
+She says us and means it. Right now, in this moment, she fully believes that managing Marcus "MarcKing" Reeves will benefit our life together. Our apartment. Our future. She hasn't lied yet. She hasn't even considered the possibility that she might need to.
+
+This is the last version of Jess who doesn't know what's coming.
+
+//"What do you think?"// she asks.
+
+<hr class="pt-hr">
+
+The question sits between us on the couch. The TV is still on. Marcus's channel page glowing in the background like a prophecy.
+
+<div class="pt-choice-label">The Answer</div>
+<div class="pt-choices">
+<<link "Go for it, babe. You'd be amazing at this." "R2-Choice-Encourage">><</link>>
+<<link "If you think it's a good idea, yeah, okay." "R2-Choice-Reluctant">><</link>>
+<<link "I don't feel great about it. Can we talk about this?" "R2-Choice-DontTake">><</link>>
+</div>
+
+:: R2-Choice-Encourage [release2]
+<<set $jessCloseness += 5>>
+<<set $jessMarcusBond += 10>>
+<<set $r2DmChoice to "encourage">>
+//"Go for it, babe. You'd be amazing at this."//
+
+I say it and I mean it, mostly. Jess is good at what she does. She turned my nothing channel into a polished looking nothing channel. Imagine what she could do with actual resources. An actual talent. Someone the algorithm doesn't quietly suffocate.
+
+Jess lights up. Full wattage. She drops her phone on the couch and grabs my face and kisses me hard, lips and teeth and a little sound of excitement against my mouth.
+
+//"Thank you, seriously. I'm going to nail this."//
+
+It's the most physical affection we've shared in weeks. Her hands on my jaw, her forehead touching mine, her breath warm and fast. I want to freeze this moment because I can feel it already starting to become a memory.
+
+She falls asleep curled against me. Her phone under her pillow, Marcus's analytics still glowing through the pillowcase fabric. I lie awake and listen to her breathe and try to name the thing coiling in my stomach.
+
+It's not jealousy. Not yet. It's the sensation of watching a door open in a wall you thought was solid and knowing that once she walks through it, the hallway between you gets longer.
+
+<div class="pt-hud-line"><span>Jess Closeness</span><b>+5</b></div>
+<div class="pt-hud-line"><span>Jess, Marcus Bond</span><b>+10</b></div>
+
+<<set $timeOfDay to "Late Night">>
+<<goto "R2-Scene4-Riley">>
+
+:: R2-Choice-Reluctant [release2]
+<<set $jessCloseness -= 3>>
+<<set $jessMarcusBond += 8>>
+<<set $r2DmChoice to "reluctant">>
+//"If you think it's a good idea. Yeah, okay."//
+
+The words come out with too much air around them. Not enough conviction. Jess's smile holds but something behind it recalibrates.
+
+//"You don't sound excited."//
+
+//"No, I am. I just. It's a big step."//
+
+//"It's an incredible opportunity, Ethan."//
+
+First name. Not babe. When she uses my first name during a conversation about us, it means she's shifting into a register where I need to be taken seriously and I'm failing.
+
+//"I know. You should do it."//
+
+She nods. Kisses my cheek, not my mouth, cheek. The demotion is subtle enough that I can pretend I didn't notice.
+
+She goes to bed. I stay on the couch for another hour. Marcus's channel page is still on the TV. I stare at his follower count and think about the way she said incredible opportunity with the emphasis on incredible, like she was tasting it.
+
+She wanted me to be excited for her. I was lukewarm. She'll remember that.
+
+<div class="pt-hud-line"><span>Jess Closeness</span><b>-3</b></div>
+<div class="pt-hud-line"><span>Jess, Marcus Bond</span><b>+8</b></div>
+
+<<set $timeOfDay to "Late Night">>
+<<goto "R2-Scene4-Riley">>
+
+:: R2-Choice-DontTake [release2]
+<<set $jessCloseness -= 10>>
+<<set $jessMarcusBond += 10>>
+<<set $suspicion += 5>>
+<<set $r2DmChoice to "dontTake">>
+//"I don't feel great about it. Can we talk about this?"//
+
+Jess's face does a thing. The brightness doesn't leave but it rearranges, hardens around the edges. She pulls her legs up underneath her on the couch and angles her body toward me in a way that is technically facing me and functionally squaring up.
+
+//"Talk about what, exactly?"//
+
+//"I don't know. The whole thing. His brand is basically. He's a thirst trap, Jess. You'd be managing a thirst trap."//
+
+//"He's a content creator with six hundred thousand followers and a seven figure trajectory. That's what I'd be managing."//
+
+//"Late nights at his apartment. Content shoots, conventions. You'd be inside his whole."//
+
+//"His whole what?"//
+
+//"His whole life."//
+
+Silence. The kind that has texture. The TV is still showing Marcus's channel page. His face. That smile. Six hundred thousand.
+
+//"Ethan, this is a career opportunity. A real one. Not a tournament entry fee I have to pretend I can afford."//
+
+That one lands. Direct hit. I don't have a response that doesn't make me sound either controlling or broke. Those are my two options, jealous boyfriend or failed provider. Pick one.
+
+We argue. Not screaming, worse, the controlled, quiet kind of argument where every sentence is measured and every pause is a calculation. The kind that leaves residue on everything it touches. The kind where you can't remember who said what afterward but you remember the feeling for months.
+
+She takes the job anyway. We go to bed on opposite sides. The gap between us is maybe fourteen inches of mattress. It feels like the Grand Canyon with a river at the bottom.
+
+<div class="pt-hud-line"><span>Jess Closeness</span><b>-10</b></div>
+<div class="pt-hud-line"><span>Jess, Marcus Bond</span><b>+10</b></div>
+<div class="pt-hud-line"><span>Suspicion</span><b>+5</b></div>
+
+<<set $timeOfDay to "Late Night">>
+<<goto "R2-Scene4-Riley">>

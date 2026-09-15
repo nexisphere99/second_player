@@ -1,0 +1,141 @@
+:: R2-Scene4-Riley [release2]
+<<set $timeOfDay to "Late Night">>
+<<scene "img/ui/discord-overlay.png" "Riley picks up on the second ring">>
+
+Later that night. I'm on Discord, headphones on, lying on the couch because going back to the bedroom feels complicated. Riley is online. Green dot. Always online. I don't know when Riley sleeps.
+
+I click into our DM voice channel. Riley picks up on the second ring.
+
+//"Yo."//
+
+//"Yo."//
+
+//"You sound weird. What happened?"//
+
+I tell them about Marcus's DM. About the job offer. About Jess's reaction.
+
+//"So Marcus fucking Reeves wants your girl to manage him. That's wild."//
+
+Riley's tone is carefully even. They're good at this. The neutral inquiry that gives me space to fill with whatever I actually feel instead of what I think I should feel.
+
+//"How do you feel about it?"//
+
+The question hangs. On Discord voice, silence is louder than speech. You can hear the absence of words.
+
+//"Is the money actually good?"//
+
+//"Yeah. Like, significantly good."//
+
+//"Okay, and you know his brand is basically OnlyFans lite, right? She'd be managing that."//
+
+Riley doesn't say it with judgment. They say it the way you'd say the building is on fire to someone standing in the lobby. Informational.
+
+//"His whole thing is parasocial intimacy,"// Riley continues. //"Shirtless streams, ASMR whisper stuff, the boyfriend experience for chat model. Managing that means understanding what makes the thirst work. Being inside it. That's not the same as scheduling your highlight reels."//
+
+//"I know."//
+
+//"Do you though?"//
+
+<hr class="pt-hr">
+
+<div class="pt-choice-label">What I Say</div>
+<div class="pt-choices">
+<<link "I trust Jess completely." "R2-Riley-Trust">><</link>>
+<<link "It's good money. We need it." "R2-Riley-Money">><</link>>
+<<link "I don't love it, but I can't say no without looking controlling." "R2-Riley-Honest">><</link>>
+</div>
+
+:: R2-Riley-Trust [release2]
+<<set $rileyTrust += 5>>
+<<set $r2RileyChoice to "trust">>
+//"I trust Jess completely."//
+
+I say it with conviction, clean, no hesitation, the kind of statement you make when you want the conversation to end on a resolved note.
+
+Riley pauses. Two seconds, three, and I can hear them breathing.
+
+//"Cool. That's good then."//
+
+They drop it. But I can hear them not saying the next sentence. The one about how I didn't actually answer the question they asked. They asked how I feel. I told them how I think. Those aren't the same thing and Riley knows the difference.
+
+//"Anyway, you prepping for next week's stream schedule?"//
+
+We talk about content for twenty minutes. Safe ground. Familiar territory. But there's a note underneath everything now, a faint hum of something unfinished, like a question that got answered in a language neither of us speaks.
+
+<div class="pt-hud-line"><span>Riley Trust</span><b>+5</b></div>
+
+<<goto "R2-Scene5-Bedroom">>
+
+:: R2-Riley-Money [release2]
+<<set $rileyTrust -= 3>>
+<<set $r2RileyChoice to "money">>
+//"It's good money. We need it."//
+
+//"Yeah, I get that."// Riley's voice shifts. A little softer. The tone they use when they're about to say something they know might sting. //"But like, money pressure can make you rationalize a lot of things. I'm just saying."//
+
+//"What's that supposed to mean?"//
+
+//"Nothing specific. Just, general life wisdom."//
+
+//"Since when do you do general life wisdom?"//
+
+//"Since my best friend's girlfriend got headhunted by a dude whose entire brand is looking hot and whispering into microphones."//
+
+I get defensive. I can hear it happening and I can't stop it. //"She's managing his content, Riley. She's not subscribing to his OnlyFans."//
+
+//"He doesn't have an OnlyFans."//
+
+//"Exactly."//
+
+//"He doesn't need one. That's my point."//
+
+Silence. The Discord notification sound pings from somewhere else in the server. Someone posting a meme at midnight. The world continues while we sit in this uncomfortable pocket of honesty.
+
+//"I'm not trying to start shit,"// Riley says. //"I'm just, I'm looking out."//
+
+//"I know."//
+
+I don't say thank you. I should.
+
+<div class="pt-hud-line"><span>Riley Trust</span><b>-3</b></div>
+
+<<goto "R2-Scene5-Bedroom">>
+
+:: R2-Riley-Honest [release2]
+<<set $rileyTrust += 10>>
+<<set $suspicion += 5>>
+<<set $r2RileyChoice to "honest">>
+//"I don't love it, but I can't say no without looking controlling."//
+
+The words come out before I can edit them, raw, unprocessed, the actual thought instead of the polished version I rehearse before speaking.
+
+Riley doesn't say anything for a moment, then.
+
+//"That's real. That's honest, and that's a legitimately messed up position to be in."//
+
+//"Yeah."//
+
+//"Like, you're not wrong. If you say no, you're the insecure boyfriend who can't handle his girl having a career. If you say yes, you're signing off on her spending every night at some dude's apartment."//
+
+//"His very nice apartment."//
+
+//"Right. His very nice apartment that makes your apartment look like a utility closet."//
+
+//"Thanks, Riley."//
+
+//"I'm painting the picture."//
+
+We laugh. The first real laugh of the night. It breaks something open. The tension doesn't disappear but it reorganizes into something we can both hold.
+
+//"Look,"// Riley says. //"I'm not going to tell you what to do. But I'll keep an ear out. If anything feels off, if I see something, I'll tell you. Not because I'm looking for drama. Because you're my guy."//
+
+//"My nonbinary person."//
+
+//"Your nonbinary person. Exactly."//
+
+I hang up feeling lighter and heavier at the same time. Like I traded one weight for a different one that sits in a different place.
+
+<div class="pt-hud-line"><span>Riley Trust</span><b>+10</b></div>
+<div class="pt-hud-line"><span>Suspicion</span><b>+5</b></div>
+
+<<goto "R2-Scene5-Bedroom">>

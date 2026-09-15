@@ -58,5 +58,5 @@ When did she start checking her phone before I'd even pulled out.
 <hr class="pt-hr">
 
 <div class="pt-choices">
-<<link "Lie awake" "R1-Riley-DM">><</link>>
+<<link "Lie awake" "R1-Riley-DM">><<set $timeOfDay to "Late Night">><</link>>
 </div>

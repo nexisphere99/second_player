@@ -39,5 +39,5 @@ I close Instagram, return to my game, hit a nice triple kill that chat appreciat
 <hr class="pt-hr">
 
 <div class="pt-choices">
-<<link "End the stream" "R1-PostStream">><</link>>
+<<link "End the stream" "R1-PostStream">><<set $timeOfDay to "Night">><</link>>
 </div>

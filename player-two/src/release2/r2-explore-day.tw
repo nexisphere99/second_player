@@ -1,0 +1,157 @@
+:: R2-ExploreDay [release2]
+<<set $timeOfDay to "Afternoon">>
+The day stretches out ahead of me, empty in the specific way Tuesdays are empty when your job doesn't start until chat shows up. There's the fridge to deal with, and there's the thing crawling around the back of my skull since this morning.
+
+<div class="pt-choice-label">The Day</div>
+<div class="pt-choices">
+<<if not $r2GroceryVisited>>
+<<link "Walk to the corner store, we're out of everything" "R2-SideQuest-Grocery">><</link>>
+<<else>>
+<span class="pt-badge low">Groceries handled</span>
+<</if>>
+<<if not $r2ResearchVisited>>
+<<link "Open an incognito tab and go looking for Marcus" "R2-SideQuest-MarcusResearch">><</link>>
+<<else>>
+<span class="pt-badge low">Already went down that hole</span>
+<</if>>
+<<link "Let the day pass, it's evening before I know it" "R2-WatchWithJess">><<set $timeOfDay to "Evening">><</link>>
+</div>
+
+:: R2-SideQuest-Grocery [release2 sidequest]
+<<set $r2GroceryVisited to true>>
+<<scene "img/locations/grocery-store.png" "Thirty seven fifty, before the platform's cut">>
+
+We need groceries. I walk to the corner store because the car needs gas and gas costs money and money is the thing we have the least of besides counter space.
+
+The store is four blocks away. I put my headphones in and listen to a podcast about streaming growth strategies. The host is interviewing some guy who went from five hundred to five hundred thousand in a year. His secret. Just be authentic, bro. I almost walk into traffic.
+
+The store smells like floor cleaner and old produce. I grab ramen, four packs, eggs, a dozen, the cheap ones with the pale yolks, bread, peanut butter, a six pack of the energy drink I'm slowly killing myself with, and a bag of frozen vegetables so I can pretend we eat balanced meals.
+
+At the checkout, the cashier says that'll be thirty seven fifty and I feel the number in my chest. Thirty seven fifty for a week of survival tier groceries. My last stream made sixty bucks in donations. Before the platform's cut.
+
+The walk home is four blocks of arithmetic, rent, internet, electric, phone bill, the credit card minimum, the tournament entry fee I haven't told Jess about yet. The numbers stack like bricks and I'm underneath them.
+
+<div class="pt-choice-label">On The Walk Home</div>
+<div class="pt-choices">
+<<link "Text Jess, what do you want for dinner" "R2-SQ-Grocery-TextJess">><</link>>
+<<link "Text Riley, you eat yet" "R2-SQ-Grocery-TextRiley">><</link>>
+<<link "Walk home in silence" "R2-ExploreDay">><</link>>
+</div>
+
+:: R2-SQ-Grocery-TextJess [release2 sidequest]
+<<scene "img/locations/apartment-kitchen-night.png" "Good pasta. It's from a box.">>
+
+<<phone "Jess" "iMessage" "J">>
+<<msg "" "What do you want for dinner?" "right">>
+<</phone>>
+
+Three dots. They appear and disappear twice. Then.
+
+<<phone "Jess" "iMessage" "J">>
+<<msg "" "Anything's fine! I might be late though, got a call with a potential client about freelance stuff" "left">>
+<</phone>>
+
+Potential client. She's already framing Marcus as a potential client without naming him. Or maybe it's actually freelance stuff. Maybe I'm reading into everything now.
+
+<<phone "Jess" "iMessage" "J">>
+<<msg "" "Cool. I'll make pasta." "right">>
+<<msg "" "❤" "left">>
+<</phone>>
+
+I make pasta. She comes home at nine. The pasta is cold. She reheats it and eats at the counter, standing, scrolling her phone.
+
+//"Good pasta,"// she says.
+
+//"It's from a box."//
+
+//"Good box."//
+
+We almost laugh, almost.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Back to the day" "R2-ExploreDay">><</link>>
+</div>
+
+:: R2-SQ-Grocery-TextRiley [release2 sidequest]
+<<set $rileyTrust += 3>>
+<<phone "Riley" "Discord DM" "R">>
+<<msg "" "You eat yet?" "right">>
+<<msg "" "i literally just microwaved a hot pocket are you judging me" "left">>
+<<msg "" "I have ramen and eggs" "right">>
+<<msg "" "okay we're both bottom tier. wanna duo queue and eat shitty food on mic?" "left">>
+<<msg "" "Yeah." "right">>
+<</phone>>
+
+Riley and I play for two hours. We eat on voice chat. Riley makes slurping sounds with their hot pocket to annoy me. I crack eggs into ramen on stream and three viewers say it looks good. For a few hours the apartment doesn't feel empty and the numbers don't matter and I'm just a guy playing games with his friend.
+
+It's the best part of my day and I don't know how to feel about that.
+
+<div class="pt-hud-line"><span>Riley Trust</span><b>+3</b></div>
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Back to the day" "R2-ExploreDay">><</link>>
+</div>
+
+:: R2-SideQuest-MarcusResearch [release2 sidequest]
+<<set $r2ResearchVisited to true>>
+<<scene "img/ui/marcus-channel-page.png" "Six hundred thousand followers, currently offline">>
+
+I can't help it. I open a new tab. Incognito mode. As if that matters.
+
+I spend an hour dissecting Marcus "MarcKing" Reeves's online presence like a forensic accountant going through tax records.
+
+On Twitch, six hundred thousand followers, partner status, average fifteen thousand concurrent. Revenue estimate based on sub count and donation averages, somewhere between thirty and fifty thousand dollars a month. Per month. I made fourteen hundred dollars last month total. He makes that in a single sponsored stream.
+
+On YouTube, four hundred thousand subscribers. His VODs get two hundred to five hundred thousand views. His shorts get millions. The most viral one is him reacting to a fan edit of his shirtless clips set to music. Eight million views. Eight million.
+
+On Instagram, three hundred fifty thousand followers. Every photo is a thirst trap disguised as a lifestyle post, gym shots, kitchen shots, casual shots that required professional lighting and probably forty takes. He posts a selfie and gets more engagement than my channel generates in a month.
+
+On Twitter, two hundred eighty thousand followers. His tweets read like he's genuinely funny and not trying. "Just burned my protein shake somehow. The fire department has been notified." Fourteen thousand likes. My last tweet got three likes, one of which was Jess and one was Riley.
+
+He's a machine, a charisma generating, muscle bound, algorithm surfing machine, and he's about to hire my girlfriend.
+
+I close all the tabs. My browser history is just his face over and over. I clear it. Not because Jess would see. Because I don't want to see it.
+
+<div class="pt-choice-label">Keep Digging</div>
+<div class="pt-choices">
+<<link "Research his past managers" "R2-SQ-PastManagers">><</link>>
+<<link "Check his relationship status" "R2-SQ-RelationshipStatus">><</link>>
+<<link "Close everything, do something else" "R2-ExploreDay">><</link>>
+</div>
+
+:: R2-SQ-PastManagers [release2 sidequest]
+I dig through old tweets and interviews. His previous manager was a guy named Derek. Business bro type. They parted ways four months ago. Marcus's tweet about it was classy, "Derek helped build the foundation. Now I need someone who can build the house. No hard feelings."
+
+The replies are full of people tagging their friends, their sisters, themselves. Everyone wants the job, and Marcus picked Jess. Out of everyone who probably threw themselves at the opportunity, he saw her work on my channel and chose her.
+
+I should feel proud. My girlfriend is so talented that a six hundred thousand follower streamer headhunted her. That's impressive. That reflects well on her, on us.
+
+I feel like someone picked my pocket while complimenting my jacket.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Back to the day" "R2-ExploreDay">><</link>>
+</div>
+
+:: R2-SQ-RelationshipStatus [release2 sidequest]
+<<set $suspicion += 5>>
+I check his relationship status. Because apparently I'm that guy now.
+
+Nothing official. No tagged girlfriend. No couple photos. His fans speculate constantly in the subreddit. Someone compiled a dating timeline and the conclusion was, he's either single, very private, or dating everyone simultaneously.
+
+He's single, the most attractive, successful, charming streamer in his bracket, and he just hired my girlfriend to spend every evening at his apartment.
+
+I close the tab. My jaw hurts from clenching.
+
+<div class="pt-hud-line"><span>Suspicion</span><b>+5</b></div>
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Back to the day" "R2-ExploreDay">><</link>>
+</div>

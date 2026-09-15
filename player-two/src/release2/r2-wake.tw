@@ -1,0 +1,60 @@
+:: R2-Wake [release2]
+<<set $timeOfDay to "Morning">>
+<<set $dayLabel to "Day Three">>
+<<set $viewers to 185>>
+<<scene "img/ui/youtube-recommended.png" "The feed, hijacked">>
+
+I wake up to Jess's side of the bed already cold. Shower running. Tuesday morning. The sheets smell like her shampoo and the faint chemical sweetness of the energy drink I spilled three days ago and only half cleaned up.
+
+My phone's at twenty three percent. I forgot to plug it in again. I roll onto my back and open YouTube with one eye closed against the light leaking through our dollar store curtains.
+
+My recommended feed has been hijacked.
+
+Every thumbnail, every single one, Marcus "MarcKing" Reeves. The algorithm has made its decision and the decision is that I need to see this man's body at eight in the morning.
+
+First clip. Horror game stream. He's shirtless because of course he is. Some jump scare pops and his entire torso contracts, every muscle in his stomach flexing like an anatomy diagram come to life. He laughs at himself, this deep rolling baritone that sounds like it was engineered in a lab to make people feel safe and horny at the same time. Chat is scrolling so fast it's just a blur of color. The donation ticker in the corner hasn't stopped moving the whole three minute clip.
+
+I watch it twice.
+
+Second clip. ASMR segment. Marcus leaned into one of those binaural mics, the expensive kind with the two ears. His voice drops to a whisper and he says something about how chat is the only thing keeping him warm tonight. The comments section looks like a natural disaster. Heart emojis. Marriage proposals. One person just typed "BREED ME" in all caps and got four hundred likes.
+
+Third clip. Charity stream highlights. Fifty thousand dollars raised. Marcus crying on camera, wiping his eyes with the back of his hand, thanking everyone, and here's the thing that twists the knife. It's genuine. Not manufactured. Not the performative emotion streamers learn to deploy when the donation counter hits a milestone. The man is actually moved. He cares. He's grateful. He's likable and it makes me want to throw my phone at the wall.
+
+I pull up his stats on SocialBlade while the shower keeps running. Six hundred thousand followers. Fifteen thousand average concurrent. A growth curve that looks like someone drew a hockey stick with a ruler. Everything I've been grinding toward for three years, this guy built in eight months.
+
+The shower shuts off. Jess starts humming something. She sounds happy.
+
+I close YouTube and pretend to be asleep.
+
+<hr class="pt-hr">
+
+<div class="pt-choice-label">The Feed</div>
+<div class="pt-choices">
+<<link "Open Twitch too, dig a little deeper" "R2-Wake-MarcusStats">><</link>>
+<<link "Put the phone down, actually get up" "R2-ExploreDay">><<set $timeOfDay to "Afternoon">><</link>>
+</div>
+
+:: R2-Wake-MarcusStats [release2 sidequest]
+<<scene "img/ui/socialblade-chart.png" "Eight months to build what took me three years">>
+
+I can't help it. I open Twitch and pull up his channel page. His schedule is pinned, five streams a week, consistent times, professional overlay, the kind of branding that screams someone competent is running this operation. His About section reads like a resume that got drunk at a party and started being charming about it.
+
+His top clips. God, his top clips. The most viewed one has two point three million plays. It's him doing a backflip out of his gaming chair after a tournament win, shirtless, landing clean. Chat donated twelve thousand dollars in the next four minutes.
+
+My top clip has eight thousand views. It's a decent headshot compilation set to music Jess picked. The top comment says "mid."
+
+I close the app. Put my phone face down on the nightstand. Stare at the ceiling where there's a water stain shaped like Florida.
+
+Jess comes out of the bathroom wrapped in a towel, hair dripping on the carpet.
+
+//"Morning."//
+
+//"Morning."//
+
+She doesn't ask why I'm awake. I don't tell her I've been watching her future boss flex for ten minutes.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Get up" "R2-ExploreDay">><<set $timeOfDay to "Afternoon">><</link>>
+</div>

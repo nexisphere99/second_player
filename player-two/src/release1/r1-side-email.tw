@@ -47,7 +47,7 @@ LunaFrag responds within the hour, practice schedule, strat docs, a shared Disco
 <hr class="pt-hr">
 
 <div class="pt-choices">
-<<link "Time to hit the gym" "R1-Side-Gym">><</link>>
+<<link "Time to hit the gym" "R1-Side-Gym">><<set $timeOfDay to "Midday">><</link>>
 </div>
 
 :: R1-Side-Email-Maybe [release1 sidequest]
@@ -65,7 +65,7 @@ A backup, someone else ready to take my slot. The clock is ticking and I haven't
 <hr class="pt-hr">
 
 <div class="pt-choices">
-<<link "Time to hit the gym" "R1-Side-Gym">><</link>>
+<<link "Time to hit the gym" "R1-Side-Gym">><<set $timeOfDay to "Midday">><</link>>
 </div>
 
 :: R1-Side-Email-Silent [release1 sidequest]
@@ -75,5 +75,5 @@ I close the email, stare at the inbox, open it again, close it. The cursor blink
 <hr class="pt-hr">
 
 <div class="pt-choices">
-<<link "Time to hit the gym" "R1-Side-Gym">><</link>>
+<<link "Time to hit the gym" "R1-Side-Gym">><<set $timeOfDay to "Midday">><</link>>
 </div>

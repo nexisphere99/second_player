@@ -1,0 +1,124 @@
+:: R2-WatchWithJess [release2]
+<<set $timeOfDay to "Evening">>
+<<scene "img/scenes/couch-watching.png" "She's not blinking">>
+
+After my stream. A hundred and eighty five viewers tonight, which is slightly worse than yesterday, which was slightly worse than the day before. The slope is so gentle you almost can't see it. Like watching a glacier melt. You know it's happening but each day looks the same as the last.
+
+Jess is on the couch, laptop balanced on her thighs, working on something, a spreadsheet. I can see the grid lines from across the room. She does freelance data entry sometimes when the retail shifts are slow. Twenty bucks an hour, mind numbing work, but it keeps the lights on.
+
+I sit down next to her and pull up a Marcus VOD on the TV. Casual research, professional curiosity, just seeing what the fuss is about.
+
+//"You mind?"//
+
+//"Go ahead."//
+
+Marcus is playing a horror game. Shirtless, obviously. His setup makes ours look like a war crime. Two camera angles cutting between face cam and wide shot. Lighting that makes his skin look like it was rendered in an engine built for it. Clean audio. When a scare hits, his reaction is huge but never fake. He turns the panic into comedy, riffing with chat, reading donations mid scream.
+
+//"Okay hold on, TitanSlayer69 says there's a monster behind the door. TitanSlayer, my brother, there's always a monster behind the door. That's the whole game. That's like telling me water is wet."// He opens the door. A monster. He screams. Chat screams. He laughs. //"TitanSlayer69 you prophetic son of a bitch."//
+
+It's good content. I hate that it's good content.
+
+I'm watching Jess more than the screen. She stopped typing about thirty seconds into the VOD. Her laptop screen has gone dark, the sleep timer kicking in. She hasn't noticed. She's leaning forward slightly, lips parted just enough that I can see the bottom edge of her front teeth. The light from the TV plays across her face, blue and orange and flickering.
+
+She's studying the screen with an intensity she hasn't shown my content in months. Maybe ever.
+
+//"God, his engagement numbers are insane. Look at that donation scroll."//
+
+She says it the way she'd say it at a marketing conference. Data brain Jess, analyzing metrics, identifying trends, professional.
+
+But I notice her eyes don't blink for the entire clip.
+
+Not once. I count.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Keep watching her watch him" "R2-WatchWithJess-Internal">><</link>>
+</div>
+
+:: R2-WatchWithJess-Internal [release2]
+Here's what I know about Jess Ohara after three years. She blinks more when she's bored, rapid little flutters, her brain checking out, her body going through the motions of watching while her mind is already somewhere else. She blinks less when she's engaged. When something has her full attention, her eyes go wide and still and her breathing changes.
+
+She's not blinking and her breathing has changed.
+
+She's watching a shirtless man play video games and her body is responding the way it used to respond when I'd come up behind her in the kitchen and kiss the spot behind her ear. The spot that made her go quiet. That specific stillness.
+
+I'm probably imagining it. I'm insecure and I'm projecting and she's just impressed by his metrics. She's a data person. Big numbers make her lean forward. That's all this is.
+
+I watch Marcus take his headset off at the end of the stream and run both hands through his hair. His biceps flex without him trying. Jess exhales through her nose.
+
+That's all this is.
+
+<hr class="pt-hr">
+
+<div class="pt-choice-label">Before Bed</div>
+<div class="pt-choices">
+<<link "Check her laptop, still open on the coffee table" "R2-SideQuest-Highlight">><</link>>
+<<link "Just go to bed" "R2-TheDM">><<set $timeOfDay to "Night">><</link>>
+</div>
+
+:: R2-SideQuest-Highlight [release2 sidequest]
+The half finished highlight edit is still open on Jess's laptop. I sit down on the bed and look at it.
+
+She stopped mid cut. Frame eight forty seven of a clip where I land a triple kill. The timeline shows her usual work, music synced to gunshots, a slow motion zoom on the final headshot, color grading that makes the game look more cinematic than it actually is. She puts real craft into these. Or she did.
+
+The edit stops at the two minute mark. The rest is raw footage, uncut, ungraded. She just stopped. Saved the project. Closed the laptop.
+
+I could finish it myself. I know the editor. Kind of. Enough to do basic cuts.
+
+<div class="pt-choice-label">Her Laptop</div>
+<div class="pt-choices">
+<<link "Finish the edit myself" "R2-SQ-FinishEdit">><</link>>
+<<link "Close the laptop" "R2-SQ-CloseLaptop">><</link>>
+<<link "Open her browser tabs" "R2-SQ-BrowserTabs">><</link>>
+</div>
+
+:: R2-SQ-FinishEdit [release2 sidequest]
+<<set $r2HighlightChoice to "finished">>
+<<set $selfImageNote to "Competent enough. Barely.">>
+I spend forty minutes on it. The cuts are rough. My music sync is off by a few frames, enough that it feels slightly wrong without you being able to pinpoint why. The color grading looks like I applied a filter on my phone and called it post production.
+
+But it's done. I export it. Upload it to the channel. Schedule it for tomorrow morning.
+
+When Jess sees it posted, she doesn't mention that she didn't finish it. She doesn't mention it at all.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Go to bed" "R2-TheDM">><<set $timeOfDay to "Night">><</link>>
+</div>
+
+:: R2-SQ-CloseLaptop [release2 sidequest]
+<<set $r2HighlightChoice to "closed">>
+I close it. The screen goes dark. My reflection stares back from the black glass.
+
+I look tired. When did I start looking tired all the time. There are circles under my eyes that seem permanent now, like they moved in and signed a lease. My jaw looks soft in this light. My features look indistinct, like a first draft of a face.
+
+I close the laptop harder than necessary.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Go to bed" "R2-TheDM">><<set $timeOfDay to "Night">><</link>>
+</div>
+
+:: R2-SQ-BrowserTabs [release2 sidequest]
+<<set $r2HighlightChoice to "tabs">>
+<<set $suspicion += 3>>
+I know I shouldn't. I click the browser.
+
+Three tabs. The first is the edit project. The second is TikTok, open to a sound she saved. The third is Marcus's Instagram.
+
+She was on his Instagram while editing my highlights. The timestamp on her last viewed story reads 4.47 PM. Today.
+
+His latest post is a gym selfie. Tank top, veins visible in his forearms, that devastating smile. Caption, "Consistency over everything." Eight hundred and forty seven likes in two hours.
+
+I close the browser. My hands are slightly damp on the trackpad.
+
+<div class="pt-hud-line"><span>Suspicion</span><b>+3</b></div>
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Go to bed" "R2-TheDM">><<set $timeOfDay to "Night">><</link>>
+</div>

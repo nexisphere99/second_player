@@ -6,6 +6,7 @@
   "start": "Start",
   "tag-colors": {
     "release1": "#9b59b6",
+    "release2": "#3f7fbf",
     "sidequest": "#e0b84d",
     "intimate": "#e0556f"
   },
@@ -44,3 +45,10 @@ Player Two
 <<set $dayLabel to "Night One">>
 
 <<set $donationsTonight to 0>>
+
+<<set $r2GroceryVisited to false>>
+<<set $r2ResearchVisited to false>>
+<<set $r2DmChoice to "none">>
+<<set $r2RileyChoice to "none">>
+<<set $r2HighlightChoice to "none">>
+<<set $selfImageNote to "">>

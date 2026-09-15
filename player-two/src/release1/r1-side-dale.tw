@@ -37,7 +37,7 @@ I close the tab and go back to bed feeling something I can't name. Jealousy, may
 <hr class="pt-hr">
 
 <div class="pt-choices">
-<<link "Back to bed" "R1-Side-Email">><</link>>
+<<link "Back to bed" "R1-Side-Email">><<set $timeOfDay to "Morning">><<set $dayLabel to "Day Two">><</link>>
 </div>
 
 :: R1-Side-Dale-Earplugs [release1 sidequest]
@@ -47,5 +47,5 @@ Some nights you can't afford to think about what you've lost. I find the foam ea
 <hr class="pt-hr">
 
 <div class="pt-choices">
-<<link "Back to bed" "R1-Side-Email">><</link>>
+<<link "Back to bed" "R1-Side-Email">><<set $timeOfDay to "Morning">><<set $dayLabel to "Day Two">><</link>>
 </div>

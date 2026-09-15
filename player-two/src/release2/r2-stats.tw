@@ -1,0 +1,29 @@
+:: R2-Stats [release2]
+<div class="pt-endcard">
+<div class="kicker">End of Release 2</div>
+<h2>Stats so far</h2>
+</div>
+
+<<statbar "Viewers" $viewers 250 $viewers "">>
+<<statbar "Followers" $followers 100000 $followers "">>
+<div class="pt-hud-line"><span>Donations, month</span><b><<= "$" + $donationsMonthly>></b></div>
+<<statbar "Jess Closeness" $jessCloseness 100 $jessCloseness "">>
+<<statbar "Jess, Marcus Bond" $jessMarcusBond 100 $jessMarcusBond "">>
+<<statbar "Suspicion" $suspicion 100 $suspicion "trust">>
+<<statbar "Riley Trust" $rileyTrust 100 $rileyTrust "trust">>
+<div class="pt-hud-line"><span>Feminization</span><b>$feminization</b></div>
+<div class="pt-hud-line"><span>Stream Persona</span><b>$streamPersona</b></div>
+<div class="pt-hud-line"><span>Chat Mood</span><b>$chatMood</b></div>
+<div class="pt-hud-line"><span>Self-Image</span><b>$selfImage</b></div>
+<<if $selfImageNote is not "">>
+<div class="pt-hud-line"><span>Self-Image note</span><b>$selfImageNote</b></div>
+<</if>>
+<div class="pt-hud-line"><span>Money Stress</span><b><<moneybadge $moneyStress>></b></div>
+<div class="pt-hud-line"><span>The DM</span><b>$r2DmChoice</b></div>
+<div class="pt-hud-line"><span>Riley conversation</span><b>$r2RileyChoice</b></div>
+
+<hr class="pt-hr">
+
+<p class="pt-hud-sub">Release 3 picks up from here, Jess starts managing Marcus. Use Restart in the sidebar menu to run the story again from a clean save.</p>
+
+<<patreoncard>>
