@@ -106,7 +106,7 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
 		<div id="init-lacking"><p>Browser lacks capabilities required to play.</p><p>Upgrade or switch to another browser.</p></div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<!-- UUID://92F88D4E-2318-43DE-9F9E-2001DA7B3F02// --><tw-storydata name="Player Two" startnode="29" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="92F88D4E-2318-43DE-9F9E-2001DA7B3F02" zoom="1" format="SugarCube" format-version="2.37.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="intimate" color="#e0556f"></tw-tag><tw-tag name="release1" color="#9b59b6"></tw-tag><tw-tag name="release2" color="#3f7fbf"></tw-tag><tw-tag name="sidequest" color="#e0b84d"></tw-tag><tw-passagedata pid="1" name="StoryCaption" tags="" position="100,100" size="100,100">&lt;&lt;hud&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="StoryMenu" tags="" position="225,100" size="100,100">&lt;&lt;link &quot;Stats so far&quot; &quot;R1-Stats&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="PassageHeader" tags="" position="350,100" size="100,100">&lt;div class=&quot;pt-topbar&quot;&gt;
+	<!-- UUID://92F88D4E-2318-43DE-9F9E-2001DA7B3F02// --><tw-storydata name="Player Two" startnode="29" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="92F88D4E-2318-43DE-9F9E-2001DA7B3F02" zoom="1" format="SugarCube" format-version="2.37.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="release1" color="#9b59b6"></tw-tag><tw-tag name="release2" color="#3f7fbf"></tw-tag><tw-tag name="release3" color="#c0704a"></tw-tag><tw-tag name="sidequest" color="#e0b84d"></tw-tag><tw-tag name="intimate" color="#e0556f"></tw-tag><tw-passagedata pid="1" name="StoryCaption" tags="" position="100,100" size="100,100">&lt;&lt;hud&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="StoryMenu" tags="" position="225,100" size="100,100">&lt;&lt;link &quot;Stats so far&quot; &quot;R1-Stats&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="PassageHeader" tags="" position="350,100" size="100,100">&lt;div class=&quot;pt-topbar&quot;&gt;
 &lt;div class=&quot;pt-brand&quot;&gt;PLAYER &lt;span&gt;TWO&lt;/span&gt;&lt;/div&gt;
 &lt;div class=&quot;pt-daytime&quot;&gt;$dayLabel &amp;middot; &lt;b&gt;$timeOfDay&lt;/b&gt;&lt;/div&gt;
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="4" name="StoryInit" tags="" position="475,100" size="100,100">&lt;&lt;set $viewers to 200&gt;&gt;
@@ -143,7 +143,14 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
 &lt;&lt;set $r2DmChoice to &quot;none&quot;&gt;&gt;
 &lt;&lt;set $r2RileyChoice to &quot;none&quot;&gt;&gt;
 &lt;&lt;set $r2HighlightChoice to &quot;none&quot;&gt;&gt;
-&lt;&lt;set $selfImageNote to &quot;&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="R1-Apartment" tags="release1" position="600,100" size="100,100">&lt;&lt;scene &quot;img/locations/apartment-kitchen.png&quot; &quot;The kitchen, one person wide&quot;&gt;&gt;
+&lt;&lt;set $selfImageNote to &quot;&quot;&gt;&gt;
+
+&lt;&lt;set $communityBond to 0&gt;&gt;
+&lt;&lt;set $r3FirstMeetingChoice to &quot;none&quot;&gt;&gt;
+&lt;&lt;set $r3ChatChoice to &quot;none&quot;&gt;&gt;
+&lt;&lt;set $r3GhostReaperChoice to &quot;none&quot;&gt;&gt;
+&lt;&lt;set $r3RileyCheckinChoice to &quot;none&quot;&gt;&gt;
+&lt;&lt;set $r3ClosingChoice to &quot;none&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="R1-Apartment" tags="release1" position="600,100" size="100,100">&lt;&lt;scene &quot;img/locations/apartment-kitchen.png&quot; &quot;The kitchen, one person wide&quot;&gt;&gt;
 
 I walk to the kitchen and the apartment walks with me. Three steps from desk to door, eight steps down the hallway, four steps to the fridge. I&#39;ve counted them. When you live somewhere small enough to memorize in footsteps, you stop calling it home and start calling it what it actually is, a container.
 
@@ -1135,9 +1142,9 @@ I hang up feeling lighter and heavier at the same time. Like I traded one weight
 
 &lt;hr class=&quot;pt-hr&quot;&gt;
 
-&lt;p class=&quot;pt-hud-sub&quot;&gt;Release 3 picks up from here, Jess starts managing Marcus. Use Restart in the sidebar menu to run the story again from a clean save.&lt;/p&gt;
-
-&lt;&lt;patreoncard&gt;&gt;</tw-passagedata><tw-passagedata pid="47" name="R2-TheDM" tags="release2" position="850,600" size="100,100">&lt;&lt;set $timeOfDay to &quot;Night&quot;&gt;&gt;
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Continue to Release 3&quot; &quot;R3-JessReturns&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Evening&quot;&gt;&gt;&lt;&lt;set $dayLabel to &quot;Day Four&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="47" name="R2-TheDM" tags="release2" position="850,600" size="100,100">&lt;&lt;set $timeOfDay to &quot;Night&quot;&gt;&gt;
 &lt;&lt;scene &quot;img/scenes/dm-moment.png&quot; &quot;Hey Jess&quot;&gt;&gt;
 
 Jess&#39;s phone lights up on the coffee table. The screen flashes a notification and I catch the blue bird icon before she grabs it. Twitter DM.
@@ -1423,7 +1430,692 @@ I close the browser. My hands are slightly damp on the trackpad.
 
 &lt;div class=&quot;pt-choices&quot;&gt;
 &lt;&lt;link &quot;Go to bed&quot; &quot;R2-TheDM&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Night&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="59" name="Widgets" tags="widget" position="1100,725" size="100,100">\
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="59" name="R3-SideQuest-Analytics" tags="release3" position="1100,725" size="100,100">&lt;&lt;scene &quot;img/ui/analytics-dashboard-2am.png&quot; &quot;His line goes up. Mine goes horizontal.&quot;&gt;&gt;
+
+Can&#39;t sleep again. 2 AM. The LED strips make the room feel like a submarine. Jess isn&#39;t home yet. I stopped texting where are you three days ago because the answers all sound the same and I&#39;m tired of performing the role of the boyfriend who isn&#39;t worried.
+
+I pull up my dashboard. The numbers are a story I can&#39;t stop reading even though the ending is obvious.
+
+Last thirty days, average concurrent viewers down eight percent. Follower growth, flat. Donation income, down twelve percent. Subscriber churn, up. The line graphs look like a slow motion toboggan ride.
+
+I open Marcus&#39;s tracker page because I&#39;m a masochist. He&#39;s up fifteen percent across every metric. His growth line is a rocket. Mine is a slug.
+
+I overlay the two graphs mentally. His line goes up. Mine goes horizontal. Jess moved from managing the horizontal line to the rocket. You can&#39;t blame her. It&#39;s rational. It&#39;s strategic. It&#39;s also the kind of rational, strategic decision that leaves someone sitting alone at 2 AM comparing their Twitch analytics to the man who might be sleeping with their girlfriend.
+
+I close the dashboard. Open it again. Close it. The refresh compulsion is a tick I&#39;ve developed. Pull to refresh. Check the number. Feel nothing. Pull again. Seek the dopamine that used to come from growth and find only the dull ache of stagnation.
+
+My phone buzzes, a text from Jess.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;Jess&quot; &quot;iMessage&quot; &quot;J&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Running super late, Marcus&#39;s photographer cancelled so we&#39;re reshooting promo stuff ourselves. Don&#39;t wait up ❤️&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+There&#39;s that heart emoji again, red, full, deployed without irony. I wonder if she sends the same emoji to Marcus. I wonder if she sends him a different one. I wonder if there are messages between them that I&#39;ll never see, carried in a thread I&#39;ll never open, saying things that used to belong to our thread.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;Jess&quot; &quot;iMessage&quot; &quot;J&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;No worries. Night.&quot; &quot;right&quot;&gt;&gt;
+&lt;/div&gt;
+
+No emoji. The absence of an emoji is its own kind of punctuation. A period where there used to be an exclamation mark. She&#39;ll notice or she won&#39;t. I&#39;m past caring which.
+
+I pull up a video. Search how to edit Twitch highlights for beginners. If she&#39;s not going to do it, I need to learn. The first tutorial is twelve minutes long and makes it look easy. It&#39;s not easy. Nothing is easy. But I click play and prop the phone against a pillow and watch a twenty two year old named EditKing explain transitions with the confidence of someone whose girlfriend isn&#39;t at another man&#39;s apartment at 2 AM.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Friday&quot; &quot;R3-EndOfWeek&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Night&quot;&gt;&gt;&lt;&lt;set $dayLabel to &quot;Day Nine&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="60" name="R3-EndOfWeek" tags="release3" position="1225,725" size="100,100">&lt;&lt;set $viewers to 185&gt;&gt;
+&lt;&lt;scene &quot;img/locations/empty-apartment-purple.png&quot; &quot;1 AM. Jess isn&#39;t home.&quot;&gt;&gt;
+
+Friday night. I&#39;m streaming. A hundred and eighty five viewers. Below my recent average. I&#39;m playing well, actually. Hitting shots, reading rotations, clutching rounds. The gameplay is sharp. The vibes are not.
+
+Chat is quiet. Not hostile. Just thin. Like a room where half the people left during intermission and the ones remaining are being polite about it.
+
+Riley is modding. They&#39;re keeping chat clean, engaging with regulars, doing the work Jess used to do. I catch a DM from them between rounds.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;Riley&quot; &quot;mod channel&quot; &quot;R&quot;&gt;&gt;
+&lt;div class=&quot;pt-msg left&quot;&gt;Energy check. You&#39;re playing great but your cam presence is flat. Try to react more when you hit clips. The gameplay is there but chat needs the you part.&lt;/div&gt;
+&lt;/div&gt;
+
+They&#39;re right. I&#39;ve been on autopilot. My face is doing the thousand yard stare while my hands run the muscle memory of a thousand hours of competitive play. Body present, mind elsewhere. Thinking about wine glasses. Shower water. The kitchen table buried under another man&#39;s brand strategy.
+
+I force a smile. Pop off on a triple kill. //&quot;Let&#39;s go, chat.&quot;// The energy is manufactured but the muscle memory of enthusiasm takes over and for a moment I feel something close to alive.
+
+&lt;div class=&quot;pt-chat&quot;&gt;
+&lt;&lt;chathead $viewers&gt;&gt;
+&lt;div class=&quot;pt-chat-body&quot;&gt;
+&lt;&lt;chatline &quot;TTVShadowMerc&quot; &quot;THERE HE IS&quot; &quot;#63b3ed&quot;&gt;&gt;
+&lt;&lt;chatline &quot;GhostReaper42&quot; &quot;goated 🐐🐐🐐&quot; &quot;#e0b84d&quot;&gt;&gt;
+&lt;&lt;chatline &quot;xX_FragQueen_Xx&quot; &quot;king energy!!&quot; &quot;#e0556f&quot;&gt;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+A hundred and eighty five viewers isn&#39;t nothing. A hundred and eighty five people chose to spend their Friday night watching me. That counts. That has to count.
+
+The stream ends at midnight. Thirty seven dollars in donations. Jess isn&#39;t home. I take off the headset and sit in the silence.
+
+My phone buzzes.
+
+Jess posted an Instagram story. I tap it before I can stop myself.
+
+It&#39;s a photo of Marcus&#39;s apartment. His living room. Two glasses of wine on the coffee table, a movie paused on the TV behind them. The angle is from the couch. Jess&#39;s feet are visible in the frame, socked, tucked under a blanket. Caption, &quot;Friday night vibes 🍷✨&quot;
+
+She&#39;s posting cozy Friday nights with another man on the platform where our mutual friends can see, and she didn&#39;t text me goodnight.
+
+I put the phone face down on the desk. Look at the stream setup. The cracked bezel monitor. The bookshelf ring light. The empty energy drink cans.
+
+I look at the closet. Somewhere in there is a bag from an online order. Pink wig. Plaid skirt. Thigh high socks. The punishment bet outfit from the tournament I haven&#39;t entered yet.
+
+Not tonight. That&#39;s a different problem for a different night.
+
+Right now I&#39;m a man sitting in a purple lit bedroom, smelling like eight hours of his own sweat, while his girlfriend drinks wine on another man&#39;s couch and posts about it.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choice-label&quot;&gt;Release 3 Closing&lt;/div&gt;
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Text Jess, saw your story, looks like a nice night.&quot; &quot;R3-Closing-Text&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;DM Riley, you were right, something&#39;s off.&quot; &quot;R3-Closing-Riley&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;Open the bag. Hold the pink wig.&quot; &quot;R3-Closing-Wig&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;Stream again. Right now. 1 AM.&quot; &quot;R3-Closing-Stream&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="61" name="R3-Closing-Text" tags="release3" position="100,850" size="100,100">&lt;&lt;set $suspicion += 10&gt;&gt;
+&lt;&lt;set $jessCloseness -= 5&gt;&gt;
+&lt;&lt;set $r3ClosingChoice to &quot;text&quot;&gt;&gt;
+&quot;Saw your story. Looks like a nice night.&quot;
+
+Delivered. Read, three dots, no reply. She comes home at 1 AM and doesn&#39;t mention the text.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Suspicion&lt;/span&gt;&lt;b&gt;+10&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Jess Closeness&lt;/span&gt;&lt;b&gt;-5&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;goto &quot;R3-End&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="62" name="R3-Closing-Riley" tags="release3" position="225,850" size="100,100">&lt;&lt;set $rileyTrust += 15&gt;&gt;
+&lt;&lt;set $suspicion += 5&gt;&gt;
+&lt;&lt;set $r3ClosingChoice to &quot;riley&quot;&gt;&gt;
+&quot;You were right. Something&#39;s off.&quot;
+
+Riley says, &quot;I know. I&#39;ve been waiting for you to say it.&quot; They talk until 3 AM. Nothing is solved but something is shared.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Riley Trust&lt;/span&gt;&lt;b&gt;+15&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Suspicion&lt;/span&gt;&lt;b&gt;+5&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;goto &quot;R3-End&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="63" name="R3-Closing-Wig" tags="release3" position="350,850" size="100,100">&lt;&lt;set $feminization += 3&gt;&gt;
+&lt;&lt;set $selfImage to &quot;restless&quot;&gt;&gt;
+&lt;&lt;set $r3ClosingChoice to &quot;wig&quot;&gt;&gt;
+&lt;&lt;scene &quot;img/scenes/pink-wig-on-desk.png&quot; &quot;Two selves, side by side&quot;&gt;&gt;
+
+You don&#39;t put it on. You just hold it. Run your fingers through the synthetic strands. It&#39;s cheap and fake and weighs nothing. You put it on the desk next to your headset. Look at them side by side. The tools of two different people.
+
+You go to bed. The wig stays on the desk.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Feminization&lt;/span&gt;&lt;b&gt;+3&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Self-Image&lt;/span&gt;&lt;b&gt;Restless&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;goto &quot;R3-End&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="64" name="R3-Closing-Stream" tags="release3" position="475,850" size="100,100">&lt;&lt;set $viewers += 15&gt;&gt;
+&lt;&lt;set $communityBond += 5&gt;&gt;
+&lt;&lt;set $r3ClosingChoice to &quot;stream&quot;&gt;&gt;
+Forty two viewers. Insomniacs and international fans. You play loose, talk more than usual, laugh at your own misplays. It&#39;s the most human you&#39;ve been on camera in weeks. GhostReaper42 is there. Of course he is.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Viewers, next stream&lt;/span&gt;&lt;b&gt;+15&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Community Bond&lt;/span&gt;&lt;b&gt;+5&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;goto &quot;R3-End&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="65" name="R3-GhostReaperDM" tags="release3" position="600,850" size="100,100">After the stream, I notice a DM in my Twitch inbox from GhostReaper42. I almost ignore it. Viewer DMs are usually either requests for free coaching, links to their own channels, or some variation of you should play this other game.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;GhostReaper42&quot; &quot;Twitch DM&quot; &quot;G&quot;&gt;&gt;
+&lt;div class=&quot;pt-msg left&quot;&gt;Hey man. Don&#39;t want to be weird but I&#39;ve been watching you since you had like 2K followers. I can tell something&#39;s off lately. Your gameplay is fine but your energy is different. Not bad different. Just heavier. Anyway I re-upped my sub for 6 months. You&#39;re worth the investment. Just wanted you to know someone sees the real you behind the headset.&lt;/div&gt;
+&lt;/div&gt;
+
+I read it three times. Then a fourth time. My eyes sting and I hate that they do.
+
+I type back, &quot;That means more than you know. Seriously. Thank you.&quot;
+
+Then I delete the seriously because it sounds too desperate. Then I add it back because it&#39;s true. Then I send it and close the laptop and sit in the dark for a minute.
+
+GhostReaper42 has been subbed for nineteen consecutive months. He&#39;s sent maybe two hundred dollars in total donations over that period. I don&#39;t know his real name. I don&#39;t know what he looks like. He&#39;s a rectangular avatar and a username and two hundred dollars spread across nineteen months and somehow he just said the most perceptive thing anyone&#39;s said to me in weeks.
+
+The real me behind the headset. What does that even look like anymore. I&#39;m not sure the real me is someone worth investing in.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choice-label&quot;&gt;Reply To GhostReaper42&lt;/div&gt;
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Send a genuine voice note thanking him&quot; &quot;R3-GhostReaper-Voice&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;Send a brief text reply, keep it light&quot; &quot;R3-GhostReaper-Text&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;Don&#39;t respond. Close the DM.&quot; &quot;R3-GhostReaper-Ignore&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="66" name="R3-GhostReaper-Voice" tags="release3" position="725,850" size="100,100">&lt;&lt;set $communityBond += 5&gt;&gt;
+&lt;&lt;set $r3GhostReaperChoice to &quot;voice&quot;&gt;&gt;
+You record a thirty second message. Your voice cracks slightly.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;GhostReaper42&quot; &quot;Twitch DM&quot; &quot;G&quot;&gt;&gt;
+&lt;div class=&quot;pt-msg left&quot;&gt;Made my whole week. Keep going king.&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Community Bond&lt;/span&gt;&lt;b&gt;+5&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Try to sleep&quot; &quot;R3-ElevenPM&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="67" name="R3-GhostReaper-Text" tags="release3" position="850,850" size="100,100">&lt;&lt;set $communityBond += 2&gt;&gt;
+&lt;&lt;set $r3GhostReaperChoice to &quot;text&quot;&gt;&gt;
+&quot;Appreciate you GR. OG supporter energy 🙏&quot; Clean, professional, distanced.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Community Bond&lt;/span&gt;&lt;b&gt;+2&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Try to sleep&quot; &quot;R3-ElevenPM&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="68" name="R3-GhostReaper-Ignore" tags="release3" position="975,850" size="100,100">&lt;&lt;set $communityBond -= 3&gt;&gt;
+&lt;&lt;set $r3GhostReaperChoice to &quot;ignore&quot;&gt;&gt;
+You meant to reply. You just didn&#39;t. The notification sits there for days.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Community Bond&lt;/span&gt;&lt;b&gt;-3&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Try to sleep&quot; &quot;R3-ElevenPM&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="69" name="R3-JessReturns" tags="release3" position="1100,850" size="100,100">&lt;&lt;scene &quot;img/scenes/apartment-evening.png&quot; &quot;Watching my own highlight reel from six months ago&quot;&gt;&gt;
+
+She doesn&#39;t walk through the door. She detonates through it.
+
+I&#39;m on the couch eating cold pizza from a box I found in the fridge. Might be two days old, might be three. The cheese has that waxy quality where you know it&#39;s past its prime but you&#39;re too broke and too tired to care. I&#39;m watching a YouTube compilation of my own best clips from six months ago, trying to figure out what I was doing right back then that I&#39;m not doing now. The answer is nothing. I was doing the same stuff. The algorithm just liked me for a minute and then moved on.
+
+&lt;&lt;scene &quot;img/scenes/jess-doorway-flushed.png&quot; &quot;Electric flushed&quot;&gt;&gt;
+
+Jess drops her bag on the kitchen table hard enough to rattle the salt shaker. She&#39;s flushed. Not tired flushed. Electric flushed. Her eyes are doing that thing where the pupils blow wide and you can see the gears spinning behind them at twice normal speed.
+
+//&quot;Oh my god, Ethan. Okay. So.&quot;//
+
+She hasn&#39;t even taken off her jacket. Her keys are still in her hand. She starts talking and doesn&#39;t stop for twenty minutes.
+
+The meeting was supposed to be an hour at the coffee shop on Vine. It went four. Four hours. She describes Marcus&#39;s apartment first, the one they apparently migrated to after the coffee got cold. A loft in the arts district. Exposed brick, the kind that costs money to expose, not the kind that means the building is falling apart. His streaming setup, two monitors, professional condenser mic, ring lights that actually stand on their own instead of being clamped to a bookshelf with a hardware store C-clamp like mine.
+
+//&quot;His setup probably cost more than our car,&quot;// she says.
+
+Our car is a 2014 Civic with a dent in the passenger door and a check engine light that&#39;s been on so long it feels like a feature. So yeah, probably.
+
+But it&#39;s not the apartment she&#39;s really talking about. It&#39;s Marcus&#39;s ideas. He&#39;s got a vision, not just I take my shirt off and people give me money, although let&#39;s be real, that&#39;s the foundation. He wants variety content. A merch line. A podcast. Some kind of fitness app tie in. He wants someone to build the infrastructure. Someone who thinks in systems.
+
+Jess thinks in systems. It&#39;s her superpower. When we started, she built me a content calendar in a spreadsheet with color coded cells and conditional formatting and analytics tracking. She mapped out my growth trajectory, fifty thousand we start affiliate, a hundred thousand we do merch, two hundred thousand sponsors. The doc is still in our shared drive. Neither of us has opened it in eight months.
+
+She&#39;s talking about Marcus&#39;s potential with the same cadence she used to talk about mine. Same hand gestures. Same forward lean. Same brightness in her eyes that I fell in love with three years ago in a dorm common room when she pitched me on streaming as a career.
+
+//&quot;He wants someone to build the architecture of a brand, not just post clips. Ethan, this is what I went to school for.&quot;//
+
+She didn&#39;t finish school. She dropped out sophomore year to help me stream full time. She doesn&#39;t mention this. I don&#39;t either.
+
+I ask good questions. I&#39;m supportive. I say things like that sounds incredible and you&#39;d be perfect for that and I mean them, mostly. The supportive boyfriend. The progressive partner who doesn&#39;t feel threatened by his girlfriend&#39;s professional ambitions.
+
+Underneath, something cold and small curls in my stomach like a cat settling in for a long stay.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Let her finish&quot; &quot;R3-PizzaAlone&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="70" name="R3-PizzaAlone" tags="release3" position="1225,850" size="100,100">She finally takes her jacket off. Sits beside me on the couch. Steals a slice of my cold pizza and eats it without commenting on its age, which is love in its most pragmatic form.
+
+//&quot;So should I do it?&quot;//
+
+She&#39;s asking. She actually wants my input. There&#39;s a window here where I matter.
+
+//&quot;I think you should do what makes you happy.&quot;//
+
+It&#39;s the right answer. It&#39;s also the emptiest possible version of the right answer. She hears the support and misses the void underneath. Or maybe she catches it and decides not to dig. Either way, she squeezes my knee and says, //&quot;I love you.&quot;//
+
+She goes to bed early. Energized tired, the good kind, where your brain ran so hard it needs to reboot. I stay on the couch and open Marcus&#39;s Twitch. His most recent VOD. I watch the first ten minutes.
+
+He&#39;s playing some story game, shirt on this time, and he&#39;s doing voices for the characters. He&#39;s actually good at it. His chat is a river of engagement. Emotes flying, donations pinging, subscribers rolling in. The effortlessness of it makes my teeth ache. He&#39;s not trying. He&#39;s just existing on camera, and the world opens its wallet.
+
+I close the tab. Open my own analytics. The lines are flat. A topographical map of nothing.
+
+I eat the last slice of pizza standing at the kitchen counter, staring at the fridge magnets. One is a cat shaped magnet holding Jess&#39;s retail schedule. Tuesdays and Thursdays. She&#39;s been picking up fewer shifts lately. Making room for Marcus.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choice-label&quot;&gt;Her Enthusiasm&lt;/div&gt;
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;I&#39;m really excited for you, Jess. Seriously.&quot; &quot;R3-Choice-Excited&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;Just, be careful, okay? His brand is pretty specific.&quot; &quot;R3-Choice-Careful&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;Say nothing. Nod. Finish the pizza.&quot; &quot;R3-Choice-Silent&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="71" name="R3-Choice-Excited" tags="release3" position="100,975" size="100,100">&lt;&lt;set $jessCloseness += 3&gt;&gt;
+&lt;&lt;set $jessMarcusBond += 10&gt;&gt;
+&lt;&lt;set $r3FirstMeetingChoice to &quot;excited&quot;&gt;&gt;
+//&quot;I&#39;m really excited for you, Jess. Seriously.&quot;//
+
+Jess beams, kisses your temple, falls asleep on your shoulder on the couch.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Jess Closeness&lt;/span&gt;&lt;b&gt;+3&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Jess, Marcus Bond&lt;/span&gt;&lt;b&gt;+10, she goes all in with zero hesitation&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;set $timeOfDay to &quot;Night&quot;&gt;&gt;
+&lt;&lt;set $dayLabel to &quot;Day Six&quot;&gt;&gt;
+&lt;&lt;goto &quot;R3-KitchenTable&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="72" name="R3-Choice-Careful" tags="release3" position="225,975" size="100,100">&lt;&lt;set $jessCloseness -= 2&gt;&gt;
+&lt;&lt;set $suspicion += 3&gt;&gt;
+&lt;&lt;set $r3FirstMeetingChoice to &quot;careful&quot;&gt;&gt;
+//&quot;Just, be careful, okay? His brand is pretty specific.&quot;//
+
+Jess&#39;s smile tightens. //&quot;I&#39;m a professional, Ethan.&quot;// The word professional lands like a door closing.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Jess Closeness&lt;/span&gt;&lt;b&gt;-2&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Suspicion&lt;/span&gt;&lt;b&gt;+3&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;set $timeOfDay to &quot;Night&quot;&gt;&gt;
+&lt;&lt;set $dayLabel to &quot;Day Six&quot;&gt;&gt;
+&lt;&lt;goto &quot;R3-KitchenTable&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="73" name="R3-Choice-Silent" tags="release3" position="350,975" size="100,100">&lt;&lt;set $jessCloseness -= 1&gt;&gt;
+&lt;&lt;set $suspicion += 2&gt;&gt;
+&lt;&lt;set $r3FirstMeetingChoice to &quot;silent&quot;&gt;&gt;
+You say nothing. Nod. Finish the pizza.
+
+Jess watches you for a beat. Then fills the silence herself. //&quot;It&#39;ll be great for us. You&#39;ll see.&quot;// The you&#39;ll see is for her as much as for you.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Jess Closeness&lt;/span&gt;&lt;b&gt;-1&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Suspicion&lt;/span&gt;&lt;b&gt;+2&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;set $timeOfDay to &quot;Night&quot;&gt;&gt;
+&lt;&lt;set $dayLabel to &quot;Day Six&quot;&gt;&gt;
+&lt;&lt;goto &quot;R3-KitchenTable&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="74" name="R3-KitchenTable" tags="release3" position="475,975" size="100,100">&lt;&lt;scene &quot;img/scenes/kitchen-table-calendar.png&quot; &quot;Marcus&#39;s content calendar, wall to wall&quot;&gt;&gt;
+
+I lose the kitchen table on a Tuesday.
+
+Not literally. It&#39;s still there. Four legs, pressboard top, the burn mark from the time I left a pot of ramen boiling and forgot about it for thirty minutes because I was mid clutch in a ranked match. But the surface of it disappears under Marcus&#39;s content calendar like snow covering a parking lot.
+
+Printed spreadsheets. Color coded sticky notes, green for confirmed, yellow for pending, red for urgent. Her laptop open to four tabs, all of them Marcus related. His Twitch analytics. His Instagram growth tracker. A sponsorship proposal draft she&#39;s writing from scratch. A mood board for his rebrand.
+
+She&#39;s working at 10 PM. A can of soda at her elbow, hair twisted up in a messy bun held by a pen, the way she does when she&#39;s deep in it. She&#39;s completely absorbed. I could set the apartment on fire and she&#39;d ask me to close the door because the smoke is bad for the laptop fan.
+
+I make dinner. Chicken stir fry from a pre made sauce packet because I never learned to cook properly and the recipe videos always require ingredients I can&#39;t afford. Sesame oil. Fresh ginger. The sauce packet costs three forty nine and tastes like what actual food thinks about in its dreams.
+
+I set a plate beside her. Between the Instagram analytics printout and a sticky note that says, &quot;MARCUS, thirst trap tier list for Patreon.&quot;
+
+//&quot;Thanks, babe.&quot;//
+
+She says it to the spreadsheet. Fork in one hand, pen in the other. She eats without looking at the plate. Without looking at me. I am a catering service she doesn&#39;t remember ordering.
+
+&lt;&lt;scene &quot;img/scenes/couch-eating-alone.png&quot; &quot;Two people, different continents&quot;&gt;&gt;
+
+I eat on the couch, alone, one earbud in, watching a show on my phone. The apartment is quiet except for her pen scratching against paper and the hum of the refrigerator and the sound of traffic four floors down.
+
+This is a Tuesday. It&#39;s also a Wednesday, and most Thursdays, and a pattern I can&#39;t name yet because naming it would make it real.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Ask about the edits&quot; &quot;R3-TemplateConvo&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="75" name="R3-TemplateConvo" tags="release3" position="600,975" size="100,100">//&quot;I just don&#39;t have the bandwidth right now, babe. You can use a template, right?&quot;//
+
+Bandwidth. She actually says bandwidth, like she&#39;s a router and I&#39;m a device that&#39;s been deprioritized by the network.
+
+Jess hand edited my stream highlights for two years. She&#39;d spend forty minutes on a three minute clip, timing cuts to beats, adding zooms on my best plays, syncing the kill feed with bass drops. She turned my average gameplay into something that felt cinematic. I never thanked her enough for it. I know that now. I knew it then too. I just didn&#39;t say it because saying it felt like admitting I needed her for this, and admitting I needed her felt like admitting I wasn&#39;t enough on my own.
+
+//&quot;Sure. No problem.&quot;//
+
+I download a free template from a Twitch resource site. It&#39;s called &quot;CleanCut Pro&quot; and it&#39;s anything but. Generic transitions, stock font, no personality. It looks like every other mid tier streamer&#39;s content. I upload it and watch the metrics on my latest highlight video flatline like a patient no one&#39;s trying to save.
+
+Her edits used to get comments. &quot;Who does your editing?&quot; &quot;The production on this is sick.&quot; Nobody comments on CleanCut Pro. Nobody comments much at all anymore.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Go live&quot; &quot;R3-StreamChat&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Night&quot;&gt;&gt;&lt;&lt;set $dayLabel to &quot;Day Seven&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="76" name="R3-RileyTexts" tags="release3" position="725,975" size="100,100">My phone buzzes at 9 AM. Riley.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;Riley&quot; &quot;iMessage&quot; &quot;R&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Hey real talk. Jess hasn&#39;t been in the mod Discord in like 2 weeks. Everything cool?&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+I&#39;m making coffee. Jess left early for a breakfast meeting with Marcus. A breakfast meeting, at 7.30 AM. She used to hit snooze until 8.15 and complain about mornings like they were a personal attack. Now she&#39;s voluntarily conscious at 7.30 for someone else.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;Riley&quot; &quot;iMessage&quot; &quot;R&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Yeah she&#39;s just busy with the Marcus thing.&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Cool cool. Just checking. She used to be in there every night.&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+Typing indicator. Three dots, disappear, three dots again. The conversational equivalent of someone trying to find the right words for something they know might detonate.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;Riley&quot; &quot;iMessage&quot; &quot;R&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;You good tho? Like actually good?&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+I stare at the text. The coffee maker gurgles behind me. The apartment is quiet. Jess&#39;s soda can from last night is still on the kitchen table next to Marcus&#39;s content calendar.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choice-label&quot;&gt;Riley Check In&lt;/div&gt;
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;All good. Just adjusting.&quot; &quot;R3-Riley-Safe&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;Honestly? I don&#39;t know.&quot; &quot;R3-Riley-Honest&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;Why wouldn&#39;t I be?&quot; &quot;R3-Riley-Defensive&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="77" name="R3-Riley-Safe" tags="release3" position="850,975" size="100,100">&lt;&lt;set $r3RileyCheckinChoice to &quot;safe&quot;&gt;&gt;
+&quot;All good. Just adjusting.&quot;
+
+Safe. Clean, the answer that closes the door gently. Riley says, &quot;Alright. Here if you need 👊&quot;
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Riley Trust&lt;/span&gt;&lt;b&gt;stable&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;set $timeOfDay to &quot;Late Night&quot;&gt;&gt;
+&lt;&lt;set $dayLabel to &quot;Day Eight&quot;&gt;&gt;
+&lt;&lt;goto &quot;R3-SideQuest-Analytics&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="78" name="R3-Riley-Honest" tags="release3" position="975,975" size="100,100">&lt;&lt;set $rileyTrust += 10&gt;&gt;
+&lt;&lt;set $r3RileyCheckinChoice to &quot;honest&quot;&gt;&gt;
+&quot;Honestly? I don&#39;t know.&quot;
+
+The crack in the wall. The admission that costs something. Riley says, &quot;Want to grab food this week? In person. Not a Discord call. Actual food. My treat.&quot;
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Riley Trust&lt;/span&gt;&lt;b&gt;+10&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Take Riley up on it&quot; &quot;R3-SideQuest-RileyFood&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Evening&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="79" name="R3-Riley-Defensive" tags="release3" position="1100,975" size="100,100">&lt;&lt;set $rileyTrust -= 5&gt;&gt;
+&lt;&lt;set $r3RileyCheckinChoice to &quot;defensive&quot;&gt;&gt;
+&quot;Why wouldn&#39;t I be?&quot;
+
+Defensive, sharp, the kind of reply that tells someone exactly how you&#39;re doing by how hard you pretend you&#39;re fine. Riley says, &quot;No reason. Just asking.&quot; The conversation dies on the table like a fish pulled from water.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Riley Trust&lt;/span&gt;&lt;b&gt;-5&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;set $timeOfDay to &quot;Late Night&quot;&gt;&gt;
+&lt;&lt;set $dayLabel to &quot;Day Eight&quot;&gt;&gt;
+&lt;&lt;goto &quot;R3-SideQuest-Analytics&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="80" name="R3-SideQuest-RileyFood" tags="release3 sidequest" position="1225,975" size="100,100">&lt;&lt;scene &quot;img/scenes/riley-ramen-booth.png&quot; &quot;Real ramen. My treat.&quot;&gt;&gt;
+
+Riley picks a ramen place. Not the packet kind. Real ramen. Tonkotsu with a soft boiled egg and chashu pork and a broth that tastes like someone&#39;s grandmother spent fourteen hours on it. I haven&#39;t had real ramen in three months.
+
+//&quot;My treat,&quot;// Riley says again when I hesitate at the price. Sixteen dollars for a bowl. A luxury by our standards.
+
+We sit in a booth near the back. Riley is wearing a flannel over a graphic tee, hair freshly buzzed on the sides, silver stud in their left ear. They eat methodically, chopsticks precise, not looking up until the first few bites are in.
+
+Then they look up.
+
+//&quot;So. The Marcus thing.&quot;//
+
+//&quot;It&#39;s fine.&quot;//
+
+//&quot;I didn&#39;t ask if it was fine. I asked how you are.&quot;//
+
+Riley has this thing where they wait. Not like a therapist waits, all performative silence and encouraging nods. Riley waits like a person who genuinely doesn&#39;t need to fill the air. They just sit there with their ramen and their patience and their steady brown eyes and they let you come to them.
+
+//&quot;She showers at night now,&quot;// I say. I don&#39;t mean to say it. It just comes out, the way a splinter works its way to the surface.
+
+Riley&#39;s chopsticks pause midway between bowl and mouth. They process this. You can almost see them deciding not to react, not to project, not to jump to the conclusion that&#39;s sitting right there in front of us like a third person at the table.
+
+//&quot;That&#39;s new?&quot;//
+
+//&quot;She&#39;s always been a morning shower person. Three years. Every day.&quot;//
+
+//&quot;Could be a lot of things.&quot;//
+
+//&quot;Yeah.&quot;//
+
+//&quot;But it&#39;s bugging you.&quot;//
+
+//&quot;Yeah.&quot;//
+
+Riley sets the chopsticks down. //&quot;Ethan. I&#39;m going to say something and I need you to hear it as your friend and not as your mod.&quot;//
+
+//&quot;Okay.&quot;//
+
+//&quot;If something is happening, you deserve to know, and if nothing is happening, you deserve to stop torturing yourself. Either way, the not knowing is going to eat you.&quot;//
+
+//&quot;What am I supposed to do? Ask her if she&#39;s sleeping with him?&quot;//
+
+//&quot;I mean. Yeah. Eventually. Maybe not those words.&quot;//
+
+We eat in silence for a minute. The broth is incredible. Rich, porky, layered. I think about how I&#39;m eating sixteen dollar ramen with my best friend while discussing whether my girlfriend is sleeping with a man whose body looks like it was designed by a committee of thirsty Instagram users.
+
+//&quot;She talks about him like she used to talk about me,&quot;// I say.
+
+Riley nods. They already knew. They&#39;ve been watching this from the outside, through the Discord absences and the mod chat silences and the way Jess&#39;s name stopped appearing in my stream credits.
+
+//&quot;I noticed,&quot;// Riley says. //&quot;I just didn&#39;t want to be the one to say it.&quot;//
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Walk home&quot; &quot;R3-RileyWalksHome&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="81" name="R3-RileyWalksHome" tags="release3" position="100,1100" size="100,100">&lt;&lt;scene &quot;img/locations/walking-home-autumn.png&quot; &quot;Whatever happens, you&#39;ve got me&quot;&gt;&gt;
+
+Riley walks me halfway home. It&#39;s October. The air has that bite to it. Leaves on the sidewalk, crunching under boots. We pass a couple holding hands and I look away from them the way you look away from the sun.
+
+//&quot;Hey,&quot;// Riley says at the intersection where we split. //&quot;Whatever happens. You&#39;ve got me. Yeah?&quot;//
+
+//&quot;Yeah.&quot;//
+
+//&quot;And for the record? Your stream energy has been off. Not bad. Just heavy. Like you&#39;re carrying something while you play. Chat can feel it even if they can&#39;t name it.&quot;//
+
+//&quot;GhostReaper42 said basically the same thing.&quot;//
+
+Riley smiles. //&quot;GhostReaper42 is wise beyond their username.&quot;//
+
+We fist bump. They head north. I head south. I walk the last four blocks alone, hands in my jacket pockets, thinking about showers and wine glasses and the sound of Jess&#39;s laugh when it&#39;s aimed at someone else.
+
+The apartment is empty when I get home. Jess is at Marcus&#39;s. Of course she is.
+
+I sit at the kitchen table. Her notes are spread across it. I read one upside down, &quot;MARCUS CONTENT STRATEGY Q4,&quot; bullet points underneath. One says, &quot;lean into boyfriend energy, direct parasocial connection.&quot; Another says, &quot;thirst bracket system for Patreon tiers.&quot;
+
+She&#39;s engineering desire, professionally, building a machine that manufactures the feeling of being wanted by a beautiful man, and selling it at five, fifteen, fifty dollars a month.
+
+She comes home from that work flushed and showering and asleep in four minutes.
+
+I close my eyes. Rest my forehead on the table, right on top of Marcus&#39;s Q4 strategy. The paper smells like Jess&#39;s hand lotion. Coconut and vanilla. The scent that used to mean home and now means a person who&#39;s increasingly a guest in the space we share.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Sit with it&quot; &quot;R3-SideQuest-Analytics&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Late Night&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="82" name="R3-ElevenPM" tags="release3" position="225,1100" size="100,100">&lt;&lt;scene &quot;img/scenes/bedroom-ceiling-purple.png&quot; &quot;Nineteen minutes. She usually showers for eight.&quot;&gt;&gt;
+
+Eleven PM. She said nine.
+
+I&#39;ve been tracking time without meaning to. It&#39;s a thing I do now. Nine passes and I think, okay, wrapping up. Nine thirty and I think, traffic maybe. Ten and I think, she would have texted. Ten thirty and I check my phone, nothing there. Ten forty five and I text her, &quot;everything good?&quot;
+
+Read receipt. No reply.
+
+11.02 PM. Key in the lock.
+
+She walks in laughing. Not at something. At the residue of something. A laugh that&#39;s still echoing in her chest from wherever she was, carrying forward into our apartment like a sound that doesn&#39;t belong in this room.
+
+She&#39;s texting as she comes through the door. Thumbs flying. That grin. The grin I haven&#39;t caused in I don&#39;t know how long.
+
+//&quot;Hey! Sorry I&#39;m late. Marcus had this insane idea for a charity event and we just kept building on it.&quot;//
+
+She&#39;s flushed. Not tired flushed. She&#39;s bright, buzzing, the version of Jess that runs on pure creative adrenaline, the one I fell in love with, except the fuel source has changed and I can feel it even if I can&#39;t prove it.
+
+Her cheeks are pink. Her eyes are wide, pupils dilated. She looks like someone who just finished running. Or just finished something else that makes your heart race and your skin hot.
+
+//&quot;I&#39;m going to hop in the shower real quick.&quot;//
+
+My brain snags on this like a thread on a nail.
+
+Jess showers in the morning, always. For three years, every single day, she showers in the morning. She has a routine, alarm, shower, coffee, phone, world. It&#39;s been the same since we moved in together. I know her rhythms the way you know the layout of a room you&#39;ve walked through a thousand times in the dark.
+
+She showers at night now. Tonight, this is new.
+
+I lie in bed. The bathroom door is closed. The shower runs.
+
+I tell myself things. Normal things. She was hot. It&#39;s July. She walked home. There are reasons. Perfectly good, boring, non devastating reasons why a person would shower at 11 PM on a night they came home two hours late from another man&#39;s apartment with dilated pupils and flushed skin and a laugh in their chest that somebody else put there.
+
+The water runs for nineteen minutes.
+
+I count. I don&#39;t mean to count. But my brain counts anyway, the way it tracks viewer numbers and follower counts and all the other metrics of my diminishing life. Nineteen minutes. She usually showers for eight.
+
+She comes out in a towel. Skin steaming. She smells like our soap but scrubbed clean in a way that feels intentional. Like she was removing something rather than adding something.
+
+She slides into bed. Kisses my shoulder.
+
+//&quot;Night, babe.&quot;//
+
+She falls asleep in four minutes, fast, too fast, the way you sleep when your body has already been spent. When the tension has already been released somewhere else and all that&#39;s left is the heavy, sated drop into unconsciousness.
+
+I stare at the ceiling. The LED strips cast everything purple. My mind is doing something I can&#39;t stop it from doing. Constructing scenes I don&#39;t want to see. Marcus&#39;s apartment, the exposed brick, the ring lights. Jess sitting on his counter. The four hours at the coffee shop. The four hours at his apartment. The shower.
+
+I don&#39;t touch myself. I just lie there and marinate in a feeling I can&#39;t name yet. It&#39;s not anger. It&#39;s not sadness. It&#39;s more like the sensation of standing on a dock and watching a boat pull away from shore, except you&#39;re not on the boat and nobody told you it was leaving.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choice-label&quot;&gt;3 AM&lt;/div&gt;
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Pick up the phone, check Instagram&quot; &quot;R3-SideQuest-Instagram&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;Close your eyes, try to sleep&quot; &quot;R3-RileyTexts&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Morning&quot;&gt;&gt;&lt;&lt;set $dayLabel to &quot;Day Eight&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="83" name="R3-SideQuest-Instagram" tags="release3 sidequest" position="350,1100" size="100,100">&lt;&lt;scene &quot;img/ui/phone-instagram-wine.png&quot; &quot;Two wine glasses. One with a lipstick print.&quot;&gt;&gt;
+
+3 AM. Still awake. Jess is breathing slow and deep beside me, face turned toward the wall. Her phone is on the nightstand, screen down.
+
+I pick up my own phone and open Instagram. I don&#39;t follow Marcus. I&#39;ve never searched for him. But the algorithm knows. It always knows. His profile appears in my suggestions feed like the universe nudging me toward a wound.
+
+I tap.
+
+His latest post is from yesterday. A gym selfie. Tank top, arms out, the kind of casual flex that looks unplanned but definitely isn&#39;t. Eight hundred forty seven likes. Comments, all fire emojis and heart eyes and women saying things that would make a sailor blush.
+
+I scroll. More gym. A behind the scenes of his streaming setup. A sunset photo from his apartment balcony, the city spread out below him like something he owns.
+
+Then I find it. Three posts back. A video of two takeout containers on a marble counter. His kitchen. Posted at 8 PM on Thursday. Two containers, two pairs of chopsticks, and in the background, slightly out of focus but unmistakable if you know what you&#39;re looking at, two wine glasses. One with a lipstick print on the rim.
+
+Last Thursday. Jess said she was finishing up a proposal at Marcus&#39;s place. She came home at 10. Smelling like Thai food and Sauvignon Blanc.
+
+I zoom in on the wine glasses. The lipstick shade is dark, berry something. Jess owns a lipstick called Blackberry Smash that she bought with her birthday money last year. I remember because she held it up in the store and said, //&quot;This is the color of sophistication, babe.&quot;//
+
+I&#39;m zoom pinching on wine glass lipstick residue at 3 AM like a crime scene investigator who specializes in heartbreak. This is what I&#39;ve become. A man lying next to his sleeping girlfriend, cataloging evidence he&#39;s not ready to confront.
+
+I put the phone down. Pick it up. Put it down. Pick it up.
+
+I screenshot the takeout photo. Save it to a folder. Then delete the folder. Then pull the screenshot from recently deleted. Then just turn off the phone and put it under the pillow and press my face into the mattress and breathe.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Try to sleep&quot; &quot;R3-RileyTexts&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Morning&quot;&gt;&gt;&lt;&lt;set $dayLabel to &quot;Day Eight&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="84" name="R3-End" tags="release3" position="475,1100" size="100,100">I go to bed. Sleep in my clothes. Dream about nothing.
+
+&lt;&lt;if $r3ClosingChoice is &quot;text&quot;&gt;&gt;
+The read receipt sits there in my head, gray and final. I don&#39;t know what I expected. Maybe nothing. Maybe that was the point.
+&lt;&lt;elseif $r3ClosingChoice is &quot;riley&quot;&gt;&gt;
+Riley&#39;s still up somewhere, probably staring at their own ceiling now. It helps less than I want it to and more than I expected.
+&lt;&lt;elseif $r3ClosingChoice is &quot;wig&quot;&gt;&gt;
+The wig sits on the desk next to the headset where I left it. Neither one of us mentions it in the morning, because Jess doesn&#39;t come in the bedroom before I fall asleep.
+&lt;&lt;elseif $r3ClosingChoice is &quot;stream&quot;&gt;&gt;
+Forty two people stayed up with me for no good reason and it was enough, for an hour, to not think about wine glasses.
+&lt;&lt;/if&gt;&gt;
+
+&lt;&lt;endcard &quot;Release 3, Complete&quot; &quot;Jess Starts Managing Marcus&quot; &quot;Ethan hasn&#39;t asked the question yet. He&#39;s just counting the days until he has to.&quot;&gt;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;See where things stand&quot; &quot;R3-Stats&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="85" name="R3-Stats" tags="release3" position="600,1100" size="100,100">&lt;div class=&quot;pt-endcard&quot;&gt;
+&lt;div class=&quot;kicker&quot;&gt;End of Release 3&lt;/div&gt;
+&lt;h2&gt;Stats so far&lt;/h2&gt;
+&lt;/div&gt;
+
+&lt;&lt;statbar &quot;Viewers&quot; $viewers 250 $viewers &quot;&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Followers&quot; $followers 100000 $followers &quot;&quot;&gt;&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Donations, month&lt;/span&gt;&lt;b&gt;&lt;&lt;= &quot;$&quot; + $donationsMonthly&gt;&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;&lt;statbar &quot;Jess Closeness&quot; $jessCloseness 100 $jessCloseness &quot;&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Jess, Marcus Bond&quot; $jessMarcusBond 100 $jessMarcusBond &quot;&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Suspicion&quot; $suspicion 100 $suspicion &quot;trust&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Riley Trust&quot; $rileyTrust 100 $rileyTrust &quot;trust&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Community Bond&quot; $communityBond 20 $communityBond &quot;trust&quot;&gt;&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Feminization&lt;/span&gt;&lt;b&gt;$feminization&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Stream Persona&lt;/span&gt;&lt;b&gt;$streamPersona&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Chat Mood&lt;/span&gt;&lt;b&gt;$chatMood&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Self-Image&lt;/span&gt;&lt;b&gt;$selfImage&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Money Stress&lt;/span&gt;&lt;b&gt;&lt;&lt;moneybadge $moneyStress&gt;&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;First meeting reaction&lt;/span&gt;&lt;b&gt;$r3FirstMeetingChoice&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Chat management&lt;/span&gt;&lt;b&gt;$r3ChatChoice&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;GhostReaper42 reply&lt;/span&gt;&lt;b&gt;$r3GhostReaperChoice&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Riley check in&lt;/span&gt;&lt;b&gt;$r3RileyCheckinChoice&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Closing choice&lt;/span&gt;&lt;b&gt;$r3ClosingChoice&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;p class=&quot;pt-hud-sub&quot;&gt;Release 4 picks up from here. Use Restart in the sidebar menu to run the story again from a clean save.&lt;/p&gt;
+
+&lt;&lt;patreoncard&gt;&gt;</tw-passagedata><tw-passagedata pid="86" name="R3-StreamChat" tags="release3" position="725,1100" size="100,100">&lt;&lt;set $viewers to 190&gt;&gt;
+&lt;&lt;scene &quot;img/scenes/stream-setup-night.png&quot; &quot;The new edit, going over about as well as expected&quot;&gt;&gt;
+
+Tuesday night stream. A hundred and ninety viewers, below my average. The highlight reel I posted earlier is getting ratioed in my own Discord. Not by trolls. By regulars who care enough to notice the difference.
+
+I&#39;m playing ranked when the chat starts.
+
+&lt;div class=&quot;pt-chat&quot;&gt;
+&lt;&lt;chathead $viewers&gt;&gt;
+&lt;div class=&quot;pt-chat-body&quot;&gt;
+&lt;&lt;chatline &quot;TTVShadowMerc&quot; &quot;yo the new highlight edit is kinda basic ngl&quot; &quot;#63b3ed&quot;&gt;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+My stomach drops. I keep my face neutral. Crosshair on the corner, waiting for a peek.
+
+&lt;div class=&quot;pt-chat&quot;&gt;
+&lt;&lt;chathead $viewers&gt;&gt;
+&lt;div class=&quot;pt-chat-body&quot;&gt;
+&lt;&lt;chatline &quot;xX_FragQueen_Xx&quot; &quot;where&#39;s the music sync?? the old edits were fire&quot; &quot;#e0556f&quot;&gt;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+I miss the peek. The opponent one eighties me. I&#39;m dead. Respawn timer, seven seconds. Seven seconds of staring at a gray screen while my chat discusses the decline of my production quality.
+
+&lt;div class=&quot;pt-chat&quot;&gt;
+&lt;&lt;chathead $viewers&gt;&gt;
+&lt;div class=&quot;pt-chat-body&quot;&gt;
+&lt;&lt;chatline &quot;GhostReaper42&quot; &quot;still goated gameplay tho 💪&quot; &quot;#e0b84d&quot;&gt;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+God bless GhostReaper42. The one person in every chat who shows up with unconditional support regardless of reality. Every streamer has one. They&#39;re the emotional support animal of the content ecosystem.
+
+Riley DMs me through the mod channel mid stream. Purple text in my peripheral vision.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;Riley&quot; &quot;mod channel&quot; &quot;R&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Chat noticed the edit change. Want me to say Jess is busy with a side project?&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choice-label&quot;&gt;Chat Management&lt;/div&gt;
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Yeah, just say she&#39;s working on something.&quot; &quot;R3-Choice-ChatCover&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;Tell them I&#39;m doing my own edits now.&quot; &quot;R3-Choice-ChatOwn&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;Don&#39;t mention Jess at all.&quot; &quot;R3-Choice-ChatSilent&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="87" name="R3-Choice-ChatCover" tags="release3" position="850,1100" size="100,100">&lt;&lt;set $chatMood to &quot;neutral&quot;&gt;&gt;
+&lt;&lt;set $r3ChatChoice to &quot;cover&quot;&gt;&gt;
+Riley types in chat, &quot;Jess is working on a cool new project rn, E&#39;s handling edits solo for a bit! Show some love 💜&quot; Chat accepts it. A few people type encouraging things.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Chat Mood&lt;/span&gt;&lt;b&gt;Neutral&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;set $timeOfDay to &quot;Late Night&quot;&gt;&gt;
+&lt;&lt;goto &quot;R3-GhostReaperDM&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="88" name="R3-Choice-ChatOwn" tags="release3" position="975,1100" size="100,100">&lt;&lt;set $chatMood to &quot;skeptical&quot;&gt;&gt;
+&lt;&lt;set $r3ChatChoice to &quot;own&quot;&gt;&gt;
+Riley relays. Chat goes quiet for a second.
+
+&lt;div class=&quot;pt-chat&quot;&gt;
+&lt;&lt;chathead $viewers&gt;&gt;
+&lt;div class=&quot;pt-chat-body&quot;&gt;
+&lt;&lt;chatline &quot;TTVShadowMerc&quot; &quot;respect the grind but maybe watch a tutorial lol&quot; &quot;#63b3ed&quot;&gt;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+Mixed energy. Some support, some skepticism.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Chat Mood&lt;/span&gt;&lt;b&gt;Skeptical&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;set $timeOfDay to &quot;Late Night&quot;&gt;&gt;
+&lt;&lt;goto &quot;R3-GhostReaperDM&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="89" name="R3-Choice-ChatSilent" tags="release3" position="1100,1100" size="100,100">&lt;&lt;set $viewers -= 10&gt;&gt;
+&lt;&lt;set $r3ChatChoice to &quot;silent&quot;&gt;&gt;
+Riley nods. Subject dies. But the silence is its own answer. Nobody asks again, which somehow feels worse than if they kept asking.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Viewers, next stream&lt;/span&gt;&lt;b&gt;-10&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;set $timeOfDay to &quot;Late Night&quot;&gt;&gt;
+&lt;&lt;goto &quot;R3-GhostReaperDM&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="90" name="Widgets" tags="widget" position="1225,1100" size="100,100">\
 &lt;&lt;widget &quot;scene&quot;&gt;&gt;\
 &lt;&lt;set _img to $args[0]&gt;&gt;\
 &lt;&lt;set _cap to $args[1]&gt;&gt;\

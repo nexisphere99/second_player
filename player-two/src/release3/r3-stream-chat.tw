@@ -1,0 +1,89 @@
+:: R3-StreamChat [release3]
+<<set $viewers to 190>>
+<<scene "img/scenes/stream-setup-night.png" "The new edit, going over about as well as expected">>
+
+Tuesday night stream. A hundred and ninety viewers, below my average. The highlight reel I posted earlier is getting ratioed in my own Discord. Not by trolls. By regulars who care enough to notice the difference.
+
+I'm playing ranked when the chat starts.
+
+<div class="pt-chat">
+<<chathead $viewers>>
+<div class="pt-chat-body">
+<<chatline "TTVShadowMerc" "yo the new highlight edit is kinda basic ngl" "#63b3ed">>
+</div>
+</div>
+
+My stomach drops. I keep my face neutral. Crosshair on the corner, waiting for a peek.
+
+<div class="pt-chat">
+<<chathead $viewers>>
+<div class="pt-chat-body">
+<<chatline "xX_FragQueen_Xx" "where's the music sync?? the old edits were fire" "#e0556f">>
+</div>
+</div>
+
+I miss the peek. The opponent one eighties me. I'm dead. Respawn timer, seven seconds. Seven seconds of staring at a gray screen while my chat discusses the decline of my production quality.
+
+<div class="pt-chat">
+<<chathead $viewers>>
+<div class="pt-chat-body">
+<<chatline "GhostReaper42" "still goated gameplay tho 💪" "#e0b84d">>
+</div>
+</div>
+
+God bless GhostReaper42. The one person in every chat who shows up with unconditional support regardless of reality. Every streamer has one. They're the emotional support animal of the content ecosystem.
+
+Riley DMs me through the mod channel mid stream. Purple text in my peripheral vision.
+
+<div class="pt-phone">
+<<phonehead "Riley" "mod channel" "R">>
+<<msg "" "Chat noticed the edit change. Want me to say Jess is busy with a side project?" "left">>
+</div>
+
+<hr class="pt-hr">
+
+<div class="pt-choice-label">Chat Management</div>
+<div class="pt-choices">
+<<link "Yeah, just say she's working on something." "R3-Choice-ChatCover">><</link>>
+<<link "Tell them I'm doing my own edits now." "R3-Choice-ChatOwn">><</link>>
+<<link "Don't mention Jess at all." "R3-Choice-ChatSilent">><</link>>
+</div>
+
+:: R3-Choice-ChatCover [release3]
+<<set $chatMood to "neutral">>
+<<set $r3ChatChoice to "cover">>
+Riley types in chat, "Jess is working on a cool new project rn, E's handling edits solo for a bit! Show some love 💜" Chat accepts it. A few people type encouraging things.
+
+<div class="pt-hud-line"><span>Chat Mood</span><b>Neutral</b></div>
+
+<<set $timeOfDay to "Late Night">>
+<<goto "R3-GhostReaperDM">>
+
+:: R3-Choice-ChatOwn [release3]
+<<set $chatMood to "skeptical">>
+<<set $r3ChatChoice to "own">>
+Riley relays. Chat goes quiet for a second.
+
+<div class="pt-chat">
+<<chathead $viewers>>
+<div class="pt-chat-body">
+<<chatline "TTVShadowMerc" "respect the grind but maybe watch a tutorial lol" "#63b3ed">>
+</div>
+</div>
+
+Mixed energy. Some support, some skepticism.
+
+<div class="pt-hud-line"><span>Chat Mood</span><b>Skeptical</b></div>
+
+<<set $timeOfDay to "Late Night">>
+<<goto "R3-GhostReaperDM">>
+
+:: R3-Choice-ChatSilent [release3]
+<<set $viewers -= 10>>
+<<set $r3ChatChoice to "silent">>
+Riley nods. Subject dies. But the silence is its own answer. Nobody asks again, which somehow feels worse than if they kept asking.
+
+<div class="pt-hud-line"><span>Viewers, next stream</span><b>-10</b></div>
+
+<<set $timeOfDay to "Late Night">>
+<<goto "R3-GhostReaperDM">>

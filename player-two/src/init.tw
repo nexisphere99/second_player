@@ -7,6 +7,7 @@
   "tag-colors": {
     "release1": "#9b59b6",
     "release2": "#3f7fbf",
+    "release3": "#c0704a",
     "sidequest": "#e0b84d",
     "intimate": "#e0556f"
   },
@@ -52,3 +53,10 @@ Player Two
 <<set $r2RileyChoice to "none">>
 <<set $r2HighlightChoice to "none">>
 <<set $selfImageNote to "">>
+
+<<set $communityBond to 0>>
+<<set $r3FirstMeetingChoice to "none">>
+<<set $r3ChatChoice to "none">>
+<<set $r3GhostReaperChoice to "none">>
+<<set $r3RileyCheckinChoice to "none">>
+<<set $r3ClosingChoice to "none">>

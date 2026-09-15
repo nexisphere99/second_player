@@ -24,6 +24,6 @@
 
 <hr class="pt-hr">
 
-<p class="pt-hud-sub">Release 3 picks up from here, Jess starts managing Marcus. Use Restart in the sidebar menu to run the story again from a clean save.</p>
-
-<<patreoncard>>
+<div class="pt-choices">
+<<link "Continue to Release 3" "R3-JessReturns">><<set $timeOfDay to "Evening">><<set $dayLabel to "Day Four">><</link>>
+</div>

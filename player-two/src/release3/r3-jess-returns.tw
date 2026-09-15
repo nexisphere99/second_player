@@ -1,0 +1,113 @@
+:: R3-JessReturns [release3]
+<<scene "img/scenes/apartment-evening.png" "Watching my own highlight reel from six months ago">>
+
+She doesn't walk through the door. She detonates through it.
+
+I'm on the couch eating cold pizza from a box I found in the fridge. Might be two days old, might be three. The cheese has that waxy quality where you know it's past its prime but you're too broke and too tired to care. I'm watching a YouTube compilation of my own best clips from six months ago, trying to figure out what I was doing right back then that I'm not doing now. The answer is nothing. I was doing the same stuff. The algorithm just liked me for a minute and then moved on.
+
+<<scene "img/scenes/jess-doorway-flushed.png" "Electric flushed">>
+
+Jess drops her bag on the kitchen table hard enough to rattle the salt shaker. She's flushed. Not tired flushed. Electric flushed. Her eyes are doing that thing where the pupils blow wide and you can see the gears spinning behind them at twice normal speed.
+
+//"Oh my god, Ethan. Okay. So."//
+
+She hasn't even taken off her jacket. Her keys are still in her hand. She starts talking and doesn't stop for twenty minutes.
+
+The meeting was supposed to be an hour at the coffee shop on Vine. It went four. Four hours. She describes Marcus's apartment first, the one they apparently migrated to after the coffee got cold. A loft in the arts district. Exposed brick, the kind that costs money to expose, not the kind that means the building is falling apart. His streaming setup, two monitors, professional condenser mic, ring lights that actually stand on their own instead of being clamped to a bookshelf with a hardware store C-clamp like mine.
+
+//"His setup probably cost more than our car,"// she says.
+
+Our car is a 2014 Civic with a dent in the passenger door and a check engine light that's been on so long it feels like a feature. So yeah, probably.
+
+But it's not the apartment she's really talking about. It's Marcus's ideas. He's got a vision, not just I take my shirt off and people give me money, although let's be real, that's the foundation. He wants variety content. A merch line. A podcast. Some kind of fitness app tie in. He wants someone to build the infrastructure. Someone who thinks in systems.
+
+Jess thinks in systems. It's her superpower. When we started, she built me a content calendar in a spreadsheet with color coded cells and conditional formatting and analytics tracking. She mapped out my growth trajectory, fifty thousand we start affiliate, a hundred thousand we do merch, two hundred thousand sponsors. The doc is still in our shared drive. Neither of us has opened it in eight months.
+
+She's talking about Marcus's potential with the same cadence she used to talk about mine. Same hand gestures. Same forward lean. Same brightness in her eyes that I fell in love with three years ago in a dorm common room when she pitched me on streaming as a career.
+
+//"He wants someone to build the architecture of a brand, not just post clips. Ethan, this is what I went to school for."//
+
+She didn't finish school. She dropped out sophomore year to help me stream full time. She doesn't mention this. I don't either.
+
+I ask good questions. I'm supportive. I say things like that sounds incredible and you'd be perfect for that and I mean them, mostly. The supportive boyfriend. The progressive partner who doesn't feel threatened by his girlfriend's professional ambitions.
+
+Underneath, something cold and small curls in my stomach like a cat settling in for a long stay.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Let her finish" "R3-PizzaAlone">><</link>>
+</div>
+
+:: R3-PizzaAlone [release3]
+She finally takes her jacket off. Sits beside me on the couch. Steals a slice of my cold pizza and eats it without commenting on its age, which is love in its most pragmatic form.
+
+//"So should I do it?"//
+
+She's asking. She actually wants my input. There's a window here where I matter.
+
+//"I think you should do what makes you happy."//
+
+It's the right answer. It's also the emptiest possible version of the right answer. She hears the support and misses the void underneath. Or maybe she catches it and decides not to dig. Either way, she squeezes my knee and says, //"I love you."//
+
+She goes to bed early. Energized tired, the good kind, where your brain ran so hard it needs to reboot. I stay on the couch and open Marcus's Twitch. His most recent VOD. I watch the first ten minutes.
+
+He's playing some story game, shirt on this time, and he's doing voices for the characters. He's actually good at it. His chat is a river of engagement. Emotes flying, donations pinging, subscribers rolling in. The effortlessness of it makes my teeth ache. He's not trying. He's just existing on camera, and the world opens its wallet.
+
+I close the tab. Open my own analytics. The lines are flat. A topographical map of nothing.
+
+I eat the last slice of pizza standing at the kitchen counter, staring at the fridge magnets. One is a cat shaped magnet holding Jess's retail schedule. Tuesdays and Thursdays. She's been picking up fewer shifts lately. Making room for Marcus.
+
+<hr class="pt-hr">
+
+<div class="pt-choice-label">Her Enthusiasm</div>
+<div class="pt-choices">
+<<link "I'm really excited for you, Jess. Seriously." "R3-Choice-Excited">><</link>>
+<<link "Just, be careful, okay? His brand is pretty specific." "R3-Choice-Careful">><</link>>
+<<link "Say nothing. Nod. Finish the pizza." "R3-Choice-Silent">><</link>>
+</div>
+
+:: R3-Choice-Excited [release3]
+<<set $jessCloseness += 3>>
+<<set $jessMarcusBond += 10>>
+<<set $r3FirstMeetingChoice to "excited">>
+//"I'm really excited for you, Jess. Seriously."//
+
+Jess beams, kisses your temple, falls asleep on your shoulder on the couch.
+
+<div class="pt-hud-line"><span>Jess Closeness</span><b>+3</b></div>
+<div class="pt-hud-line"><span>Jess, Marcus Bond</span><b>+10, she goes all in with zero hesitation</b></div>
+
+<<set $timeOfDay to "Night">>
+<<set $dayLabel to "Day Six">>
+<<goto "R3-KitchenTable">>
+
+:: R3-Choice-Careful [release3]
+<<set $jessCloseness -= 2>>
+<<set $suspicion += 3>>
+<<set $r3FirstMeetingChoice to "careful">>
+//"Just, be careful, okay? His brand is pretty specific."//
+
+Jess's smile tightens. //"I'm a professional, Ethan."// The word professional lands like a door closing.
+
+<div class="pt-hud-line"><span>Jess Closeness</span><b>-2</b></div>
+<div class="pt-hud-line"><span>Suspicion</span><b>+3</b></div>
+
+<<set $timeOfDay to "Night">>
+<<set $dayLabel to "Day Six">>
+<<goto "R3-KitchenTable">>
+
+:: R3-Choice-Silent [release3]
+<<set $jessCloseness -= 1>>
+<<set $suspicion += 2>>
+<<set $r3FirstMeetingChoice to "silent">>
+You say nothing. Nod. Finish the pizza.
+
+Jess watches you for a beat. Then fills the silence herself. //"It'll be great for us. You'll see."// The you'll see is for her as much as for you.
+
+<div class="pt-hud-line"><span>Jess Closeness</span><b>-1</b></div>
+<div class="pt-hud-line"><span>Suspicion</span><b>+2</b></div>
+
+<<set $timeOfDay to "Night">>
+<<set $dayLabel to "Day Six">>
+<<goto "R3-KitchenTable">>

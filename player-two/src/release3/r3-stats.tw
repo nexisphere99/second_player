@@ -1,0 +1,49 @@
+:: R3-End [release3]
+I go to bed. Sleep in my clothes. Dream about nothing.
+
+<<if $r3ClosingChoice is "text">>
+The read receipt sits there in my head, gray and final. I don't know what I expected. Maybe nothing. Maybe that was the point.
+<<elseif $r3ClosingChoice is "riley">>
+Riley's still up somewhere, probably staring at their own ceiling now. It helps less than I want it to and more than I expected.
+<<elseif $r3ClosingChoice is "wig">>
+The wig sits on the desk next to the headset where I left it. Neither one of us mentions it in the morning, because Jess doesn't come in the bedroom before I fall asleep.
+<<elseif $r3ClosingChoice is "stream">>
+Forty two people stayed up with me for no good reason and it was enough, for an hour, to not think about wine glasses.
+<</if>>
+
+<<endcard "Release 3, Complete" "Jess Starts Managing Marcus" "Ethan hasn't asked the question yet. He's just counting the days until he has to.">>
+
+<div class="pt-choices">
+<<link "See where things stand" "R3-Stats">><</link>>
+</div>
+
+:: R3-Stats [release3]
+<div class="pt-endcard">
+<div class="kicker">End of Release 3</div>
+<h2>Stats so far</h2>
+</div>
+
+<<statbar "Viewers" $viewers 250 $viewers "">>
+<<statbar "Followers" $followers 100000 $followers "">>
+<div class="pt-hud-line"><span>Donations, month</span><b><<= "$" + $donationsMonthly>></b></div>
+<<statbar "Jess Closeness" $jessCloseness 100 $jessCloseness "">>
+<<statbar "Jess, Marcus Bond" $jessMarcusBond 100 $jessMarcusBond "">>
+<<statbar "Suspicion" $suspicion 100 $suspicion "trust">>
+<<statbar "Riley Trust" $rileyTrust 100 $rileyTrust "trust">>
+<<statbar "Community Bond" $communityBond 20 $communityBond "trust">>
+<div class="pt-hud-line"><span>Feminization</span><b>$feminization</b></div>
+<div class="pt-hud-line"><span>Stream Persona</span><b>$streamPersona</b></div>
+<div class="pt-hud-line"><span>Chat Mood</span><b>$chatMood</b></div>
+<div class="pt-hud-line"><span>Self-Image</span><b>$selfImage</b></div>
+<div class="pt-hud-line"><span>Money Stress</span><b><<moneybadge $moneyStress>></b></div>
+<div class="pt-hud-line"><span>First meeting reaction</span><b>$r3FirstMeetingChoice</b></div>
+<div class="pt-hud-line"><span>Chat management</span><b>$r3ChatChoice</b></div>
+<div class="pt-hud-line"><span>GhostReaper42 reply</span><b>$r3GhostReaperChoice</b></div>
+<div class="pt-hud-line"><span>Riley check in</span><b>$r3RileyCheckinChoice</b></div>
+<div class="pt-hud-line"><span>Closing choice</span><b>$r3ClosingChoice</b></div>
+
+<hr class="pt-hr">
+
+<p class="pt-hud-sub">Release 4 picks up from here. Use Restart in the sidebar menu to run the story again from a clean save.</p>
+
+<<patreoncard>>

@@ -1,0 +1,165 @@
+:: R3-RileyTexts [release3]
+My phone buzzes at 9 AM. Riley.
+
+<div class="pt-phone">
+<<phonehead "Riley" "iMessage" "R">>
+<<msg "" "Hey real talk. Jess hasn't been in the mod Discord in like 2 weeks. Everything cool?" "left">>
+</div>
+
+I'm making coffee. Jess left early for a breakfast meeting with Marcus. A breakfast meeting, at 7.30 AM. She used to hit snooze until 8.15 and complain about mornings like they were a personal attack. Now she's voluntarily conscious at 7.30 for someone else.
+
+<div class="pt-phone">
+<<phonehead "Riley" "iMessage" "R">>
+<<msg "" "Yeah she's just busy with the Marcus thing." "right">>
+<<msg "" "Cool cool. Just checking. She used to be in there every night." "left">>
+</div>
+
+Typing indicator. Three dots, disappear, three dots again. The conversational equivalent of someone trying to find the right words for something they know might detonate.
+
+<div class="pt-phone">
+<<phonehead "Riley" "iMessage" "R">>
+<<msg "" "You good tho? Like actually good?" "left">>
+</div>
+
+I stare at the text. The coffee maker gurgles behind me. The apartment is quiet. Jess's soda can from last night is still on the kitchen table next to Marcus's content calendar.
+
+<hr class="pt-hr">
+
+<div class="pt-choice-label">Riley Check In</div>
+<div class="pt-choices">
+<<link "All good. Just adjusting." "R3-Riley-Safe">><</link>>
+<<link "Honestly? I don't know." "R3-Riley-Honest">><</link>>
+<<link "Why wouldn't I be?" "R3-Riley-Defensive">><</link>>
+</div>
+
+:: R3-Riley-Safe [release3]
+<<set $r3RileyCheckinChoice to "safe">>
+"All good. Just adjusting."
+
+Safe. Clean, the answer that closes the door gently. Riley says, "Alright. Here if you need 👊"
+
+<div class="pt-hud-line"><span>Riley Trust</span><b>stable</b></div>
+
+<<set $timeOfDay to "Late Night">>
+<<set $dayLabel to "Day Eight">>
+<<goto "R3-SideQuest-Analytics">>
+
+:: R3-Riley-Honest [release3]
+<<set $rileyTrust += 10>>
+<<set $r3RileyCheckinChoice to "honest">>
+"Honestly? I don't know."
+
+The crack in the wall. The admission that costs something. Riley says, "Want to grab food this week? In person. Not a Discord call. Actual food. My treat."
+
+<div class="pt-hud-line"><span>Riley Trust</span><b>+10</b></div>
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Take Riley up on it" "R3-SideQuest-RileyFood">><<set $timeOfDay to "Evening">><</link>>
+</div>
+
+:: R3-Riley-Defensive [release3]
+<<set $rileyTrust -= 5>>
+<<set $r3RileyCheckinChoice to "defensive">>
+"Why wouldn't I be?"
+
+Defensive, sharp, the kind of reply that tells someone exactly how you're doing by how hard you pretend you're fine. Riley says, "No reason. Just asking." The conversation dies on the table like a fish pulled from water.
+
+<div class="pt-hud-line"><span>Riley Trust</span><b>-5</b></div>
+
+<<set $timeOfDay to "Late Night">>
+<<set $dayLabel to "Day Eight">>
+<<goto "R3-SideQuest-Analytics">>
+
+:: R3-SideQuest-RileyFood [release3 sidequest]
+<<scene "img/scenes/riley-ramen-booth.png" "Real ramen. My treat.">>
+
+Riley picks a ramen place. Not the packet kind. Real ramen. Tonkotsu with a soft boiled egg and chashu pork and a broth that tastes like someone's grandmother spent fourteen hours on it. I haven't had real ramen in three months.
+
+//"My treat,"// Riley says again when I hesitate at the price. Sixteen dollars for a bowl. A luxury by our standards.
+
+We sit in a booth near the back. Riley is wearing a flannel over a graphic tee, hair freshly buzzed on the sides, silver stud in their left ear. They eat methodically, chopsticks precise, not looking up until the first few bites are in.
+
+Then they look up.
+
+//"So. The Marcus thing."//
+
+//"It's fine."//
+
+//"I didn't ask if it was fine. I asked how you are."//
+
+Riley has this thing where they wait. Not like a therapist waits, all performative silence and encouraging nods. Riley waits like a person who genuinely doesn't need to fill the air. They just sit there with their ramen and their patience and their steady brown eyes and they let you come to them.
+
+//"She showers at night now,"// I say. I don't mean to say it. It just comes out, the way a splinter works its way to the surface.
+
+Riley's chopsticks pause midway between bowl and mouth. They process this. You can almost see them deciding not to react, not to project, not to jump to the conclusion that's sitting right there in front of us like a third person at the table.
+
+//"That's new?"//
+
+//"She's always been a morning shower person. Three years. Every day."//
+
+//"Could be a lot of things."//
+
+//"Yeah."//
+
+//"But it's bugging you."//
+
+//"Yeah."//
+
+Riley sets the chopsticks down. //"Ethan. I'm going to say something and I need you to hear it as your friend and not as your mod."//
+
+//"Okay."//
+
+//"If something is happening, you deserve to know, and if nothing is happening, you deserve to stop torturing yourself. Either way, the not knowing is going to eat you."//
+
+//"What am I supposed to do? Ask her if she's sleeping with him?"//
+
+//"I mean. Yeah. Eventually. Maybe not those words."//
+
+We eat in silence for a minute. The broth is incredible. Rich, porky, layered. I think about how I'm eating sixteen dollar ramen with my best friend while discussing whether my girlfriend is sleeping with a man whose body looks like it was designed by a committee of thirsty Instagram users.
+
+//"She talks about him like she used to talk about me,"// I say.
+
+Riley nods. They already knew. They've been watching this from the outside, through the Discord absences and the mod chat silences and the way Jess's name stopped appearing in my stream credits.
+
+//"I noticed,"// Riley says. //"I just didn't want to be the one to say it."//
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Walk home" "R3-RileyWalksHome">><</link>>
+</div>
+
+:: R3-RileyWalksHome [release3]
+<<scene "img/locations/walking-home-autumn.png" "Whatever happens, you've got me">>
+
+Riley walks me halfway home. It's October. The air has that bite to it. Leaves on the sidewalk, crunching under boots. We pass a couple holding hands and I look away from them the way you look away from the sun.
+
+//"Hey,"// Riley says at the intersection where we split. //"Whatever happens. You've got me. Yeah?"//
+
+//"Yeah."//
+
+//"And for the record? Your stream energy has been off. Not bad. Just heavy. Like you're carrying something while you play. Chat can feel it even if they can't name it."//
+
+//"GhostReaper42 said basically the same thing."//
+
+Riley smiles. //"GhostReaper42 is wise beyond their username."//
+
+We fist bump. They head north. I head south. I walk the last four blocks alone, hands in my jacket pockets, thinking about showers and wine glasses and the sound of Jess's laugh when it's aimed at someone else.
+
+The apartment is empty when I get home. Jess is at Marcus's. Of course she is.
+
+I sit at the kitchen table. Her notes are spread across it. I read one upside down, "MARCUS CONTENT STRATEGY Q4," bullet points underneath. One says, "lean into boyfriend energy, direct parasocial connection." Another says, "thirst bracket system for Patreon tiers."
+
+She's engineering desire, professionally, building a machine that manufactures the feeling of being wanted by a beautiful man, and selling it at five, fifteen, fifty dollars a month.
+
+She comes home from that work flushed and showering and asleep in four minutes.
+
+I close my eyes. Rest my forehead on the table, right on top of Marcus's Q4 strategy. The paper smells like Jess's hand lotion. Coconut and vanilla. The scent that used to mean home and now means a person who's increasingly a guest in the space we share.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Sit with it" "R3-SideQuest-Analytics">><<set $timeOfDay to "Late Night">><</link>>
+</div>

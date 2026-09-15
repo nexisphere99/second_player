@@ -1,0 +1,109 @@
+:: R3-EndOfWeek [release3]
+<<set $viewers to 185>>
+<<scene "img/locations/empty-apartment-purple.png" "1 AM. Jess isn't home.">>
+
+Friday night. I'm streaming. A hundred and eighty five viewers. Below my recent average. I'm playing well, actually. Hitting shots, reading rotations, clutching rounds. The gameplay is sharp. The vibes are not.
+
+Chat is quiet. Not hostile. Just thin. Like a room where half the people left during intermission and the ones remaining are being polite about it.
+
+Riley is modding. They're keeping chat clean, engaging with regulars, doing the work Jess used to do. I catch a DM from them between rounds.
+
+<div class="pt-phone">
+<<phonehead "Riley" "mod channel" "R">>
+<div class="pt-msg left">Energy check. You're playing great but your cam presence is flat. Try to react more when you hit clips. The gameplay is there but chat needs the you part.</div>
+</div>
+
+They're right. I've been on autopilot. My face is doing the thousand yard stare while my hands run the muscle memory of a thousand hours of competitive play. Body present, mind elsewhere. Thinking about wine glasses. Shower water. The kitchen table buried under another man's brand strategy.
+
+I force a smile. Pop off on a triple kill. //"Let's go, chat."// The energy is manufactured but the muscle memory of enthusiasm takes over and for a moment I feel something close to alive.
+
+<div class="pt-chat">
+<<chathead $viewers>>
+<div class="pt-chat-body">
+<<chatline "TTVShadowMerc" "THERE HE IS" "#63b3ed">>
+<<chatline "GhostReaper42" "goated 🐐🐐🐐" "#e0b84d">>
+<<chatline "xX_FragQueen_Xx" "king energy!!" "#e0556f">>
+</div>
+</div>
+
+A hundred and eighty five viewers isn't nothing. A hundred and eighty five people chose to spend their Friday night watching me. That counts. That has to count.
+
+The stream ends at midnight. Thirty seven dollars in donations. Jess isn't home. I take off the headset and sit in the silence.
+
+My phone buzzes.
+
+Jess posted an Instagram story. I tap it before I can stop myself.
+
+It's a photo of Marcus's apartment. His living room. Two glasses of wine on the coffee table, a movie paused on the TV behind them. The angle is from the couch. Jess's feet are visible in the frame, socked, tucked under a blanket. Caption, "Friday night vibes 🍷✨"
+
+She's posting cozy Friday nights with another man on the platform where our mutual friends can see, and she didn't text me goodnight.
+
+I put the phone face down on the desk. Look at the stream setup. The cracked bezel monitor. The bookshelf ring light. The empty energy drink cans.
+
+I look at the closet. Somewhere in there is a bag from an online order. Pink wig. Plaid skirt. Thigh high socks. The punishment bet outfit from the tournament I haven't entered yet.
+
+Not tonight. That's a different problem for a different night.
+
+Right now I'm a man sitting in a purple lit bedroom, smelling like eight hours of his own sweat, while his girlfriend drinks wine on another man's couch and posts about it.
+
+<hr class="pt-hr">
+
+<div class="pt-choice-label">Release 3 Closing</div>
+<div class="pt-choices">
+<<link "Text Jess, saw your story, looks like a nice night." "R3-Closing-Text">><</link>>
+<<link "DM Riley, you were right, something's off." "R3-Closing-Riley">><</link>>
+<<link "Open the bag. Hold the pink wig." "R3-Closing-Wig">><</link>>
+<<link "Stream again. Right now. 1 AM." "R3-Closing-Stream">><</link>>
+</div>
+
+:: R3-Closing-Text [release3]
+<<set $suspicion += 10>>
+<<set $jessCloseness -= 5>>
+<<set $r3ClosingChoice to "text">>
+"Saw your story. Looks like a nice night."
+
+Delivered. Read, three dots, no reply. She comes home at 1 AM and doesn't mention the text.
+
+<div class="pt-hud-line"><span>Suspicion</span><b>+10</b></div>
+<div class="pt-hud-line"><span>Jess Closeness</span><b>-5</b></div>
+
+<<goto "R3-End">>
+
+:: R3-Closing-Riley [release3]
+<<set $rileyTrust += 15>>
+<<set $suspicion += 5>>
+<<set $r3ClosingChoice to "riley">>
+"You were right. Something's off."
+
+Riley says, "I know. I've been waiting for you to say it." They talk until 3 AM. Nothing is solved but something is shared.
+
+<div class="pt-hud-line"><span>Riley Trust</span><b>+15</b></div>
+<div class="pt-hud-line"><span>Suspicion</span><b>+5</b></div>
+
+<<goto "R3-End">>
+
+:: R3-Closing-Wig [release3]
+<<set $feminization += 3>>
+<<set $selfImage to "restless">>
+<<set $r3ClosingChoice to "wig">>
+<<scene "img/scenes/pink-wig-on-desk.png" "Two selves, side by side">>
+
+You don't put it on. You just hold it. Run your fingers through the synthetic strands. It's cheap and fake and weighs nothing. You put it on the desk next to your headset. Look at them side by side. The tools of two different people.
+
+You go to bed. The wig stays on the desk.
+
+<div class="pt-hud-line"><span>Feminization</span><b>+3</b></div>
+<div class="pt-hud-line"><span>Self-Image</span><b>Restless</b></div>
+
+<<goto "R3-End">>
+
+:: R3-Closing-Stream [release3]
+<<set $viewers += 15>>
+<<set $communityBond += 5>>
+<<set $r3ClosingChoice to "stream">>
+Forty two viewers. Insomniacs and international fans. You play loose, talk more than usual, laugh at your own misplays. It's the most human you've been on camera in weeks. GhostReaper42 is there. Of course he is.
+
+<div class="pt-hud-line"><span>Viewers, next stream</span><b>+15</b></div>
+<div class="pt-hud-line"><span>Community Bond</span><b>+5</b></div>
+
+<<goto "R3-End">>

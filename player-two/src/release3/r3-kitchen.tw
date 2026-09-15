@@ -1,0 +1,49 @@
+:: R3-KitchenTable [release3]
+<<scene "img/scenes/kitchen-table-calendar.png" "Marcus's content calendar, wall to wall">>
+
+I lose the kitchen table on a Tuesday.
+
+Not literally. It's still there. Four legs, pressboard top, the burn mark from the time I left a pot of ramen boiling and forgot about it for thirty minutes because I was mid clutch in a ranked match. But the surface of it disappears under Marcus's content calendar like snow covering a parking lot.
+
+Printed spreadsheets. Color coded sticky notes, green for confirmed, yellow for pending, red for urgent. Her laptop open to four tabs, all of them Marcus related. His Twitch analytics. His Instagram growth tracker. A sponsorship proposal draft she's writing from scratch. A mood board for his rebrand.
+
+She's working at 10 PM. A can of soda at her elbow, hair twisted up in a messy bun held by a pen, the way she does when she's deep in it. She's completely absorbed. I could set the apartment on fire and she'd ask me to close the door because the smoke is bad for the laptop fan.
+
+I make dinner. Chicken stir fry from a pre made sauce packet because I never learned to cook properly and the recipe videos always require ingredients I can't afford. Sesame oil. Fresh ginger. The sauce packet costs three forty nine and tastes like what actual food thinks about in its dreams.
+
+I set a plate beside her. Between the Instagram analytics printout and a sticky note that says, "MARCUS, thirst trap tier list for Patreon."
+
+//"Thanks, babe."//
+
+She says it to the spreadsheet. Fork in one hand, pen in the other. She eats without looking at the plate. Without looking at me. I am a catering service she doesn't remember ordering.
+
+<<scene "img/scenes/couch-eating-alone.png" "Two people, different continents">>
+
+I eat on the couch, alone, one earbud in, watching a show on my phone. The apartment is quiet except for her pen scratching against paper and the hum of the refrigerator and the sound of traffic four floors down.
+
+This is a Tuesday. It's also a Wednesday, and most Thursdays, and a pattern I can't name yet because naming it would make it real.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Ask about the edits" "R3-TemplateConvo">><</link>>
+</div>
+
+:: R3-TemplateConvo [release3]
+//"I just don't have the bandwidth right now, babe. You can use a template, right?"//
+
+Bandwidth. She actually says bandwidth, like she's a router and I'm a device that's been deprioritized by the network.
+
+Jess hand edited my stream highlights for two years. She'd spend forty minutes on a three minute clip, timing cuts to beats, adding zooms on my best plays, syncing the kill feed with bass drops. She turned my average gameplay into something that felt cinematic. I never thanked her enough for it. I know that now. I knew it then too. I just didn't say it because saying it felt like admitting I needed her for this, and admitting I needed her felt like admitting I wasn't enough on my own.
+
+//"Sure. No problem."//
+
+I download a free template from a Twitch resource site. It's called "CleanCut Pro" and it's anything but. Generic transitions, stock font, no personality. It looks like every other mid tier streamer's content. I upload it and watch the metrics on my latest highlight video flatline like a patient no one's trying to save.
+
+Her edits used to get comments. "Who does your editing?" "The production on this is sick." Nobody comments on CleanCut Pro. Nobody comments much at all anymore.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Go live" "R3-StreamChat">><<set $timeOfDay to "Night">><<set $dayLabel to "Day Seven">><</link>>
+</div>

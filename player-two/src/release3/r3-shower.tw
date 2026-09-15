@@ -1,0 +1,87 @@
+:: R3-ElevenPM [release3]
+<<scene "img/scenes/bedroom-ceiling-purple.png" "Nineteen minutes. She usually showers for eight.">>
+
+Eleven PM. She said nine.
+
+I've been tracking time without meaning to. It's a thing I do now. Nine passes and I think, okay, wrapping up. Nine thirty and I think, traffic maybe. Ten and I think, she would have texted. Ten thirty and I check my phone, nothing there. Ten forty five and I text her, "everything good?"
+
+Read receipt. No reply.
+
+11.02 PM. Key in the lock.
+
+She walks in laughing. Not at something. At the residue of something. A laugh that's still echoing in her chest from wherever she was, carrying forward into our apartment like a sound that doesn't belong in this room.
+
+She's texting as she comes through the door. Thumbs flying. That grin. The grin I haven't caused in I don't know how long.
+
+//"Hey! Sorry I'm late. Marcus had this insane idea for a charity event and we just kept building on it."//
+
+She's flushed. Not tired flushed. She's bright, buzzing, the version of Jess that runs on pure creative adrenaline, the one I fell in love with, except the fuel source has changed and I can feel it even if I can't prove it.
+
+Her cheeks are pink. Her eyes are wide, pupils dilated. She looks like someone who just finished running. Or just finished something else that makes your heart race and your skin hot.
+
+//"I'm going to hop in the shower real quick."//
+
+My brain snags on this like a thread on a nail.
+
+Jess showers in the morning, always. For three years, every single day, she showers in the morning. She has a routine, alarm, shower, coffee, phone, world. It's been the same since we moved in together. I know her rhythms the way you know the layout of a room you've walked through a thousand times in the dark.
+
+She showers at night now. Tonight, this is new.
+
+I lie in bed. The bathroom door is closed. The shower runs.
+
+I tell myself things. Normal things. She was hot. It's July. She walked home. There are reasons. Perfectly good, boring, non devastating reasons why a person would shower at 11 PM on a night they came home two hours late from another man's apartment with dilated pupils and flushed skin and a laugh in their chest that somebody else put there.
+
+The water runs for nineteen minutes.
+
+I count. I don't mean to count. But my brain counts anyway, the way it tracks viewer numbers and follower counts and all the other metrics of my diminishing life. Nineteen minutes. She usually showers for eight.
+
+She comes out in a towel. Skin steaming. She smells like our soap but scrubbed clean in a way that feels intentional. Like she was removing something rather than adding something.
+
+She slides into bed. Kisses my shoulder.
+
+//"Night, babe."//
+
+She falls asleep in four minutes, fast, too fast, the way you sleep when your body has already been spent. When the tension has already been released somewhere else and all that's left is the heavy, sated drop into unconsciousness.
+
+I stare at the ceiling. The LED strips cast everything purple. My mind is doing something I can't stop it from doing. Constructing scenes I don't want to see. Marcus's apartment, the exposed brick, the ring lights. Jess sitting on his counter. The four hours at the coffee shop. The four hours at his apartment. The shower.
+
+I don't touch myself. I just lie there and marinate in a feeling I can't name yet. It's not anger. It's not sadness. It's more like the sensation of standing on a dock and watching a boat pull away from shore, except you're not on the boat and nobody told you it was leaving.
+
+<hr class="pt-hr">
+
+<div class="pt-choice-label">3 AM</div>
+<div class="pt-choices">
+<<link "Pick up the phone, check Instagram" "R3-SideQuest-Instagram">><</link>>
+<<link "Close your eyes, try to sleep" "R3-RileyTexts">><<set $timeOfDay to "Morning">><<set $dayLabel to "Day Eight">><</link>>
+</div>
+
+:: R3-SideQuest-Instagram [release3 sidequest]
+<<scene "img/ui/phone-instagram-wine.png" "Two wine glasses. One with a lipstick print.">>
+
+3 AM. Still awake. Jess is breathing slow and deep beside me, face turned toward the wall. Her phone is on the nightstand, screen down.
+
+I pick up my own phone and open Instagram. I don't follow Marcus. I've never searched for him. But the algorithm knows. It always knows. His profile appears in my suggestions feed like the universe nudging me toward a wound.
+
+I tap.
+
+His latest post is from yesterday. A gym selfie. Tank top, arms out, the kind of casual flex that looks unplanned but definitely isn't. Eight hundred forty seven likes. Comments, all fire emojis and heart eyes and women saying things that would make a sailor blush.
+
+I scroll. More gym. A behind the scenes of his streaming setup. A sunset photo from his apartment balcony, the city spread out below him like something he owns.
+
+Then I find it. Three posts back. A video of two takeout containers on a marble counter. His kitchen. Posted at 8 PM on Thursday. Two containers, two pairs of chopsticks, and in the background, slightly out of focus but unmistakable if you know what you're looking at, two wine glasses. One with a lipstick print on the rim.
+
+Last Thursday. Jess said she was finishing up a proposal at Marcus's place. She came home at 10. Smelling like Thai food and Sauvignon Blanc.
+
+I zoom in on the wine glasses. The lipstick shade is dark, berry something. Jess owns a lipstick called Blackberry Smash that she bought with her birthday money last year. I remember because she held it up in the store and said, //"This is the color of sophistication, babe."//
+
+I'm zoom pinching on wine glass lipstick residue at 3 AM like a crime scene investigator who specializes in heartbreak. This is what I've become. A man lying next to his sleeping girlfriend, cataloging evidence he's not ready to confront.
+
+I put the phone down. Pick it up. Put it down. Pick it up.
+
+I screenshot the takeout photo. Save it to a folder. Then delete the folder. Then pull the screenshot from recently deleted. Then just turn off the phone and put it under the pillow and press my face into the mattress and breathe.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Try to sleep" "R3-RileyTexts">><<set $timeOfDay to "Morning">><<set $dayLabel to "Day Eight">><</link>>
+</div>

@@ -1,0 +1,38 @@
+:: R3-SideQuest-Analytics [release3]
+<<scene "img/ui/analytics-dashboard-2am.png" "His line goes up. Mine goes horizontal.">>
+
+Can't sleep again. 2 AM. The LED strips make the room feel like a submarine. Jess isn't home yet. I stopped texting where are you three days ago because the answers all sound the same and I'm tired of performing the role of the boyfriend who isn't worried.
+
+I pull up my dashboard. The numbers are a story I can't stop reading even though the ending is obvious.
+
+Last thirty days, average concurrent viewers down eight percent. Follower growth, flat. Donation income, down twelve percent. Subscriber churn, up. The line graphs look like a slow motion toboggan ride.
+
+I open Marcus's tracker page because I'm a masochist. He's up fifteen percent across every metric. His growth line is a rocket. Mine is a slug.
+
+I overlay the two graphs mentally. His line goes up. Mine goes horizontal. Jess moved from managing the horizontal line to the rocket. You can't blame her. It's rational. It's strategic. It's also the kind of rational, strategic decision that leaves someone sitting alone at 2 AM comparing their Twitch analytics to the man who might be sleeping with their girlfriend.
+
+I close the dashboard. Open it again. Close it. The refresh compulsion is a tick I've developed. Pull to refresh. Check the number. Feel nothing. Pull again. Seek the dopamine that used to come from growth and find only the dull ache of stagnation.
+
+My phone buzzes, a text from Jess.
+
+<div class="pt-phone">
+<<phonehead "Jess" "iMessage" "J">>
+<<msg "" "Running super late, Marcus's photographer cancelled so we're reshooting promo stuff ourselves. Don't wait up ❤️" "left">>
+</div>
+
+There's that heart emoji again, red, full, deployed without irony. I wonder if she sends the same emoji to Marcus. I wonder if she sends him a different one. I wonder if there are messages between them that I'll never see, carried in a thread I'll never open, saying things that used to belong to our thread.
+
+<div class="pt-phone">
+<<phonehead "Jess" "iMessage" "J">>
+<<msg "" "No worries. Night." "right">>
+</div>
+
+No emoji. The absence of an emoji is its own kind of punctuation. A period where there used to be an exclamation mark. She'll notice or she won't. I'm past caring which.
+
+I pull up a video. Search how to edit Twitch highlights for beginners. If she's not going to do it, I need to learn. The first tutorial is twelve minutes long and makes it look easy. It's not easy. Nothing is easy. But I click play and prop the phone against a pillow and watch a twenty two year old named EditKing explain transitions with the confidence of someone whose girlfriend isn't at another man's apartment at 2 AM.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Friday" "R3-EndOfWeek">><<set $timeOfDay to "Night">><<set $dayLabel to "Day Nine">><</link>>
+</div>

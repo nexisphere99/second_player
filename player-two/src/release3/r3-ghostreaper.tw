@@ -1,0 +1,70 @@
+:: R3-GhostReaperDM [release3]
+After the stream, I notice a DM in my Twitch inbox from GhostReaper42. I almost ignore it. Viewer DMs are usually either requests for free coaching, links to their own channels, or some variation of you should play this other game.
+
+<div class="pt-phone">
+<<phonehead "GhostReaper42" "Twitch DM" "G">>
+<div class="pt-msg left">Hey man. Don't want to be weird but I've been watching you since you had like 2K followers. I can tell something's off lately. Your gameplay is fine but your energy is different. Not bad different. Just heavier. Anyway I re-upped my sub for 6 months. You're worth the investment. Just wanted you to know someone sees the real you behind the headset.</div>
+</div>
+
+I read it three times. Then a fourth time. My eyes sting and I hate that they do.
+
+I type back, "That means more than you know. Seriously. Thank you."
+
+Then I delete the seriously because it sounds too desperate. Then I add it back because it's true. Then I send it and close the laptop and sit in the dark for a minute.
+
+GhostReaper42 has been subbed for nineteen consecutive months. He's sent maybe two hundred dollars in total donations over that period. I don't know his real name. I don't know what he looks like. He's a rectangular avatar and a username and two hundred dollars spread across nineteen months and somehow he just said the most perceptive thing anyone's said to me in weeks.
+
+The real me behind the headset. What does that even look like anymore. I'm not sure the real me is someone worth investing in.
+
+<hr class="pt-hr">
+
+<div class="pt-choice-label">Reply To GhostReaper42</div>
+<div class="pt-choices">
+<<link "Send a genuine voice note thanking him" "R3-GhostReaper-Voice">><</link>>
+<<link "Send a brief text reply, keep it light" "R3-GhostReaper-Text">><</link>>
+<<link "Don't respond. Close the DM." "R3-GhostReaper-Ignore">><</link>>
+</div>
+
+:: R3-GhostReaper-Voice [release3]
+<<set $communityBond += 5>>
+<<set $r3GhostReaperChoice to "voice">>
+You record a thirty second message. Your voice cracks slightly.
+
+<div class="pt-phone">
+<<phonehead "GhostReaper42" "Twitch DM" "G">>
+<div class="pt-msg left">Made my whole week. Keep going king.</div>
+</div>
+
+<div class="pt-hud-line"><span>Community Bond</span><b>+5</b></div>
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Try to sleep" "R3-ElevenPM">><</link>>
+</div>
+
+:: R3-GhostReaper-Text [release3]
+<<set $communityBond += 2>>
+<<set $r3GhostReaperChoice to "text">>
+"Appreciate you GR. OG supporter energy 🙏" Clean, professional, distanced.
+
+<div class="pt-hud-line"><span>Community Bond</span><b>+2</b></div>
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Try to sleep" "R3-ElevenPM">><</link>>
+</div>
+
+:: R3-GhostReaper-Ignore [release3]
+<<set $communityBond -= 3>>
+<<set $r3GhostReaperChoice to "ignore">>
+You meant to reply. You just didn't. The notification sits there for days.
+
+<div class="pt-hud-line"><span>Community Bond</span><b>-3</b></div>
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Try to sleep" "R3-ElevenPM">><</link>>
+</div>
