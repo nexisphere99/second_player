@@ -1,0 +1,28 @@
+:: R6-NPC-SponsorDetail [release6]
+The LunaLocks sales rep, a woman named Dana, follows up via email with a phone call. She's friendly, professional, mid thirties energy, the kind of person who says let's unpack that unironically but somehow makes it work.
+
+//"Ethan, we're really excited about this partnership. Your clip resonated with our core audience in a way we rarely see with first time creators. The authenticity was the thing. You weren't doing a bit. Or if you were, it didn't read that way."//
+
+//"It was a punishment bet."//
+
+//"Sure. But the way you wore it, you owned it. Our analytics showed that the sentiment around your clip was 92% positive. That's almost unheard of for crossdressing content. Usually there's a significant troll contingent. Yours was almost entirely supportive."//
+
+She walks me through the deal. Two streams minimum per month. Two hundred dollars per stream. They provide three wigs of my choice from their catalog, refreshed quarterly. I wear one on stream, tag them in the VOD description and one social media post per stream. Standard influencer contract.
+
+//"The only stipulation is the feminine presentation. We're a cosplay wig brand. Our audience is primarily women and nonbinary individuals who use wigs for creative expression. You resonate with that demo. EthX doesn't."//
+
+//"Right."//
+
+//"I want to be transparent about something, Ethan. We've seen creators take deals like this and burn out because they felt trapped in a persona. That's not what we want. If at any point you need to modify the terms, we talk. No penalties for the first three months. Think of it as a trial."//
+
+She's being kind. The contract is fair. The money is real. The wigs will be better than anything I can afford, and all I have to do is be someone I was for one night. Someone who might already be more real than the person I've been for twenty four years.
+
+//"Can I have the weekend to think?"//
+
+//"Absolutely. Take your time."//
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Friday night" "R6-NightAlone">><<set $timeOfDay to "Evening">><<set $dayLabel to "Day Thirty">><</link>>
+</div>

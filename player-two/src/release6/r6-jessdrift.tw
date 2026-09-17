@@ -1,0 +1,83 @@
+:: R6-JessDrift [release6]
+<<set $jessMarcusBond += 5>>
+<<set $suspicion += 8>>
+<<scene "img/scenes/cooking-dinner-alone.png" "Three nights out of seven, the apartment is mine">>
+
+Jess is spending three evenings a week at Marcus's apartment now.
+
+I count. Monday, Wednesday, Friday sometimes, sometimes Thursday. The schedule rotates but the frequency is fixed. Three nights out of seven, the apartment is mine, not ours, mine.
+
+On those nights I develop rituals I don't tell anyone about. Cook dinner for one. Eat at the counter because the table feels too big for one person, stream, check her Instagram stories between matches. Cook more food she won't eat. Leave it in the fridge with a sticky note. She'll heat it up at midnight or she won't.
+
+The texts have a rhythm now. I could set a clock by them.
+
+7 PM, "Working late tonight, Marcus has a sponsor call to prep for." This is the setup text. The advance warning. She sends it the way a coworker sends a calendar decline, professional, scheduled.
+
+9 PM, "Still going, this deck is huge." The update. The reassurance. The I haven't forgotten you exist reminder that shouldn't need to exist in a relationship where someone actually remembers you exist.
+
+10 PM, "Running late, Marcus wants to reshoot some promo stuff. Don't wait up ❤️" The closer. The heart emoji. That heart emoji.
+
+She sends it the way you sign a form letter. The way you write best regards on an email to someone you've never met, automatic. The heart isn't love. The heart is habit. Muscle memory. A reflex left over from the version of Jess who used to text me can't wait to come home to you and mean every letter.
+
+I sit on the couch and the apartment smells like garlic from the chicken I made that's cooling in the fridge. I open Instagram.
+
+<<scene "img/ui/marcus-takeout-for-two.png" "Two containers. Two chopsticks. Two glasses.">>
+
+Marcus posted twenty minutes ago. His apartment. The kitchen. The good kitchen, the one with the marble counters and the pendant lights and the subway tile backsplash that costs more than my entire apartment's security deposit. He's got takeout containers on the counter. Two of them. Thai food, from the look of it. Two sets of chopsticks laid out side by side. Behind the containers, a bottle of red wine. Half empty. Two glasses.
+
+Two containers. Two chopsticks. Two glasses. He posted this at 8 PM.
+
+At 8 PM Jess texted me that she was still working on a huge deck.
+
+I zoom in. The wine glasses are different sizes. One is larger, a standard pour. The other is smaller, more delicate. The kind of glass you'd choose if you had small hands. Jess has small hands.
+
+I zoom in more. Behind the wine bottle, just at the edge of the frame, there's a jacket draped over a barstool. I can't see the whole thing. Just the sleeve, denim, a shade of denim I recognize the way you recognize your own handwriting.
+
+Something I don't want to name starts tightening in my chest. A fist closing around something that used to be certainty.
+
+She comes home at 11. I'm on the couch pretending to watch a show I stopped following twenty minutes ago. The front door opens and she comes in and I smell it before I see her, different, not wrong, just different. A body wash that isn't the one in our shower. Something woodsy and clean where ours is citrus.
+
+//"Hey babe."// She drops her keys on the counter. Kicks off her shoes. //"Long night."//
+
+//"Yeah?"//
+
+//"Marcus's sponsor deck was a nightmare. Fourteen slides, all needed rework."// She's in the kitchen getting water. Not looking at me. //"But I think we nailed it."//
+
+//"That's great."//
+
+She drinks the water standing at the counter the way I ate dinner standing at the counter three hours ago. Two people using the same kitchen for separate meals. The geometry of drifting.
+
+//"Oh, I started going to the gym, by the way,"// she says, casual, like she's mentioning a weather change. //"Marcus's gym. His trainer offered me a free trial membership."//
+
+Marcus's gym. Marcus's trainer. Marcus's body wash, probably, from the gym shower.
+
+//"That's cool,"// I say.
+
+//"Yeah. It feels good to move, you know? I've been sitting at a desk too much."//
+
+She showers before bed. She usually showers in the morning. Has for the entire three years I've known her. Morning shower person. But tonight she showers at 11.15 PM. The water runs for a long time and I lie in bed and listen to it and count and tell myself I'm not counting.
+
+Twelve minutes, thirteen, fourteen.
+
+She comes out clean, scrubbed, smelling like our soap again, like the fifteen minutes of hot water erased whatever was there before. She slides into bed.
+
+//"Night, babe."//
+
+//"Night."//
+
+She's asleep in four minutes, fast, the kind of fast that comes from a body that's already been spent. The kind of sleep you fall into after a long workout, or after good sex, or after three hours of pretending to be someone's manager when you're becoming something else.
+
+I lie awake. Stare at the ceiling crack. Think about two wine glasses and a jacket on a barstool. Think about eight forty seven dollars and a pink wig. Think about the word or that Riley left hanging.
+
+The phone on my nightstand glows with another notification. I don't look at it. I look at the ceiling.
+
+The crack hasn't changed. Everything else has.
+
+<div class="pt-hud-line"><span>Jess, Marcus Bond</span><b>+5</b></div>
+<div class="pt-hud-line"><span>Suspicion</span><b>+8</b></div>
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "The morning after the regular stream" "R6-SideQuest-ChatCommunity">><<set $timeOfDay to "Morning">><<set $dayLabel to "Day Twenty Seven">><</link>>
+</div>

@@ -106,7 +106,7 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
 		<div id="init-lacking"><p>Browser lacks capabilities required to play.</p><p>Upgrade or switch to another browser.</p></div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<!-- UUID://92F88D4E-2318-43DE-9F9E-2001DA7B3F02// --><tw-storydata name="Player Two" startnode="29" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="92F88D4E-2318-43DE-9F9E-2001DA7B3F02" zoom="1" format="SugarCube" format-version="2.37.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="sidequest" color="#e0b84d"></tw-tag><tw-tag name="intimate" color="#e0556f"></tw-tag><tw-tag name="release1" color="#9b59b6"></tw-tag><tw-tag name="release2" color="#3f7fbf"></tw-tag><tw-tag name="release3" color="#c0704a"></tw-tag><tw-tag name="release4" color="#e0556f"></tw-tag><tw-tag name="release5" color="#e07ab8"></tw-tag><tw-passagedata pid="1" name="StoryCaption" tags="" position="100,100" size="100,100">&lt;&lt;hud&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="StoryMenu" tags="" position="225,100" size="100,100">&lt;&lt;link &quot;Stats so far&quot; &quot;R1-Stats&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="PassageHeader" tags="" position="350,100" size="100,100">&lt;div class=&quot;pt-topbar&quot;&gt;
+	<!-- UUID://92F88D4E-2318-43DE-9F9E-2001DA7B3F02// --><tw-storydata name="Player Two" startnode="29" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="92F88D4E-2318-43DE-9F9E-2001DA7B3F02" zoom="1" format="SugarCube" format-version="2.37.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="release1" color="#9b59b6"></tw-tag><tw-tag name="release2" color="#3f7fbf"></tw-tag><tw-tag name="release3" color="#c0704a"></tw-tag><tw-tag name="release4" color="#e0556f"></tw-tag><tw-tag name="release5" color="#e07ab8"></tw-tag><tw-tag name="release6" color="#7a6fe0"></tw-tag><tw-tag name="sidequest" color="#e0b84d"></tw-tag><tw-tag name="intimate" color="#e0556f"></tw-tag><tw-passagedata pid="1" name="StoryCaption" tags="" position="100,100" size="100,100">&lt;&lt;hud&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="StoryMenu" tags="" position="225,100" size="100,100">&lt;&lt;link &quot;Stats so far&quot; &quot;R1-Stats&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="PassageHeader" tags="" position="350,100" size="100,100">&lt;div class=&quot;pt-topbar&quot;&gt;
 &lt;div class=&quot;pt-brand&quot;&gt;PLAYER &lt;span&gt;TWO&lt;/span&gt;&lt;/div&gt;
 &lt;div class=&quot;pt-daytime&quot;&gt;$dayLabel &amp;middot; &lt;b&gt;$timeOfDay&lt;/b&gt;&lt;/div&gt;
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="4" name="StoryInit" tags="" position="475,100" size="100,100">&lt;&lt;set $viewers to 200&gt;&gt;
@@ -159,7 +159,13 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
 &lt;&lt;set $r5RileyChoice to &quot;none&quot;&gt;&gt;
 &lt;&lt;set $r5LunaFragChoice to &quot;none&quot;&gt;&gt;
 &lt;&lt;set $r5ShadowMercChoice to &quot;none&quot;&gt;&gt;
-&lt;&lt;set $princessMaker99Seen to false&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="R1-Apartment" tags="release1" position="600,100" size="100,100">&lt;&lt;scene &quot;img/locations/apartment-kitchen.png&quot; &quot;The kitchen, one person wide&quot;&gt;&gt;
+&lt;&lt;set $princessMaker99Seen to false&gt;&gt;
+
+&lt;&lt;set $ghostReaperBond to 0&gt;&gt;
+&lt;&lt;set $r6RileyChoice to &quot;none&quot;&gt;&gt;
+&lt;&lt;set $r6DiscordChoice to &quot;none&quot;&gt;&gt;
+&lt;&lt;set $r6LunaChoice to &quot;none&quot;&gt;&gt;
+&lt;&lt;set $r6FinalChoice to &quot;none&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="R1-Apartment" tags="release1" position="600,100" size="100,100">&lt;&lt;scene &quot;img/locations/apartment-kitchen.png&quot; &quot;The kitchen, one person wide&quot;&gt;&gt;
 
 I walk to the kitchen and the apartment walks with me. Three steps from desk to door, eight steps down the hallway, four steps to the fridge. I&#39;ve counted them. When you live somewhere small enough to memorize in footsteps, you stop calling it home and start calling it what it actually is, a container.
 
@@ -3050,9 +3056,9 @@ The apartment is quiet. Marcus&#39;s apartment is across the city and Jess was j
 
 &lt;hr class=&quot;pt-hr&quot;&gt;
 
-&lt;p class=&quot;pt-hud-sub&quot;&gt;Release 6 picks up from here, the aftermath. Use Restart in the sidebar menu to run the story again from a clean save.&lt;/p&gt;
-
-&lt;&lt;patreoncard&gt;&gt;</tw-passagedata><tw-passagedata pid="112" name="R5-NPC-Riley" tags="release5" position="225,1475" size="100,100">&lt;&lt;scene &quot;img/ui/riley-discord-dm.png&quot; &quot;You gonna do it again?&quot;&gt;&gt;
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Continue to Release 6&quot; &quot;R6-Wake&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Morning&quot;&gt;&gt;&lt;&lt;set $dayLabel to &quot;Day Twenty Five&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="112" name="R5-NPC-Riley" tags="release5" position="225,1475" size="100,100">&lt;&lt;scene &quot;img/ui/riley-discord-dm.png&quot; &quot;You gonna do it again?&quot;&gt;&gt;
 
 Discord notification. Riley. A voice message, which is unusual. Riley usually types. I tap play.
 
@@ -3446,7 +3452,700 @@ The raid goes out. I sit there.
 
 &lt;div class=&quot;pt-choices&quot;&gt;
 &lt;&lt;link &quot;After&quot; &quot;R5-PostStream&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Night&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="130" name="Widgets" tags="widget" position="1225,1600" size="100,100">\
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="130" name="R6-SideQuest-ChatCommunity" tags="release6" position="1225,1600" size="100,100">&lt;&lt;scene &quot;img/ui/discord-community-split.png&quot; &quot;Two factions&quot;&gt;&gt;
+
+The morning after the regular stream, I check the Discord server. The community has split into factions overnight. Not hostile factions. More like weather patterns. The climate is shifting and different groups are responding differently.
+
+The old guard, the people who&#39;ve been watching me since the twenty thousand follower mark, are posting in general like concerned parents. TTVShadowMerc, who&#39;s been subbed for eleven months, writes, &quot;Guys can we chill with the femboy pressure? E is a sick gamer and that&#39;s why we&#39;re here.&quot;
+
+FragQueen responds, &quot;I mean, are we tho? Because yesterday 5,000 people showed up for the skirt and today 400 showed up for the gameplay. Numbers don&#39;t lie.&quot;
+
+GhostReaper42, loyal soldier, drops in, &quot;I&#39;m here for Ethan. Whatever version. Both. All of them. dude&#39;s talented regardless.&quot;
+
+But there&#39;s a new faction now. People who found me through the viral clips. They don&#39;t know EthX. They only know EthX-chan. Their first interaction with my channel was a pretty person in a wig pulling headshots, and that&#39;s who they subscribed for. They&#39;re in a dedicated fan art channel already. Someone drew me. Anime style. Long pink hair, blushing cheeks, thigh highs, holding a gaming mouse like a weapon. It&#39;s good. It&#39;s really good, and it makes my stomach do something I can&#39;t categorize.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;Riley&quot; &quot;Discord DM&quot; &quot;R&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Hey. Discord is going through some growing pains. Want me to moderate any specific direction? I can shut down the femboy pressure if you want. Or I can let it ride. Your call.&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+I stare at the message for five minutes.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choice-label&quot;&gt;Discord Moderation&lt;/div&gt;
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Let it ride. Don&#39;t shut anything down.&quot; &quot;R6-Discord-A&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;Can you redirect it? Keep both sides happy?&quot; &quot;R6-Discord-B&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;Shut down the femboy pressure. I&#39;m a gamer, not a cosplayer.&quot; &quot;R6-Discord-C&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="131" name="R6-Discord-A" tags="release6" position="100,1725" size="100,100">&lt;&lt;set $chatMood to &quot;devoted&quot;&gt;&gt;
+&lt;&lt;set $r6DiscordChoice to &quot;letItRide&quot;&gt;&gt;
+&quot;Got it,&quot; Riley says. &quot;Natural selection. Let the community figure itself out.&quot;
+
+The Discord evolves. The EthX-chan channel grows. Fan art multiplies. Someone starts a glow up suggestions thread with makeup tutorial links. Someone else creates a custom emoji of my face from the stream, blushing. The old guard adapts or goes quiet. The new energy takes over.
+
+&lt;&lt;goto &quot;R6-SideQuest-GhostReaper&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="132" name="R6-Discord-B" tags="release6" position="225,1725" size="100,100">&lt;&lt;set $rileyTrust += 3&gt;&gt;
+&lt;&lt;set $chatMood to &quot;divided&quot;&gt;&gt;
+&lt;&lt;set $r6DiscordChoice to &quot;redirect&quot;&gt;&gt;
+&quot;I can try. Maybe a both are valid pinned post. Celebrate the gameplay and the persona. Give people permission to like both.&quot;
+
+Riley writes a pinned message that&#39;s diplomatically brilliant, &quot;EthX is the player. EthX-chan is the performance. Both are Ethan. Both are fire. Respect both or catch a ban.&quot; It works. The factions coexist. Uneasily, but they coexist.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Riley Trust&lt;/span&gt;&lt;b&gt;+3&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;goto &quot;R6-SideQuest-GhostReaper&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="133" name="R6-Discord-C" tags="release6" position="350,1725" size="100,100">&lt;&lt;set $feminization -= 1&gt;&gt;
+&lt;&lt;set $followers -= 500&gt;&gt;
+&lt;&lt;set $chatMood to &quot;loyal&quot;&gt;&gt;
+&lt;&lt;set $r6DiscordChoice to &quot;shutDown&quot;&gt;&gt;
+Riley pauses. &quot;Okay. I&#39;ll moderate it. But E, the numbers are going to keep telling the same story regardless of what chat says.&quot;
+
+They mod hard. Delete some of the pushier comments. Pin a message, &quot;EthX is a competitive FPS streamer. Respect the content or find another channel.&quot; Some of the new followers leave. The Discord gets quieter, smaller, more familiar. Whether that&#39;s a comfort or a coffin depends on the angle.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Followers&lt;/span&gt;&lt;b&gt;-500, some of the new crowd leaves&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;goto &quot;R6-SideQuest-GhostReaper&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="134" name="R6-FinalChoice" tags="release6" position="475,1725" size="100,100">The weekend passes. Sunday night. Jess is home for once, on the couch, editing something on her laptop. Marcus&#39;s content, probably, but at least she&#39;s physically here. The apartment smells like the candle she lit, the vanilla one, and for a few minutes it almost feels like before.
+
+I&#39;ve been thinking about the sponsor deal for three days. The email is still open in a tab I keep switching back to. Dana&#39;s voice echoes, no penalties for the first three months. Riley&#39;s voice, you already know the answer. LunaFrag&#39;s voice, decide before the algorithm decides for you. GhostReaper42&#39;s voice, three dollars at a time until one of us dies.
+
+My phone glows. Another notification. Someone tagged me in a post, &quot;When is EthX-chan coming back? give the people what they want.&quot;
+
+I look at Jess on the couch. She&#39;s concentrating. Her bottom lip caught between her teeth the way it gets when she&#39;s focused. She used to look like that editing my highlights.
+
+I look at the email.
+
+I look at the mirror in the hallway. Just a glance. Just my face. Just me.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choice-label&quot;&gt;The Decision&lt;/div&gt;
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Accept the sponsor deal&quot; &quot;R6-Final-Accept&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;Decline and keep trying regular content&quot; &quot;R6-Final-Decline&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;Confront Jess about her hours&quot; &quot;R6-Final-Confront&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="135" name="R6-Final-Accept" tags="release6" position="600,1725" size="100,100">&lt;&lt;set $feminization += 10&gt;&gt;
+&lt;&lt;set $moneyStress to &quot;moderate&quot;&gt;&gt;
+&lt;&lt;set $donationsMonthly += 400&gt;&gt;
+&lt;&lt;set $r6FinalChoice to &quot;accept&quot;&gt;&gt;
+&lt;&lt;scene &quot;img/scenes/lunalocks-package.png&quot; &quot;Hey. She doesn&#39;t answer. But she doesn&#39;t leave either.&quot;&gt;&gt;
+
+I type the reply at 11 PM. &quot;Dana, I&#39;m in. Let&#39;s do this.&quot; Send.
+
+The cursor blinks for a second after the message goes. A held breath. Then, done, committed. At least two EthX-chan streams per month. Professional wigs. Real money. A persona that isn&#39;t a punishment anymore. It&#39;s a career decision.
+
+The LunaLocks package arrives three days later. Three wigs in a branded box with tissue paper and care instructions. The chestnut brown one is even prettier in person. I hold it in my hands and it feels like real hair and it weighs almost nothing and it cost more than every piece of clothing I own combined.
+
+I put it on in the bathroom, alone, no camera, no audience. Just me and the mirror. The chestnut waves frame my face and the person looking back is someone I&#39;m going to have to get to know.
+
+&quot;Hey,&quot; I say to her. My voice sounds stupid. I say it again anyway. &quot;Hey.&quot;
+
+She doesn&#39;t answer. But she doesn&#39;t leave either.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Feminization&lt;/span&gt;&lt;b&gt;+10&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Money Stress&lt;/span&gt;&lt;b&gt;moderate, the sponsor money helps&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;goto &quot;R6-ReleaseEnd&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="136" name="R6-Final-Decline" tags="release6" position="725,1725" size="100,100">&lt;&lt;set $viewers to 190&gt;&gt;
+&lt;&lt;set $r6FinalChoice to &quot;decline&quot;&gt;&gt;
+&lt;&lt;scene &quot;img/scenes/declining-empty-stream.png&quot; &quot;The slope heading toward a number I don&#39;t want to think about&quot;&gt;&gt;
+
+I type the reply at 11 PM. &quot;Dana, I appreciate the offer, but I&#39;m going to pass for now. I want to focus on my competitive gaming content.&quot; Send.
+
+The cursor blinks. The rejection is polite and professional and it tastes like sawdust.
+
+I stream as EthX for the next week. Monday, two hundred fifty viewers. Wednesday, two hundred twenty. Friday, a hundred ninety. The decline is visible. A slope heading toward a number I don&#39;t want to think about.
+
+GhostReaper42 donates five dollars every stream. The only constant in a room that&#39;s emptying.
+
+The wig from the punishment stream is in a bag in the closet. I don&#39;t throw it away. I tell myself that&#39;s because it wasn&#39;t mine to throw away, it was a costume, it belongs to the bit. I tell myself a lot of things at 2 AM while the bag sits in the closet and the closet sits in the room and the room sits in an apartment that&#39;s getting quieter by the week.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Viewers&lt;/span&gt;&lt;b&gt;190, the slope continues&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;goto &quot;R6-ReleaseEnd&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="137" name="R6-Final-Confront" tags="release6" position="850,1725" size="100,100">&lt;&lt;set $jessCloseness += 3&gt;&gt;
+&lt;&lt;set $r6FinalChoice to &quot;confront&quot;&gt;&gt;
+&lt;&lt;scene &quot;img/scenes/confronting-jess.png&quot; &quot;For one night the apartment feels like it belongs to two people again&quot;&gt;&gt;
+
+&quot;You&#39;re never here anymore.&quot; The words come out before I plan them. Sunday night. She&#39;s on the couch. I&#39;m in the kitchen doorway. The vanilla candle is burning between us like a tiny mediator.
+
+Her head snaps up. &quot;What?&quot;
+
+&quot;You&#39;re never here. Three nights a week at Marcus&#39;s place. You come home smelling like someone else&#39;s shower. You stopped editing my highlights. You stopped watching my streams. You weren&#39;t even here for the biggest night of my career.&quot;
+
+&quot;I&#39;m working, Ethan. For us. You think managing Marcus is a vacation? You think I&#39;m sitting around drinking wine at his apartment? I&#39;m building a brand.&quot;
+
+The wine glasses flash through my mind. The takeout for two. The lipstick on the rim.
+
+&quot;I&#39;m not saying you&#39;re not working.&quot;
+
+&quot;Then what are you saying?&quot;
+
+I don&#39;t know what I&#39;m saying. I know what I&#39;m thinking but the thinking and the saying are different animals and only one of them is safe to release.
+
+&quot;I just miss you,&quot; I say. The truest, smallest, most pathetic version of everything I&#39;m feeling. Condensed into four words that don&#39;t even begin to cover it.
+
+Her face softens. For a second she&#39;s the Jess from three years ago. The one who would have crossed the room and held me.
+
+&quot;I miss you too, babe. I&#39;ll be home more. I promise.&quot;
+
+She won&#39;t be. We both know she won&#39;t be. But the promise is warm and the candle smells like vanilla and for one night the apartment feels like it belongs to two people again.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Jess Closeness&lt;/span&gt;&lt;b&gt;+3&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;goto &quot;R6-ReleaseEnd&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="138" name="R6-SideQuest-GhostReaper" tags="release6" position="975,1725" size="100,100">&lt;&lt;set $ghostReaperBond to 15&gt;&gt;
+&lt;&lt;scene &quot;img/ui/ghostreaper-message.png&quot; &quot;$3 at a time until one of us dies&quot;&gt;&gt;
+
+My oldest consistent donor sends me a DM on Discord, GhostReaper42. They&#39;ve donated over three hundred dollars total across eleven months. Never more than five dollars at a time. Every single stream. Rain or shine. Three dollars here, five there, with messages like &quot;nice shot king&quot; and &quot;goated gameplay&quot; and &quot;still the best.&quot; Small money from what I imagine is a small budget, given with the consistency of a heartbeat.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;GhostReaper42&quot; &quot;Discord DM&quot; &quot;G&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Hey E. Can I be real with you for a sec?&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Yeah, always.&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;I&#39;ve been watching you since you had 12K followers. I found you because you pulled off a 1v5 clutch in a tournament qualifier and someone posted it on a forum. That clip changed how I thought about the game. You made me want to get better.&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+I read the message and something in my chest aches.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;GhostReaper42&quot; &quot;Discord DM&quot; &quot;G&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Yesterday&#39;s stream was fun. You looked great. Chat was insane. I get it. But I wanted you to know that some of us are here because you&#39;re an incredible player. Not because of the outfit. I&#39;ll watch you in a paper bag or a ball gown. Doesn&#39;t matter. You&#39;re the reason I hit Diamond this season.&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Ghost, that means a lot. Seriously.&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;I know the numbers are pulling you one way. I just wanted to be a voice in the other direction. Whatever you decide, I&#39;m here. $3 at a time until one of us dies lol.&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+I screenshot the message. Not because I&#39;m building a file. Because I need to remember that someone sees the version of me I worked for. The one with the callouts and the clutches and the years of grinding aim trainers until my wrist ached.
+
+Three dollars at a time until one of us dies.
+
+The screenshot goes in my camera roll. Right next to the photo Jess took of me in the wig.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;GhostReaper42 Bond&lt;/span&gt;&lt;b&gt;15, new&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;LunaFrag DMs me&quot; &quot;R6-SideQuest-LunaFrag&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="139" name="R6-JessDrift" tags="release6" position="1100,1725" size="100,100">&lt;&lt;set $jessMarcusBond += 5&gt;&gt;
+&lt;&lt;set $suspicion += 8&gt;&gt;
+&lt;&lt;scene &quot;img/scenes/cooking-dinner-alone.png&quot; &quot;Three nights out of seven, the apartment is mine&quot;&gt;&gt;
+
+Jess is spending three evenings a week at Marcus&#39;s apartment now.
+
+I count. Monday, Wednesday, Friday sometimes, sometimes Thursday. The schedule rotates but the frequency is fixed. Three nights out of seven, the apartment is mine, not ours, mine.
+
+On those nights I develop rituals I don&#39;t tell anyone about. Cook dinner for one. Eat at the counter because the table feels too big for one person, stream, check her Instagram stories between matches. Cook more food she won&#39;t eat. Leave it in the fridge with a sticky note. She&#39;ll heat it up at midnight or she won&#39;t.
+
+The texts have a rhythm now. I could set a clock by them.
+
+7 PM, &quot;Working late tonight, Marcus has a sponsor call to prep for.&quot; This is the setup text. The advance warning. She sends it the way a coworker sends a calendar decline, professional, scheduled.
+
+9 PM, &quot;Still going, this deck is huge.&quot; The update. The reassurance. The I haven&#39;t forgotten you exist reminder that shouldn&#39;t need to exist in a relationship where someone actually remembers you exist.
+
+10 PM, &quot;Running late, Marcus wants to reshoot some promo stuff. Don&#39;t wait up ❤️&quot; The closer. The heart emoji. That heart emoji.
+
+She sends it the way you sign a form letter. The way you write best regards on an email to someone you&#39;ve never met, automatic. The heart isn&#39;t love. The heart is habit. Muscle memory. A reflex left over from the version of Jess who used to text me can&#39;t wait to come home to you and mean every letter.
+
+I sit on the couch and the apartment smells like garlic from the chicken I made that&#39;s cooling in the fridge. I open Instagram.
+
+&lt;&lt;scene &quot;img/ui/marcus-takeout-for-two.png&quot; &quot;Two containers. Two chopsticks. Two glasses.&quot;&gt;&gt;
+
+Marcus posted twenty minutes ago. His apartment. The kitchen. The good kitchen, the one with the marble counters and the pendant lights and the subway tile backsplash that costs more than my entire apartment&#39;s security deposit. He&#39;s got takeout containers on the counter. Two of them. Thai food, from the look of it. Two sets of chopsticks laid out side by side. Behind the containers, a bottle of red wine. Half empty. Two glasses.
+
+Two containers. Two chopsticks. Two glasses. He posted this at 8 PM.
+
+At 8 PM Jess texted me that she was still working on a huge deck.
+
+I zoom in. The wine glasses are different sizes. One is larger, a standard pour. The other is smaller, more delicate. The kind of glass you&#39;d choose if you had small hands. Jess has small hands.
+
+I zoom in more. Behind the wine bottle, just at the edge of the frame, there&#39;s a jacket draped over a barstool. I can&#39;t see the whole thing. Just the sleeve, denim, a shade of denim I recognize the way you recognize your own handwriting.
+
+Something I don&#39;t want to name starts tightening in my chest. A fist closing around something that used to be certainty.
+
+She comes home at 11. I&#39;m on the couch pretending to watch a show I stopped following twenty minutes ago. The front door opens and she comes in and I smell it before I see her, different, not wrong, just different. A body wash that isn&#39;t the one in our shower. Something woodsy and clean where ours is citrus.
+
+//&quot;Hey babe.&quot;// She drops her keys on the counter. Kicks off her shoes. //&quot;Long night.&quot;//
+
+//&quot;Yeah?&quot;//
+
+//&quot;Marcus&#39;s sponsor deck was a nightmare. Fourteen slides, all needed rework.&quot;// She&#39;s in the kitchen getting water. Not looking at me. //&quot;But I think we nailed it.&quot;//
+
+//&quot;That&#39;s great.&quot;//
+
+She drinks the water standing at the counter the way I ate dinner standing at the counter three hours ago. Two people using the same kitchen for separate meals. The geometry of drifting.
+
+//&quot;Oh, I started going to the gym, by the way,&quot;// she says, casual, like she&#39;s mentioning a weather change. //&quot;Marcus&#39;s gym. His trainer offered me a free trial membership.&quot;//
+
+Marcus&#39;s gym. Marcus&#39;s trainer. Marcus&#39;s body wash, probably, from the gym shower.
+
+//&quot;That&#39;s cool,&quot;// I say.
+
+//&quot;Yeah. It feels good to move, you know? I&#39;ve been sitting at a desk too much.&quot;//
+
+She showers before bed. She usually showers in the morning. Has for the entire three years I&#39;ve known her. Morning shower person. But tonight she showers at 11.15 PM. The water runs for a long time and I lie in bed and listen to it and count and tell myself I&#39;m not counting.
+
+Twelve minutes, thirteen, fourteen.
+
+She comes out clean, scrubbed, smelling like our soap again, like the fifteen minutes of hot water erased whatever was there before. She slides into bed.
+
+//&quot;Night, babe.&quot;//
+
+//&quot;Night.&quot;//
+
+She&#39;s asleep in four minutes, fast, the kind of fast that comes from a body that&#39;s already been spent. The kind of sleep you fall into after a long workout, or after good sex, or after three hours of pretending to be someone&#39;s manager when you&#39;re becoming something else.
+
+I lie awake. Stare at the ceiling crack. Think about two wine glasses and a jacket on a barstool. Think about eight forty seven dollars and a pink wig. Think about the word or that Riley left hanging.
+
+The phone on my nightstand glows with another notification. I don&#39;t look at it. I look at the ceiling.
+
+The crack hasn&#39;t changed. Everything else has.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Jess, Marcus Bond&lt;/span&gt;&lt;b&gt;+5&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Suspicion&lt;/span&gt;&lt;b&gt;+8&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;The morning after the regular stream&quot; &quot;R6-SideQuest-ChatCommunity&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Morning&quot;&gt;&gt;&lt;&lt;set $dayLabel to &quot;Day Twenty Seven&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="140" name="R6-NPC-JessMorning" tags="release6" position="1225,1725" size="100,100">&lt;&lt;scene &quot;img/scenes/jess-working-graphics.png&quot; &quot;MarcKing LIVE, Charity Stream Marathon, 48 Hours&quot;&gt;&gt;
+
+A rare morning where Jess is actually here. She&#39;s at the kitchen table with coffee and her laptop, working on something. I can see the screen from the counter where I&#39;m pouring cereal. She&#39;s got a design tool open. A graphic. Marcus&#39;s face, professionally lit, with text overlay, &quot;MarcKing LIVE, Charity Stream Marathon, 48 Hours.&quot;
+
+//&quot;Forty eight hour charity stream?&quot;// I say.
+
+She looks up. //&quot;Yeah. It&#39;s going to be huge. We&#39;re partnering with three nonprofits and a gaming chair company is matching donations up to fifty K.&quot;// Her eyes are bright. That brightness. The one I remember from when she used to plan my milestone streams. //&quot;I&#39;ve been designing all the overlay graphics, the countdown timer, the donation tracker display.&quot;//
+
+She turns the laptop toward me. The graphics are gorgeous. Clean, professional, Marcus&#39;s brand colors. She put real work into these. Real talent. The kind of focused creative energy that used to go into my channel.
+
+//&quot;These look amazing, Jess.&quot;//
+
+//&quot;Thanks.&quot;// She smiles. Real smile. Then her phone buzzes. She glances at it. The smile changes. Softens into something private. She texts back with one thumb, fast, and puts the phone face down on the table.
+
+//&quot;So,&quot;// she says, turning back to me. //&quot;I saw the sponsor email in your inbox. The wig company?&quot;//
+
+I freeze. //&quot;You saw that?&quot;//
+
+//&quot;Your laptop was open on the counter this morning. I wasn&#39;t snooping, it was just there. LunaLocks?&quot;//
+
+//&quot;Yeah. They want to sponsor EthX-chan streams.&quot;//
+
+//&quot;Ethan, that&#39;s amazing.&quot;// She leans forward. Genuinely excited. //&quot;Two hundred per stream? That&#39;s not nothing, and with the donation numbers from the other night.&quot;//
+
+She does the math out loud. Same math I already did. Same numbers. Same conclusion. But hearing her say it makes it different. More real. More like a plan and less like a surrender.
+
+//&quot;You should do it,&quot;// she says.
+
+//&quot;You think?&quot;//
+
+//&quot;Babe, your regular streams are flatlined. I love you and I believe in your talent, but the numbers don&#39;t lie. This is a door. Walk through it.&quot;//
+
+The advice is good. The advice is correct. The advice comes from the same woman who walked through her own door six weeks ago when Marcus DM&#39;d her, and hasn&#39;t fully come back through mine since.
+
+//&quot;Your cereal&#39;s getting soggy,&quot;// she says, nodding at my bowl.
+
+I eat soggy cereal and think about doors.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Over the next few days&quot; &quot;R6-EverywhereAtOnce&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="141" name="R6-EverywhereAtOnce" tags="release6" position="100,1850" size="100,100">Over the next few days, EthX-chan continues to echo through the internet without me doing anything. I&#39;m not streaming as her. I&#39;m not posting about her. But she&#39;s alive in the machine.
+
+A compilation channel edits my best moments from the stream into a three minute video titled &quot;EthX-chan Best Moments, Femboy Gamer Goes Viral.&quot; It gets a hundred eighty thousand views in four days. The comments are a spectrum from supportive to horny to philosophical.
+
+&quot;this is what happens when men stop being afraid of being pretty.&quot; &quot;I would literally die for EthX-chan.&quot; &quot;bruh I&#39;m not even into femboys but something about this person is different.&quot; &quot;the way he read that good girl donation, he liked it, like LIKED it liked it. I know that face.&quot;
+
+I read that last comment seven times. Close the tab. Open the tab. Read it again.
+
+Someone has lip synced over my stream audio, dubbing my reactions into a thirst trap format. It has four hundred thousand views. My face. My voice. My reactions. Remixed and repackaged into content I didn&#39;t create and can&#39;t control.
+
+The algorithm has opinions about me now. It decided who I am based on one night in a plaid skirt, and it&#39;s not interested in hearing counterarguments.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;The sales rep calls&quot; &quot;R6-NPC-SponsorDetail&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="142" name="R6-SideQuest-LunaFrag" tags="release6" position="225,1850" size="100,100">LunaFrag DMs me on Twitch. We were bracket partners in the tournament. She lost too. She also has a dare to complete, though hers is easier since she&#39;s already a woman and femboy cosplay for her just means leaning harder into aesthetic.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;LunaFrag&quot; &quot;Direct message&quot; &quot;L&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Hey Ethan. Crazy week, huh?&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Understatement.&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;So listen. I&#39;ve been doing this streaming thing for two years and I want to share something that took me a long time to learn. The algorithm is not your friend. It&#39;s not your enemy either. It&#39;s an animal. It responds to stimulus. When you fed it EthX-chan, it got excited. That doesn&#39;t mean EthX-chan is your identity. It means the algorithm is hungry.&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;What are you saying?&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;I&#39;m saying you can use the persona without becoming it. Or you can become it. Both are valid. But decide which one it is before the algorithm decides for you. Because once the machine starts running, it&#39;s really hard to stop.&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+Smart. Sharper than I expected from someone I only knew through crosshairs and callouts.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;LunaFrag&quot; &quot;Direct message&quot; &quot;L&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Also, your headshot percentage in round 3 was disgusting. Like, actually filthy. You&#39;re a better player than your numbers show. That&#39;s the worst kind of undervalued.&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choice-label&quot;&gt;LunaFrag&#39;s Advice&lt;/div&gt;
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Thanks, Luna. I think I&#39;m going to use it. Strategically.&quot; &quot;R6-Luna-A&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;I&#39;m honestly not sure what I&#39;m doing.&quot; &quot;R6-Luna-B&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;I might be done with the femboy thing. One and done.&quot; &quot;R6-Luna-C&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="143" name="R6-Luna-A" tags="release6" position="350,1850" size="100,100">&lt;&lt;set $feminization += 1&gt;&gt;
+&lt;&lt;set $r6LunaChoice to &quot;strategic&quot;&gt;&gt;
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;LunaFrag&quot; &quot;Direct message&quot; &quot;L&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Thanks, Luna. I think I&#39;m going to use it. The persona. Strategically.&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Smart. Just keep the leash on. You steer it, it doesn&#39;t steer you.&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+&lt;&lt;set $timeOfDay to &quot;Morning&quot;&gt;&gt;
+&lt;&lt;set $dayLabel to &quot;Day Twenty Eight&quot;&gt;&gt;
+&lt;&lt;goto &quot;R6-NPC-JessMorning&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="144" name="R6-Luna-B" tags="release6" position="475,1850" size="100,100">&lt;&lt;set $r6LunaChoice to &quot;notSure&quot;&gt;&gt;
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;LunaFrag&quot; &quot;Direct message&quot; &quot;L&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;I&#39;m honestly not sure what I&#39;m doing.&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;That&#39;s the most honest answer in streaming. Nobody knows what they&#39;re doing. We just pretend and clip the good parts.&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+&lt;&lt;set $timeOfDay to &quot;Morning&quot;&gt;&gt;
+&lt;&lt;set $dayLabel to &quot;Day Twenty Eight&quot;&gt;&gt;
+&lt;&lt;goto &quot;R6-NPC-JessMorning&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="145" name="R6-Luna-C" tags="release6" position="600,1850" size="100,100">&lt;&lt;set $r6LunaChoice to &quot;oneDone&quot;&gt;&gt;
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;LunaFrag&quot; &quot;Direct message&quot; &quot;L&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;I might be done with the femboy thing. One and done.&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Fair. But keep the door cracked. You never know what you might want to walk through later.&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+&lt;&lt;set $timeOfDay to &quot;Morning&quot;&gt;&gt;
+&lt;&lt;set $dayLabel to &quot;Day Twenty Eight&quot;&gt;&gt;
+&lt;&lt;goto &quot;R6-NPC-JessMorning&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="146" name="R6-NightAlone" tags="release6" position="725,1850" size="100,100">&lt;&lt;scene &quot;img/ui/wig-catalog-night.png&quot; &quot;Not to decide. Just to look.&quot;&gt;&gt;
+
+Friday night. Jess is at Marcus&#39;s. She didn&#39;t specify what they&#39;re working on tonight. The text just said &quot;Marcus stuff&quot; and that was it. Two words and a period. Not even a heart emoji this time.
+
+I cook chicken thighs with garlic and lemon. Jess&#39;s favorite. I don&#39;t know why I made her favorite when she&#39;s not here. Force of habit. Cooking for a ghost.
+
+I eat at the counter. One plate. One fork. One glass of water. The apartment is so quiet I can hear the fridge humming and the upstairs neighbor&#39;s TV, muffled through the ceiling. Sounds like a cooking show. Somebody else&#39;s food filling somebody else&#39;s silence.
+
+After dinner I open my laptop and navigate to LunaLocks&#39;s wig catalog. Not to decide. Just to look.
+
+The wigs are beautiful. Proper lace fronts with natural hairlines. Colors ranging from jet black to platinum to rose gold. There&#39;s a chestnut brown with subtle highlights that catches me. Shoulder length. Natural wave. The model wearing it looks effortlessly feminine, the kind of wig that disappears into being hair instead of being a costume.
+
+I add it to a wishlist. Close the tab. Open the tab. Add two more. Close the tab.
+
+&lt;&lt;scene &quot;img/scenes/mirror-just-himself.png&quot; &quot;Just a twenty four year old guy in a shitty apartment&quot;&gt;&gt;
+
+I go to the bathroom. Stand in front of the mirror. Just me. No wig, no makeup, no skirt. Boxers and a t-shirt. I study my face the way someone will teach me to study it later, though I don&#39;t know that yet. I look at the jaw Jess never commented on, the cheekbones the internet says are insane, the lips that looked fuller with tint on them.
+
+I look at the person in the mirror and I try to see what five thousand people saw. What made them scream and donate and clip and share. What made GhostReaper42 say he&#39;d watch me in a ball gown. What made the commenter online say he liked it.
+
+I lean closer. The fluorescent light is harsh. My skin looks tired. There are dark circles under my eyes that concealer covered two days ago. Without the wig, without the makeup, I&#39;m just a twenty four year old guy in a shitty apartment with a flatlined streaming career and a girlfriend who smells like someone else&#39;s body wash.
+
+I think about the photo Jess took. The one where I look happy.
+
+I think about eight forty seven dollars.
+
+I think about twenty three dollars.
+
+I think about two wine glasses and a half empty bottle and a jacket I recognized from across an Instagram story.
+
+I wash my face. Brush my teeth. Go to bed alone. The sheets are cold on both sides.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;1 AM, doom scrolling&quot; &quot;R6-SideQuest-StreamerForum&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Late Night&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="147" name="R6-SideQuest-StreamerForum" tags="release6" position="850,1850" size="100,100">I find it while doom scrolling at 1 AM. A thread on a streaming forum I lurk on sometimes. The title, &quot;When your persona is more successful than you.&quot;
+
+The original post isn&#39;t about me specifically. It&#39;s a general discussion. But the first response links my clip.
+
+&quot;See, EthX slash EthX-chan. Guy did one femboy stream as a bet and his numbers went from 200 to 5K. His regular stream the next day? 400. The persona IS the product now. He just doesn&#39;t know it yet.&quot;
+
+The thread is full of streamers who&#39;ve been through something similar. A woman who started doing ASMR as a joke and now can&#39;t stream without it. A guy who did one drunk stream that went viral and now his audience only wants him wasted. A cosplayer who built an entire career on a single character and feels trapped inside someone else&#39;s skin.
+
+One comment hits me like a fist.
+
+&quot;The question isn&#39;t whether the persona is fake. The question is whether the real version was ever the authentic one. Sometimes the mask reveals the face.&quot;
+
+I screenshot it. Put it in the same hidden album as Jess&#39;s photo of me in the wig.
+
+The hidden album now has two screenshots and a photo. A beginning of a collection. A beginning of evidence. For or against what, I&#39;m not sure yet.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;The thing I know I shouldn&#39;t do&quot; &quot;R6-MarcusSocials&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="148" name="R6-MarcusSocials" tags="release6" position="975,1850" size="100,100">&lt;&lt;set $suspicion += 5&gt;&gt;
+I do the thing I know I shouldn&#39;t do. The thing that feels like picking at a scab. I open Marcus&#39;s Instagram.
+
+New post. Gym selfie. Fresh pump. His arms look like they&#39;re carved from something denser than human flesh. Veins tracking along his forearms like rivers on a topographic map. Tank top soaked through. That smile. The one that makes you feel like he&#39;s smiling specifically at you even though he&#39;s smiling at a phone camera in a gym mirror.
+
+&quot;Consistency over everything 💪&quot; is the caption. Four thousand likes. Comments are predictable. Fire emoji. Heart eyes emoji. Step on me from twelve different accounts.
+
+I scroll his stories. Gym clip. Meal prep. Behind the scenes of a stream setup. His apartment. Always his apartment. The marble counters. The pendant lights. The space that makes my studio apartment look like a closet someone put a bed in.
+
+I find a story from five days ago I missed. Restaurant, candlelit. Low music, probably. Two wine glasses on the table, shot from his perspective. The second glass has lipstick on the rim. A shade of pink I&#39;ve seen on tissues in our bathroom trash.
+
+He&#39;s not tagging anyone. He&#39;s not captioning it with a name. But two glasses in a candlelit restaurant is not a business dinner. Two glasses with lipstick is not a sponsor meeting. Two glasses with that particular shade of pink is not ambiguous.
+
+I put the phone down. Face down. Pick it up. Put it down.
+
+Pick it up. Keep scrolling.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Suspicion&lt;/span&gt;&lt;b&gt;+5&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Sunday night&quot; &quot;R6-FinalChoice&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Night&quot;&gt;&gt;&lt;&lt;set $dayLabel to &quot;Day Thirty Two&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="149" name="R6-RegularStream" tags="release6" position="1100,1850" size="100,100">&lt;&lt;set $viewers to 412&gt;&gt;
+&lt;&lt;scene &quot;img/scenes/empty-regular-stream.png&quot; &quot;Same person. Different outfit.&quot;&gt;&gt;
+
+The regular stream confirms everything the numbers already said.
+
+I go live at my usual time. Headset, hoodie, normal setup. No wig, no skirt, no nothing. Just me. Just EthX. The guy I&#39;ve been for three years and eighty thousand followers.
+
+Four hundred viewers. Maybe four twenty at peak when a couple of the new followers from last night check in to see if EthX-chan is back. She&#39;s not. He is, and they don&#39;t care.
+
+Chat is relentless about it. Not mean, exactly. Just honest in the way that anonymous crowds are honest.
+
+&lt;div class=&quot;pt-chat&quot;&gt;
+&lt;&lt;chathead $viewers&gt;&gt;
+&lt;div class=&quot;pt-chat-body&quot;&gt;
+&lt;&lt;chatline &quot;viewer1&quot; &quot;where&#39;s the femboy?&quot; &quot;#63b3ed&quot;&gt;&gt;
+&lt;&lt;chatline &quot;viewer2&quot; &quot;EthX-chan or we riot&quot; &quot;#e0556f&quot;&gt;&gt;
+&lt;&lt;chatline &quot;viewer3&quot; &quot;no skirt no sub lol&quot; &quot;#e0b84d&quot;&gt;&gt;
+&lt;&lt;chatline &quot;TTVShadowMerc&quot; &quot;chat be nice he&#39;s still good at the game&quot; &quot;#63b3ed&quot;&gt;&gt;
+&lt;&lt;chatline &quot;viewer4&quot; &quot;yeah but we didn&#39;t come for the game&quot; &quot;#c084dc&quot;&gt;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+I play well. Genuinely well. My aim is crisp, my rotations are clean, I hit three consecutive headshots in a round that would have been clip worthy six months ago. Nobody clips it. Nobody donates for it. The kill feed scrolls and chat scrolls and neither one mentions the gameplay.
+
+One donation comes in the entire three hour stream. Three dollars from GhostReaper42, &quot;still the king 👑.&quot; God bless GhostReaper42. Three dollars and a crown emoji and it&#39;s the only money I make tonight.
+
+&lt;&lt;set $donationsTonight to 23&gt;&gt;
+
+I end the stream. Twenty three dollars total with subs counted. Yesterday was eight hundred forty seven dollars.
+
+Eight hundred and forty seven dollars.
+
+Twenty three dollars.
+
+Same person. Same hands. Same monitor. Different outfit.
+
+I sit at my desk after the outro and stare at the analytics dashboard. The two streams charted side by side look like a heartbeat monitor for someone who flatlined. The EthX-chan spike is a mountain. The EthX stream is a flatline with a blip.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;Riley&quot; &quot;mod channel&quot; &quot;R&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Stream was solid. Good plays in round 3.&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+I type &quot;thanks&quot; and don&#39;t hit send. What I want to type is, Riley, what am I supposed to do with this information. But I don&#39;t type that either. I close the laptop and go heat up leftover pad thai that Jess ordered two days ago. Eat it standing at the counter. The apartment is quiet and the pad thai is cold.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;The next morning&quot; &quot;R6-SponsorEmail&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Morning&quot;&gt;&gt;&lt;&lt;set $dayLabel to &quot;Day Twenty Six&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="150" name="R6-SponsorEmail" tags="release6" position="1225,1850" size="100,100">&lt;&lt;scene &quot;img/ui/sponsor-email.png&quot; &quot;Partnership Opportunity, LunaLocks x EthX-chan&quot;&gt;&gt;
+
+The email arrives at 9.47 AM the next morning. Subject line, &quot;Partnership Opportunity, LunaLocks x EthX-chan.&quot;
+
+I read it three times.
+
+LunaLocks, a cosplay wig company. They&#39;ve seen the clips. They want to sponsor EthX-chan streams specifically. Two hundred dollars per stream for wearing their product on camera. Minimum two streams per month, though they&#39;d love to see more. They&#39;ll provide wigs. High quality ones. The email includes a product catalog link and the wigs are actually good. Not twenty two dollar online order good. Professional good. Natural movement, lace fronts, multiple colors.
+
+Two hundred dollars per stream, two minimum. That&#39;s four hundred guaranteed per month. Plus the donation spikes that come with EthX-chan content. Last stream pulled eight hundred forty seven dollars in three hours. Even if that was a fluke and normal EthX-chan streams only pull a third of that, that&#39;s still around two hundred eighty dollars per stream in donations alone.
+
+Four hundred sponsor money. Five hundred sixty minimum in donations across two streams. That&#39;s roughly nine hundred sixty a month. My half of rent is seven hundred fifty.
+
+I read the email a fourth time. The language is specific. They want EthX-chan. They name the persona. The sponsorship is contingent on the feminine presentation.
+
+They don&#39;t want me. They want her.
+
+Rent is due in ten days. Jess&#39;s first real paycheck from Marcus covered her half. My streaming income covers, not quite mine. I&#39;m about a hundred eighty short this month. The tournament entry fee ate my buffer. My credit card has a balance I try not to look at.
+
+The math is cruel and simple and it sits on the screen and waits for me to do arithmetic with my dignity.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Call Riley&quot; &quot;R6-RileyCall&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="151" name="R6-RileyCall" tags="release6" position="100,1975" size="100,100">&lt;&lt;scene &quot;img/scenes/riley-discord-call.png&quot; &quot;Was that just the viewer count, or&quot;&gt;&gt;
+
+I call Riley. Need someone to think out loud with.
+
+//&quot;Okay so let me get this straight,&quot;// Riley says. I can hear them making tea. The click of the electric kettle. //&quot;A wig company wants to pay you to be EthX-chan. On a recurring basis.&quot;//
+
+//&quot;Yeah.&quot;//
+
+//&quot;Your normal streams are pulling four hundred while EthX-chan pulled five K.&quot;//
+
+//&quot;Yeah.&quot;//
+
+Long pause. Kettle clicks off. Water pours.
+
+//&quot;I mean. you already know the answer, right?&quot;//
+
+I don&#39;t say anything. Riley waits. They&#39;re good at waiting. Better than most people.
+
+//&quot;The market has spoken, E, and I don&#39;t say that to be an asshole. EthX is a commodity. There&#39;s ten thousand guys with good aim and a headset. EthX-chan is a product. She&#39;s different. She&#39;s got a thing. The algorithm noticed. Sponsors noticed. This is what breaking through looks like. It just doesn&#39;t look how you expected.&quot;//
+
+I lean back in my chair. The ceiling crack is still there. Still the same crack. But I&#39;m looking at it from a slightly different angle now.
+
+//&quot;Can I ask you something?&quot;// Riley says. Their voice shifts, softer, careful.
+
+//&quot;Yeah.&quot;//
+
+//&quot;You looked different on that stream. Not just the outfit. You looked. alive? Like, your whole energy was completely different. Your posture, your laugh, the way you talked to chat. Was that just the viewer count making you hype, or.&quot;//
+
+The or hangs there. Riley lets it hang. They&#39;re not going to finish it for me. That&#39;s the kind of friend Riley is. They&#39;ll open the door but they won&#39;t push you through.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choice-label&quot;&gt;Riley&#39;s Question&lt;/div&gt;
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;It was just the numbers. The hype.&quot; &quot;R6-Riley-A&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;I don&#39;t know. Maybe it was more than the numbers.&quot; &quot;R6-Riley-B&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;It was weird. I don&#39;t want to talk about it.&quot; &quot;R6-Riley-C&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="152" name="R6-Riley-A" tags="release6" position="225,1975" size="100,100">&lt;&lt;set $r6RileyChoice to &quot;numbers&quot;&gt;&gt;
+Riley sips their tea. //&quot;Okay. Makes sense. Five thousand people screaming your name would give anyone a boost.&quot;//
+
+We move on. Talk logistics. The sponsor deal, the schedule, whether I can fit two EthX-chan streams into my weekly rotation without burning out. The conversation is practical and safe and the or evaporates like steam from Riley&#39;s mug.
+
+But I can feel it. The unanswered thing. Sitting in my chest like a coin I swallowed.
+
+&lt;&lt;set $timeOfDay to &quot;Evening&quot;&gt;&gt;
+&lt;&lt;goto &quot;R6-JessDrift&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="153" name="R6-Riley-B" tags="release6" position="350,1975" size="100,100">&lt;&lt;set $rileyTrust += 5&gt;&gt;
+&lt;&lt;set $r6RileyChoice to &quot;more&quot;&gt;&gt;
+Silence. The good kind. Riley processing.
+
+//&quot;That&#39;s okay, you know,&quot;// they say, quiet, like they&#39;ve been waiting to say it. //&quot;Whatever it is. Like, I don&#39;t need you to name it or define it or figure it out right now. I just want you to know that, whatever it is, it&#39;s okay.&quot;//
+
+My throat tightens. I blink at the ceiling.
+
+//&quot;Thanks, Riley.&quot;//
+
+//&quot;Anytime, E. Anytime.&quot;//
+
+We sit in the silence for a minute. Two friends on a call, one sipping tea, one staring at a crack in the ceiling, both holding space for something that doesn&#39;t have a name yet.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Riley Trust&lt;/span&gt;&lt;b&gt;+5&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;set $timeOfDay to &quot;Evening&quot;&gt;&gt;
+&lt;&lt;goto &quot;R6-JessDrift&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="154" name="R6-Riley-C" tags="release6" position="475,1975" size="100,100">&lt;&lt;set $r6RileyChoice to &quot;dontWantToTalk&quot;&gt;&gt;
+//&quot;Alright,&quot;// Riley says. Zero pressure. Zero judgment. Just acceptance. //&quot;Door&#39;s open.&quot;//
+
+We talk about something else. A game update. A new map. Safe territory. But the door stays open. I can feel it at my back. The draft coming through.
+
+&lt;&lt;set $timeOfDay to &quot;Evening&quot;&gt;&gt;
+&lt;&lt;goto &quot;R6-JessDrift&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="155" name="R6-NPC-SponsorDetail" tags="release6" position="600,1975" size="100,100">The LunaLocks sales rep, a woman named Dana, follows up via email with a phone call. She&#39;s friendly, professional, mid thirties energy, the kind of person who says let&#39;s unpack that unironically but somehow makes it work.
+
+//&quot;Ethan, we&#39;re really excited about this partnership. Your clip resonated with our core audience in a way we rarely see with first time creators. The authenticity was the thing. You weren&#39;t doing a bit. Or if you were, it didn&#39;t read that way.&quot;//
+
+//&quot;It was a punishment bet.&quot;//
+
+//&quot;Sure. But the way you wore it, you owned it. Our analytics showed that the sentiment around your clip was 92% positive. That&#39;s almost unheard of for crossdressing content. Usually there&#39;s a significant troll contingent. Yours was almost entirely supportive.&quot;//
+
+She walks me through the deal. Two streams minimum per month. Two hundred dollars per stream. They provide three wigs of my choice from their catalog, refreshed quarterly. I wear one on stream, tag them in the VOD description and one social media post per stream. Standard influencer contract.
+
+//&quot;The only stipulation is the feminine presentation. We&#39;re a cosplay wig brand. Our audience is primarily women and nonbinary individuals who use wigs for creative expression. You resonate with that demo. EthX doesn&#39;t.&quot;//
+
+//&quot;Right.&quot;//
+
+//&quot;I want to be transparent about something, Ethan. We&#39;ve seen creators take deals like this and burn out because they felt trapped in a persona. That&#39;s not what we want. If at any point you need to modify the terms, we talk. No penalties for the first three months. Think of it as a trial.&quot;//
+
+She&#39;s being kind. The contract is fair. The money is real. The wigs will be better than anything I can afford, and all I have to do is be someone I was for one night. Someone who might already be more real than the person I&#39;ve been for twenty four years.
+
+//&quot;Can I have the weekend to think?&quot;//
+
+//&quot;Absolutely. Take your time.&quot;//
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Friday night&quot; &quot;R6-NightAlone&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Evening&quot;&gt;&gt;&lt;&lt;set $dayLabel to &quot;Day Thirty&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="156" name="R6-ReleaseEnd" tags="release6" position="725,1975" size="100,100">&lt;&lt;scene &quot;img/scenes/release-end-bed.png&quot; &quot;Twelve inches of mattress. A canyon. A border.&quot;&gt;&gt;
+
+I lie in bed. Jess is beside me tonight. Her phone is charging on the nightstand, screen down. My phone is on mine, screen up, the LunaLocks catalog still open in a tab.
+
+Between us, twelve inches of mattress. The same mattress from when we moved in together, a year and a half ago, when twelve inches meant we were close. Now twelve inches is a canyon. A border. A demilitarized zone.
+
+I close my eyes. Behind them, five thousand people screaming. A pink wig. A reflection that looked happy. A jacket on a barstool. A wine glass with lipstick. A donation that said good girl. A friend who said whatever it is, it&#39;s okay. A sales rep who said take your time. A stranger on a forum who said sometimes the mask reveals the face.
+
+Sleep comes slow. When it arrives, I dream about two people in a mirror. One of them is smiling.
+
+I don&#39;t know which one is me.
+
+&lt;&lt;endcard &quot;Release 6, Complete&quot; &quot;The Aftermath&quot; &quot;EthX is 23 dollars. EthX-chan is 847. Ethan is somewhere in the twelve inches between two people who used to be closer.&quot;&gt;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;See where things stand&quot; &quot;R6-Stats&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="157" name="R6-Stats" tags="release6" position="850,1975" size="100,100">&lt;div class=&quot;pt-endcard&quot;&gt;
+&lt;div class=&quot;kicker&quot;&gt;End of Release 6&lt;/div&gt;
+&lt;h2&gt;Stats so far&lt;/h2&gt;
+&lt;/div&gt;
+
+&lt;&lt;statbar &quot;Viewers&quot; $viewers 250 $viewers &quot;&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Followers&quot; $followers 100000 $followers &quot;&quot;&gt;&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Donations, month&lt;/span&gt;&lt;b&gt;&lt;&lt;= &quot;$&quot; + $donationsMonthly&gt;&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Donations, regular stream&lt;/span&gt;&lt;b&gt;&lt;&lt;= &quot;$&quot; + $donationsTonight&gt;&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;&lt;statbar &quot;Jess Closeness&quot; $jessCloseness 100 $jessCloseness &quot;&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Jess, Marcus Bond&quot; $jessMarcusBond 100 $jessMarcusBond &quot;&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Suspicion&quot; $suspicion 100 $suspicion &quot;trust&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Riley Trust&quot; $rileyTrust 100 $rileyTrust &quot;trust&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Community Bond&quot; $communityBond 20 $communityBond &quot;trust&quot;&gt;&gt;
+&lt;&lt;statbar &quot;GhostReaper42 Bond&quot; $ghostReaperBond 20 $ghostReaperBond &quot;trust&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Feminization&quot; $feminization 40 $feminization &quot;&quot;&gt;&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Stream Persona&lt;/span&gt;&lt;b&gt;$streamPersona&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Chat Mood&lt;/span&gt;&lt;b&gt;$chatMood&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Self-Image&lt;/span&gt;&lt;b&gt;$selfImage&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Money Stress&lt;/span&gt;&lt;b&gt;&lt;&lt;moneybadge $moneyStress&gt;&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Riley&#39;s question&lt;/span&gt;&lt;b&gt;$r6RileyChoice&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Discord moderation&lt;/span&gt;&lt;b&gt;$r6DiscordChoice&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;LunaFrag&#39;s advice&lt;/span&gt;&lt;b&gt;$r6LunaChoice&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;The decision&lt;/span&gt;&lt;b&gt;$r6FinalChoice&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;p class=&quot;pt-hud-sub&quot;&gt;Release 7 picks up from here. Use Restart in the sidebar menu to run the story again from a clean save.&lt;/p&gt;
+
+&lt;&lt;patreoncard&gt;&gt;</tw-passagedata><tw-passagedata pid="158" name="R6-Wake" tags="release6" position="975,1975" size="100,100">&lt;&lt;scene &quot;img/ui/phone-notifications.png&quot; &quot;412 notifications&quot;&gt;&gt;
+
+I wake up and the world is different. Same ceiling. Same crack running from the light fixture to the wall. Same dead LED strip I keep meaning to re-stick. But the phone on my nightstand has four hundred plus notifications and counting, and the number keeps climbing every time the screen lights up with another ping.
+
+I grab it. Squint at the lock screen. Twitter, Discord, Instagram, a forum, Twitter again, Twitter again. Twitter won&#39;t stop.
+
+Four hundred and twelve notifications.
+
+I sit up in bed. Jess isn&#39;t here. Her side is cold, pillow still dented from whenever she came home. I didn&#39;t hear her come in. I was either asleep or so deep in whatever that post stream thing was that I blocked her out entirely.
+
+I start scrolling.
+
+&lt;&lt;scene &quot;img/ui/viral-article.png&quot; &quot;Viewers want more&quot;&gt;&gt;
+
+A gaming blog has a headline, &quot;FPS Streamer&#39;s Femboy Punishment Bet Goes Viral, Viewers Want More.&quot; There&#39;s a screenshot from the stream, me, pink wig, plaid skirt, thigh highs, headset on, mid laugh at something chat said. I look happy in the photo. Genuinely, stupidly happy. The kind of happy I haven&#39;t seen on my own face in a long time.
+
+A forum thread has thousands of upvotes, &quot;EthX loses tournament bet, becomes EthX-chan, accidentally becomes the most popular femboy on Twitch.&quot; The top comment, &quot;this was supposed to be a punishment but bro is living his best life lmaooo.&quot; Second comment, &quot;the thigh highs are load bearing. never take them off king.&quot; Third comment, over a thousand upvotes, &quot;unironically he&#39;s prettier than most girls I know.&quot;
+
+Twitter is chaos. Clips everywhere. Someone made a side by side, regular EthX in his hoodie and headset, looking tired and average, next to EthX-chan in the pink wig, looking like a completely different person. The caption, &quot;the duality of man.&quot; Fifteen thousand likes.
+
+I scroll through all of it. Every comment. Every retweet. Every quote tweet. The consensus is overwhelming and it&#39;s the most brutal clarity I&#39;ve ever received about my own career.
+
+EthX is forgettable.
+
+EthX-chan is a phenomenon.
+
+The math is right there in the numbers, irrefutable, cold. My talent doesn&#39;t matter. My aim doesn&#39;t matter. My game sense, my callouts, my clutch plays that took years to develop, none of it. What matters is me in a skirt. What matters is the wig. What matters is the way my jawline looked under cheap concealer and how the thigh highs hugged my legs.
+
+I put the phone down. Pick it up. Put it down. Pick it up.
+
+My thumb hovers over the gallery. There&#39;s a photo in there. The one Jess took in the bathroom yesterday, before the stream. Me in the full outfit. The unfinished sentence still hanging in the air between pixels.
+
+&quot;Ethan, you actually look.&quot;
+
+I stare at the photo for a long time. Then I get up and make coffee.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Go live, regular setup&quot; &quot;R6-RegularStream&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Evening&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="159" name="Widgets" tags="widget" position="1100,1975" size="100,100">\
 &lt;&lt;widget &quot;scene&quot;&gt;&gt;\
 &lt;&lt;set _img to $args[0]&gt;&gt;\
 &lt;&lt;set _cap to $args[1]&gt;&gt;\

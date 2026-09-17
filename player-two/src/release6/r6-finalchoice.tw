@@ -1,0 +1,97 @@
+:: R6-FinalChoice [release6]
+The weekend passes. Sunday night. Jess is home for once, on the couch, editing something on her laptop. Marcus's content, probably, but at least she's physically here. The apartment smells like the candle she lit, the vanilla one, and for a few minutes it almost feels like before.
+
+I've been thinking about the sponsor deal for three days. The email is still open in a tab I keep switching back to. Dana's voice echoes, no penalties for the first three months. Riley's voice, you already know the answer. LunaFrag's voice, decide before the algorithm decides for you. GhostReaper42's voice, three dollars at a time until one of us dies.
+
+My phone glows. Another notification. Someone tagged me in a post, "When is EthX-chan coming back? give the people what they want."
+
+I look at Jess on the couch. She's concentrating. Her bottom lip caught between her teeth the way it gets when she's focused. She used to look like that editing my highlights.
+
+I look at the email.
+
+I look at the mirror in the hallway. Just a glance. Just my face. Just me.
+
+<hr class="pt-hr">
+
+<div class="pt-choice-label">The Decision</div>
+<div class="pt-choices">
+<<link "Accept the sponsor deal" "R6-Final-Accept">><</link>>
+<<link "Decline and keep trying regular content" "R6-Final-Decline">><</link>>
+<<link "Confront Jess about her hours" "R6-Final-Confront">><</link>>
+</div>
+
+:: R6-Final-Accept [release6]
+<<set $feminization += 10>>
+<<set $moneyStress to "moderate">>
+<<set $donationsMonthly += 400>>
+<<set $r6FinalChoice to "accept">>
+<<scene "img/scenes/lunalocks-package.png" "Hey. She doesn't answer. But she doesn't leave either.">>
+
+I type the reply at 11 PM. "Dana, I'm in. Let's do this." Send.
+
+The cursor blinks for a second after the message goes. A held breath. Then, done, committed. At least two EthX-chan streams per month. Professional wigs. Real money. A persona that isn't a punishment anymore. It's a career decision.
+
+The LunaLocks package arrives three days later. Three wigs in a branded box with tissue paper and care instructions. The chestnut brown one is even prettier in person. I hold it in my hands and it feels like real hair and it weighs almost nothing and it cost more than every piece of clothing I own combined.
+
+I put it on in the bathroom, alone, no camera, no audience. Just me and the mirror. The chestnut waves frame my face and the person looking back is someone I'm going to have to get to know.
+
+"Hey," I say to her. My voice sounds stupid. I say it again anyway. "Hey."
+
+She doesn't answer. But she doesn't leave either.
+
+<div class="pt-hud-line"><span>Feminization</span><b>+10</b></div>
+<div class="pt-hud-line"><span>Money Stress</span><b>moderate, the sponsor money helps</b></div>
+
+<<goto "R6-ReleaseEnd">>
+
+:: R6-Final-Decline [release6]
+<<set $viewers to 190>>
+<<set $r6FinalChoice to "decline">>
+<<scene "img/scenes/declining-empty-stream.png" "The slope heading toward a number I don't want to think about">>
+
+I type the reply at 11 PM. "Dana, I appreciate the offer, but I'm going to pass for now. I want to focus on my competitive gaming content." Send.
+
+The cursor blinks. The rejection is polite and professional and it tastes like sawdust.
+
+I stream as EthX for the next week. Monday, two hundred fifty viewers. Wednesday, two hundred twenty. Friday, a hundred ninety. The decline is visible. A slope heading toward a number I don't want to think about.
+
+GhostReaper42 donates five dollars every stream. The only constant in a room that's emptying.
+
+The wig from the punishment stream is in a bag in the closet. I don't throw it away. I tell myself that's because it wasn't mine to throw away, it was a costume, it belongs to the bit. I tell myself a lot of things at 2 AM while the bag sits in the closet and the closet sits in the room and the room sits in an apartment that's getting quieter by the week.
+
+<div class="pt-hud-line"><span>Viewers</span><b>190, the slope continues</b></div>
+
+<<goto "R6-ReleaseEnd">>
+
+:: R6-Final-Confront [release6]
+<<set $jessCloseness += 3>>
+<<set $r6FinalChoice to "confront">>
+<<scene "img/scenes/confronting-jess.png" "For one night the apartment feels like it belongs to two people again">>
+
+"You're never here anymore." The words come out before I plan them. Sunday night. She's on the couch. I'm in the kitchen doorway. The vanilla candle is burning between us like a tiny mediator.
+
+Her head snaps up. "What?"
+
+"You're never here. Three nights a week at Marcus's place. You come home smelling like someone else's shower. You stopped editing my highlights. You stopped watching my streams. You weren't even here for the biggest night of my career."
+
+"I'm working, Ethan. For us. You think managing Marcus is a vacation? You think I'm sitting around drinking wine at his apartment? I'm building a brand."
+
+The wine glasses flash through my mind. The takeout for two. The lipstick on the rim.
+
+"I'm not saying you're not working."
+
+"Then what are you saying?"
+
+I don't know what I'm saying. I know what I'm thinking but the thinking and the saying are different animals and only one of them is safe to release.
+
+"I just miss you," I say. The truest, smallest, most pathetic version of everything I'm feeling. Condensed into four words that don't even begin to cover it.
+
+Her face softens. For a second she's the Jess from three years ago. The one who would have crossed the room and held me.
+
+"I miss you too, babe. I'll be home more. I promise."
+
+She won't be. We both know she won't be. But the promise is warm and the candle smells like vanilla and for one night the apartment feels like it belongs to two people again.
+
+<div class="pt-hud-line"><span>Jess Closeness</span><b>+3</b></div>
+
+<<goto "R6-ReleaseEnd">>

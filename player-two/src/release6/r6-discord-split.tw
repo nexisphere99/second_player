@@ -1,0 +1,62 @@
+:: R6-SideQuest-ChatCommunity [release6]
+<<scene "img/ui/discord-community-split.png" "Two factions">>
+
+The morning after the regular stream, I check the Discord server. The community has split into factions overnight. Not hostile factions. More like weather patterns. The climate is shifting and different groups are responding differently.
+
+The old guard, the people who've been watching me since the twenty thousand follower mark, are posting in general like concerned parents. TTVShadowMerc, who's been subbed for eleven months, writes, "Guys can we chill with the femboy pressure? E is a sick gamer and that's why we're here."
+
+FragQueen responds, "I mean, are we tho? Because yesterday 5,000 people showed up for the skirt and today 400 showed up for the gameplay. Numbers don't lie."
+
+GhostReaper42, loyal soldier, drops in, "I'm here for Ethan. Whatever version. Both. All of them. dude's talented regardless."
+
+But there's a new faction now. People who found me through the viral clips. They don't know EthX. They only know EthX-chan. Their first interaction with my channel was a pretty person in a wig pulling headshots, and that's who they subscribed for. They're in a dedicated fan art channel already. Someone drew me. Anime style. Long pink hair, blushing cheeks, thigh highs, holding a gaming mouse like a weapon. It's good. It's really good, and it makes my stomach do something I can't categorize.
+
+<div class="pt-phone">
+<<phonehead "Riley" "Discord DM" "R">>
+<<msg "" "Hey. Discord is going through some growing pains. Want me to moderate any specific direction? I can shut down the femboy pressure if you want. Or I can let it ride. Your call." "left">>
+</div>
+
+I stare at the message for five minutes.
+
+<hr class="pt-hr">
+
+<div class="pt-choice-label">Discord Moderation</div>
+<div class="pt-choices">
+<<link "Let it ride. Don't shut anything down." "R6-Discord-A">><</link>>
+<<link "Can you redirect it? Keep both sides happy?" "R6-Discord-B">><</link>>
+<<link "Shut down the femboy pressure. I'm a gamer, not a cosplayer." "R6-Discord-C">><</link>>
+</div>
+
+:: R6-Discord-A [release6]
+<<set $chatMood to "devoted">>
+<<set $r6DiscordChoice to "letItRide">>
+"Got it," Riley says. "Natural selection. Let the community figure itself out."
+
+The Discord evolves. The EthX-chan channel grows. Fan art multiplies. Someone starts a glow up suggestions thread with makeup tutorial links. Someone else creates a custom emoji of my face from the stream, blushing. The old guard adapts or goes quiet. The new energy takes over.
+
+<<goto "R6-SideQuest-GhostReaper">>
+
+:: R6-Discord-B [release6]
+<<set $rileyTrust += 3>>
+<<set $chatMood to "divided">>
+<<set $r6DiscordChoice to "redirect">>
+"I can try. Maybe a both are valid pinned post. Celebrate the gameplay and the persona. Give people permission to like both."
+
+Riley writes a pinned message that's diplomatically brilliant, "EthX is the player. EthX-chan is the performance. Both are Ethan. Both are fire. Respect both or catch a ban." It works. The factions coexist. Uneasily, but they coexist.
+
+<div class="pt-hud-line"><span>Riley Trust</span><b>+3</b></div>
+
+<<goto "R6-SideQuest-GhostReaper">>
+
+:: R6-Discord-C [release6]
+<<set $feminization -= 1>>
+<<set $followers -= 500>>
+<<set $chatMood to "loyal">>
+<<set $r6DiscordChoice to "shutDown">>
+Riley pauses. "Okay. I'll moderate it. But E, the numbers are going to keep telling the same story regardless of what chat says."
+
+They mod hard. Delete some of the pushier comments. Pin a message, "EthX is a competitive FPS streamer. Respect the content or find another channel." Some of the new followers leave. The Discord gets quieter, smaller, more familiar. Whether that's a comfort or a coffin depends on the angle.
+
+<div class="pt-hud-line"><span>Followers</span><b>-500, some of the new crowd leaves</b></div>
+
+<<goto "R6-SideQuest-GhostReaper">>

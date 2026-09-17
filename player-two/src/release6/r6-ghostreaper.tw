@@ -1,0 +1,35 @@
+:: R6-SideQuest-GhostReaper [release6]
+<<set $ghostReaperBond to 15>>
+<<scene "img/ui/ghostreaper-message.png" "$3 at a time until one of us dies">>
+
+My oldest consistent donor sends me a DM on Discord, GhostReaper42. They've donated over three hundred dollars total across eleven months. Never more than five dollars at a time. Every single stream. Rain or shine. Three dollars here, five there, with messages like "nice shot king" and "goated gameplay" and "still the best." Small money from what I imagine is a small budget, given with the consistency of a heartbeat.
+
+<div class="pt-phone">
+<<phonehead "GhostReaper42" "Discord DM" "G">>
+<<msg "" "Hey E. Can I be real with you for a sec?" "left">>
+<<msg "" "Yeah, always." "right">>
+<<msg "" "I've been watching you since you had 12K followers. I found you because you pulled off a 1v5 clutch in a tournament qualifier and someone posted it on a forum. That clip changed how I thought about the game. You made me want to get better." "left">>
+</div>
+
+I read the message and something in my chest aches.
+
+<div class="pt-phone">
+<<phonehead "GhostReaper42" "Discord DM" "G">>
+<<msg "" "Yesterday's stream was fun. You looked great. Chat was insane. I get it. But I wanted you to know that some of us are here because you're an incredible player. Not because of the outfit. I'll watch you in a paper bag or a ball gown. Doesn't matter. You're the reason I hit Diamond this season." "left">>
+<<msg "" "Ghost, that means a lot. Seriously." "right">>
+<<msg "" "I know the numbers are pulling you one way. I just wanted to be a voice in the other direction. Whatever you decide, I'm here. $3 at a time until one of us dies lol." "left">>
+</div>
+
+I screenshot the message. Not because I'm building a file. Because I need to remember that someone sees the version of me I worked for. The one with the callouts and the clutches and the years of grinding aim trainers until my wrist ached.
+
+Three dollars at a time until one of us dies.
+
+The screenshot goes in my camera roll. Right next to the photo Jess took of me in the wig.
+
+<div class="pt-hud-line"><span>GhostReaper42 Bond</span><b>15, new</b></div>
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "LunaFrag DMs me" "R6-SideQuest-LunaFrag">><</link>>
+</div>

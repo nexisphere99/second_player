@@ -1,0 +1,42 @@
+:: R6-Wake [release6]
+<<scene "img/ui/phone-notifications.png" "412 notifications">>
+
+I wake up and the world is different. Same ceiling. Same crack running from the light fixture to the wall. Same dead LED strip I keep meaning to re-stick. But the phone on my nightstand has four hundred plus notifications and counting, and the number keeps climbing every time the screen lights up with another ping.
+
+I grab it. Squint at the lock screen. Twitter, Discord, Instagram, a forum, Twitter again, Twitter again. Twitter won't stop.
+
+Four hundred and twelve notifications.
+
+I sit up in bed. Jess isn't here. Her side is cold, pillow still dented from whenever she came home. I didn't hear her come in. I was either asleep or so deep in whatever that post stream thing was that I blocked her out entirely.
+
+I start scrolling.
+
+<<scene "img/ui/viral-article.png" "Viewers want more">>
+
+A gaming blog has a headline, "FPS Streamer's Femboy Punishment Bet Goes Viral, Viewers Want More." There's a screenshot from the stream, me, pink wig, plaid skirt, thigh highs, headset on, mid laugh at something chat said. I look happy in the photo. Genuinely, stupidly happy. The kind of happy I haven't seen on my own face in a long time.
+
+A forum thread has thousands of upvotes, "EthX loses tournament bet, becomes EthX-chan, accidentally becomes the most popular femboy on Twitch." The top comment, "this was supposed to be a punishment but bro is living his best life lmaooo." Second comment, "the thigh highs are load bearing. never take them off king." Third comment, over a thousand upvotes, "unironically he's prettier than most girls I know."
+
+Twitter is chaos. Clips everywhere. Someone made a side by side, regular EthX in his hoodie and headset, looking tired and average, next to EthX-chan in the pink wig, looking like a completely different person. The caption, "the duality of man." Fifteen thousand likes.
+
+I scroll through all of it. Every comment. Every retweet. Every quote tweet. The consensus is overwhelming and it's the most brutal clarity I've ever received about my own career.
+
+EthX is forgettable.
+
+EthX-chan is a phenomenon.
+
+The math is right there in the numbers, irrefutable, cold. My talent doesn't matter. My aim doesn't matter. My game sense, my callouts, my clutch plays that took years to develop, none of it. What matters is me in a skirt. What matters is the wig. What matters is the way my jawline looked under cheap concealer and how the thigh highs hugged my legs.
+
+I put the phone down. Pick it up. Put it down. Pick it up.
+
+My thumb hovers over the gallery. There's a photo in there. The one Jess took in the bathroom yesterday, before the stream. Me in the full outfit. The unfinished sentence still hanging in the air between pixels.
+
+"Ethan, you actually look."
+
+I stare at the photo for a long time. Then I get up and make coffee.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Go live, regular setup" "R6-RegularStream">><<set $timeOfDay to "Evening">><</link>>
+</div>

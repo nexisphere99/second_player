@@ -10,6 +10,7 @@
     "release3": "#c0704a",
     "release4": "#e0556f",
     "release5": "#e07ab8",
+    "release6": "#7a6fe0",
     "sidequest": "#e0b84d",
     "intimate": "#e0556f"
   },
@@ -71,3 +72,9 @@ Player Two
 <<set $r5LunaFragChoice to "none">>
 <<set $r5ShadowMercChoice to "none">>
 <<set $princessMaker99Seen to false>>
+
+<<set $ghostReaperBond to 0>>
+<<set $r6RileyChoice to "none">>
+<<set $r6DiscordChoice to "none">>
+<<set $r6LunaChoice to "none">>
+<<set $r6FinalChoice to "none">>

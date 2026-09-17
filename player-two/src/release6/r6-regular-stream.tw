@@ -1,0 +1,78 @@
+:: R6-RegularStream [release6]
+<<set $viewers to 412>>
+<<scene "img/scenes/empty-regular-stream.png" "Same person. Different outfit.">>
+
+The regular stream confirms everything the numbers already said.
+
+I go live at my usual time. Headset, hoodie, normal setup. No wig, no skirt, no nothing. Just me. Just EthX. The guy I've been for three years and eighty thousand followers.
+
+Four hundred viewers. Maybe four twenty at peak when a couple of the new followers from last night check in to see if EthX-chan is back. She's not. He is, and they don't care.
+
+Chat is relentless about it. Not mean, exactly. Just honest in the way that anonymous crowds are honest.
+
+<div class="pt-chat">
+<<chathead $viewers>>
+<div class="pt-chat-body">
+<<chatline "viewer1" "where's the femboy?" "#63b3ed">>
+<<chatline "viewer2" "EthX-chan or we riot" "#e0556f">>
+<<chatline "viewer3" "no skirt no sub lol" "#e0b84d">>
+<<chatline "TTVShadowMerc" "chat be nice he's still good at the game" "#63b3ed">>
+<<chatline "viewer4" "yeah but we didn't come for the game" "#c084dc">>
+</div>
+</div>
+
+I play well. Genuinely well. My aim is crisp, my rotations are clean, I hit three consecutive headshots in a round that would have been clip worthy six months ago. Nobody clips it. Nobody donates for it. The kill feed scrolls and chat scrolls and neither one mentions the gameplay.
+
+One donation comes in the entire three hour stream. Three dollars from GhostReaper42, "still the king 👑." God bless GhostReaper42. Three dollars and a crown emoji and it's the only money I make tonight.
+
+<<set $donationsTonight to 23>>
+
+I end the stream. Twenty three dollars total with subs counted. Yesterday was eight hundred forty seven dollars.
+
+Eight hundred and forty seven dollars.
+
+Twenty three dollars.
+
+Same person. Same hands. Same monitor. Different outfit.
+
+I sit at my desk after the outro and stare at the analytics dashboard. The two streams charted side by side look like a heartbeat monitor for someone who flatlined. The EthX-chan spike is a mountain. The EthX stream is a flatline with a blip.
+
+<div class="pt-phone">
+<<phonehead "Riley" "mod channel" "R">>
+<<msg "" "Stream was solid. Good plays in round 3." "left">>
+</div>
+
+I type "thanks" and don't hit send. What I want to type is, Riley, what am I supposed to do with this information. But I don't type that either. I close the laptop and go heat up leftover pad thai that Jess ordered two days ago. Eat it standing at the counter. The apartment is quiet and the pad thai is cold.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "The next morning" "R6-SponsorEmail">><<set $timeOfDay to "Morning">><<set $dayLabel to "Day Twenty Six">><</link>>
+</div>
+
+:: R6-SponsorEmail [release6]
+<<scene "img/ui/sponsor-email.png" "Partnership Opportunity, LunaLocks x EthX-chan">>
+
+The email arrives at 9.47 AM the next morning. Subject line, "Partnership Opportunity, LunaLocks x EthX-chan."
+
+I read it three times.
+
+LunaLocks, a cosplay wig company. They've seen the clips. They want to sponsor EthX-chan streams specifically. Two hundred dollars per stream for wearing their product on camera. Minimum two streams per month, though they'd love to see more. They'll provide wigs. High quality ones. The email includes a product catalog link and the wigs are actually good. Not twenty two dollar online order good. Professional good. Natural movement, lace fronts, multiple colors.
+
+Two hundred dollars per stream, two minimum. That's four hundred guaranteed per month. Plus the donation spikes that come with EthX-chan content. Last stream pulled eight hundred forty seven dollars in three hours. Even if that was a fluke and normal EthX-chan streams only pull a third of that, that's still around two hundred eighty dollars per stream in donations alone.
+
+Four hundred sponsor money. Five hundred sixty minimum in donations across two streams. That's roughly nine hundred sixty a month. My half of rent is seven hundred fifty.
+
+I read the email a fourth time. The language is specific. They want EthX-chan. They name the persona. The sponsorship is contingent on the feminine presentation.
+
+They don't want me. They want her.
+
+Rent is due in ten days. Jess's first real paycheck from Marcus covered her half. My streaming income covers, not quite mine. I'm about a hundred eighty short this month. The tournament entry fee ate my buffer. My credit card has a balance I try not to look at.
+
+The math is cruel and simple and it sits on the screen and waits for me to do arithmetic with my dignity.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Call Riley" "R6-RileyCall">><</link>>
+</div>

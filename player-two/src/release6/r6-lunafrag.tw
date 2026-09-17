@@ -1,0 +1,64 @@
+:: R6-SideQuest-LunaFrag [release6]
+LunaFrag DMs me on Twitch. We were bracket partners in the tournament. She lost too. She also has a dare to complete, though hers is easier since she's already a woman and femboy cosplay for her just means leaning harder into aesthetic.
+
+<div class="pt-phone">
+<<phonehead "LunaFrag" "Direct message" "L">>
+<<msg "" "Hey Ethan. Crazy week, huh?" "left">>
+<<msg "" "Understatement." "right">>
+<<msg "" "So listen. I've been doing this streaming thing for two years and I want to share something that took me a long time to learn. The algorithm is not your friend. It's not your enemy either. It's an animal. It responds to stimulus. When you fed it EthX-chan, it got excited. That doesn't mean EthX-chan is your identity. It means the algorithm is hungry." "left">>
+<<msg "" "What are you saying?" "right">>
+<<msg "" "I'm saying you can use the persona without becoming it. Or you can become it. Both are valid. But decide which one it is before the algorithm decides for you. Because once the machine starts running, it's really hard to stop." "left">>
+</div>
+
+Smart. Sharper than I expected from someone I only knew through crosshairs and callouts.
+
+<div class="pt-phone">
+<<phonehead "LunaFrag" "Direct message" "L">>
+<<msg "" "Also, your headshot percentage in round 3 was disgusting. Like, actually filthy. You're a better player than your numbers show. That's the worst kind of undervalued." "left">>
+</div>
+
+<hr class="pt-hr">
+
+<div class="pt-choice-label">LunaFrag's Advice</div>
+<div class="pt-choices">
+<<link "Thanks, Luna. I think I'm going to use it. Strategically." "R6-Luna-A">><</link>>
+<<link "I'm honestly not sure what I'm doing." "R6-Luna-B">><</link>>
+<<link "I might be done with the femboy thing. One and done." "R6-Luna-C">><</link>>
+</div>
+
+:: R6-Luna-A [release6]
+<<set $feminization += 1>>
+<<set $r6LunaChoice to "strategic">>
+<div class="pt-phone">
+<<phonehead "LunaFrag" "Direct message" "L">>
+<<msg "" "Thanks, Luna. I think I'm going to use it. The persona. Strategically." "right">>
+<<msg "" "Smart. Just keep the leash on. You steer it, it doesn't steer you." "left">>
+</div>
+
+<<set $timeOfDay to "Morning">>
+<<set $dayLabel to "Day Twenty Eight">>
+<<goto "R6-NPC-JessMorning">>
+
+:: R6-Luna-B [release6]
+<<set $r6LunaChoice to "notSure">>
+<div class="pt-phone">
+<<phonehead "LunaFrag" "Direct message" "L">>
+<<msg "" "I'm honestly not sure what I'm doing." "right">>
+<<msg "" "That's the most honest answer in streaming. Nobody knows what they're doing. We just pretend and clip the good parts." "left">>
+</div>
+
+<<set $timeOfDay to "Morning">>
+<<set $dayLabel to "Day Twenty Eight">>
+<<goto "R6-NPC-JessMorning">>
+
+:: R6-Luna-C [release6]
+<<set $r6LunaChoice to "oneDone">>
+<div class="pt-phone">
+<<phonehead "LunaFrag" "Direct message" "L">>
+<<msg "" "I might be done with the femboy thing. One and done." "right">>
+<<msg "" "Fair. But keep the door cracked. You never know what you might want to walk through later." "left">>
+</div>
+
+<<set $timeOfDay to "Morning">>
+<<set $dayLabel to "Day Twenty Eight">>
+<<goto "R6-NPC-JessMorning">>

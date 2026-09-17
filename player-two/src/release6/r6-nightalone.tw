@@ -1,0 +1,87 @@
+:: R6-NightAlone [release6]
+<<scene "img/ui/wig-catalog-night.png" "Not to decide. Just to look.">>
+
+Friday night. Jess is at Marcus's. She didn't specify what they're working on tonight. The text just said "Marcus stuff" and that was it. Two words and a period. Not even a heart emoji this time.
+
+I cook chicken thighs with garlic and lemon. Jess's favorite. I don't know why I made her favorite when she's not here. Force of habit. Cooking for a ghost.
+
+I eat at the counter. One plate. One fork. One glass of water. The apartment is so quiet I can hear the fridge humming and the upstairs neighbor's TV, muffled through the ceiling. Sounds like a cooking show. Somebody else's food filling somebody else's silence.
+
+After dinner I open my laptop and navigate to LunaLocks's wig catalog. Not to decide. Just to look.
+
+The wigs are beautiful. Proper lace fronts with natural hairlines. Colors ranging from jet black to platinum to rose gold. There's a chestnut brown with subtle highlights that catches me. Shoulder length. Natural wave. The model wearing it looks effortlessly feminine, the kind of wig that disappears into being hair instead of being a costume.
+
+I add it to a wishlist. Close the tab. Open the tab. Add two more. Close the tab.
+
+<<scene "img/scenes/mirror-just-himself.png" "Just a twenty four year old guy in a shitty apartment">>
+
+I go to the bathroom. Stand in front of the mirror. Just me. No wig, no makeup, no skirt. Boxers and a t-shirt. I study my face the way someone will teach me to study it later, though I don't know that yet. I look at the jaw Jess never commented on, the cheekbones the internet says are insane, the lips that looked fuller with tint on them.
+
+I look at the person in the mirror and I try to see what five thousand people saw. What made them scream and donate and clip and share. What made GhostReaper42 say he'd watch me in a ball gown. What made the commenter online say he liked it.
+
+I lean closer. The fluorescent light is harsh. My skin looks tired. There are dark circles under my eyes that concealer covered two days ago. Without the wig, without the makeup, I'm just a twenty four year old guy in a shitty apartment with a flatlined streaming career and a girlfriend who smells like someone else's body wash.
+
+I think about the photo Jess took. The one where I look happy.
+
+I think about eight forty seven dollars.
+
+I think about twenty three dollars.
+
+I think about two wine glasses and a half empty bottle and a jacket I recognized from across an Instagram story.
+
+I wash my face. Brush my teeth. Go to bed alone. The sheets are cold on both sides.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "1 AM, doom scrolling" "R6-SideQuest-StreamerForum">><<set $timeOfDay to "Late Night">><</link>>
+</div>
+
+:: R6-SideQuest-StreamerForum [release6]
+I find it while doom scrolling at 1 AM. A thread on a streaming forum I lurk on sometimes. The title, "When your persona is more successful than you."
+
+The original post isn't about me specifically. It's a general discussion. But the first response links my clip.
+
+"See, EthX slash EthX-chan. Guy did one femboy stream as a bet and his numbers went from 200 to 5K. His regular stream the next day? 400. The persona IS the product now. He just doesn't know it yet."
+
+The thread is full of streamers who've been through something similar. A woman who started doing ASMR as a joke and now can't stream without it. A guy who did one drunk stream that went viral and now his audience only wants him wasted. A cosplayer who built an entire career on a single character and feels trapped inside someone else's skin.
+
+One comment hits me like a fist.
+
+"The question isn't whether the persona is fake. The question is whether the real version was ever the authentic one. Sometimes the mask reveals the face."
+
+I screenshot it. Put it in the same hidden album as Jess's photo of me in the wig.
+
+The hidden album now has two screenshots and a photo. A beginning of a collection. A beginning of evidence. For or against what, I'm not sure yet.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "The thing I know I shouldn't do" "R6-MarcusSocials">><</link>>
+</div>
+
+:: R6-MarcusSocials [release6]
+<<set $suspicion += 5>>
+I do the thing I know I shouldn't do. The thing that feels like picking at a scab. I open Marcus's Instagram.
+
+New post. Gym selfie. Fresh pump. His arms look like they're carved from something denser than human flesh. Veins tracking along his forearms like rivers on a topographic map. Tank top soaked through. That smile. The one that makes you feel like he's smiling specifically at you even though he's smiling at a phone camera in a gym mirror.
+
+"Consistency over everything 💪" is the caption. Four thousand likes. Comments are predictable. Fire emoji. Heart eyes emoji. Step on me from twelve different accounts.
+
+I scroll his stories. Gym clip. Meal prep. Behind the scenes of a stream setup. His apartment. Always his apartment. The marble counters. The pendant lights. The space that makes my studio apartment look like a closet someone put a bed in.
+
+I find a story from five days ago I missed. Restaurant, candlelit. Low music, probably. Two wine glasses on the table, shot from his perspective. The second glass has lipstick on the rim. A shade of pink I've seen on tissues in our bathroom trash.
+
+He's not tagging anyone. He's not captioning it with a name. But two glasses in a candlelit restaurant is not a business dinner. Two glasses with lipstick is not a sponsor meeting. Two glasses with that particular shade of pink is not ambiguous.
+
+I put the phone down. Face down. Pick it up. Put it down.
+
+Pick it up. Keep scrolling.
+
+<div class="pt-hud-line"><span>Suspicion</span><b>+5</b></div>
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Sunday night" "R6-FinalChoice">><<set $timeOfDay to "Night">><<set $dayLabel to "Day Thirty Two">><</link>>
+</div>

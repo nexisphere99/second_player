@@ -1,0 +1,79 @@
+:: R6-RileyCall [release6]
+<<scene "img/scenes/riley-discord-call.png" "Was that just the viewer count, or">>
+
+I call Riley. Need someone to think out loud with.
+
+//"Okay so let me get this straight,"// Riley says. I can hear them making tea. The click of the electric kettle. //"A wig company wants to pay you to be EthX-chan. On a recurring basis."//
+
+//"Yeah."//
+
+//"Your normal streams are pulling four hundred while EthX-chan pulled five K."//
+
+//"Yeah."//
+
+Long pause. Kettle clicks off. Water pours.
+
+//"I mean. you already know the answer, right?"//
+
+I don't say anything. Riley waits. They're good at waiting. Better than most people.
+
+//"The market has spoken, E, and I don't say that to be an asshole. EthX is a commodity. There's ten thousand guys with good aim and a headset. EthX-chan is a product. She's different. She's got a thing. The algorithm noticed. Sponsors noticed. This is what breaking through looks like. It just doesn't look how you expected."//
+
+I lean back in my chair. The ceiling crack is still there. Still the same crack. But I'm looking at it from a slightly different angle now.
+
+//"Can I ask you something?"// Riley says. Their voice shifts, softer, careful.
+
+//"Yeah."//
+
+//"You looked different on that stream. Not just the outfit. You looked. alive? Like, your whole energy was completely different. Your posture, your laugh, the way you talked to chat. Was that just the viewer count making you hype, or."//
+
+The or hangs there. Riley lets it hang. They're not going to finish it for me. That's the kind of friend Riley is. They'll open the door but they won't push you through.
+
+<hr class="pt-hr">
+
+<div class="pt-choice-label">Riley's Question</div>
+<div class="pt-choices">
+<<link "It was just the numbers. The hype." "R6-Riley-A">><</link>>
+<<link "I don't know. Maybe it was more than the numbers." "R6-Riley-B">><</link>>
+<<link "It was weird. I don't want to talk about it." "R6-Riley-C">><</link>>
+</div>
+
+:: R6-Riley-A [release6]
+<<set $r6RileyChoice to "numbers">>
+Riley sips their tea. //"Okay. Makes sense. Five thousand people screaming your name would give anyone a boost."//
+
+We move on. Talk logistics. The sponsor deal, the schedule, whether I can fit two EthX-chan streams into my weekly rotation without burning out. The conversation is practical and safe and the or evaporates like steam from Riley's mug.
+
+But I can feel it. The unanswered thing. Sitting in my chest like a coin I swallowed.
+
+<<set $timeOfDay to "Evening">>
+<<goto "R6-JessDrift">>
+
+:: R6-Riley-B [release6]
+<<set $rileyTrust += 5>>
+<<set $r6RileyChoice to "more">>
+Silence. The good kind. Riley processing.
+
+//"That's okay, you know,"// they say, quiet, like they've been waiting to say it. //"Whatever it is. Like, I don't need you to name it or define it or figure it out right now. I just want you to know that, whatever it is, it's okay."//
+
+My throat tightens. I blink at the ceiling.
+
+//"Thanks, Riley."//
+
+//"Anytime, E. Anytime."//
+
+We sit in the silence for a minute. Two friends on a call, one sipping tea, one staring at a crack in the ceiling, both holding space for something that doesn't have a name yet.
+
+<div class="pt-hud-line"><span>Riley Trust</span><b>+5</b></div>
+
+<<set $timeOfDay to "Evening">>
+<<goto "R6-JessDrift">>
+
+:: R6-Riley-C [release6]
+<<set $r6RileyChoice to "dontWantToTalk">>
+//"Alright,"// Riley says. Zero pressure. Zero judgment. Just acceptance. //"Door's open."//
+
+We talk about something else. A game update. A new map. Safe territory. But the door stays open. I can feel it at my back. The draft coming through.
+
+<<set $timeOfDay to "Evening">>
+<<goto "R6-JessDrift">>

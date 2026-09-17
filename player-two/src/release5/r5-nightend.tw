@@ -74,6 +74,6 @@ The apartment is quiet. Marcus's apartment is across the city and Jess was just 
 
 <hr class="pt-hr">
 
-<p class="pt-hud-sub">Release 6 picks up from here, the aftermath. Use Restart in the sidebar menu to run the story again from a clean save.</p>
-
-<<patreoncard>>
+<div class="pt-choices">
+<<link "Continue to Release 6" "R6-Wake">><<set $timeOfDay to "Morning">><<set $dayLabel to "Day Twenty Five">><</link>>
+</div>

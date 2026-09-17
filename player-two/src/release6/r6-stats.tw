@@ -1,0 +1,50 @@
+:: R6-ReleaseEnd [release6]
+<<scene "img/scenes/release-end-bed.png" "Twelve inches of mattress. A canyon. A border.">>
+
+I lie in bed. Jess is beside me tonight. Her phone is charging on the nightstand, screen down. My phone is on mine, screen up, the LunaLocks catalog still open in a tab.
+
+Between us, twelve inches of mattress. The same mattress from when we moved in together, a year and a half ago, when twelve inches meant we were close. Now twelve inches is a canyon. A border. A demilitarized zone.
+
+I close my eyes. Behind them, five thousand people screaming. A pink wig. A reflection that looked happy. A jacket on a barstool. A wine glass with lipstick. A donation that said good girl. A friend who said whatever it is, it's okay. A sales rep who said take your time. A stranger on a forum who said sometimes the mask reveals the face.
+
+Sleep comes slow. When it arrives, I dream about two people in a mirror. One of them is smiling.
+
+I don't know which one is me.
+
+<<endcard "Release 6, Complete" "The Aftermath" "EthX is 23 dollars. EthX-chan is 847. Ethan is somewhere in the twelve inches between two people who used to be closer.">>
+
+<div class="pt-choices">
+<<link "See where things stand" "R6-Stats">><</link>>
+</div>
+
+:: R6-Stats [release6]
+<div class="pt-endcard">
+<div class="kicker">End of Release 6</div>
+<h2>Stats so far</h2>
+</div>
+
+<<statbar "Viewers" $viewers 250 $viewers "">>
+<<statbar "Followers" $followers 100000 $followers "">>
+<div class="pt-hud-line"><span>Donations, month</span><b><<= "$" + $donationsMonthly>></b></div>
+<div class="pt-hud-line"><span>Donations, regular stream</span><b><<= "$" + $donationsTonight>></b></div>
+<<statbar "Jess Closeness" $jessCloseness 100 $jessCloseness "">>
+<<statbar "Jess, Marcus Bond" $jessMarcusBond 100 $jessMarcusBond "">>
+<<statbar "Suspicion" $suspicion 100 $suspicion "trust">>
+<<statbar "Riley Trust" $rileyTrust 100 $rileyTrust "trust">>
+<<statbar "Community Bond" $communityBond 20 $communityBond "trust">>
+<<statbar "GhostReaper42 Bond" $ghostReaperBond 20 $ghostReaperBond "trust">>
+<<statbar "Feminization" $feminization 40 $feminization "">>
+<div class="pt-hud-line"><span>Stream Persona</span><b>$streamPersona</b></div>
+<div class="pt-hud-line"><span>Chat Mood</span><b>$chatMood</b></div>
+<div class="pt-hud-line"><span>Self-Image</span><b>$selfImage</b></div>
+<div class="pt-hud-line"><span>Money Stress</span><b><<moneybadge $moneyStress>></b></div>
+<div class="pt-hud-line"><span>Riley's question</span><b>$r6RileyChoice</b></div>
+<div class="pt-hud-line"><span>Discord moderation</span><b>$r6DiscordChoice</b></div>
+<div class="pt-hud-line"><span>LunaFrag's advice</span><b>$r6LunaChoice</b></div>
+<div class="pt-hud-line"><span>The decision</span><b>$r6FinalChoice</b></div>
+
+<hr class="pt-hr">
+
+<p class="pt-hud-sub">Release 7 picks up from here. Use Restart in the sidebar menu to run the story again from a clean save.</p>
+
+<<patreoncard>>
