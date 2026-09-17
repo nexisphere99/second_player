@@ -1,0 +1,189 @@
+:: R5-NPC-Riley [release5]
+<<scene "img/ui/riley-discord-dm.png" "You gonna do it again?">>
+
+Discord notification. Riley. A voice message, which is unusual. Riley usually types. I tap play.
+
+//"Dude. DUDE. I just. okay. I've been modding your chat for a year and a half. I have seen your chat do a lot of things. I have never, and I mean literally never, seen anything close to what happened tonight. That wasn't just a viewer spike. That was a vibe shift. Chat was different. They weren't watching a streamer play a game. They were watching something happen in real time and they all knew it and nobody could look away. Including me."//
+
+A pause. Riley's breathing. Then, quieter.
+
+//"Also, like. You looked really good, and I don't mean that in a weird way. I mean that in a. you looked like you, but more. Like the volume got turned up on something. I don't know. It's late and I'm being weird. Ignore me. But also don't ignore me because I'm right. Night."//
+
+The voice message ends.
+
+<div class="pt-phone">
+<<phonehead "Riley" "Discord DM" "R">>
+<<msg "" "Thanks Ry. Wild night." "right">>
+<<msg "" "You gonna do it again?" "left">>
+</div>
+
+The question sits on the screen. Blue light, black text, the weight of a future compressed into six words.
+
+<hr class="pt-hr">
+
+<div class="pt-choice-label">Riley</div>
+<div class="pt-choices">
+<<link "The algorithm spoke. I think I have to." "R5-Riley-A">><</link>>
+<<link "I don't know. Maybe." "R5-Riley-B">><</link>>
+<<link "It was a one-time thing." "R5-Riley-C">><</link>>
+</div>
+
+:: R5-Riley-A [release5]
+<<set $rileyTrust += 5>>
+<<set $r5RileyChoice to "algorithm">>
+<div class="pt-phone">
+<<phonehead "Riley" "Discord DM" "R">>
+<<msg "" "The algorithm spoke. I think I have to." "right">>
+<<msg "" "The algorithm didn't make your voice crack on good girl. Just saying. But yeah. Do it. I'll be in chat." "left">>
+</div>
+
+<div class="pt-hud-line"><span>Riley Trust</span><b>+5</b></div>
+
+<<goto "R5-NPC-LunaFrag">>
+
+:: R5-Riley-B [release5]
+<<set $rileyTrust += 3>>
+<<set $r5RileyChoice to "maybe">>
+<div class="pt-phone">
+<<phonehead "Riley" "Discord DM" "R">>
+<<msg "" "I don't know. Maybe." "right">>
+<<msg "" "No pressure. But your numbers don't lie, and neither did your face. Think about it." "left">>
+</div>
+
+<div class="pt-hud-line"><span>Riley Trust</span><b>+3</b></div>
+
+<<goto "R5-NPC-LunaFrag">>
+
+:: R5-Riley-C [release5]
+<<set $rileyTrust -= 2>>
+<<set $r5RileyChoice to "oneTime">>
+<div class="pt-phone">
+<<phonehead "Riley" "Discord DM" "R">>
+<<msg "" "It was a one-time thing." "right">>
+<<msg "" "Okay. That's valid. But save the clips. Just in case." "left">>
+</div>
+
+<div class="pt-hud-line"><span>Riley Trust</span><b>-2</b></div>
+
+<<goto "R5-NPC-LunaFrag">>
+
+:: R5-NPC-LunaFrag [release5]
+DM from LunaFrag. She's still awake, still buzzing from the tournament, still processing the fact that their punishment bet turned one of them into a viral moment.
+
+<div class="pt-phone">
+<<phonehead "LunaFrag" "Direct message" "L">>
+<<msg "" "Ethan. I'm not gonna sugarcoat this. I've been streaming for two years and my best night was 1,200 concurrent. You did 5,000 in a skirt. Do you understand what just happened?" "left">>
+<<msg "" "I'm still processing." "right">>
+<<msg "" "Process faster. Here's what I'm seeing. Three clip accounts reposted you. Two gaming news sites are writing about it. Your follower growth is a vertical line. You know what the gaming world calls this? A character arc. You just started one." "left">>
+<<msg "" "It was a punishment bet." "right">>
+<<msg "" "It WAS a punishment bet. Now it's a brand. That's how this works. Nobody starts out wanting to be the thing that makes them famous. But the market decides, and the market just decided." "left">>
+</div>
+
+She sends a screenshot of my follower graph. It looks like a cliff face viewed from below. Straight up.
+
+<div class="pt-phone">
+<<phonehead "LunaFrag" "Direct message" "L">>
+<<msg "" "Think about what you want to do with this. Because the window doesn't stay open forever. I've seen it happen. Viral moment, streamer doesn't follow up, viewers evaporate. You have maybe two weeks before the algorithm moves on." "left">>
+</div>
+
+<hr class="pt-hr">
+
+<div class="pt-choice-label">LunaFrag</div>
+<div class="pt-choices">
+<<link "You think I should keep doing it?" "R5-LunaFrag-A">><</link>>
+<<link "The numbers are hard to argue with." "R5-LunaFrag-B">><</link>>
+</div>
+
+:: R5-LunaFrag-A [release5]
+<<set $feminization += 2>>
+<<set $r5LunaFragChoice to "keepDoing">>
+<div class="pt-phone">
+<<phonehead "LunaFrag" "Direct message" "L">>
+<<msg "" "You think I should keep doing it?" "right">>
+<<msg "" "I think you should do whatever made your face look like that on stream. That wasn't performance, that was discovery, and chat could tell." "left">>
+</div>
+
+<div class="pt-hud-line"><span>Feminization</span><b>+2, external validation</b></div>
+
+<<goto "R5-NPC-TTVShadowMerc">>
+
+:: R5-LunaFrag-B [release5]
+<<set $followers += 200>>
+<<set $r5LunaFragChoice to "numbers">>
+<div class="pt-phone">
+<<phonehead "LunaFrag" "Direct message" "L">>
+<<msg "" "The numbers are hard to argue with." "right">>
+<<msg "" "Numbers never lie. People do, numbers don't. What you do with them is on you." "left">>
+</div>
+
+<div class="pt-hud-line"><span>Followers</span><b>+200, LunaFrag engages publicly</b></div>
+
+<<goto "R5-NPC-TTVShadowMerc">>
+
+:: R5-NPC-TTVShadowMerc [release5]
+TTVShadowMerc, one of my regulars. Been in my chat for eight months. Competitive FPS loyalist. The kind of viewer who's here for the gameplay and roasts anyone who brings up anything else. He DMs me on Discord.
+
+<div class="pt-phone">
+<<phonehead "TTVShadowMerc" "Direct message" "T">>
+<<msg "" "Yo E. Real talk." "left">>
+<<msg "" "What's up." "right">>
+<<msg "" "The femboy thing. I gotta be honest. I came in tonight ready to laugh. Like, pity watch the punishment and move on. But then you loaded up and you looked. man, I don't know how to say this without being weird." "left">>
+<<msg "" "Just say it." "right">>
+<<msg "" "You looked good, and chat was right, your energy was completely different. You were looser. Faster with the jokes. The triple kill in round six? That was the best play I've seen from you in months, and you were wearing a SKIRT. What the hell." "left">>
+<<msg "" "I don't know what that means. But I've been watching you grind for eight months and tonight was the first time I thought this guy could go big, and you were dressed as a girl when I thought it. Make of that what you will." "left">>
+</div>
+
+<hr class="pt-hr">
+
+<div class="pt-choice-label">TTVShadowMerc</div>
+<div class="pt-choices">
+<<link "Appreciate that, Merc. Honestly." "R5-ShadowMerc-A">><</link>>
+<<link "You're not gonna make it weird, right?" "R5-ShadowMerc-B">><</link>>
+</div>
+
+:: R5-ShadowMerc-A [release5]
+<<set $r5ShadowMercChoice to "appreciate">>
+<div class="pt-phone">
+<<phonehead "TTVShadowMerc" "Direct message" "T">>
+<<msg "" "Appreciate that, Merc. Honestly." "right">>
+<<msg "" "Don't get soft on me. Just go clip that triple kill. The skirt makes it funnier." "left">>
+</div>
+
+Chat mood stabilizes. Loyal regulars adapting.
+
+<<goto "R5-NPC-RandomDonor">>
+
+:: R5-ShadowMerc-B [release5]
+<<set $rileyTrust += 2>>
+<<set $r5ShadowMercChoice to "weird">>
+<div class="pt-phone">
+<<phonehead "TTVShadowMerc" "Direct message" "T">>
+<<msg "" "You're not gonna make it weird, right?" "right">>
+<<msg "" "Bro. I have watched every stream you've done for eight months. Including the one where you rage quit and accidentally showed your desktop wallpaper of Jess. I have been through the weird. This is fine." "left">>
+</div>
+
+<div class="pt-hud-line"><span>Riley Trust</span><b>+2, community solidarity</b></div>
+
+<<goto "R5-NPC-RandomDonor">>
+
+:: R5-NPC-RandomDonor [release5]
+<<set $princessMaker99Seen to true>>
+<<scene "img/ui/princessmaker99-donation.png" "$100. No message.">>
+
+I scroll through the donation log. Most of the eight forty seven came in small amounts. Five, ten, twenty. The long tail of internet generosity. But a few stand out.
+
+A hundred dollars from good_girl_energy. Message, "I literally created this account to donate to you tonight. I don't usually watch game streams. Your clip came across my timeline and I couldn't look away. Please don't stop."
+
+Fifty dollars from thighHighKingdom. Message, "I've been a femboy for three years and watching someone discover it for the first time on stream gave me actual chills. Your face when you looked at yourself in the mirror at the start? That's the face. I know that face. Welcome."
+
+Twenty five dollars from GhostReaper42. My five dollar regular. The one who's been donating since the early days. His message, "I've been giving you $5 a week for six months and tonight I gave you $25 and it felt more right than any of the $5s. I don't know what that says about me or you but I'm here for it."
+
+Then there's the hundred dollars from someone I've never seen before. Username, PrincessMaker99. No message attached to the donation. Just the amount. A hundred dollars, dropped without a word, like a calling card left on a doorstep. I look at the profile. No other activity. Brand new account. Created tonight.
+
+I note it and move on. I won't understand the significance for weeks.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Before I sleep" "R5-SideQuest-ClipReview">><</link>>
+</div>

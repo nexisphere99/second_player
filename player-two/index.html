@@ -106,7 +106,7 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
 		<div id="init-lacking"><p>Browser lacks capabilities required to play.</p><p>Upgrade or switch to another browser.</p></div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<!-- UUID://92F88D4E-2318-43DE-9F9E-2001DA7B3F02// --><tw-storydata name="Player Two" startnode="29" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="92F88D4E-2318-43DE-9F9E-2001DA7B3F02" zoom="1" format="SugarCube" format-version="2.37.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="release3" color="#c0704a"></tw-tag><tw-tag name="release4" color="#e0556f"></tw-tag><tw-tag name="sidequest" color="#e0b84d"></tw-tag><tw-tag name="intimate" color="#e0556f"></tw-tag><tw-tag name="release1" color="#9b59b6"></tw-tag><tw-tag name="release2" color="#3f7fbf"></tw-tag><tw-passagedata pid="1" name="StoryCaption" tags="" position="100,100" size="100,100">&lt;&lt;hud&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="StoryMenu" tags="" position="225,100" size="100,100">&lt;&lt;link &quot;Stats so far&quot; &quot;R1-Stats&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="PassageHeader" tags="" position="350,100" size="100,100">&lt;div class=&quot;pt-topbar&quot;&gt;
+	<!-- UUID://92F88D4E-2318-43DE-9F9E-2001DA7B3F02// --><tw-storydata name="Player Two" startnode="29" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="92F88D4E-2318-43DE-9F9E-2001DA7B3F02" zoom="1" format="SugarCube" format-version="2.37.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="sidequest" color="#e0b84d"></tw-tag><tw-tag name="intimate" color="#e0556f"></tw-tag><tw-tag name="release1" color="#9b59b6"></tw-tag><tw-tag name="release2" color="#3f7fbf"></tw-tag><tw-tag name="release3" color="#c0704a"></tw-tag><tw-tag name="release4" color="#e0556f"></tw-tag><tw-tag name="release5" color="#e07ab8"></tw-tag><tw-passagedata pid="1" name="StoryCaption" tags="" position="100,100" size="100,100">&lt;&lt;hud&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="StoryMenu" tags="" position="225,100" size="100,100">&lt;&lt;link &quot;Stats so far&quot; &quot;R1-Stats&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="PassageHeader" tags="" position="350,100" size="100,100">&lt;div class=&quot;pt-topbar&quot;&gt;
 &lt;div class=&quot;pt-brand&quot;&gt;PLAYER &lt;span&gt;TWO&lt;/span&gt;&lt;/div&gt;
 &lt;div class=&quot;pt-daytime&quot;&gt;$dayLabel &amp;middot; &lt;b&gt;$timeOfDay&lt;/b&gt;&lt;/div&gt;
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="4" name="StoryInit" tags="" position="475,100" size="100,100">&lt;&lt;set $viewers to 200&gt;&gt;
@@ -153,7 +153,13 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
 &lt;&lt;set $r3ClosingChoice to &quot;none&quot;&gt;&gt;
 
 &lt;&lt;set $creditCardDebt to 1200&gt;&gt;
-&lt;&lt;set $r4EndChoice to &quot;none&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="R1-Apartment" tags="release1" position="600,100" size="100,100">&lt;&lt;scene &quot;img/locations/apartment-kitchen.png&quot; &quot;The kitchen, one person wide&quot;&gt;&gt;
+&lt;&lt;set $r4EndChoice to &quot;none&quot;&gt;&gt;
+
+&lt;&lt;set $r5AloneChoice to &quot;none&quot;&gt;&gt;
+&lt;&lt;set $r5RileyChoice to &quot;none&quot;&gt;&gt;
+&lt;&lt;set $r5LunaFragChoice to &quot;none&quot;&gt;&gt;
+&lt;&lt;set $r5ShadowMercChoice to &quot;none&quot;&gt;&gt;
+&lt;&lt;set $princessMaker99Seen to false&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="R1-Apartment" tags="release1" position="600,100" size="100,100">&lt;&lt;scene &quot;img/locations/apartment-kitchen.png&quot; &quot;The kitchen, one person wide&quot;&gt;&gt;
 
 I walk to the kitchen and the apartment walks with me. Three steps from desk to door, eight steps down the hallway, four steps to the fridge. I&#39;ve counted them. When you live somewhere small enough to memorize in footsteps, you stop calling it home and start calling it what it actually is, a container.
 
@@ -2631,9 +2637,9 @@ The five hundred dollars wins. It usually does. You go to sleep smaller than you
 
 &lt;hr class=&quot;pt-hr&quot;&gt;
 
-&lt;p class=&quot;pt-hud-sub&quot;&gt;Release 5 picks up from here. Use Restart in the sidebar menu to run the story again from a clean save.&lt;/p&gt;
-
-&lt;&lt;patreoncard&gt;&gt;</tw-passagedata><tw-passagedata pid="104" name="R4-TellingJess" tags="release4" position="475,1350" size="100,100">&lt;&lt;scene &quot;img/scenes/shopping-with-jess.png&quot; &quot;Definitely the pink ones&quot;&gt;&gt;
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Continue to Release 5&quot; &quot;R5-GettingReady&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Afternoon&quot;&gt;&gt;&lt;&lt;set $dayLabel to &quot;Day Twenty Four&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="104" name="R4-TellingJess" tags="release4" position="475,1350" size="100,100">&lt;&lt;scene &quot;img/scenes/shopping-with-jess.png&quot; &quot;Definitely the pink ones&quot;&gt;&gt;
 
 She&#39;s home. Actually home. Sitting on the couch with her laptop, but present, here, in the apartment, existing in the same space as me. It&#39;s notable that this is notable.
 
@@ -2808,7 +2814,639 @@ I pull off my headset. Eight hundred viewers watched me choke. The clip of me sl
 
 &lt;div class=&quot;pt-choices&quot;&gt;
 &lt;&lt;link &quot;Twenty minutes later&quot; &quot;R4-RileyDebrief&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Night&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="106" name="Widgets" tags="widget" position="725,1350" size="100,100">\
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="106" name="R5-SideQuest-ClipReview" tags="release5" position="725,1350" size="100,100">&lt;&lt;scene &quot;img/ui/clip-goes-viral.png&quot; &quot;Character development speedrun&quot;&gt;&gt;
+
+Before I sleep, I do the thing I shouldn&#39;t do. I watch my own clips.
+
+The main one, the viral one, is forty three seconds long. It starts with me adjusting the wig, looking down at the chat, and then looking directly at the camera. The moment of eye contact is what did it. Apparently my expression shifted in a way I wasn&#39;t conscious of. The nervous energy dropped out and something else surfaced. Something open and raw and a little scared and a lot alive.
+
+The comments under the clip.
+
+&quot;The way his whole energy changes when he looks at the camera. That&#39;s not a bit.&quot; &quot;this is genuinely the most interesting thing to happen on twitch in months.&quot; &quot;bro found himself on stream.&quot; &quot;she&#39;s* lol&quot;
+
+That last comment, the casual correction, she, used naturally, without asterisks or qualifications, the way you&#39;d correct someone who got a street name wrong. Matter of fact, like it was obvious.
+
+I scroll deeper.
+
+A thread compiling screenshots of my stream, the beginning, where I&#39;m fidgeting and awkward, and the end, three hours later, where I&#39;m leaning back in the chair with my legs crossed at the ankle and the skirt draped over my thighs and I&#39;m laughing at something chat said and I look comfortable. Side by side, the transformation isn&#39;t the makeup or the wig. It&#39;s the posture. The face. The ease.
+
+&quot;This guy went from I lost a bet to I found myself in three hours. Character development speedrun.&quot;
+
+Eight thousand likes.
+
+I put the phone down. Pick it up. Put it down. My brain is doing the thing where it plays the same three seconds of footage on loop. My face in the mirror when Jess put the wig on. The unfinished sentence. The viewer count climbing like a launched rocket. Good girl. My voice cracking. The skirt on my thighs. The eight forty seven. The silence of the apartment. Jess&#39;s text from Marcus&#39;s apartment.
+
+All of it. On loop. Like a song I can&#39;t skip.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;2 AM&quot; &quot;R5-NightEnd&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="107" name="R5-GettingReady" tags="release5" position="850,1350" size="100,100">&lt;&lt;scene &quot;img/scenes/bathroom-mirror-reveal.png&quot; &quot;The person looking back freezes my brain&quot;&gt;&gt;
+
+The bathroom is the size of a coffin and smells like Jess&#39;s vanilla body spray, which she hasn&#39;t used in a week because she keeps a bottle at Marcus&#39;s now. I don&#39;t know that for a fact. I know it the way you know the sun will come up. You don&#39;t check. You just feel the rotation.
+
+She&#39;s here today, though. Standing behind me with a video tutorial propped on her phone against the toothbrush holder. &quot;Basic Crossplay Makeup for Beginners.&quot; Eight hundred thousand views. The comments are full of anime convention photos and people saying slay. I am not slaying. I am standing in our bathroom in boxers and a t-shirt while my girlfriend dabs concealer under my eyes like she&#39;s spackling drywall.
+
+//&quot;Hold still. Stop blinking.&quot;//
+
+//&quot;I literally can&#39;t help it. You&#39;re poking my eye.&quot;//
+
+//&quot;I&#39;m not poking your eye. I&#39;m near your eye. There&#39;s a difference. Blink again and I stab you for real.&quot;//
+
+We&#39;re laughing, both of us, at the same time, in the same room. I can&#39;t remember the last time that happened. Two weeks, three? She&#39;s been at Marcus&#39;s apartment every night this week doing content strategy, a phrase that has started to taste like copper in my mouth, but right now she&#39;s here and her fingers are on my face and the bathroom is small enough that her hip touches mine when she reaches for the mascara.
+
+The supplies are spread across the sink counter like evidence from a crime scene I haven&#39;t committed yet. A cheap pink wig from an online order, twenty two dollars, the synthetic fibers already tangling out of the bag. Plaid skirt, eighteen dollars. White thigh high socks, twelve dollars. Oversized pastel hoodie, fifteen dollars. Basic makeup from Jess&#39;s own collection because we can&#39;t afford a separate kit. Total investment, under seventy dollars. The budget cosplay of a man who lost a tournament bet because his hands wouldn&#39;t stop shaking.
+
+Jess approaches this like a project. That&#39;s what she does. That&#39;s who she is. When she&#39;s locked in on something, the rest of the world dissolves. She&#39;s got the tutorial playing step by step, pausing and rewinding, matching the video&#39;s motions on my face. Concealer under the eyes. Foundation along the jawline, blended outward with a sponge she dampened under the faucet. She tilts my chin toward the overhead light. Studies me. Tilts me the other way.
+
+//&quot;Your skin&#39;s actually pretty clear. That helps.&quot;//
+
+I don&#39;t know what to do with that information.
+
+&lt;&lt;scene &quot;img/scenes/jess-applying-makeup.png&quot; &quot;Look up. Not at me.&quot;&gt;&gt;
+
+Next is mascara. She holds the wand like a weapon. //&quot;Look up. No, up. At the ceiling. Don&#39;t look at me.&quot;//
+
+The bristles catch my lashes. The sensation is alien, wet, dragging, intimate in a way that has nothing to do with sex. She&#39;s this close and she&#39;s focused entirely on my eyelashes and for a second I forget about Marcus&#39;s apartment and the five hundred dollars I lost and the eight hundred viewers who watched me choke in the semifinals.
+
+Lip tint, pink. She applies it with her fingertip, not the applicator. Her finger on my lips. She rubs gently, spreading the color. My lips look fuller, softer. The tint is a shade called Petal Crush and it smells like synthetic strawberry.
+
+She steps back. Wipes her hands on her jeans. Adjusts a strand of the wig she hasn&#39;t put on me yet.
+
+//&quot;Okay. Wig time.&quot;//
+
+The wig goes on. She tucks my hair underneath, pins it, adjusts the cap. Pulls the synthetic strands forward to frame my face. Steps back again. Her hands drop to her sides.
+
+//&quot;Look.&quot;//
+
+I turn to the mirror.
+
+The person looking back freezes my brain.
+
+I expected a joke. Something to screenshot and post with a crying laughing emoji. A punchline for chat, content for the highlight reel, proof that I&#39;m a good sport who can take an L with grace. Instead the mirror shows me someone pretty. Not pretty for a guy in a cheap wig. Not surprisingly passable for a bet, just pretty. My slim build that I&#39;ve been insecure about since high school, the shoulders that never broadened properly, the jaw that&#39;s too soft for the angular male faces on energy drink ads. The wig frames all of it and suddenly those features aren&#39;t deficiencies. They&#39;re assets.
+
+The concealer smoothed my under eyes. The foundation evened my skin. The mascara made my lashes visible for the first time in my life. The lip tint made my mouth look like something someone would want to kiss.
+
+I look like a cute girl. The disconnect between what I expected and what I see shorts something deep in my wiring. The laughter dies in my throat. Something else rushes in. I don&#39;t have a word for it. Not yet. It&#39;s warm and terrifying and it sits in my chest like a second heartbeat.
+
+//&quot;Holy shit,&quot;// Jess whispers. She&#39;s looking at the mirror too. At me. At whoever that is. //&quot;Ethan, you actually look.&quot;//
+
+She doesn&#39;t finish.
+
+She pulls out her phone and takes a photo instead.
+
+The unfinished sentence hangs in the bathroom steam like a ghost.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;She scrolls through the photo&quot; &quot;R5-JessReacts&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="108" name="R5-JessReacts" tags="release5" position="975,1350" size="100,100">She scrolls through the photo she took. Zooms in. Her thumb and forefinger spreading the image wider. She&#39;s studying my face on a screen three feet from my actual face.
+
+//&quot;Can I post this?&quot;//
+
+//&quot;No. God. No.&quot;//
+
+//&quot;Just to your Discord? Riley would lose their mind.&quot;//
+
+//&quot;Jess.&quot;//
+
+//&quot;Fine. But you look good. Like, I&#39;m not even being nice. You objectively look good.&quot;//
+
+She says objectively like it&#39;s a scientific finding. Like she ran the data and the numbers came back and the numbers don&#39;t lie. I don&#39;t know what to do with that either.
+
+She grabs the skirt from the counter. Holds it up against my waist. //&quot;Put this on, and the socks. Let&#39;s see the full thing.&quot;//
+
+I change in the bathroom with the door closed, which is stupid because she&#39;s right outside and she&#39;s seen me naked ten thousand times. But something about putting on the skirt feels like it needs a closed door. A threshold. A moment of privacy between who I was when I walked in and whoever walks out.
+
+The skirt sits on my hips. The fabric is thin and cheap and it swishes when I shift my weight. The thigh high socks roll up my legs and grip just above mid thigh, the elastic band biting gently into flesh that has never been held like this. The pastel hoodie goes over everything, oversized, the hem hitting mid skirt.
+
+I open the door.
+
+&lt;&lt;scene &quot;img/scenes/full-outfit-reveal.png&quot; &quot;Christ, Ethan&quot;&gt;&gt;
+
+Jess looks at me. Her expression does something I can&#39;t read. It starts as amusement and passes through surprise and lands somewhere I don&#39;t have a map for.
+
+//&quot;Christ, Ethan.&quot;//
+
+//&quot;That bad?&quot;//
+
+//&quot;That&#39;s the opposite of bad.&quot;//
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Go live&quot; &quot;R5-GoingLive&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Evening&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="109" name="R5-JessText" tags="release5" position="1100,1350" size="100,100">&lt;&lt;scene &quot;img/ui/jess-text-phone.png&quot; &quot;So proud of you, from a distance&quot;&gt;&gt;
+
+My phone buzzes. Not a notification. A text. Jess.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;Jess&quot; &quot;iMessage&quot; &quot;J&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;OMG babe I saw clips!! You blew up!! So proud of you ❤️&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+I stare at the text. Read it again. She&#39;s proud. She saw the clips. She wasn&#39;t there.
+
+She was at Marcus&#39;s apartment. For a content planning session. During the biggest stream of my career. The night I tasted virality for the first time, the night my follower count did something it has never done in three years of daily grinding, the night the algorithm finally turned its face toward me and said there you are, and the woman who was supposed to be beside me was at another man&#39;s apartment.
+
+She saw the clips. At his place. On his couch, maybe. Sitting next to him. Maybe he saw the clips too. Maybe they watched together. Marcus with his six foot three frame and his devastating smile watching my girlfriend watch me in a skirt and maybe he said something like your boy actually pulls that off and maybe Jess laughed and maybe she was sitting close enough that his arm was behind her on the couch and maybe it wasn&#39;t.
+
+So proud of you.
+
+Proud from a distance. Proud from someone else&#39;s apartment. Proud with a heart emoji that takes a quarter second to type and covers a multitude of absences.
+
+&lt;&lt;set $suspicion += 7&gt;&gt;
+&lt;&lt;set $jessCloseness -= 4&gt;&gt;
+&lt;&lt;set $jessMarcusBond += 3&gt;&gt;
+
+I don&#39;t reply for twenty minutes. I sit in the outfit, or the aftermath of the outfit, depending on what I chose, and I hold the phone and I look at the text and I feel the eight forty seven glowing on my monitor and the fifteen thousand new followers climbing on my dashboard and the ghost of good girl in the air and I feel all of it and none of it feels like enough because the person I want to feel it with is sending heart emojis from another man&#39;s couch.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;Jess&quot; &quot;iMessage&quot; &quot;J&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Thanks babe. It was wild.&quot; &quot;right&quot;&gt;&gt;
+&lt;/div&gt;
+
+She hearts the message. That&#39;s it.
+
+A heart react. The smallest possible acknowledgment. The digital equivalent of a pat on the head as you walk past.
+
+I put the phone face down on the desk. The screen goes dark. The room is purple and quiet and I am sitting in it alone.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Discord notification&quot; &quot;R5-NPC-Riley&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="110" name="R5-NightEnd" tags="release5" position="1225,1350" size="100,100">Jess comes home at 2 AM.
+
+&lt;&lt;if $r5AloneChoice is &quot;touch&quot;&gt;&gt;
+&lt;&lt;scene &quot;img/scenes/asleep-at-desk.png&quot; &quot;You haven&#39;t looked peaceful in months&quot;&gt;&gt;
+She finds me asleep at the desk. Head on my folded arms, wig slipping sideways, skirt rucked up to mid thigh, the monitor&#39;s screensaver painting slow colors across my face. I don&#39;t see what she sees. I don&#39;t see her stand in the doorway with her phone in her hand, her expression computing something that doesn&#39;t have an answer. I don&#39;t see her look at me for a long time. I don&#39;t see her go to bed without waking me.
+
+I learn later that she stood there for almost five minutes. She told me that, weeks from now, in a conversation that was about something else entirely. &quot;I stood there and I watched you sleep and you looked peaceful. You haven&#39;t looked peaceful in months.&quot;
+
+She didn&#39;t say, you looked peaceful dressed as a girl. She didn&#39;t have to.
+&lt;&lt;elseif $r5AloneChoice is &quot;remove&quot;&gt;&gt;
+She finds me in bed, clean, in boxers and a t-shirt, hair damp from the shower, normal. She slides in next to me. Her keys clatter on the nightstand. She smells like outside air and coffee and something else that might be Marcus&#39;s body wash or might be the coffee shop near his apartment. I don&#39;t ask.
+
+//&quot;Big night, huh?&quot;//
+
+//&quot;Yeah.&quot;//
+
+//&quot;I really am proud of you.&quot;//
+
+She rolls over. Falls asleep in minutes. I lie awake and stare at the ceiling and the purple LED lights and I think about the plastic bag under my desk with the wig and the skirt and the thigh highs and I think about reaching down and taking something out and I don&#39;t do it. I don&#39;t do it. I stare at the ceiling instead.
+&lt;&lt;else&gt;&gt;
+She finds me at the desk, headset around my neck, the stream just ended, still in the outfit, 2 AM. The timing is almost perfect. She walked in sixty seconds after I went offline.
+
+//&quot;You streamed again? At this hour?&quot;//
+
+//&quot;Yeah. Chat wanted more.&quot;//
+
+She looks at me. The outfit. The wig. The makeup that&#39;s been on for eight hours and has settled into something that looks more natural than it did when she first applied it. My face has been wearing this mask long enough that the mask stopped being a mask.
+
+//&quot;You look tired.&quot;//
+
+//&quot;I am.&quot;//
+
+//&quot;You look good tired.&quot;//
+
+She goes to bed. I sit at the desk. The wig itches. The skirt is warm. The thousand forty seven glows on the screen.
+&lt;&lt;/if&gt;&gt;
+
+The apartment is quiet. Marcus&#39;s apartment is across the city and Jess was just there and now she&#39;s here and I&#39;m here and the wig is here and tomorrow I have to decide whether EthX-chan was a one night accident or the beginning of something I can&#39;t name.
+
+&lt;&lt;set $viewers to 350&gt;&gt;
+&lt;&lt;set $donationsMonthly += $donationsTonight&gt;&gt;
+
+&lt;&lt;endcard &quot;Release 5, Complete&quot; &quot;The First Femboy Stream&quot; &quot;EthX-chan is not a bit anymore. Fifteen thousand strangers followed her tonight, and Ethan still doesn&#39;t know what to call the thing in his chest.&quot;&gt;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;See where things stand&quot; &quot;R5-Stats&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="111" name="R5-Stats" tags="release5" position="100,1475" size="100,100">&lt;div class=&quot;pt-endcard&quot;&gt;
+&lt;div class=&quot;kicker&quot;&gt;End of Release 5&lt;/div&gt;
+&lt;h2&gt;Stats so far&lt;/h2&gt;
+&lt;/div&gt;
+
+&lt;&lt;statbar &quot;Viewers&quot; $viewers 250 $viewers &quot;&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Followers&quot; $followers 100000 $followers &quot;&quot;&gt;&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Donations, month&lt;/span&gt;&lt;b&gt;&lt;&lt;= &quot;$&quot; + $donationsMonthly&gt;&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Donations, that night&lt;/span&gt;&lt;b&gt;&lt;&lt;= &quot;$&quot; + $donationsTonight&gt;&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;&lt;statbar &quot;Jess Closeness&quot; $jessCloseness 100 $jessCloseness &quot;&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Jess, Marcus Bond&quot; $jessMarcusBond 100 $jessMarcusBond &quot;&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Suspicion&quot; $suspicion 100 $suspicion &quot;trust&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Riley Trust&quot; $rileyTrust 100 $rileyTrust &quot;trust&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Community Bond&quot; $communityBond 20 $communityBond &quot;trust&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Feminization&quot; $feminization 30 $feminization &quot;&quot;&gt;&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Stream Persona&lt;/span&gt;&lt;b&gt;$streamPersona&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Chat Mood&lt;/span&gt;&lt;b&gt;$chatMood&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Self-Image&lt;/span&gt;&lt;b&gt;$selfImage&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Money Stress&lt;/span&gt;&lt;b&gt;&lt;&lt;moneybadge $moneyStress&gt;&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Alone, after the stream&lt;/span&gt;&lt;b&gt;$r5AloneChoice&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Riley conversation&lt;/span&gt;&lt;b&gt;$r5RileyChoice&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;LunaFrag conversation&lt;/span&gt;&lt;b&gt;$r5LunaFragChoice&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;New contact&lt;/span&gt;&lt;b&gt;PrincessMaker99, silent $100, no message&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;p class=&quot;pt-hud-sub&quot;&gt;Release 6 picks up from here, the aftermath. Use Restart in the sidebar menu to run the story again from a clean save.&lt;/p&gt;
+
+&lt;&lt;patreoncard&gt;&gt;</tw-passagedata><tw-passagedata pid="112" name="R5-NPC-Riley" tags="release5" position="225,1475" size="100,100">&lt;&lt;scene &quot;img/ui/riley-discord-dm.png&quot; &quot;You gonna do it again?&quot;&gt;&gt;
+
+Discord notification. Riley. A voice message, which is unusual. Riley usually types. I tap play.
+
+//&quot;Dude. DUDE. I just. okay. I&#39;ve been modding your chat for a year and a half. I have seen your chat do a lot of things. I have never, and I mean literally never, seen anything close to what happened tonight. That wasn&#39;t just a viewer spike. That was a vibe shift. Chat was different. They weren&#39;t watching a streamer play a game. They were watching something happen in real time and they all knew it and nobody could look away. Including me.&quot;//
+
+A pause. Riley&#39;s breathing. Then, quieter.
+
+//&quot;Also, like. You looked really good, and I don&#39;t mean that in a weird way. I mean that in a. you looked like you, but more. Like the volume got turned up on something. I don&#39;t know. It&#39;s late and I&#39;m being weird. Ignore me. But also don&#39;t ignore me because I&#39;m right. Night.&quot;//
+
+The voice message ends.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;Riley&quot; &quot;Discord DM&quot; &quot;R&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Thanks Ry. Wild night.&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;You gonna do it again?&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+The question sits on the screen. Blue light, black text, the weight of a future compressed into six words.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choice-label&quot;&gt;Riley&lt;/div&gt;
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;The algorithm spoke. I think I have to.&quot; &quot;R5-Riley-A&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;I don&#39;t know. Maybe.&quot; &quot;R5-Riley-B&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;It was a one-time thing.&quot; &quot;R5-Riley-C&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="113" name="R5-Riley-A" tags="release5" position="350,1475" size="100,100">&lt;&lt;set $rileyTrust += 5&gt;&gt;
+&lt;&lt;set $r5RileyChoice to &quot;algorithm&quot;&gt;&gt;
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;Riley&quot; &quot;Discord DM&quot; &quot;R&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;The algorithm spoke. I think I have to.&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;The algorithm didn&#39;t make your voice crack on good girl. Just saying. But yeah. Do it. I&#39;ll be in chat.&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Riley Trust&lt;/span&gt;&lt;b&gt;+5&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;goto &quot;R5-NPC-LunaFrag&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="114" name="R5-Riley-B" tags="release5" position="475,1475" size="100,100">&lt;&lt;set $rileyTrust += 3&gt;&gt;
+&lt;&lt;set $r5RileyChoice to &quot;maybe&quot;&gt;&gt;
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;Riley&quot; &quot;Discord DM&quot; &quot;R&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;I don&#39;t know. Maybe.&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;No pressure. But your numbers don&#39;t lie, and neither did your face. Think about it.&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Riley Trust&lt;/span&gt;&lt;b&gt;+3&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;goto &quot;R5-NPC-LunaFrag&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="115" name="R5-Riley-C" tags="release5" position="600,1475" size="100,100">&lt;&lt;set $rileyTrust -= 2&gt;&gt;
+&lt;&lt;set $r5RileyChoice to &quot;oneTime&quot;&gt;&gt;
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;Riley&quot; &quot;Discord DM&quot; &quot;R&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;It was a one-time thing.&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Okay. That&#39;s valid. But save the clips. Just in case.&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Riley Trust&lt;/span&gt;&lt;b&gt;-2&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;goto &quot;R5-NPC-LunaFrag&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="116" name="R5-NPC-LunaFrag" tags="release5" position="725,1475" size="100,100">DM from LunaFrag. She&#39;s still awake, still buzzing from the tournament, still processing the fact that their punishment bet turned one of them into a viral moment.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;LunaFrag&quot; &quot;Direct message&quot; &quot;L&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Ethan. I&#39;m not gonna sugarcoat this. I&#39;ve been streaming for two years and my best night was 1,200 concurrent. You did 5,000 in a skirt. Do you understand what just happened?&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;I&#39;m still processing.&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Process faster. Here&#39;s what I&#39;m seeing. Three clip accounts reposted you. Two gaming news sites are writing about it. Your follower growth is a vertical line. You know what the gaming world calls this? A character arc. You just started one.&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;It was a punishment bet.&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;It WAS a punishment bet. Now it&#39;s a brand. That&#39;s how this works. Nobody starts out wanting to be the thing that makes them famous. But the market decides, and the market just decided.&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+She sends a screenshot of my follower graph. It looks like a cliff face viewed from below. Straight up.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;LunaFrag&quot; &quot;Direct message&quot; &quot;L&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Think about what you want to do with this. Because the window doesn&#39;t stay open forever. I&#39;ve seen it happen. Viral moment, streamer doesn&#39;t follow up, viewers evaporate. You have maybe two weeks before the algorithm moves on.&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choice-label&quot;&gt;LunaFrag&lt;/div&gt;
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;You think I should keep doing it?&quot; &quot;R5-LunaFrag-A&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;The numbers are hard to argue with.&quot; &quot;R5-LunaFrag-B&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="117" name="R5-LunaFrag-A" tags="release5" position="850,1475" size="100,100">&lt;&lt;set $feminization += 2&gt;&gt;
+&lt;&lt;set $r5LunaFragChoice to &quot;keepDoing&quot;&gt;&gt;
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;LunaFrag&quot; &quot;Direct message&quot; &quot;L&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;You think I should keep doing it?&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;I think you should do whatever made your face look like that on stream. That wasn&#39;t performance, that was discovery, and chat could tell.&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Feminization&lt;/span&gt;&lt;b&gt;+2, external validation&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;goto &quot;R5-NPC-TTVShadowMerc&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="118" name="R5-LunaFrag-B" tags="release5" position="975,1475" size="100,100">&lt;&lt;set $followers += 200&gt;&gt;
+&lt;&lt;set $r5LunaFragChoice to &quot;numbers&quot;&gt;&gt;
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;LunaFrag&quot; &quot;Direct message&quot; &quot;L&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;The numbers are hard to argue with.&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Numbers never lie. People do, numbers don&#39;t. What you do with them is on you.&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Followers&lt;/span&gt;&lt;b&gt;+200, LunaFrag engages publicly&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;goto &quot;R5-NPC-TTVShadowMerc&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="119" name="R5-NPC-TTVShadowMerc" tags="release5" position="1100,1475" size="100,100">TTVShadowMerc, one of my regulars. Been in my chat for eight months. Competitive FPS loyalist. The kind of viewer who&#39;s here for the gameplay and roasts anyone who brings up anything else. He DMs me on Discord.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;TTVShadowMerc&quot; &quot;Direct message&quot; &quot;T&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Yo E. Real talk.&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;What&#39;s up.&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;The femboy thing. I gotta be honest. I came in tonight ready to laugh. Like, pity watch the punishment and move on. But then you loaded up and you looked. man, I don&#39;t know how to say this without being weird.&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Just say it.&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;You looked good, and chat was right, your energy was completely different. You were looser. Faster with the jokes. The triple kill in round six? That was the best play I&#39;ve seen from you in months, and you were wearing a SKIRT. What the hell.&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;I don&#39;t know what that means. But I&#39;ve been watching you grind for eight months and tonight was the first time I thought this guy could go big, and you were dressed as a girl when I thought it. Make of that what you will.&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choice-label&quot;&gt;TTVShadowMerc&lt;/div&gt;
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Appreciate that, Merc. Honestly.&quot; &quot;R5-ShadowMerc-A&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;You&#39;re not gonna make it weird, right?&quot; &quot;R5-ShadowMerc-B&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="120" name="R5-ShadowMerc-A" tags="release5" position="1225,1475" size="100,100">&lt;&lt;set $r5ShadowMercChoice to &quot;appreciate&quot;&gt;&gt;
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;TTVShadowMerc&quot; &quot;Direct message&quot; &quot;T&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Appreciate that, Merc. Honestly.&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Don&#39;t get soft on me. Just go clip that triple kill. The skirt makes it funnier.&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+Chat mood stabilizes. Loyal regulars adapting.
+
+&lt;&lt;goto &quot;R5-NPC-RandomDonor&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="121" name="R5-ShadowMerc-B" tags="release5" position="100,1600" size="100,100">&lt;&lt;set $rileyTrust += 2&gt;&gt;
+&lt;&lt;set $r5ShadowMercChoice to &quot;weird&quot;&gt;&gt;
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;TTVShadowMerc&quot; &quot;Direct message&quot; &quot;T&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;You&#39;re not gonna make it weird, right?&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Bro. I have watched every stream you&#39;ve done for eight months. Including the one where you rage quit and accidentally showed your desktop wallpaper of Jess. I have been through the weird. This is fine.&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Riley Trust&lt;/span&gt;&lt;b&gt;+2, community solidarity&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;goto &quot;R5-NPC-RandomDonor&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="122" name="R5-NPC-RandomDonor" tags="release5" position="225,1600" size="100,100">&lt;&lt;set $princessMaker99Seen to true&gt;&gt;
+&lt;&lt;scene &quot;img/ui/princessmaker99-donation.png&quot; &quot;$100. No message.&quot;&gt;&gt;
+
+I scroll through the donation log. Most of the eight forty seven came in small amounts. Five, ten, twenty. The long tail of internet generosity. But a few stand out.
+
+A hundred dollars from good_girl_energy. Message, &quot;I literally created this account to donate to you tonight. I don&#39;t usually watch game streams. Your clip came across my timeline and I couldn&#39;t look away. Please don&#39;t stop.&quot;
+
+Fifty dollars from thighHighKingdom. Message, &quot;I&#39;ve been a femboy for three years and watching someone discover it for the first time on stream gave me actual chills. Your face when you looked at yourself in the mirror at the start? That&#39;s the face. I know that face. Welcome.&quot;
+
+Twenty five dollars from GhostReaper42. My five dollar regular. The one who&#39;s been donating since the early days. His message, &quot;I&#39;ve been giving you $5 a week for six months and tonight I gave you $25 and it felt more right than any of the $5s. I don&#39;t know what that says about me or you but I&#39;m here for it.&quot;
+
+Then there&#39;s the hundred dollars from someone I&#39;ve never seen before. Username, PrincessMaker99. No message attached to the donation. Just the amount. A hundred dollars, dropped without a word, like a calling card left on a doorstep. I look at the profile. No other activity. Brand new account. Created tonight.
+
+I note it and move on. I won&#39;t understand the significance for weeks.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Before I sleep&quot; &quot;R5-SideQuest-ClipReview&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="123" name="R5-PostStream" tags="release5" position="350,1600" size="100,100">&lt;&lt;scene &quot;img/scenes/alone-post-stream.png&quot; &quot;The quiet is so loud it hums&quot;&gt;&gt;
+
+The adrenaline crashes like a wave pulling back from a beach. One second I&#39;m riding it, the next I&#39;m sitting at my desk in the sudden silence of an offline stream, and the quiet is so loud it hums.
+
+The ring light is still on. The webcam is off. The LED strips paint the room purple. Energy drink cans along the windowsill catch the light like a tiny city skyline.
+
+I&#39;m still in the outfit.
+
+I didn&#39;t take it off. The stream ended eleven minutes ago and I&#39;m still sitting here in the pink wig, the plaid skirt, the thigh high socks, the pastel hoodie. Jess&#39;s lip tint is slightly smeared from where I kept touching my mouth without thinking. The mascara is holding up. The concealer has faded into my actual skin tone and somehow that looks better, more natural, like the makeup is melting into me rather than sitting on top.
+
+My phone is going nuclear. Mentions I can&#39;t scroll through fast enough. Discord notifications stacked so deep the app is lagging. DMs from accounts I&#39;ve never seen. A text from LunaFrag, &quot;Bro. BROOO. Your numbers. I can&#39;t. 😭&quot; A DM from DuskBlade, &quot;You might have just made the Invicta Open famous. Well played.&quot;
+
+I catch my reflection in the dark secondary monitor. The one that&#39;s powered off. The black screen holds my image like a dark mirror. The wig. The skirt. The thigh highs. The face that isn&#39;t mine and is mine and I don&#39;t know how both of those things can be true at the same time.
+
+I&#39;m half hard. Have been for the last hour. I didn&#39;t notice during the stream. The adrenaline and the chat and the gameplay and the donations kept me in a state of heightened everything, and apparently everything includes arousal. Five thousand people looking at me and wanting something. The wanting was the thing. Not sexual, not all of it, but a wanting that vibrated at a frequency I&#39;ve been starving for. Attention, desire, the feeling of being seen by people who liked what they saw.
+
+I notice it now. In the silence. In the after.
+
+My hand moves to my thigh. Slides up under the hem of the skirt. The fabric whispers against my knuckles. I stop. Fingers hovering over the shape pressing against the cotton underneath.
+
+I pull my hand away. Stare at the donation total glowing on the primary monitor. Eight forty seven.
+
+I stare at my reflection. The dark monitor. The wig. The lips.
+
+My hand goes back.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choice-label&quot;&gt;Alone&lt;/div&gt;
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Touch yourself in the outfit&quot; &quot;R5-Choice-A&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;Take the outfit off immediately&quot; &quot;R5-Choice-B&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;Start a second stream&quot; &quot;R5-Choice-C&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="124" name="R5-Choice-A" tags="release5 intimate" position="475,1600" size="100,100">&lt;&lt;set $feminization += 8&gt;&gt;
+&lt;&lt;set $selfImage to &quot;confused&quot;&gt;&gt;
+&lt;&lt;set $r5AloneChoice to &quot;touch&quot;&gt;&gt;
+&lt;&lt;scene &quot;img/scenes/dark-monitor-reflection.png&quot; &quot;EthX-chan touching herself&quot;&gt;&gt;
+
+I pull the skirt up. The plaid fabric bunches around my waist. Underneath I&#39;m wearing boxers, which feels wrong now, the pattern disrupted by something that doesn&#39;t belong. I reach inside. I&#39;m fully hard, straining, slick at the tip already. I don&#39;t think I&#39;ve ever been this hard from something that wasn&#39;t porn or Jess.
+
+I stroke slowly. Watching the reflection in the dark monitor. EthX-chan touching herself. The wig falls across my cheek. My lip tinted mouth opens slightly. The image in the dark screen is a girl with her hand under her skirt and her eyes half closed and her breath coming in short quiet pulses.
+
+I think about the chat. Five thousand voices calling me cute, pretty, good girl. The words loop in my skull like a song I can&#39;t stop hearing.
+
+//&quot;Good girl.&quot;//
+
+I come hard. My back arches against the chair. The orgasm rolls through me like a train, heavier and longer than anything I&#39;ve felt in months, charged with something beyond friction. Shame and excitement braided together so tight I can&#39;t tell which is which. The ghost of five thousand people calling me pretty is in the room. They&#39;re watching. They can&#39;t see me but they&#39;re watching and I&#39;m performing even now, alone, in the dark, coming into my own fist with a wig on.
+
+The orgasm fades. I soften. My fingers are a mess. I sit there. The wig itches. The makeup feels tight on my face. My phone buzzes on the desk. Another notification. Another stranger who followed the girl in the skirt.
+
+I don&#39;t clean up right away. I sit in it. The wet boxers against my skin. The skirt over my thighs. The wig on my head.
+
+Something happened tonight. Not just the stream. Something underneath the stream. I don&#39;t have the language for it and I don&#39;t want to find it.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Feminization&lt;/span&gt;&lt;b&gt;+8&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Self-Image&lt;/span&gt;&lt;b&gt;confused&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;set $timeOfDay to &quot;Late Night&quot;&gt;&gt;
+&lt;&lt;goto &quot;R5-JessText&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="125" name="R5-Choice-B" tags="release5" position="600,1600" size="100,100">&lt;&lt;set $feminization += 3&gt;&gt;
+&lt;&lt;set $selfImage to &quot;insecure&quot;&gt;&gt;
+&lt;&lt;set $r5AloneChoice to &quot;remove&quot;&gt;&gt;
+I strip fast. The wig comes off first. Then the hoodie. The skirt. The socks. I shove everything into a plastic bag and push it under the desk. The lip tint I scrub off with the back of my hand, leaving a pink streak across my wrist.
+
+The shower runs hot. I stand under it and let the water beat on my skull and wash the foundation down the drain in flesh colored streams. The mascara is harder. I rub my eyes until they&#39;re red. The concealer melts off. I scrub my face with Jess&#39;s exfoliating wash until my skin feels raw and new.
+
+Clean, normal, boxers and a t-shirt and wet hair and no wig and no skirt and no five thousand voices calling me pretty.
+
+I lie in bed and stare at the ceiling. The LED strips are still on, casting purple shadows. My phone is still buzzing on the desk. I don&#39;t look at it.
+
+The feeling doesn&#39;t wash off.
+
+I scrubbed my face until it hurt and the feeling is still there. Warm and terrifying and sitting in my chest like a second heartbeat. The mirror showed me someone and I can&#39;t unsee her and I don&#39;t know what to do with the fact that her was a word that came naturally and I didn&#39;t put it there.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Feminization&lt;/span&gt;&lt;b&gt;+3&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Self-Image&lt;/span&gt;&lt;b&gt;insecure&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;set $timeOfDay to &quot;Late Night&quot;&gt;&gt;
+&lt;&lt;goto &quot;R5-JessText&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="126" name="R5-Choice-C" tags="release5" position="725,1600" size="100,100">&lt;&lt;set $feminization += 10&gt;&gt;
+&lt;&lt;set $viewers += 50&gt;&gt;
+&lt;&lt;set $chatMood to &quot;devoted&quot;&gt;&gt;
+&lt;&lt;set $r5AloneChoice to &quot;secondStream&quot;&gt;&gt;
+I go back live at midnight. Title, &quot;Bonus round, chat. EthX-chan after dark.&quot;
+
+Twelve hundred viewers at midnight. Not five thousand, smaller. But the energy is different. These are the ones who stayed. The devoted. The ones who want more and came back and are sitting in the dark at their own desks watching me in the dark at mine.
+
+The second stream is looser. I&#39;m tired and wired and the adrenaline has been replaced by something softer, more reckless. I lean into the persona. I use chat&#39;s language. I call them babies and do a peace sign and the chat erupts. I play badly and don&#39;t care. I read donations in a slightly higher voice and nobody asks me to stop.
+
+&lt;div class=&quot;pt-chat&quot;&gt;
+&lt;&lt;chathead 1200&gt;&gt;
+&lt;div class=&quot;pt-chat-body&quot;&gt;
+&lt;&lt;chatline &quot;viewer15&quot; &quot;ethx-chan late night ASMR when&quot; &quot;#e0556f&quot;&gt;&gt;
+&lt;&lt;chatline &quot;viewer16&quot; &quot;she&#39;s so much more relaxed omg&quot; &quot;#63b3ed&quot;&gt;&gt;
+&lt;&lt;chatline &quot;viewer17&quot; &quot;we&#39;re watching her become herself in real time&quot; &quot;#c084dc&quot;&gt;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+That last comment. Become herself. Three words from a stranger at midnight. I read it on stream and my breath catches and I move on too quickly and the moment passes but the words don&#39;t.
+
+&lt;&lt;set $donationsTonight += 200&gt;&gt;
+
+Two hundred more in donations. A thousand forty seven total for the night. More than double my best month. In a pink wig.
+
+I end the stream at 2 AM. I am very tired and very awake.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Feminization&lt;/span&gt;&lt;b&gt;+10&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Viewers&lt;/span&gt;&lt;b&gt;+50, going forward&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Chat Mood&lt;/span&gt;&lt;b&gt;devoted&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;set $timeOfDay to &quot;Late Night&quot;&gt;&gt;
+&lt;&lt;goto &quot;R5-JessText&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="127" name="R5-GoingLive" tags="release5" position="850,1600" size="100,100">&lt;&lt;scene &quot;img/ui/going-live-webcam.png&quot; &quot;EthX becomes EthX-chan&quot;&gt;&gt;
+
+The stream title takes me four tries to type because my hands won&#39;t stay steady. I settle on, &quot;PUNISHMENT STREAM, EthX becomes EthX-chan,&quot; followed by a skull emoji.
+
+The webcam is on. I&#39;m in frame. Pink wig, plaid skirt, thigh highs, pastel hoodie, Jess&#39;s makeup on my face. The ring light clamped to the bookshelf casts everything in flat, forgiving white. I look at my preview image in the corner of the screen. The person there looks more natural on camera than I&#39;ve ever looked as myself. I don&#39;t examine that thought. I press Go Live.
+
+First thirty seconds, silence. My usual two hundred viewers load in. The chat is still. I can almost feel them processing. Two hundred people staring at the screen, each one individually computing the difference between what they expected and what they see.
+
+Then the chat detonates.
+
+It starts with one message. Then ten. Then the screen is moving so fast I can&#39;t read individual lines. Riley&#39;s mod tools are firing, auto catching the worst stuff, but there isn&#39;t much to catch because the overwhelming sentiment isn&#39;t mockery.
+
+It&#39;s thirst.
+
+&lt;div class=&quot;pt-chat&quot;&gt;
+&lt;&lt;chathead $viewers&gt;&gt;
+&lt;div class=&quot;pt-chat-body&quot;&gt;
+&lt;&lt;chatline &quot;viewer1&quot; &quot;STEP ON ME ETHX-CHAN&quot; &quot;#e0556f&quot;&gt;&gt;
+&lt;&lt;chatline &quot;viewer2&quot; &quot;bro is actually pretty wtf&quot; &quot;#63b3ed&quot;&gt;&gt;
+&lt;&lt;chatline &quot;viewer3&quot; &quot;this was supposed to be a punishment??&quot; &quot;#e0b84d&quot;&gt;&gt;
+&lt;&lt;chatline &quot;viewer4&quot; &quot;the thigh highs are doing things to me&quot; &quot;#c084dc&quot;&gt;&gt;
+&lt;&lt;chatline &quot;viewer5&quot; &quot;NEVER GO BACK TO NORMAL&quot; &quot;#e0556f&quot;&gt;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+Five hundred viewers. Someone clips my face reveal and posts it online. The clip shows the exact moment I looked at the camera for the first time in the outfit. Apparently my expression did something. I don&#39;t know what. But the clip gets shared by accounts with follower counts I&#39;ve only seen from below.
+
+One thousand viewers.
+
+DuskBlade, the tournament organizer, raids me with the remaining tournament audience. The raid message is, &quot;go see what we created LMAOOO.&quot; Two thousand.
+
+The clip hits a forum thread with the title, &quot;FPS streamer loses bet, has to do femboy stream, chat discovers he&#39;s actually cute.&quot; Three thousand comments in an hour. Three thousand viewers in my stream.
+
+A bigger streamer, someone with four hundred thousand followers who I&#39;ve never interacted with, reshares the clip with the comment, &quot;the pipeline claims another one.&quot; Four thousand.
+
+&lt;&lt;set $viewers to 5000&gt;&gt;
+
+By the one hour mark my viewer count reads five thousand. Five thousand. The number is so far beyond my normal that the analytics dashboard looks broken. The line graph doesn&#39;t even fit on the chart. It&#39;s a vertical spike that clips out of the frame.
+
+I play my usual FPS. I&#39;m worse than normal. The wig itches constantly and I keep reaching up to scratch and then stopping because it&#39;ll shift the wig on camera. The skirt bunches when I lean forward. The thigh highs keep slipping and I have to reach down and adjust them and every time I do chat goes insane.
+
+&lt;div class=&quot;pt-chat&quot;&gt;
+&lt;&lt;chathead $viewers&gt;&gt;
+&lt;div class=&quot;pt-chat-body&quot;&gt;
+&lt;&lt;chatline &quot;viewer6&quot; &quot;she&#39;s adjusting the thigh highs oh no&quot; &quot;#e0556f&quot;&gt;&gt;
+&lt;&lt;chatline &quot;viewer7&quot; &quot;FIX THEM SLOWER&quot; &quot;#e0b84d&quot;&gt;&gt;
+&lt;&lt;chatline &quot;viewer8&quot; &quot;mommy? sorry. mommy?&quot; &quot;#c084dc&quot;&gt;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+None of this matters. Chat isn&#39;t here for the gameplay. They&#39;re here for me. For the novelty of it. For the genuine surprise. For the fact that a mid tier FPS streamer who&#39;s been grinding for three years in anonymity put on a pink wig and turned out to be cute and nobody saw it coming, least of all me.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Keep playing&quot; &quot;R5-StreamPeak&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="128" name="R5-StreamPeak" tags="release5" position="975,1600" size="100,100">&lt;&lt;scene &quot;img/ui/donation-good-girl.png&quot; &quot;$100, good_girl_energy, Good girl.&quot;&gt;&gt;
+
+Riley is modding furiously. I can see the mod log scrolling in my secondary window. They DM me mid stream, &quot;Bro. FIVE THOUSAND. What is happening.&quot;
+
+Then, a minute later, a separate message, &quot;Also you actually do look really cute. Just saying.&quot;
+
+I don&#39;t respond to either. I&#39;m trying to play the game. My crosshair is drifting because my brain is splitting between the gameplay, the chat, the donation notifications, and the feeling in my chest that won&#39;t sit still.
+
+Donations, money is falling from the sky. Five dollars here, twenty there. A fifty with the message, &quot;the skirt stays ON during ranked.&quot; I read it out loud and do a dumb little salute and chat screams.
+
+A hundred dollar donation. The biggest single donation I&#39;ve ever received. The message is two words.
+
+//&quot;Good girl.&quot;//
+
+I read it live. My voice catches on the second word. A tiny hitch, barely audible over the game audio. But chat hears it. Chat hears everything.
+
+&lt;div class=&quot;pt-chat&quot;&gt;
+&lt;&lt;chathead $viewers&gt;&gt;
+&lt;div class=&quot;pt-chat-body&quot;&gt;
+&lt;&lt;chatline &quot;viewer9&quot; &quot;SHE REACTED TO GOOD GIRL&quot; &quot;#e0556f&quot;&gt;&gt;
+&lt;&lt;chatline &quot;viewer10&quot; &quot;clip it CLIP IT&quot; &quot;#e0b84d&quot;&gt;&gt;
+&lt;&lt;chatline &quot;viewer11&quot; &quot;the way her voice cracked I&#39;m DEAD&quot; &quot;#c084dc&quot;&gt;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+I don&#39;t know why my voice did that. I don&#39;t know why those two words landed different from every other donation message I&#39;ve ever read. I&#39;ve been thanking donors for two years. Thanks for the sub. Appreciate it, king. Let&#39;s go, chat. None of those ever made my voice crack.
+
+Good girl cracks me open like an egg.
+
+I keep playing. More donations. The counter ticks up. Two hundred. Four hundred. Six hundred. Every alert sound is a little chime that sounds like winning. I&#39;ve been streaming for three years and the winning sound has been rare. Tonight it won&#39;t stop.
+
+At the two hour mark I check the total. Seven hundred twelve dollars and climbing. More than my best month. In two hours. In a pink wig and a plaid skirt.
+
+The irony isn&#39;t lost on me. Three years of grinding competitive FPS. Perfecting my aim. Studying rotations. Running aim trainers until my wrist ached, and none of it mattered as much as putting on a skirt. The algorithm doesn&#39;t care about my kill death ratio. The algorithm cares about this.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;The triple kill&quot; &quot;R5-ChatMoments&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="129" name="R5-ChatMoments" tags="release5" position="1100,1600" size="100,100">&lt;&lt;set $followers to 95247&gt;&gt;
+&lt;&lt;set $donationsTonight to 847&gt;&gt;
+&lt;&lt;scene &quot;img/scenes/midstream-triple-kill.png&quot; &quot;Outfragged by someone in thigh highs&quot;&gt;&gt;
+
+A moment happens at the two and a half hour mark that I&#39;ll replay in my head for weeks.
+
+I&#39;m in a ranked match. Close game. I pull off a clean triple kill that would normally get polite acknowledgment from my usual two hundred viewers. Tonight, with five thousand people watching, the play lands like a bomb.
+
+&lt;div class=&quot;pt-chat&quot;&gt;
+&lt;&lt;chathead $viewers&gt;&gt;
+&lt;div class=&quot;pt-chat-body&quot;&gt;
+&lt;&lt;chatline &quot;viewer12&quot; &quot;SHE&#39;S CRACKED AND CUTE??&quot; &quot;#e0556f&quot;&gt;&gt;
+&lt;&lt;chatline &quot;viewer13&quot; &quot;ethx-chan is HIM wait no SHE is HIM wait&quot; &quot;#e0b84d&quot;&gt;&gt;
+&lt;&lt;chatline &quot;viewer14&quot; &quot;imagine getting outfragged by someone in thigh highs&quot; &quot;#c084dc&quot;&gt;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+I laugh. A real laugh. Not the performance laugh I&#39;ve been doing for months, the heh heh that sounds like a text notification. A real one, head back, the wig shifting, the skirt riding up on my thighs as I push back from the desk. The laugh gets clipped too. Apparently my laugh sounds different tonight. Lighter, less forced.
+
+Riley DMs again, &quot;I&#39;ve been modding your chat for a year and a half. I have never seen energy like this. Not even close.&quot;
+
+&lt;&lt;scene &quot;img/ui/follower-graph.png&quot; &quot;80,200 to 95,247 overnight&quot;&gt;&gt;
+
+By the end of the stream, eight hundred forty seven dollars in donations. More than my last month combined. My follower count has jumped from eighty thousand two hundred to past ninety five thousand overnight. Fifteen thousand people saw a clip or a post or a thread and hit follow. Not on the competitive FPS player. On the person in the skirt.
+
+I end the stream. Standard sign off. //&quot;Thanks for hanging out, chat. This was. Yeah. This was something.&quot;//
+
+The raid goes out. I sit there.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;After&quot; &quot;R5-PostStream&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Night&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="130" name="Widgets" tags="widget" position="1225,1600" size="100,100">\
 &lt;&lt;widget &quot;scene&quot;&gt;&gt;\
 &lt;&lt;set _img to $args[0]&gt;&gt;\
 &lt;&lt;set _cap to $args[1]&gt;&gt;\

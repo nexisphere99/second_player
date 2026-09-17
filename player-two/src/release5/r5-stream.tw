@@ -1,0 +1,136 @@
+:: R5-GoingLive [release5]
+<<scene "img/ui/going-live-webcam.png" "EthX becomes EthX-chan">>
+
+The stream title takes me four tries to type because my hands won't stay steady. I settle on, "PUNISHMENT STREAM, EthX becomes EthX-chan," followed by a skull emoji.
+
+The webcam is on. I'm in frame. Pink wig, plaid skirt, thigh highs, pastel hoodie, Jess's makeup on my face. The ring light clamped to the bookshelf casts everything in flat, forgiving white. I look at my preview image in the corner of the screen. The person there looks more natural on camera than I've ever looked as myself. I don't examine that thought. I press Go Live.
+
+First thirty seconds, silence. My usual two hundred viewers load in. The chat is still. I can almost feel them processing. Two hundred people staring at the screen, each one individually computing the difference between what they expected and what they see.
+
+Then the chat detonates.
+
+It starts with one message. Then ten. Then the screen is moving so fast I can't read individual lines. Riley's mod tools are firing, auto catching the worst stuff, but there isn't much to catch because the overwhelming sentiment isn't mockery.
+
+It's thirst.
+
+<div class="pt-chat">
+<<chathead $viewers>>
+<div class="pt-chat-body">
+<<chatline "viewer1" "STEP ON ME ETHX-CHAN" "#e0556f">>
+<<chatline "viewer2" "bro is actually pretty wtf" "#63b3ed">>
+<<chatline "viewer3" "this was supposed to be a punishment??" "#e0b84d">>
+<<chatline "viewer4" "the thigh highs are doing things to me" "#c084dc">>
+<<chatline "viewer5" "NEVER GO BACK TO NORMAL" "#e0556f">>
+</div>
+</div>
+
+Five hundred viewers. Someone clips my face reveal and posts it online. The clip shows the exact moment I looked at the camera for the first time in the outfit. Apparently my expression did something. I don't know what. But the clip gets shared by accounts with follower counts I've only seen from below.
+
+One thousand viewers.
+
+DuskBlade, the tournament organizer, raids me with the remaining tournament audience. The raid message is, "go see what we created LMAOOO." Two thousand.
+
+The clip hits a forum thread with the title, "FPS streamer loses bet, has to do femboy stream, chat discovers he's actually cute." Three thousand comments in an hour. Three thousand viewers in my stream.
+
+A bigger streamer, someone with four hundred thousand followers who I've never interacted with, reshares the clip with the comment, "the pipeline claims another one." Four thousand.
+
+<<set $viewers to 5000>>
+
+By the one hour mark my viewer count reads five thousand. Five thousand. The number is so far beyond my normal that the analytics dashboard looks broken. The line graph doesn't even fit on the chart. It's a vertical spike that clips out of the frame.
+
+I play my usual FPS. I'm worse than normal. The wig itches constantly and I keep reaching up to scratch and then stopping because it'll shift the wig on camera. The skirt bunches when I lean forward. The thigh highs keep slipping and I have to reach down and adjust them and every time I do chat goes insane.
+
+<div class="pt-chat">
+<<chathead $viewers>>
+<div class="pt-chat-body">
+<<chatline "viewer6" "she's adjusting the thigh highs oh no" "#e0556f">>
+<<chatline "viewer7" "FIX THEM SLOWER" "#e0b84d">>
+<<chatline "viewer8" "mommy? sorry. mommy?" "#c084dc">>
+</div>
+</div>
+
+None of this matters. Chat isn't here for the gameplay. They're here for me. For the novelty of it. For the genuine surprise. For the fact that a mid tier FPS streamer who's been grinding for three years in anonymity put on a pink wig and turned out to be cute and nobody saw it coming, least of all me.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Keep playing" "R5-StreamPeak">><</link>>
+</div>
+
+:: R5-StreamPeak [release5]
+<<scene "img/ui/donation-good-girl.png" "$100, good_girl_energy, Good girl.">>
+
+Riley is modding furiously. I can see the mod log scrolling in my secondary window. They DM me mid stream, "Bro. FIVE THOUSAND. What is happening."
+
+Then, a minute later, a separate message, "Also you actually do look really cute. Just saying."
+
+I don't respond to either. I'm trying to play the game. My crosshair is drifting because my brain is splitting between the gameplay, the chat, the donation notifications, and the feeling in my chest that won't sit still.
+
+Donations, money is falling from the sky. Five dollars here, twenty there. A fifty with the message, "the skirt stays ON during ranked." I read it out loud and do a dumb little salute and chat screams.
+
+A hundred dollar donation. The biggest single donation I've ever received. The message is two words.
+
+//"Good girl."//
+
+I read it live. My voice catches on the second word. A tiny hitch, barely audible over the game audio. But chat hears it. Chat hears everything.
+
+<div class="pt-chat">
+<<chathead $viewers>>
+<div class="pt-chat-body">
+<<chatline "viewer9" "SHE REACTED TO GOOD GIRL" "#e0556f">>
+<<chatline "viewer10" "clip it CLIP IT" "#e0b84d">>
+<<chatline "viewer11" "the way her voice cracked I'm DEAD" "#c084dc">>
+</div>
+</div>
+
+I don't know why my voice did that. I don't know why those two words landed different from every other donation message I've ever read. I've been thanking donors for two years. Thanks for the sub. Appreciate it, king. Let's go, chat. None of those ever made my voice crack.
+
+Good girl cracks me open like an egg.
+
+I keep playing. More donations. The counter ticks up. Two hundred. Four hundred. Six hundred. Every alert sound is a little chime that sounds like winning. I've been streaming for three years and the winning sound has been rare. Tonight it won't stop.
+
+At the two hour mark I check the total. Seven hundred twelve dollars and climbing. More than my best month. In two hours. In a pink wig and a plaid skirt.
+
+The irony isn't lost on me. Three years of grinding competitive FPS. Perfecting my aim. Studying rotations. Running aim trainers until my wrist ached, and none of it mattered as much as putting on a skirt. The algorithm doesn't care about my kill death ratio. The algorithm cares about this.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "The triple kill" "R5-ChatMoments">><</link>>
+</div>
+
+:: R5-ChatMoments [release5]
+<<set $followers to 95247>>
+<<set $donationsTonight to 847>>
+<<scene "img/scenes/midstream-triple-kill.png" "Outfragged by someone in thigh highs">>
+
+A moment happens at the two and a half hour mark that I'll replay in my head for weeks.
+
+I'm in a ranked match. Close game. I pull off a clean triple kill that would normally get polite acknowledgment from my usual two hundred viewers. Tonight, with five thousand people watching, the play lands like a bomb.
+
+<div class="pt-chat">
+<<chathead $viewers>>
+<div class="pt-chat-body">
+<<chatline "viewer12" "SHE'S CRACKED AND CUTE??" "#e0556f">>
+<<chatline "viewer13" "ethx-chan is HIM wait no SHE is HIM wait" "#e0b84d">>
+<<chatline "viewer14" "imagine getting outfragged by someone in thigh highs" "#c084dc">>
+</div>
+</div>
+
+I laugh. A real laugh. Not the performance laugh I've been doing for months, the heh heh that sounds like a text notification. A real one, head back, the wig shifting, the skirt riding up on my thighs as I push back from the desk. The laugh gets clipped too. Apparently my laugh sounds different tonight. Lighter, less forced.
+
+Riley DMs again, "I've been modding your chat for a year and a half. I have never seen energy like this. Not even close."
+
+<<scene "img/ui/follower-graph.png" "80,200 to 95,247 overnight">>
+
+By the end of the stream, eight hundred forty seven dollars in donations. More than my last month combined. My follower count has jumped from eighty thousand two hundred to past ninety five thousand overnight. Fifteen thousand people saw a clip or a post or a thread and hit follow. Not on the competitive FPS player. On the person in the skirt.
+
+I end the stream. Standard sign off. //"Thanks for hanging out, chat. This was. Yeah. This was something."//
+
+The raid goes out. I sit there.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "After" "R5-PostStream">><<set $timeOfDay to "Night">><</link>>
+</div>

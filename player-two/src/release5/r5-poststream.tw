@@ -1,0 +1,120 @@
+:: R5-PostStream [release5]
+<<scene "img/scenes/alone-post-stream.png" "The quiet is so loud it hums">>
+
+The adrenaline crashes like a wave pulling back from a beach. One second I'm riding it, the next I'm sitting at my desk in the sudden silence of an offline stream, and the quiet is so loud it hums.
+
+The ring light is still on. The webcam is off. The LED strips paint the room purple. Energy drink cans along the windowsill catch the light like a tiny city skyline.
+
+I'm still in the outfit.
+
+I didn't take it off. The stream ended eleven minutes ago and I'm still sitting here in the pink wig, the plaid skirt, the thigh high socks, the pastel hoodie. Jess's lip tint is slightly smeared from where I kept touching my mouth without thinking. The mascara is holding up. The concealer has faded into my actual skin tone and somehow that looks better, more natural, like the makeup is melting into me rather than sitting on top.
+
+My phone is going nuclear. Mentions I can't scroll through fast enough. Discord notifications stacked so deep the app is lagging. DMs from accounts I've never seen. A text from LunaFrag, "Bro. BROOO. Your numbers. I can't. 😭" A DM from DuskBlade, "You might have just made the Invicta Open famous. Well played."
+
+I catch my reflection in the dark secondary monitor. The one that's powered off. The black screen holds my image like a dark mirror. The wig. The skirt. The thigh highs. The face that isn't mine and is mine and I don't know how both of those things can be true at the same time.
+
+I'm half hard. Have been for the last hour. I didn't notice during the stream. The adrenaline and the chat and the gameplay and the donations kept me in a state of heightened everything, and apparently everything includes arousal. Five thousand people looking at me and wanting something. The wanting was the thing. Not sexual, not all of it, but a wanting that vibrated at a frequency I've been starving for. Attention, desire, the feeling of being seen by people who liked what they saw.
+
+I notice it now. In the silence. In the after.
+
+My hand moves to my thigh. Slides up under the hem of the skirt. The fabric whispers against my knuckles. I stop. Fingers hovering over the shape pressing against the cotton underneath.
+
+I pull my hand away. Stare at the donation total glowing on the primary monitor. Eight forty seven.
+
+I stare at my reflection. The dark monitor. The wig. The lips.
+
+My hand goes back.
+
+<hr class="pt-hr">
+
+<div class="pt-choice-label">Alone</div>
+<div class="pt-choices">
+<<link "Touch yourself in the outfit" "R5-Choice-A">><</link>>
+<<link "Take the outfit off immediately" "R5-Choice-B">><</link>>
+<<link "Start a second stream" "R5-Choice-C">><</link>>
+</div>
+
+:: R5-Choice-A [release5 intimate]
+<<set $feminization += 8>>
+<<set $selfImage to "confused">>
+<<set $r5AloneChoice to "touch">>
+<<scene "img/scenes/dark-monitor-reflection.png" "EthX-chan touching herself">>
+
+I pull the skirt up. The plaid fabric bunches around my waist. Underneath I'm wearing boxers, which feels wrong now, the pattern disrupted by something that doesn't belong. I reach inside. I'm fully hard, straining, slick at the tip already. I don't think I've ever been this hard from something that wasn't porn or Jess.
+
+I stroke slowly. Watching the reflection in the dark monitor. EthX-chan touching herself. The wig falls across my cheek. My lip tinted mouth opens slightly. The image in the dark screen is a girl with her hand under her skirt and her eyes half closed and her breath coming in short quiet pulses.
+
+I think about the chat. Five thousand voices calling me cute, pretty, good girl. The words loop in my skull like a song I can't stop hearing.
+
+//"Good girl."//
+
+I come hard. My back arches against the chair. The orgasm rolls through me like a train, heavier and longer than anything I've felt in months, charged with something beyond friction. Shame and excitement braided together so tight I can't tell which is which. The ghost of five thousand people calling me pretty is in the room. They're watching. They can't see me but they're watching and I'm performing even now, alone, in the dark, coming into my own fist with a wig on.
+
+The orgasm fades. I soften. My fingers are a mess. I sit there. The wig itches. The makeup feels tight on my face. My phone buzzes on the desk. Another notification. Another stranger who followed the girl in the skirt.
+
+I don't clean up right away. I sit in it. The wet boxers against my skin. The skirt over my thighs. The wig on my head.
+
+Something happened tonight. Not just the stream. Something underneath the stream. I don't have the language for it and I don't want to find it.
+
+<div class="pt-hud-line"><span>Feminization</span><b>+8</b></div>
+<div class="pt-hud-line"><span>Self-Image</span><b>confused</b></div>
+
+<<set $timeOfDay to "Late Night">>
+<<goto "R5-JessText">>
+
+:: R5-Choice-B [release5]
+<<set $feminization += 3>>
+<<set $selfImage to "insecure">>
+<<set $r5AloneChoice to "remove">>
+I strip fast. The wig comes off first. Then the hoodie. The skirt. The socks. I shove everything into a plastic bag and push it under the desk. The lip tint I scrub off with the back of my hand, leaving a pink streak across my wrist.
+
+The shower runs hot. I stand under it and let the water beat on my skull and wash the foundation down the drain in flesh colored streams. The mascara is harder. I rub my eyes until they're red. The concealer melts off. I scrub my face with Jess's exfoliating wash until my skin feels raw and new.
+
+Clean, normal, boxers and a t-shirt and wet hair and no wig and no skirt and no five thousand voices calling me pretty.
+
+I lie in bed and stare at the ceiling. The LED strips are still on, casting purple shadows. My phone is still buzzing on the desk. I don't look at it.
+
+The feeling doesn't wash off.
+
+I scrubbed my face until it hurt and the feeling is still there. Warm and terrifying and sitting in my chest like a second heartbeat. The mirror showed me someone and I can't unsee her and I don't know what to do with the fact that her was a word that came naturally and I didn't put it there.
+
+<div class="pt-hud-line"><span>Feminization</span><b>+3</b></div>
+<div class="pt-hud-line"><span>Self-Image</span><b>insecure</b></div>
+
+<<set $timeOfDay to "Late Night">>
+<<goto "R5-JessText">>
+
+:: R5-Choice-C [release5]
+<<set $feminization += 10>>
+<<set $viewers += 50>>
+<<set $chatMood to "devoted">>
+<<set $r5AloneChoice to "secondStream">>
+I go back live at midnight. Title, "Bonus round, chat. EthX-chan after dark."
+
+Twelve hundred viewers at midnight. Not five thousand, smaller. But the energy is different. These are the ones who stayed. The devoted. The ones who want more and came back and are sitting in the dark at their own desks watching me in the dark at mine.
+
+The second stream is looser. I'm tired and wired and the adrenaline has been replaced by something softer, more reckless. I lean into the persona. I use chat's language. I call them babies and do a peace sign and the chat erupts. I play badly and don't care. I read donations in a slightly higher voice and nobody asks me to stop.
+
+<div class="pt-chat">
+<<chathead 1200>>
+<div class="pt-chat-body">
+<<chatline "viewer15" "ethx-chan late night ASMR when" "#e0556f">>
+<<chatline "viewer16" "she's so much more relaxed omg" "#63b3ed">>
+<<chatline "viewer17" "we're watching her become herself in real time" "#c084dc">>
+</div>
+</div>
+
+That last comment. Become herself. Three words from a stranger at midnight. I read it on stream and my breath catches and I move on too quickly and the moment passes but the words don't.
+
+<<set $donationsTonight += 200>>
+
+Two hundred more in donations. A thousand forty seven total for the night. More than double my best month. In a pink wig.
+
+I end the stream at 2 AM. I am very tired and very awake.
+
+<div class="pt-hud-line"><span>Feminization</span><b>+10</b></div>
+<div class="pt-hud-line"><span>Viewers</span><b>+50, going forward</b></div>
+<div class="pt-hud-line"><span>Chat Mood</span><b>devoted</b></div>
+
+<<set $timeOfDay to "Late Night">>
+<<goto "R5-JessText">>

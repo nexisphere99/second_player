@@ -1,0 +1,42 @@
+:: R5-JessText [release5]
+<<scene "img/ui/jess-text-phone.png" "So proud of you, from a distance">>
+
+My phone buzzes. Not a notification. A text. Jess.
+
+<div class="pt-phone">
+<<phonehead "Jess" "iMessage" "J">>
+<<msg "" "OMG babe I saw clips!! You blew up!! So proud of you ❤️" "left">>
+</div>
+
+I stare at the text. Read it again. She's proud. She saw the clips. She wasn't there.
+
+She was at Marcus's apartment. For a content planning session. During the biggest stream of my career. The night I tasted virality for the first time, the night my follower count did something it has never done in three years of daily grinding, the night the algorithm finally turned its face toward me and said there you are, and the woman who was supposed to be beside me was at another man's apartment.
+
+She saw the clips. At his place. On his couch, maybe. Sitting next to him. Maybe he saw the clips too. Maybe they watched together. Marcus with his six foot three frame and his devastating smile watching my girlfriend watch me in a skirt and maybe he said something like your boy actually pulls that off and maybe Jess laughed and maybe she was sitting close enough that his arm was behind her on the couch and maybe it wasn't.
+
+So proud of you.
+
+Proud from a distance. Proud from someone else's apartment. Proud with a heart emoji that takes a quarter second to type and covers a multitude of absences.
+
+<<set $suspicion += 7>>
+<<set $jessCloseness -= 4>>
+<<set $jessMarcusBond += 3>>
+
+I don't reply for twenty minutes. I sit in the outfit, or the aftermath of the outfit, depending on what I chose, and I hold the phone and I look at the text and I feel the eight forty seven glowing on my monitor and the fifteen thousand new followers climbing on my dashboard and the ghost of good girl in the air and I feel all of it and none of it feels like enough because the person I want to feel it with is sending heart emojis from another man's couch.
+
+<div class="pt-phone">
+<<phonehead "Jess" "iMessage" "J">>
+<<msg "" "Thanks babe. It was wild." "right">>
+</div>
+
+She hearts the message. That's it.
+
+A heart react. The smallest possible acknowledgment. The digital equivalent of a pat on the head as you walk past.
+
+I put the phone face down on the desk. The screen goes dark. The room is purple and quiet and I am sitting in it alone.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Discord notification" "R5-NPC-Riley">><</link>>
+</div>

@@ -1,0 +1,79 @@
+:: R5-NightEnd [release5]
+Jess comes home at 2 AM.
+
+<<if $r5AloneChoice is "touch">>
+<<scene "img/scenes/asleep-at-desk.png" "You haven't looked peaceful in months">>
+She finds me asleep at the desk. Head on my folded arms, wig slipping sideways, skirt rucked up to mid thigh, the monitor's screensaver painting slow colors across my face. I don't see what she sees. I don't see her stand in the doorway with her phone in her hand, her expression computing something that doesn't have an answer. I don't see her look at me for a long time. I don't see her go to bed without waking me.
+
+I learn later that she stood there for almost five minutes. She told me that, weeks from now, in a conversation that was about something else entirely. "I stood there and I watched you sleep and you looked peaceful. You haven't looked peaceful in months."
+
+She didn't say, you looked peaceful dressed as a girl. She didn't have to.
+<<elseif $r5AloneChoice is "remove">>
+She finds me in bed, clean, in boxers and a t-shirt, hair damp from the shower, normal. She slides in next to me. Her keys clatter on the nightstand. She smells like outside air and coffee and something else that might be Marcus's body wash or might be the coffee shop near his apartment. I don't ask.
+
+//"Big night, huh?"//
+
+//"Yeah."//
+
+//"I really am proud of you."//
+
+She rolls over. Falls asleep in minutes. I lie awake and stare at the ceiling and the purple LED lights and I think about the plastic bag under my desk with the wig and the skirt and the thigh highs and I think about reaching down and taking something out and I don't do it. I don't do it. I stare at the ceiling instead.
+<<else>>
+She finds me at the desk, headset around my neck, the stream just ended, still in the outfit, 2 AM. The timing is almost perfect. She walked in sixty seconds after I went offline.
+
+//"You streamed again? At this hour?"//
+
+//"Yeah. Chat wanted more."//
+
+She looks at me. The outfit. The wig. The makeup that's been on for eight hours and has settled into something that looks more natural than it did when she first applied it. My face has been wearing this mask long enough that the mask stopped being a mask.
+
+//"You look tired."//
+
+//"I am."//
+
+//"You look good tired."//
+
+She goes to bed. I sit at the desk. The wig itches. The skirt is warm. The thousand forty seven glows on the screen.
+<</if>>
+
+The apartment is quiet. Marcus's apartment is across the city and Jess was just there and now she's here and I'm here and the wig is here and tomorrow I have to decide whether EthX-chan was a one night accident or the beginning of something I can't name.
+
+<<set $viewers to 350>>
+<<set $donationsMonthly += $donationsTonight>>
+
+<<endcard "Release 5, Complete" "The First Femboy Stream" "EthX-chan is not a bit anymore. Fifteen thousand strangers followed her tonight, and Ethan still doesn't know what to call the thing in his chest.">>
+
+<div class="pt-choices">
+<<link "See where things stand" "R5-Stats">><</link>>
+</div>
+
+:: R5-Stats [release5]
+<div class="pt-endcard">
+<div class="kicker">End of Release 5</div>
+<h2>Stats so far</h2>
+</div>
+
+<<statbar "Viewers" $viewers 250 $viewers "">>
+<<statbar "Followers" $followers 100000 $followers "">>
+<div class="pt-hud-line"><span>Donations, month</span><b><<= "$" + $donationsMonthly>></b></div>
+<div class="pt-hud-line"><span>Donations, that night</span><b><<= "$" + $donationsTonight>></b></div>
+<<statbar "Jess Closeness" $jessCloseness 100 $jessCloseness "">>
+<<statbar "Jess, Marcus Bond" $jessMarcusBond 100 $jessMarcusBond "">>
+<<statbar "Suspicion" $suspicion 100 $suspicion "trust">>
+<<statbar "Riley Trust" $rileyTrust 100 $rileyTrust "trust">>
+<<statbar "Community Bond" $communityBond 20 $communityBond "trust">>
+<<statbar "Feminization" $feminization 30 $feminization "">>
+<div class="pt-hud-line"><span>Stream Persona</span><b>$streamPersona</b></div>
+<div class="pt-hud-line"><span>Chat Mood</span><b>$chatMood</b></div>
+<div class="pt-hud-line"><span>Self-Image</span><b>$selfImage</b></div>
+<div class="pt-hud-line"><span>Money Stress</span><b><<moneybadge $moneyStress>></b></div>
+<div class="pt-hud-line"><span>Alone, after the stream</span><b>$r5AloneChoice</b></div>
+<div class="pt-hud-line"><span>Riley conversation</span><b>$r5RileyChoice</b></div>
+<div class="pt-hud-line"><span>LunaFrag conversation</span><b>$r5LunaFragChoice</b></div>
+<div class="pt-hud-line"><span>New contact</span><b>PrincessMaker99, silent $100, no message</b></div>
+
+<hr class="pt-hr">
+
+<p class="pt-hud-sub">Release 6 picks up from here, the aftermath. Use Restart in the sidebar menu to run the story again from a clean save.</p>
+
+<<patreoncard>>

@@ -1,0 +1,101 @@
+:: R5-GettingReady [release5]
+<<scene "img/scenes/bathroom-mirror-reveal.png" "The person looking back freezes my brain">>
+
+The bathroom is the size of a coffin and smells like Jess's vanilla body spray, which she hasn't used in a week because she keeps a bottle at Marcus's now. I don't know that for a fact. I know it the way you know the sun will come up. You don't check. You just feel the rotation.
+
+She's here today, though. Standing behind me with a video tutorial propped on her phone against the toothbrush holder. "Basic Crossplay Makeup for Beginners." Eight hundred thousand views. The comments are full of anime convention photos and people saying slay. I am not slaying. I am standing in our bathroom in boxers and a t-shirt while my girlfriend dabs concealer under my eyes like she's spackling drywall.
+
+//"Hold still. Stop blinking."//
+
+//"I literally can't help it. You're poking my eye."//
+
+//"I'm not poking your eye. I'm near your eye. There's a difference. Blink again and I stab you for real."//
+
+We're laughing, both of us, at the same time, in the same room. I can't remember the last time that happened. Two weeks, three? She's been at Marcus's apartment every night this week doing content strategy, a phrase that has started to taste like copper in my mouth, but right now she's here and her fingers are on my face and the bathroom is small enough that her hip touches mine when she reaches for the mascara.
+
+The supplies are spread across the sink counter like evidence from a crime scene I haven't committed yet. A cheap pink wig from an online order, twenty two dollars, the synthetic fibers already tangling out of the bag. Plaid skirt, eighteen dollars. White thigh high socks, twelve dollars. Oversized pastel hoodie, fifteen dollars. Basic makeup from Jess's own collection because we can't afford a separate kit. Total investment, under seventy dollars. The budget cosplay of a man who lost a tournament bet because his hands wouldn't stop shaking.
+
+Jess approaches this like a project. That's what she does. That's who she is. When she's locked in on something, the rest of the world dissolves. She's got the tutorial playing step by step, pausing and rewinding, matching the video's motions on my face. Concealer under the eyes. Foundation along the jawline, blended outward with a sponge she dampened under the faucet. She tilts my chin toward the overhead light. Studies me. Tilts me the other way.
+
+//"Your skin's actually pretty clear. That helps."//
+
+I don't know what to do with that information.
+
+<<scene "img/scenes/jess-applying-makeup.png" "Look up. Not at me.">>
+
+Next is mascara. She holds the wand like a weapon. //"Look up. No, up. At the ceiling. Don't look at me."//
+
+The bristles catch my lashes. The sensation is alien, wet, dragging, intimate in a way that has nothing to do with sex. She's this close and she's focused entirely on my eyelashes and for a second I forget about Marcus's apartment and the five hundred dollars I lost and the eight hundred viewers who watched me choke in the semifinals.
+
+Lip tint, pink. She applies it with her fingertip, not the applicator. Her finger on my lips. She rubs gently, spreading the color. My lips look fuller, softer. The tint is a shade called Petal Crush and it smells like synthetic strawberry.
+
+She steps back. Wipes her hands on her jeans. Adjusts a strand of the wig she hasn't put on me yet.
+
+//"Okay. Wig time."//
+
+The wig goes on. She tucks my hair underneath, pins it, adjusts the cap. Pulls the synthetic strands forward to frame my face. Steps back again. Her hands drop to her sides.
+
+//"Look."//
+
+I turn to the mirror.
+
+The person looking back freezes my brain.
+
+I expected a joke. Something to screenshot and post with a crying laughing emoji. A punchline for chat, content for the highlight reel, proof that I'm a good sport who can take an L with grace. Instead the mirror shows me someone pretty. Not pretty for a guy in a cheap wig. Not surprisingly passable for a bet, just pretty. My slim build that I've been insecure about since high school, the shoulders that never broadened properly, the jaw that's too soft for the angular male faces on energy drink ads. The wig frames all of it and suddenly those features aren't deficiencies. They're assets.
+
+The concealer smoothed my under eyes. The foundation evened my skin. The mascara made my lashes visible for the first time in my life. The lip tint made my mouth look like something someone would want to kiss.
+
+I look like a cute girl. The disconnect between what I expected and what I see shorts something deep in my wiring. The laughter dies in my throat. Something else rushes in. I don't have a word for it. Not yet. It's warm and terrifying and it sits in my chest like a second heartbeat.
+
+//"Holy shit,"// Jess whispers. She's looking at the mirror too. At me. At whoever that is. //"Ethan, you actually look."//
+
+She doesn't finish.
+
+She pulls out her phone and takes a photo instead.
+
+The unfinished sentence hangs in the bathroom steam like a ghost.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "She scrolls through the photo" "R5-JessReacts">><</link>>
+</div>
+
+:: R5-JessReacts [release5]
+She scrolls through the photo she took. Zooms in. Her thumb and forefinger spreading the image wider. She's studying my face on a screen three feet from my actual face.
+
+//"Can I post this?"//
+
+//"No. God. No."//
+
+//"Just to your Discord? Riley would lose their mind."//
+
+//"Jess."//
+
+//"Fine. But you look good. Like, I'm not even being nice. You objectively look good."//
+
+She says objectively like it's a scientific finding. Like she ran the data and the numbers came back and the numbers don't lie. I don't know what to do with that either.
+
+She grabs the skirt from the counter. Holds it up against my waist. //"Put this on, and the socks. Let's see the full thing."//
+
+I change in the bathroom with the door closed, which is stupid because she's right outside and she's seen me naked ten thousand times. But something about putting on the skirt feels like it needs a closed door. A threshold. A moment of privacy between who I was when I walked in and whoever walks out.
+
+The skirt sits on my hips. The fabric is thin and cheap and it swishes when I shift my weight. The thigh high socks roll up my legs and grip just above mid thigh, the elastic band biting gently into flesh that has never been held like this. The pastel hoodie goes over everything, oversized, the hem hitting mid skirt.
+
+I open the door.
+
+<<scene "img/scenes/full-outfit-reveal.png" "Christ, Ethan">>
+
+Jess looks at me. Her expression does something I can't read. It starts as amusement and passes through surprise and lands somewhere I don't have a map for.
+
+//"Christ, Ethan."//
+
+//"That bad?"//
+
+//"That's the opposite of bad."//
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Go live" "R5-GoingLive">><<set $timeOfDay to "Evening">><</link>>
+</div>
