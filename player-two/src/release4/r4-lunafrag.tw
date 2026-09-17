@@ -1,0 +1,38 @@
+:: R4-LunaFragPractice [release4]
+<<scene "img/scenes/lunafrag-practice.png" "2 AM. I remember why I started.">>
+
+LunaFrag's real name is Luna. Or that's what she goes by. She doesn't share much personal stuff and I don't push. What I know, she's been streaming for two years, she came up through the ranked grind, she's got a cat named Pixel that walks across her keyboard during clutch rounds, and she treats competitive gaming the way a surgeon treats an operating room.
+
+Our third practice session runs late. Two AM. We've been running custom scrims against two of DuskBlade's ringers, and we've won four of the last five rounds. The comms are tight. I'm pre-aiming, Riley's drills paying off. Luna's calling rotations before they happen.
+
+//"Okay, I think we can actually win this,"// she says. It's the first time either of us has said it out loud.
+
+//"Don't jinx it."//
+
+//"I don't believe in jinxes. I believe in crosshair placement and ping advantage."//
+
+She pauses. //"Hey, can I ask you something? And you can tell me to back off."//
+
+//"Shoot."//
+
+//"Your highlights used to be really polished. Like, genuinely good edits. The recent ones look like you're using a default template. What happened?"//
+
+The question sits there. I could lie. I could deflect. I could say I'm experimenting with a new style.
+
+//"My girlfriend used to edit them. She's busy with another project now."//
+
+//"Ah."// Luna doesn't push. //"Well, if you want, I know a guy who does highlight edits for like $30 a pop. Not amazing, but better than template ville."//
+
+//"I'll think about it."//
+
+//"You should. Your gameplay deserves better packaging."// She says it matter of factly. No flattery. Just assessment.
+
+We run two more rounds. Win both. I go to bed at 3 AM feeling something I'd almost forgotten the shape of.
+
+Hope, stupid, fragile, entirely unearned hope. The most dangerous drug in streaming.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Tournament day" "R4-Tournament">><<set $timeOfDay to "Afternoon">><<set $dayLabel to "Day Seventeen">><</link>>
+</div>

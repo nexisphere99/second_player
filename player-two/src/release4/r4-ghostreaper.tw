@@ -1,0 +1,28 @@
+:: R4-GhostReaperCommunity [release4]
+<<scene "img/ui/discord-hype.png" "ETHX-CHAN ERA INCOMING">>
+
+The community Discord is losing its mind. GhostReaper42, one of my oldest regulars, starts a thread titled "ETHX-CHAN ERA INCOMING" with a fan edited photo of my face photoshopped onto an anime girl body. It's terrible. It's also got forty reactions within an hour.
+
+<div class="pt-chat">
+<div class="pt-chat-head"><span>COMMUNITY DISCORD, #general</span></div>
+<div class="pt-chat-body">
+<<chatline "GhostReaper42" "yall im not even joking ethx has the bone structure for this. look at the jawline" "#e0b84d">>
+<<chatline "xX_FragQueen_Xx" "bro what are you LOOKING at 💀" "#e0556f">>
+<<chatline "GhostReaper42" "IM JUST SAYING. the man has cheekbones. this stream is going to break the internet" "#e0b84d">>
+<<chatline "TTVShadowMerc" "ethx if you're reading this please wear the pink thigh highs. for the culture" "#63b3ed">>
+<<chatline "FragQueen" "i cannot believe yall are down horrendous for our streamer in a skirt" "#e0556f">>
+<<chatline "GhostReaper42" "DOWN ASTRONOMICAL" "#e0b84d">>
+</div>
+</div>
+
+The thread grows to two hundred messages in three hours. Memes spawn. Someone makes an EthX-chan emote for the server. It's a crude paint drawing of me with pigtails. Riley makes it an official server emote without asking me.
+
+I scroll through it all. The energy is something I haven't felt from my community in months. Not pity, not obligation, not the polite engagement of people who watch out of habit. Genuine excitement, anticipation. They want to see this.
+
+They want to see me in a skirt. The thought should make my stomach turn. Instead it makes something else happen. Something in the lower registers of my body that I'm going to ignore for now.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "That night, home" "R4-TellingJess">><<set $timeOfDay to "Night">><</link>>
+</div>

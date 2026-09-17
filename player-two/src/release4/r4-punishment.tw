@@ -1,0 +1,60 @@
+:: R4-PunishmentBet [release4]
+<<set $chatMood to "anticipatory">>
+<<scene "img/scenes/punishment-announcement.png" "Femboy cosplay stream. Minimum three hours.">>
+
+DuskBlade does the dare reveals on his own stream. Sunday afternoon. Five thousand viewers. He's in full ringmaster mode, cape and all. The man literally wears a cape on stream. It works.
+
+//"Bracket three. EthX and LunaFrag."//
+
+He pauses. Grins. The chat fills with anticipation emojis. He's milking this because that's what showmen do.
+
+//"Your punishment. One full stream in femboy cosplay."//
+
+The words don't register immediately. They sit in the air like a delayed action charge.
+
+//"Thigh highs. Skirt. Wig. The whole nine yards. Makeup if you can manage it. On camera. Minimum three hours."//
+
+Chat erupts. Not just DuskBlade's chat, the tournament community Discord, Twitter, everywhere at once.
+
+<div class="pt-chat">
+<<chathead 5000>>
+<div class="pt-chat-body">
+<<chatline "viewer1" "FEMBOY STREAM LMAOOO" "#63b3ed">>
+<<chatline "viewer2" "ethx in a skirt I'm SCREAMING" "#e0556f">>
+<<chatline "viewer3" "this is going to be legendary" "#e0b84d">>
+<<chatline "viewer4" "lowkey ethx has the face for it tho 👀" "#c084dc">>
+</div>
+</div>
+
+That last one. I read it three times. Lowkey ethx has the face for it tho. Some stranger on the internet looked at me and saw something I haven't let myself see. Something about my jaw, maybe. My cheekbones. The softness I've always been slightly insecure about.
+
+LunaFrag messages me immediately.
+
+<div class="pt-phone">
+<<phonehead "LunaFrag" "Direct message" "L">>
+<<msg "" "well. at least I'm already a girl lmao. I'll just go extra femme. you're the one who has to do the heavy lifting" "left">>
+<<msg "" "i might just eat the $500" "right">>
+<<msg "" "dude you cannot afford to lose that $500 and you know it. just do the stream. three hours. it'll blow over" "left">>
+</div>
+
+She's right. Of course she's right. Five hundred dollars I put on a credit card I can't pay off. The deposit is non-refundable. The dare is non-negotiable. The waiver I signed, scrolling past the terms like everyone does, has a clause about forfeiting the deposit if you refuse the punishment.
+
+Five hundred dollars for a skirt and a wig. Three hours. Then it's over.
+
+I text Riley. "femboy stream"
+
+<div class="pt-phone">
+<<phonehead "Riley" "Discord DM" "R">>
+<<msg "" "OH MY GOD" "left">>
+<<msg "" "WAIT" "left">>
+<<msg "" "actually" "left">>
+<<msg "" "this could be incredible content" "left">>
+</div>
+
+Trust Riley to see the angle before the embarrassment.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "The community Discord" "R4-GhostReaperCommunity">><<set $timeOfDay to "Evening">><</link>>
+</div>

@@ -1,0 +1,126 @@
+:: R4-NightBefore [release4]
+<<scene "img/scenes/amazon-boxes.png" "Two small bombs with shipping tape on them">>
+
+The boxes arrived Thursday. I didn't open them. They sat on the kitchen counter like small bombs with shipping tape on them. Friday evening I come home from a practice session, aim drills, Riley's schedule, the routine I've clung to even though the tournament is over because the routine is the only thing that feels like progress, and the boxes are still there.
+
+Jess isn't home. Marcus. Something about a sponsor dinner. She texted at 6 PM, "Heading to sponsor thing with M, might be late. Thaw the chicken if you want to eat 💕"
+
+I don't thaw the chicken. I eat cereal standing at the counter. The milk is almost empty so the ratio is off. Too much cereal, not enough milk. I eat it anyway because I'm a person who eats dry ish cereal alone at 8 PM while his girlfriend is at a sponsor dinner with a man who has a jawline that could cut sheet metal.
+
+I open the boxes.
+
+The skirt is smaller than I expected, plaid, red and black. The waistband has a little buckle. I hold it up against my waist and it looks like it might fit because I'm built the way I'm built, narrow, lean, the word Jess used once, early on, when she thought it was a compliment, delicate.
+
+The thigh highs are pink, soft. I pull one over my hand like a puppet. The fabric stretches thin and the pink darkens to rose where it's taut. I stretch it further. Let it snap back.
+
+The wig is in a mesh cap. Pink bob. I pull it out and it's lighter than I expected. It looks like cotton candy and feels like something between synthetic and real. I turn it over in my hands.
+
+I don't try anything on. Not tonight. I put everything back in the boxes and the boxes in the closet and I brush my teeth and I get in bed and I lie there in the dark listening to the apartment breathe.
+
+<<scene "img/scenes/thigh-high-midnight.png" "One leg that belongs to someone else">>
+
+At midnight, I get up. Go to the closet. Take out the thigh highs. Just the thigh highs. I pull one on. Over my bare foot, up my calf, past my knee, the elastic gripping my thigh. The pink against my skin. The contrast.
+
+I look at my leg in the bathroom mirror. Just one leg, thigh high to the top of my thigh, the rest of me in boxers and a t-shirt. One leg that belongs to someone else. Someone who wears pink and doesn't apologize.
+
+I pull it off. Put it back. Go to bed.
+
+<<scene "img/ui/jess-midnight-text.png" "M says hi">>
+
+At 12.47 my phone lights up. Jess, "Sponsor thing ran super late! M says hi. Coming home now ❤️"
+
+M says hi. Marcus says hi to me through my girlfriend at 12.47 AM after a dinner that ran super late. I try to picture it. The restaurant. The booth or the table. Marcus's big frame taking up space. Jess beside him, not across from him. Beside him. The sponsors on the other side, watching the gorgeous man and the sharp woman and thinking, power couple.
+
+M says hi. Like he's thinking about me. Like I exist in whatever world they've built between 6 PM and midnight.
+
+I put the phone face down. Close my eyes. The thigh high feeling is still on my leg. A phantom. A preview.
+
+<hr class="pt-hr">
+
+The stream is tomorrow. The outfit is in your closet. Jess just got home from Marcus's. She's in the bathroom. You can hear the water running again.
+
+<div class="pt-choice-label">Night's End</div>
+<div class="pt-choices">
+<<link "Ask who called earlier" "R4-Choice-AskWhoCalled">><</link>>
+<<link "Focus on the outfit selection" "R4-Choice-FocusOutfit">><</link>>
+<<link "Suggest canceling the bet" "R4-Choice-SuggestCanceling">><</link>>
+</div>
+
+:: R4-Choice-AskWhoCalled [release4]
+<<set $suspicion += 5>>
+<<set $r4EndChoice to "askWhoCalled">>
+//"Was that Marcus? On the phone?"//
+
+She comes out of the bathroom in her pajamas. //"What? Oh, during our shopping thing? Yeah, he needed feedback on a thumbnail for tomorrow's stream. His upload schedule is insane."//
+
+Casual. No defensiveness. No hesitation. It really was a thumbnail, probably. The explanation fits. The tone fits. Everything fits the way a puzzle piece fits when you press hard enough.
+
+//"Cool. Just wondering."//
+
+//"You're not worried, right?"// She crawls into bed. Looks at you. //"Babe. It's work. That's all."//
+
+//"I know."//
+
+She kisses your shoulder. Falls asleep. You don't.
+
+<div class="pt-hud-line"><span>Suspicion</span><b>+5, the question was reasonable, her answer was reasonable, but the question had to be asked</b></div>
+
+<<goto "R4-End">>
+
+:: R4-Choice-FocusOutfit [release4]
+<<set $jessCloseness += 5>>
+<<set $feminization += 2>>
+<<set $r4EndChoice to "focusOutfit">>
+You pull up the shopping cart one more time. The thigh highs, the skirt, the wig. All confirmed, all arriving tomorrow.
+
+//"I think I need shoes too,"// you say.
+
+Jess lights up. //"Oh my god, yes. Okay, what size are you? You're what, a men's 9? That's like a women's 11. Hmm."// She starts scrolling. //"Mary Janes. Classic femboy footwear. Or we could go with these platform sneakers, more casual."//
+
+You spend another twenty minutes on shoes. She finds a pair of simple black flats that come in your size. Adds them to the cart. You're laughing about heel options you obviously can't walk in. She shows you a pair of six inch platforms as a joke and you pretend to consider them and she throws a pillow at you.
+
+//"Okay, we're doing this properly,"// she says. //"Tomorrow morning I'll do a test run with the makeup before you stream. I want to practice on your face."//
+
+//"My face is not a canvas."//
+
+//"Your face is absolutely a canvas and I'm Picasso, baby."//
+
+She falls asleep smiling. You fall asleep holding the phone with the cart still open. Tomorrow you're buying women's shoes. The thought sits in your chest like a small warm animal. You don't know what kind.
+
+<div class="pt-hud-line"><span>Jess Closeness</span><b>+5, the connection is real, even if it's built on a dare</b></div>
+<div class="pt-hud-line"><span>Feminization</span><b>+2, first active engagement with femme presentation as something other than punishment</b></div>
+
+<<goto "R4-End">>
+
+:: R4-Choice-SuggestCanceling [release4]
+<<set $moneyStress to "critical">>
+<<set $selfImageNote to "Small enough to fit in a shipping box.">>
+<<set $r4EndChoice to "suggestCanceling">>
+//"Maybe I should just eat the $500."//
+
+Jess's warmth drops. Not anger. Practical disappointment. The face of someone doing math.
+
+//"Ethan, we can't afford to throw away $500. You put that on the card."//
+
+//"I know."//
+
+//"Then just do the stream. Three hours. It'll be funny. Chat's already hyped. Riley said the Discord is going crazy."//
+
+She's right. Objectively, numerically, she's right. Five hundred dollars on a credit card that's already groaning. Three hours of wearing a skirt versus five hundred dollars they'll be paying interest on for months.
+
+But the way she says it. Just do the stream. Like it's simple. Like putting on a wig and a skirt and sitting in front of thousands of strangers is the obvious, easy choice. Like your discomfort is less important than the credit card balance.
+
+She's right, and it makes you feel small enough to fit in one of those shipping boxes.
+
+//"Yeah. Okay. You're right."//
+
+//"Of course I'm right."// She pats your leg. //"It'll be over before you know it."//
+
+She picks up her phone. Starts scrolling. You watch her thumb move across the screen. Marcus's Instagram. You can see the squares from here, shirtless, shirtless, gym, shirtless.
+
+You go to bed. She stays on the couch. The blue light of Marcus's content plays across her face in the dark living room.
+
+<div class="pt-hud-line"><span>Money Stress</span><b>becomes Critical</b></div>
+<div class="pt-hud-line"><span>Self-Image note</span><b>Small enough to fit in a shipping box</b></div>
+
+<<goto "R4-End">>

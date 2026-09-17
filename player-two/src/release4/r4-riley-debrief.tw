@@ -1,0 +1,56 @@
+:: R4-RileyDebrief [release4]
+Riley messages me twenty minutes after the stream ends.
+
+<div class="pt-phone">
+<<phonehead "Riley" "Discord DM" "R">>
+<<msg "" "hey. rough one. you okay?" "left">>
+<<msg "" "no" "right">>
+<<msg "" "fair. the semifinals was bad luck, their reads on your rotations were insane. not all on you" "left">>
+<<msg "" "i choked riley. i just choked. i hit the shots in practice. i hit them last week. today my hands just stopped working" "right">>
+<<msg "" "yeah. pressure does that. it's not a talent problem. it's a mental game problem. you're mechanically there. you just need reps under pressure" "left">>
+</div>
+
+I know they're right. I know it intellectually. But intellectually knowing you choked doesn't change the fact that you can still feel it in your fingers. The phantom of the shot you didn't take. The milliseconds your body stole from you.
+
+<div class="pt-phone">
+<<phonehead "Riley" "Discord DM" "R">>
+<<msg "" "listen. the punishment bet. duskblade hasn't announced the dares yet. whatever it is, lean into it. make it content. you lost the tournament but you can still win the week" "left">>
+<<msg "" "easy for you to say" "right">>
+<<msg "" "i know. but i'm saying it anyway because someone needs to" "left">>
+</div>
+
+There's a pause. Then.
+
+<div class="pt-phone">
+<<phonehead "Riley" "Discord DM" "R">>
+<<msg "" "also. i noticed jess wasn't in your chat tonight" "left">>
+<<msg "" "she was at marcus's. working" "right">>
+<<msg "" "on a saturday night" "left">>
+<<msg "" "riley" "right">>
+<<msg "" "i know. i know. just. i'm here. whatever you need" "left">>
+</div>
+
+I close Discord. Sit in the dark. The LED strips cast their permanent purple across the ceiling. From the bedroom, I hear my phone buzz. A text from Jess, "How'd it go??"
+
+Two question marks. Not one. The second one is doing something. Overcompensating, maybe. Or just the way she texts now. Everything a little extra, a little performed.
+
+<div class="pt-phone">
+<<phonehead "Jess" "iMessage" "J">>
+<<msg "" "How'd it go??" "left">>
+<<msg "" "Didn't win. Got the punishment bet." "right">>
+<<msg "" "Oh no! What is it?" "left">>
+<<msg "" "Don't know yet. Announced tomorrow." "right">>
+<<msg "" "Well whatever it is I'm sure it'll be funny 😂" "left">>
+</div>
+
+Funny. She thinks it'll be funny. I put the phone down. Pick it up. Put it down.
+
+She doesn't ask anything else. No are you okay. No sorry babe. Just the certainty that whatever public humiliation I'm about to endure will be amusing content.
+
+The phone stays dark after that.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Sunday afternoon" "R4-PunishmentBet">><<set $timeOfDay to "Afternoon">><<set $dayLabel to "Day Eighteen">><</link>>
+</div>

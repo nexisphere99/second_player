@@ -1,0 +1,91 @@
+:: R4-Tournament [release4]
+<<set $viewers to 800>>
+<<set $followers += 200>>
+<<scene "img/scenes/tournament-choke.png" "Semifinals. And this is where it falls apart.">>
+
+Tournament day. Saturday. I wake up at noon, which is my version of waking up early. I shower, eat eggs, real eggs, not ramen. I want protein. I want to feel like someone who takes care of himself before the biggest stream of his year.
+
+Jess left a note on the counter. "Good luck today babe! I'll try to catch some of the stream. Working at M's today but rooting for you!! 💕"
+
+Working at M's. She calls him M now, not Marcus, just M, like he's a Bond villain, like he's shorthand.
+
+I push it away. Today isn't about that. Today is about the crosshair. The callout. The bracket.
+
+I go live at 4 PM. Title, "INVICTA OPEN, EthX plus LunaFrag versus the world."
+
+Eight hundred viewers. Eight hundred. I haven't seen this number since ever, actually, for a standard stream. The tournament hype pulled in viewers from DuskBlade's community, from LunaFrag's community, from the competitive subreddit where Riley posted a thread about the bracket.
+
+//"Let's go, chat,"// I say, and I mean it. My hands are warm. My posture is good. The ring light is on. The energy in my chest is the energy I've been missing.
+
+First round. We draw a team called ShotCallerz. Mid tier players with flashy names and mediocre fundamentals. Luna and I dismantle them. Clean, decisive, almost surgical. I hit a triple kill in round four that makes chat erupt. Riley clips it before the round ends.
+
+<div class="pt-chat">
+<<chathead $viewers>>
+<div class="pt-chat-body">
+<<chatline "TTVShadowMerc" "ETHX IS HIM TODAY" "#63b3ed">>
+<<chatline "xX_FragQueen_Xx" "the aim is CRISPY" "#e0556f">>
+<<chatline "GhostReaper42" "luna and ethx synergy is nuts" "#e0b84d">>
+</div>
+</div>
+
+We win three to one. Easy, momentum, blood pumping. This is it. This is what I've been training for.
+
+Second round. Harder opponents. A team called VelocityPeak. Their entry fragger is fast, genuinely fast, the kind of player who makes you question if they're cheating until you watch the replay and realize they're just better at the game than you are.
+
+We win, barely. Three to two. Luna clutches the final round with a one versus two that makes me shout so loud the neighbors probably heard. My hands are shaking. Not from fear. From the adrenaline that lives in the gap between almost losing and barely winning.
+
+//"Semifinals,"// Luna says. //"Deep breath."//
+
+Semifinals, and this is where it falls apart.
+
+Our opponents are KillSwitch. Two players I recognize from ranked. Both higher rated than me. Both with the calm, efficient playstyle of people who have been here before and expect to be here again. They don't panic. They don't make flashy plays. They just execute.
+
+Round one, we lose. A clean read on our rotation that leaves me exposed in a crossfire. Dead before I can react.
+
+Round two, I choke. The specific, terrible kind of choking where your body forgets how to do something it's done ten thousand times. My crosshair drifts. My pre-aims land three inches off target. I swing a corner and my brain says shoot and my hand does nothing for two hundred milliseconds that feel like two hundred years.
+
+I die. Luna dies trying to trade. We lose the round.
+
+Round three, I'm tilting. I can feel it. The heat in my face, the tension in my shoulders, the way my breathing goes shallow and fast. Chat can see it too.
+
+<div class="pt-chat">
+<<chathead $viewers>>
+<div class="pt-chat-body">
+<<chatline "TTVShadowMerc" "ethan's tilting hard" "#63b3ed">>
+<<chatline "xX_FragQueen_Xx" "bro just breathe" "#e0556f">>
+<<chatline "GhostReaper42" "this is painful to watch ngl" "#e0b84d">>
+<<chatline "LunaFrag" "LunaFrag carrying rn" "#c084dc">>
+</div>
+</div>
+
+I slam my desk. The mic picks it up. The stream hears the frustration. One person in chat types it's just a game bro and I want to reach through the internet and shake them because it's not just a game. It's five hundred dollars I can't afford. It's the only shot at visibility I've had in months. It's proof that I'm not just a guy in a cramped apartment with a cracked monitor pretending the algorithm gives a damn about him.
+
+I accidentally mute my mic. Thirty seconds of silence. Luna is calling positions and I'm not responding. She adapts, covers my angles, does the work of two people. We still lose.
+
+Round four, I unmute. //"Sorry. I muted by accident."//
+
+//"It's fine. Reset. We got this."//
+
+We don't got this. KillSwitch reads our setup perfectly. The round lasts ninety seconds. We get destroyed.
+
+Three to one loss. Dropped to lower bracket.
+
+The consolation match against another losing team should be a recovery. It isn't. My mental is shattered. The confidence from the first two rounds is gone, replaced by the specific self loathing that comes from choking when it mattered. I play like I'm underwater. Luna plays her heart out but can't carry hard enough.
+
+We lose. Last place in our bracket.
+
+The stream ends. Luna is gracious. //"We'll get 'em next time."// But her voice is tight. She wanted to win too. She entered this tournament to grow her channel, to prove she could hang at this level, and I let her down.
+
+//"I'm sorry,"// I say.
+
+//"Don't apologize. It happens. But do your aim drills."// She disconnects.
+
+I pull off my headset. Eight hundred viewers watched me choke. The clip of me slamming my desk is already on Twitter with the caption "EthX having a normal one." Twelve quote tweets. All mocking.
+
+<<set $viewers to 200>>
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Twenty minutes later" "R4-RileyDebrief">><<set $timeOfDay to "Night">><</link>>
+</div>

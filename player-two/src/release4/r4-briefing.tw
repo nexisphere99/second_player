@@ -1,0 +1,50 @@
+:: R4-DuskBladeBriefing [release4]
+<<scene "img/scenes/duskblade-briefing.png" "Gentlemen. Ladies. And everyone in between and beyond.">>
+
+DuskBlade runs the briefing like a man who peaked in theater class and never looked back. His Discord avatar is a sword wreathed in flames. His voice has the energy of a monster truck rally announcer who reads poetry on the side.
+
+//"Gentlemen. Ladies, and everyone in between and beyond."// He pauses for effect. Eight streamers and their mods sit in the voice channel. //"Welcome to the Invicta Open."//
+
+The format, collab bracket, double elimination. Teams of two face off in best of three rounds. Losers drop to the lower bracket. Lose twice, you're out. The twist that makes this whole thing content instead of just competition, punishment bets.
+
+//"Every losing team faces a dare. Chosen by the winning team and ratified by chat vote. The dares are non-negotiable. You signed the waiver. You lose, you pay. Or you forfeit your deposit."//
+
+He lets that land.
+
+//"Five hundred dollars, gone, and before anyone asks, no. There are no refunds. Not even if you cry. Especially if you cry. Crying gets clipped."//
+
+Nervous laughter in the channel. Someone mutes to cough. LunaFrag, my assigned partner, Riley's request went through, types in the chat.
+
+<div class="pt-chat">
+<div class="pt-chat-body">
+<<chatline "LunaFrag" "what if i cry from laughing at the loser dare 😈" "#e0556f">>
+</div>
+</div>
+
+DuskBlade reads it aloud and cackles. //"LunaFrag gets it. Past dares include, streaming in a full fursuit for six hours. Letting chat name your in game character for an entire month. One guy had to do a mukbang with the spiciest ramen on Amazon. He threw up on stream. Clip got 2 million views. He gained 30K followers from the vomit alone."//
+
+The dares are the draw. Not the competition. The content. The clips. The moments that escape the stream and live on Reddit and TikTok and Twitter as monuments to human dignity being cheerfully sacrificed for engagement.
+
+//"Any questions?"//
+
+Someone asks about the streaming requirements. Minimum bitrate, camera mandatory, no pre-recorded segments. DuskBlade runs through the technical specs with surprising professionalism. Underneath the showmanship, the guy knows his craft.
+
+The call ends. LunaFrag DMs me directly.
+
+<div class="pt-phone">
+<<phonehead "LunaFrag" "Direct message" "L">>
+<<msg "" "hey partner. you ready to not get humiliated?" "left">>
+<<msg "" "define ready" "right">>
+<<msg "" "lmao. practice rounds tomorrow? i want to sync our callout system" "left">>
+<<msg "" "yeah let's do it" "right">>
+</div>
+
+We practice that night, the next night, and the night after that. LunaFrag is everything Riley said she was. Sharp, fast, funny. Our comms tighten with each session. By the third practice I'm calling positions before she asks and she's covering angles I haven't reached yet. The chemistry is real.
+
+For three days, I feel like a gamer again. Not a content creator, not a brand, not a guy with a headset and an LED strip and a dream that's gathering dust. A gamer. Someone who's good at something and is about to prove it.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "The third practice session" "R4-LunaFragPractice">><<set $timeOfDay to "Late Night">><</link>>
+</div>

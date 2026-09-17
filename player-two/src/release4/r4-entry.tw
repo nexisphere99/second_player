@@ -1,0 +1,54 @@
+:: R4-TournamentEntry [release4]
+<<set $money += 875>>
+<<scene "img/ui/tournament-registration.png" "$500. The confirm button. Ninety seconds.">>
+
+I'm staring at the Invicta Open registration page at 7.43 AM and my coffee's gone cold.
+
+Entry fee, five hundred dollars. First place, five thousand dollars and a feature on DuskBlade's channel. DuskBlade has a hundred and fifty thousand followers. A feature there is like getting a blood transfusion for a dying channel, the kind of algorithmic shot in the arm that could unstick everything, that could make the last three years mean something.
+
+Five hundred dollars.
+
+I look at the credit card on the desk. The one with the twelve hundred dollar balance we've been paying minimums on since Jess's car needed new brakes in February. The one that makes a sound in my head like a dentist's drill every time I think about it.
+
+Jess's first paycheck from Marcus hit yesterday. Eighteen hundred dollars. She Venmo'd me her half of rent without me asking, which was new. Usually we have a whole conversation about it, timing, who pays what utility, the choreography of being broke together. This time she just sent it, clean, eight hundred seventy five dollars with a little house emoji. Like it was nothing.
+
+Because to her, suddenly, it was nothing.
+
+Technically that frees up my streaming income. Frees up is a generous phrase for what my streaming income actually is. Last month's total, three hundred eighty seven dollars in donations, a hundred twelve from my sub split, a fifty dollar affiliate commission from a gaming chair company whose product I've never sat in. That's five hundred forty nine before taxes. Rent is eight seventy five. Math is a language and this month it's saying go do something anatomically difficult to yourself.
+
+I sit at the kitchen table. Jess's Marcus papers used to be here. Color coded sticky notes, printed spreadsheets, her laptop open to two tabs side by side. She works at his apartment now, mostly. The table is just a table again. There's a ring from a coffee mug and a pen she left behind. I pick up the pen. It's a nice pen. Marcus gave it to her. Branded with his logo. MarcKing in chrome script.
+
+I do math on a napkin because I'm the kind of person who does math on napkins instead of spreadsheets. Five hundred in, potential five thousand out. But it's not about the money. Not really. It's about the hundred and fifty thousand eyeballs on DuskBlade's channel seeing me play. It's about the algorithm going oh, there he is, we forgot about that guy. It's about being someone the platform remembers.
+
+I enter. My thumb hovers over the confirm button for maybe ninety seconds. Then I press it and five hundred dollars hits the credit card like a bag of cement off a rooftop.
+
+<<set $creditCardDebt += 500>>
+<<set $moneyStress to "critical">>
+
+The confirmation email comes through. "Welcome to the Invicta Open, EthX! Your bracket assignment will be sent 48 hours prior to the event."
+
+I close the laptop. Open it. Close it again. The napkin math stares up at me. I crumple it and toss it toward the trash can, miss, and leave it on the floor.
+
+My phone buzzes, Discord.
+
+<div class="pt-phone">
+<<phonehead "Riley" "Discord DM" "R">>
+<<msg "" "YOU ENTERED INVICTA?? Let's GO" "left">>
+<<msg "" "dude this is your shot" "left">>
+<<msg "" "I'm posting in the server rn" "left">>
+<<msg "" "the community is gonna RALLY" "left">>
+</div>
+
+They saw the registration announcement. Of course they did. Riley monitors every competitive FPS discord like a hawk with a caffeine problem.
+
+I watch the Discord light up. Riley drops the announcement in our server. The regulars pile in. GhostReaper42 with the hype emojis. TTVShadowMerc asking about the bracket format. xX_FragQueen_Xx offering to help with practice drills. For a moment, scrolling the reactions, I feel something I haven't felt in weeks.
+
+The old energy. The thing under my ribs that used to fire every time I went live. The belief that something could happen. That the grind was going somewhere.
+
+It lasts about four minutes. Then I remember the five hundred dollars and my stomach does the thing again.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "That night" "R4-RileyPrep">><<set $timeOfDay to "Evening">><</link>>
+</div>

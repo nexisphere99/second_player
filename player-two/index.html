@@ -106,7 +106,7 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
 		<div id="init-lacking"><p>Browser lacks capabilities required to play.</p><p>Upgrade or switch to another browser.</p></div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<!-- UUID://92F88D4E-2318-43DE-9F9E-2001DA7B3F02// --><tw-storydata name="Player Two" startnode="29" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="92F88D4E-2318-43DE-9F9E-2001DA7B3F02" zoom="1" format="SugarCube" format-version="2.37.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="release1" color="#9b59b6"></tw-tag><tw-tag name="release2" color="#3f7fbf"></tw-tag><tw-tag name="release3" color="#c0704a"></tw-tag><tw-tag name="sidequest" color="#e0b84d"></tw-tag><tw-tag name="intimate" color="#e0556f"></tw-tag><tw-passagedata pid="1" name="StoryCaption" tags="" position="100,100" size="100,100">&lt;&lt;hud&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="StoryMenu" tags="" position="225,100" size="100,100">&lt;&lt;link &quot;Stats so far&quot; &quot;R1-Stats&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="PassageHeader" tags="" position="350,100" size="100,100">&lt;div class=&quot;pt-topbar&quot;&gt;
+	<!-- UUID://92F88D4E-2318-43DE-9F9E-2001DA7B3F02// --><tw-storydata name="Player Two" startnode="29" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="92F88D4E-2318-43DE-9F9E-2001DA7B3F02" zoom="1" format="SugarCube" format-version="2.37.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="release3" color="#c0704a"></tw-tag><tw-tag name="release4" color="#e0556f"></tw-tag><tw-tag name="sidequest" color="#e0b84d"></tw-tag><tw-tag name="intimate" color="#e0556f"></tw-tag><tw-tag name="release1" color="#9b59b6"></tw-tag><tw-tag name="release2" color="#3f7fbf"></tw-tag><tw-passagedata pid="1" name="StoryCaption" tags="" position="100,100" size="100,100">&lt;&lt;hud&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="StoryMenu" tags="" position="225,100" size="100,100">&lt;&lt;link &quot;Stats so far&quot; &quot;R1-Stats&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="PassageHeader" tags="" position="350,100" size="100,100">&lt;div class=&quot;pt-topbar&quot;&gt;
 &lt;div class=&quot;pt-brand&quot;&gt;PLAYER &lt;span&gt;TWO&lt;/span&gt;&lt;/div&gt;
 &lt;div class=&quot;pt-daytime&quot;&gt;$dayLabel &amp;middot; &lt;b&gt;$timeOfDay&lt;/b&gt;&lt;/div&gt;
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="4" name="StoryInit" tags="" position="475,100" size="100,100">&lt;&lt;set $viewers to 200&gt;&gt;
@@ -150,7 +150,10 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
 &lt;&lt;set $r3ChatChoice to &quot;none&quot;&gt;&gt;
 &lt;&lt;set $r3GhostReaperChoice to &quot;none&quot;&gt;&gt;
 &lt;&lt;set $r3RileyCheckinChoice to &quot;none&quot;&gt;&gt;
-&lt;&lt;set $r3ClosingChoice to &quot;none&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="R1-Apartment" tags="release1" position="600,100" size="100,100">&lt;&lt;scene &quot;img/locations/apartment-kitchen.png&quot; &quot;The kitchen, one person wide&quot;&gt;&gt;
+&lt;&lt;set $r3ClosingChoice to &quot;none&quot;&gt;&gt;
+
+&lt;&lt;set $creditCardDebt to 1200&gt;&gt;
+&lt;&lt;set $r4EndChoice to &quot;none&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="R1-Apartment" tags="release1" position="600,100" size="100,100">&lt;&lt;scene &quot;img/locations/apartment-kitchen.png&quot; &quot;The kitchen, one person wide&quot;&gt;&gt;
 
 I walk to the kitchen and the apartment walks with me. Three steps from desk to door, eight steps down the hallway, four steps to the fridge. I&#39;ve counted them. When you live somewhere small enough to memorize in footsteps, you stop calling it home and start calling it what it actually is, a container.
 
@@ -2035,9 +2038,9 @@ Forty two people stayed up with me for no good reason and it was enough, for an 
 
 &lt;hr class=&quot;pt-hr&quot;&gt;
 
-&lt;p class=&quot;pt-hud-sub&quot;&gt;Release 4 picks up from here. Use Restart in the sidebar menu to run the story again from a clean save.&lt;/p&gt;
-
-&lt;&lt;patreoncard&gt;&gt;</tw-passagedata><tw-passagedata pid="86" name="R3-StreamChat" tags="release3" position="725,1100" size="100,100">&lt;&lt;set $viewers to 190&gt;&gt;
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Continue to Release 4&quot; &quot;R4-TournamentEntry&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Morning&quot;&gt;&gt;&lt;&lt;set $dayLabel to &quot;Day Eleven&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="86" name="R3-StreamChat" tags="release3" position="725,1100" size="100,100">&lt;&lt;set $viewers to 190&gt;&gt;
 &lt;&lt;scene &quot;img/scenes/stream-setup-night.png&quot; &quot;The new edit, going over about as well as expected&quot;&gt;&gt;
 
 Tuesday night stream. A hundred and ninety viewers, below my average. The highlight reel I posted earlier is getting ratioed in my own Discord. Not by trolls. By regulars who care enough to notice the difference.
@@ -2115,7 +2118,697 @@ Riley nods. Subject dies. But the silence is its own answer. Nobody asks again, 
 &lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Viewers, next stream&lt;/span&gt;&lt;b&gt;-10&lt;/b&gt;&lt;/div&gt;
 
 &lt;&lt;set $timeOfDay to &quot;Late Night&quot;&gt;&gt;
-&lt;&lt;goto &quot;R3-GhostReaperDM&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="90" name="Widgets" tags="widget" position="1225,1100" size="100,100">\
+&lt;&lt;goto &quot;R3-GhostReaperDM&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="90" name="R4-BetPool" tags="release4" position="1225,1100" size="100,100">TTVShadowMerc, who has too much time and not enough impulse control, starts an unofficial bet pool in the community Discord.
+
+&lt;div class=&quot;pt-chat&quot;&gt;
+&lt;div class=&quot;pt-chat-head&quot;&gt;&lt;span&gt;COMMUNITY DISCORD, #general&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-chat-body&quot;&gt;
+&lt;&lt;chatline &quot;TTVShadowMerc&quot; &quot;ETHX-CHAN STREAM PREDICTIONS, place your bets&quot; &quot;#63b3ed&quot;&gt;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+He lists the categories. Viewer peak, over or under two thousand. Will he keep the wig on the whole stream, yes or no. Will he actually do the makeup or just slap on the wig, full makeup or wig only. Will he rage quit, yes, no, or maybe. Hotness rating, community vote, one to ten, post stream.
+
+The bet pool gets fifty entries in two days. Most people bet over two thousand viewers. Most bet he&#39;ll keep the wig on. The hotness rating pre vote average is 6.2, which is higher than I expected. Some of these people have really thought about what I&#39;d look like in a skirt.
+
+TTVShadowMerc DMs me directly.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;TTVShadowMerc&quot; &quot;Direct message&quot; &quot;T&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;bro i gotta be honest&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;i&#39;m kinda hyped for this&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;glad my humiliation excites you&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;nah fr tho. your normal streams are chill but they&#39;re... idk. you&#39;re holding back. like you&#39;re trying to be the version of a streamer you think you should be. this dare is going to force you out of that. whatever happens, it&#39;s going to be REAL. and real is what chat responds to&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+I read it twice. TTVShadowMerc is not usually a philosopher. He&#39;s usually a guy who types nice shot king and argues about gun meta in the comments. But this. This is observation. He&#39;s seen something I&#39;ve been hiding from myself.
+
+Holding back. Trying to be a version of myself I think I should be. Playing a character called mid tier competitive FPS streamer because I don&#39;t know what else to play.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;TTVShadowMerc&quot; &quot;Direct message&quot; &quot;T&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;maybe you&#39;re right&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;course i&#39;m right. also i bet $5 on you being at least an 8 on the hotness scale so don&#39;t let me down&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;there&#39;s no actual money in this bet pool right?&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;...&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;no comment&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Friday night&quot; &quot;R4-NightBefore&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Evening&quot;&gt;&gt;&lt;&lt;set $dayLabel to &quot;Day Twenty Three&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="91" name="R4-DuskBladeBriefing" tags="release4" position="100,1225" size="100,100">&lt;&lt;scene &quot;img/scenes/duskblade-briefing.png&quot; &quot;Gentlemen. Ladies. And everyone in between and beyond.&quot;&gt;&gt;
+
+DuskBlade runs the briefing like a man who peaked in theater class and never looked back. His Discord avatar is a sword wreathed in flames. His voice has the energy of a monster truck rally announcer who reads poetry on the side.
+
+//&quot;Gentlemen. Ladies, and everyone in between and beyond.&quot;// He pauses for effect. Eight streamers and their mods sit in the voice channel. //&quot;Welcome to the Invicta Open.&quot;//
+
+The format, collab bracket, double elimination. Teams of two face off in best of three rounds. Losers drop to the lower bracket. Lose twice, you&#39;re out. The twist that makes this whole thing content instead of just competition, punishment bets.
+
+//&quot;Every losing team faces a dare. Chosen by the winning team and ratified by chat vote. The dares are non-negotiable. You signed the waiver. You lose, you pay. Or you forfeit your deposit.&quot;//
+
+He lets that land.
+
+//&quot;Five hundred dollars, gone, and before anyone asks, no. There are no refunds. Not even if you cry. Especially if you cry. Crying gets clipped.&quot;//
+
+Nervous laughter in the channel. Someone mutes to cough. LunaFrag, my assigned partner, Riley&#39;s request went through, types in the chat.
+
+&lt;div class=&quot;pt-chat&quot;&gt;
+&lt;div class=&quot;pt-chat-body&quot;&gt;
+&lt;&lt;chatline &quot;LunaFrag&quot; &quot;what if i cry from laughing at the loser dare 😈&quot; &quot;#e0556f&quot;&gt;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+DuskBlade reads it aloud and cackles. //&quot;LunaFrag gets it. Past dares include, streaming in a full fursuit for six hours. Letting chat name your in game character for an entire month. One guy had to do a mukbang with the spiciest ramen on Amazon. He threw up on stream. Clip got 2 million views. He gained 30K followers from the vomit alone.&quot;//
+
+The dares are the draw. Not the competition. The content. The clips. The moments that escape the stream and live on Reddit and TikTok and Twitter as monuments to human dignity being cheerfully sacrificed for engagement.
+
+//&quot;Any questions?&quot;//
+
+Someone asks about the streaming requirements. Minimum bitrate, camera mandatory, no pre-recorded segments. DuskBlade runs through the technical specs with surprising professionalism. Underneath the showmanship, the guy knows his craft.
+
+The call ends. LunaFrag DMs me directly.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;LunaFrag&quot; &quot;Direct message&quot; &quot;L&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;hey partner. you ready to not get humiliated?&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;define ready&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;lmao. practice rounds tomorrow? i want to sync our callout system&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;yeah let&#39;s do it&quot; &quot;right&quot;&gt;&gt;
+&lt;/div&gt;
+
+We practice that night, the next night, and the night after that. LunaFrag is everything Riley said she was. Sharp, fast, funny. Our comms tighten with each session. By the third practice I&#39;m calling positions before she asks and she&#39;s covering angles I haven&#39;t reached yet. The chemistry is real.
+
+For three days, I feel like a gamer again. Not a content creator, not a brand, not a guy with a headset and an LED strip and a dream that&#39;s gathering dust. A gamer. Someone who&#39;s good at something and is about to prove it.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;The third practice session&quot; &quot;R4-LunaFragPractice&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Late Night&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="92" name="R4-TournamentEntry" tags="release4" position="225,1225" size="100,100">&lt;&lt;set $money += 875&gt;&gt;
+&lt;&lt;scene &quot;img/ui/tournament-registration.png&quot; &quot;$500. The confirm button. Ninety seconds.&quot;&gt;&gt;
+
+I&#39;m staring at the Invicta Open registration page at 7.43 AM and my coffee&#39;s gone cold.
+
+Entry fee, five hundred dollars. First place, five thousand dollars and a feature on DuskBlade&#39;s channel. DuskBlade has a hundred and fifty thousand followers. A feature there is like getting a blood transfusion for a dying channel, the kind of algorithmic shot in the arm that could unstick everything, that could make the last three years mean something.
+
+Five hundred dollars.
+
+I look at the credit card on the desk. The one with the twelve hundred dollar balance we&#39;ve been paying minimums on since Jess&#39;s car needed new brakes in February. The one that makes a sound in my head like a dentist&#39;s drill every time I think about it.
+
+Jess&#39;s first paycheck from Marcus hit yesterday. Eighteen hundred dollars. She Venmo&#39;d me her half of rent without me asking, which was new. Usually we have a whole conversation about it, timing, who pays what utility, the choreography of being broke together. This time she just sent it, clean, eight hundred seventy five dollars with a little house emoji. Like it was nothing.
+
+Because to her, suddenly, it was nothing.
+
+Technically that frees up my streaming income. Frees up is a generous phrase for what my streaming income actually is. Last month&#39;s total, three hundred eighty seven dollars in donations, a hundred twelve from my sub split, a fifty dollar affiliate commission from a gaming chair company whose product I&#39;ve never sat in. That&#39;s five hundred forty nine before taxes. Rent is eight seventy five. Math is a language and this month it&#39;s saying go do something anatomically difficult to yourself.
+
+I sit at the kitchen table. Jess&#39;s Marcus papers used to be here. Color coded sticky notes, printed spreadsheets, her laptop open to two tabs side by side. She works at his apartment now, mostly. The table is just a table again. There&#39;s a ring from a coffee mug and a pen she left behind. I pick up the pen. It&#39;s a nice pen. Marcus gave it to her. Branded with his logo. MarcKing in chrome script.
+
+I do math on a napkin because I&#39;m the kind of person who does math on napkins instead of spreadsheets. Five hundred in, potential five thousand out. But it&#39;s not about the money. Not really. It&#39;s about the hundred and fifty thousand eyeballs on DuskBlade&#39;s channel seeing me play. It&#39;s about the algorithm going oh, there he is, we forgot about that guy. It&#39;s about being someone the platform remembers.
+
+I enter. My thumb hovers over the confirm button for maybe ninety seconds. Then I press it and five hundred dollars hits the credit card like a bag of cement off a rooftop.
+
+&lt;&lt;set $creditCardDebt += 500&gt;&gt;
+&lt;&lt;set $moneyStress to &quot;critical&quot;&gt;&gt;
+
+The confirmation email comes through. &quot;Welcome to the Invicta Open, EthX! Your bracket assignment will be sent 48 hours prior to the event.&quot;
+
+I close the laptop. Open it. Close it again. The napkin math stares up at me. I crumple it and toss it toward the trash can, miss, and leave it on the floor.
+
+My phone buzzes, Discord.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;Riley&quot; &quot;Discord DM&quot; &quot;R&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;YOU ENTERED INVICTA?? Let&#39;s GO&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;dude this is your shot&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;I&#39;m posting in the server rn&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;the community is gonna RALLY&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+They saw the registration announcement. Of course they did. Riley monitors every competitive FPS discord like a hawk with a caffeine problem.
+
+I watch the Discord light up. Riley drops the announcement in our server. The regulars pile in. GhostReaper42 with the hype emojis. TTVShadowMerc asking about the bracket format. xX_FragQueen_Xx offering to help with practice drills. For a moment, scrolling the reactions, I feel something I haven&#39;t felt in weeks.
+
+The old energy. The thing under my ribs that used to fire every time I went live. The belief that something could happen. That the grind was going somewhere.
+
+It lasts about four minutes. Then I remember the five hundred dollars and my stomach does the thing again.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;That night&quot; &quot;R4-RileyPrep&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Evening&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="93" name="R4-GhostReaperCommunity" tags="release4" position="350,1225" size="100,100">&lt;&lt;scene &quot;img/ui/discord-hype.png&quot; &quot;ETHX-CHAN ERA INCOMING&quot;&gt;&gt;
+
+The community Discord is losing its mind. GhostReaper42, one of my oldest regulars, starts a thread titled &quot;ETHX-CHAN ERA INCOMING&quot; with a fan edited photo of my face photoshopped onto an anime girl body. It&#39;s terrible. It&#39;s also got forty reactions within an hour.
+
+&lt;div class=&quot;pt-chat&quot;&gt;
+&lt;div class=&quot;pt-chat-head&quot;&gt;&lt;span&gt;COMMUNITY DISCORD, #general&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-chat-body&quot;&gt;
+&lt;&lt;chatline &quot;GhostReaper42&quot; &quot;yall im not even joking ethx has the bone structure for this. look at the jawline&quot; &quot;#e0b84d&quot;&gt;&gt;
+&lt;&lt;chatline &quot;xX_FragQueen_Xx&quot; &quot;bro what are you LOOKING at 💀&quot; &quot;#e0556f&quot;&gt;&gt;
+&lt;&lt;chatline &quot;GhostReaper42&quot; &quot;IM JUST SAYING. the man has cheekbones. this stream is going to break the internet&quot; &quot;#e0b84d&quot;&gt;&gt;
+&lt;&lt;chatline &quot;TTVShadowMerc&quot; &quot;ethx if you&#39;re reading this please wear the pink thigh highs. for the culture&quot; &quot;#63b3ed&quot;&gt;&gt;
+&lt;&lt;chatline &quot;FragQueen&quot; &quot;i cannot believe yall are down horrendous for our streamer in a skirt&quot; &quot;#e0556f&quot;&gt;&gt;
+&lt;&lt;chatline &quot;GhostReaper42&quot; &quot;DOWN ASTRONOMICAL&quot; &quot;#e0b84d&quot;&gt;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+The thread grows to two hundred messages in three hours. Memes spawn. Someone makes an EthX-chan emote for the server. It&#39;s a crude paint drawing of me with pigtails. Riley makes it an official server emote without asking me.
+
+I scroll through it all. The energy is something I haven&#39;t felt from my community in months. Not pity, not obligation, not the polite engagement of people who watch out of habit. Genuine excitement, anticipation. They want to see this.
+
+They want to see me in a skirt. The thought should make my stomach turn. Instead it makes something else happen. Something in the lower registers of my body that I&#39;m going to ignore for now.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;That night, home&quot; &quot;R4-TellingJess&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Night&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="94" name="R4-LunaFragPractice" tags="release4" position="475,1225" size="100,100">&lt;&lt;scene &quot;img/scenes/lunafrag-practice.png&quot; &quot;2 AM. I remember why I started.&quot;&gt;&gt;
+
+LunaFrag&#39;s real name is Luna. Or that&#39;s what she goes by. She doesn&#39;t share much personal stuff and I don&#39;t push. What I know, she&#39;s been streaming for two years, she came up through the ranked grind, she&#39;s got a cat named Pixel that walks across her keyboard during clutch rounds, and she treats competitive gaming the way a surgeon treats an operating room.
+
+Our third practice session runs late. Two AM. We&#39;ve been running custom scrims against two of DuskBlade&#39;s ringers, and we&#39;ve won four of the last five rounds. The comms are tight. I&#39;m pre-aiming, Riley&#39;s drills paying off. Luna&#39;s calling rotations before they happen.
+
+//&quot;Okay, I think we can actually win this,&quot;// she says. It&#39;s the first time either of us has said it out loud.
+
+//&quot;Don&#39;t jinx it.&quot;//
+
+//&quot;I don&#39;t believe in jinxes. I believe in crosshair placement and ping advantage.&quot;//
+
+She pauses. //&quot;Hey, can I ask you something? And you can tell me to back off.&quot;//
+
+//&quot;Shoot.&quot;//
+
+//&quot;Your highlights used to be really polished. Like, genuinely good edits. The recent ones look like you&#39;re using a default template. What happened?&quot;//
+
+The question sits there. I could lie. I could deflect. I could say I&#39;m experimenting with a new style.
+
+//&quot;My girlfriend used to edit them. She&#39;s busy with another project now.&quot;//
+
+//&quot;Ah.&quot;// Luna doesn&#39;t push. //&quot;Well, if you want, I know a guy who does highlight edits for like $30 a pop. Not amazing, but better than template ville.&quot;//
+
+//&quot;I&#39;ll think about it.&quot;//
+
+//&quot;You should. Your gameplay deserves better packaging.&quot;// She says it matter of factly. No flattery. Just assessment.
+
+We run two more rounds. Win both. I go to bed at 3 AM feeling something I&#39;d almost forgotten the shape of.
+
+Hope, stupid, fragile, entirely unearned hope. The most dangerous drug in streaming.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Tournament day&quot; &quot;R4-Tournament&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Afternoon&quot;&gt;&gt;&lt;&lt;set $dayLabel to &quot;Day Seventeen&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="95" name="R4-NightBefore" tags="release4" position="600,1225" size="100,100">&lt;&lt;scene &quot;img/scenes/amazon-boxes.png&quot; &quot;Two small bombs with shipping tape on them&quot;&gt;&gt;
+
+The boxes arrived Thursday. I didn&#39;t open them. They sat on the kitchen counter like small bombs with shipping tape on them. Friday evening I come home from a practice session, aim drills, Riley&#39;s schedule, the routine I&#39;ve clung to even though the tournament is over because the routine is the only thing that feels like progress, and the boxes are still there.
+
+Jess isn&#39;t home. Marcus. Something about a sponsor dinner. She texted at 6 PM, &quot;Heading to sponsor thing with M, might be late. Thaw the chicken if you want to eat 💕&quot;
+
+I don&#39;t thaw the chicken. I eat cereal standing at the counter. The milk is almost empty so the ratio is off. Too much cereal, not enough milk. I eat it anyway because I&#39;m a person who eats dry ish cereal alone at 8 PM while his girlfriend is at a sponsor dinner with a man who has a jawline that could cut sheet metal.
+
+I open the boxes.
+
+The skirt is smaller than I expected, plaid, red and black. The waistband has a little buckle. I hold it up against my waist and it looks like it might fit because I&#39;m built the way I&#39;m built, narrow, lean, the word Jess used once, early on, when she thought it was a compliment, delicate.
+
+The thigh highs are pink, soft. I pull one over my hand like a puppet. The fabric stretches thin and the pink darkens to rose where it&#39;s taut. I stretch it further. Let it snap back.
+
+The wig is in a mesh cap. Pink bob. I pull it out and it&#39;s lighter than I expected. It looks like cotton candy and feels like something between synthetic and real. I turn it over in my hands.
+
+I don&#39;t try anything on. Not tonight. I put everything back in the boxes and the boxes in the closet and I brush my teeth and I get in bed and I lie there in the dark listening to the apartment breathe.
+
+&lt;&lt;scene &quot;img/scenes/thigh-high-midnight.png&quot; &quot;One leg that belongs to someone else&quot;&gt;&gt;
+
+At midnight, I get up. Go to the closet. Take out the thigh highs. Just the thigh highs. I pull one on. Over my bare foot, up my calf, past my knee, the elastic gripping my thigh. The pink against my skin. The contrast.
+
+I look at my leg in the bathroom mirror. Just one leg, thigh high to the top of my thigh, the rest of me in boxers and a t-shirt. One leg that belongs to someone else. Someone who wears pink and doesn&#39;t apologize.
+
+I pull it off. Put it back. Go to bed.
+
+&lt;&lt;scene &quot;img/ui/jess-midnight-text.png&quot; &quot;M says hi&quot;&gt;&gt;
+
+At 12.47 my phone lights up. Jess, &quot;Sponsor thing ran super late! M says hi. Coming home now ❤️&quot;
+
+M says hi. Marcus says hi to me through my girlfriend at 12.47 AM after a dinner that ran super late. I try to picture it. The restaurant. The booth or the table. Marcus&#39;s big frame taking up space. Jess beside him, not across from him. Beside him. The sponsors on the other side, watching the gorgeous man and the sharp woman and thinking, power couple.
+
+M says hi. Like he&#39;s thinking about me. Like I exist in whatever world they&#39;ve built between 6 PM and midnight.
+
+I put the phone face down. Close my eyes. The thigh high feeling is still on my leg. A phantom. A preview.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+The stream is tomorrow. The outfit is in your closet. Jess just got home from Marcus&#39;s. She&#39;s in the bathroom. You can hear the water running again.
+
+&lt;div class=&quot;pt-choice-label&quot;&gt;Night&#39;s End&lt;/div&gt;
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Ask who called earlier&quot; &quot;R4-Choice-AskWhoCalled&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;Focus on the outfit selection&quot; &quot;R4-Choice-FocusOutfit&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;link &quot;Suggest canceling the bet&quot; &quot;R4-Choice-SuggestCanceling&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="96" name="R4-Choice-AskWhoCalled" tags="release4" position="725,1225" size="100,100">&lt;&lt;set $suspicion += 5&gt;&gt;
+&lt;&lt;set $r4EndChoice to &quot;askWhoCalled&quot;&gt;&gt;
+//&quot;Was that Marcus? On the phone?&quot;//
+
+She comes out of the bathroom in her pajamas. //&quot;What? Oh, during our shopping thing? Yeah, he needed feedback on a thumbnail for tomorrow&#39;s stream. His upload schedule is insane.&quot;//
+
+Casual. No defensiveness. No hesitation. It really was a thumbnail, probably. The explanation fits. The tone fits. Everything fits the way a puzzle piece fits when you press hard enough.
+
+//&quot;Cool. Just wondering.&quot;//
+
+//&quot;You&#39;re not worried, right?&quot;// She crawls into bed. Looks at you. //&quot;Babe. It&#39;s work. That&#39;s all.&quot;//
+
+//&quot;I know.&quot;//
+
+She kisses your shoulder. Falls asleep. You don&#39;t.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Suspicion&lt;/span&gt;&lt;b&gt;+5, the question was reasonable, her answer was reasonable, but the question had to be asked&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;goto &quot;R4-End&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="97" name="R4-Choice-FocusOutfit" tags="release4" position="850,1225" size="100,100">&lt;&lt;set $jessCloseness += 5&gt;&gt;
+&lt;&lt;set $feminization += 2&gt;&gt;
+&lt;&lt;set $r4EndChoice to &quot;focusOutfit&quot;&gt;&gt;
+You pull up the shopping cart one more time. The thigh highs, the skirt, the wig. All confirmed, all arriving tomorrow.
+
+//&quot;I think I need shoes too,&quot;// you say.
+
+Jess lights up. //&quot;Oh my god, yes. Okay, what size are you? You&#39;re what, a men&#39;s 9? That&#39;s like a women&#39;s 11. Hmm.&quot;// She starts scrolling. //&quot;Mary Janes. Classic femboy footwear. Or we could go with these platform sneakers, more casual.&quot;//
+
+You spend another twenty minutes on shoes. She finds a pair of simple black flats that come in your size. Adds them to the cart. You&#39;re laughing about heel options you obviously can&#39;t walk in. She shows you a pair of six inch platforms as a joke and you pretend to consider them and she throws a pillow at you.
+
+//&quot;Okay, we&#39;re doing this properly,&quot;// she says. //&quot;Tomorrow morning I&#39;ll do a test run with the makeup before you stream. I want to practice on your face.&quot;//
+
+//&quot;My face is not a canvas.&quot;//
+
+//&quot;Your face is absolutely a canvas and I&#39;m Picasso, baby.&quot;//
+
+She falls asleep smiling. You fall asleep holding the phone with the cart still open. Tomorrow you&#39;re buying women&#39;s shoes. The thought sits in your chest like a small warm animal. You don&#39;t know what kind.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Jess Closeness&lt;/span&gt;&lt;b&gt;+5, the connection is real, even if it&#39;s built on a dare&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Feminization&lt;/span&gt;&lt;b&gt;+2, first active engagement with femme presentation as something other than punishment&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;goto &quot;R4-End&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="98" name="R4-Choice-SuggestCanceling" tags="release4" position="975,1225" size="100,100">&lt;&lt;set $moneyStress to &quot;critical&quot;&gt;&gt;
+&lt;&lt;set $selfImageNote to &quot;Small enough to fit in a shipping box.&quot;&gt;&gt;
+&lt;&lt;set $r4EndChoice to &quot;suggestCanceling&quot;&gt;&gt;
+//&quot;Maybe I should just eat the $500.&quot;//
+
+Jess&#39;s warmth drops. Not anger. Practical disappointment. The face of someone doing math.
+
+//&quot;Ethan, we can&#39;t afford to throw away $500. You put that on the card.&quot;//
+
+//&quot;I know.&quot;//
+
+//&quot;Then just do the stream. Three hours. It&#39;ll be funny. Chat&#39;s already hyped. Riley said the Discord is going crazy.&quot;//
+
+She&#39;s right. Objectively, numerically, she&#39;s right. Five hundred dollars on a credit card that&#39;s already groaning. Three hours of wearing a skirt versus five hundred dollars they&#39;ll be paying interest on for months.
+
+But the way she says it. Just do the stream. Like it&#39;s simple. Like putting on a wig and a skirt and sitting in front of thousands of strangers is the obvious, easy choice. Like your discomfort is less important than the credit card balance.
+
+She&#39;s right, and it makes you feel small enough to fit in one of those shipping boxes.
+
+//&quot;Yeah. Okay. You&#39;re right.&quot;//
+
+//&quot;Of course I&#39;m right.&quot;// She pats your leg. //&quot;It&#39;ll be over before you know it.&quot;//
+
+She picks up her phone. Starts scrolling. You watch her thumb move across the screen. Marcus&#39;s Instagram. You can see the squares from here, shirtless, shirtless, gym, shirtless.
+
+You go to bed. She stays on the couch. The blue light of Marcus&#39;s content plays across her face in the dark living room.
+
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Money Stress&lt;/span&gt;&lt;b&gt;becomes Critical&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Self-Image note&lt;/span&gt;&lt;b&gt;Small enough to fit in a shipping box&lt;/b&gt;&lt;/div&gt;
+
+&lt;&lt;goto &quot;R4-End&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="99" name="R4-PunishmentBet" tags="release4" position="1100,1225" size="100,100">&lt;&lt;set $chatMood to &quot;anticipatory&quot;&gt;&gt;
+&lt;&lt;scene &quot;img/scenes/punishment-announcement.png&quot; &quot;Femboy cosplay stream. Minimum three hours.&quot;&gt;&gt;
+
+DuskBlade does the dare reveals on his own stream. Sunday afternoon. Five thousand viewers. He&#39;s in full ringmaster mode, cape and all. The man literally wears a cape on stream. It works.
+
+//&quot;Bracket three. EthX and LunaFrag.&quot;//
+
+He pauses. Grins. The chat fills with anticipation emojis. He&#39;s milking this because that&#39;s what showmen do.
+
+//&quot;Your punishment. One full stream in femboy cosplay.&quot;//
+
+The words don&#39;t register immediately. They sit in the air like a delayed action charge.
+
+//&quot;Thigh highs. Skirt. Wig. The whole nine yards. Makeup if you can manage it. On camera. Minimum three hours.&quot;//
+
+Chat erupts. Not just DuskBlade&#39;s chat, the tournament community Discord, Twitter, everywhere at once.
+
+&lt;div class=&quot;pt-chat&quot;&gt;
+&lt;&lt;chathead 5000&gt;&gt;
+&lt;div class=&quot;pt-chat-body&quot;&gt;
+&lt;&lt;chatline &quot;viewer1&quot; &quot;FEMBOY STREAM LMAOOO&quot; &quot;#63b3ed&quot;&gt;&gt;
+&lt;&lt;chatline &quot;viewer2&quot; &quot;ethx in a skirt I&#39;m SCREAMING&quot; &quot;#e0556f&quot;&gt;&gt;
+&lt;&lt;chatline &quot;viewer3&quot; &quot;this is going to be legendary&quot; &quot;#e0b84d&quot;&gt;&gt;
+&lt;&lt;chatline &quot;viewer4&quot; &quot;lowkey ethx has the face for it tho 👀&quot; &quot;#c084dc&quot;&gt;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+That last one. I read it three times. Lowkey ethx has the face for it tho. Some stranger on the internet looked at me and saw something I haven&#39;t let myself see. Something about my jaw, maybe. My cheekbones. The softness I&#39;ve always been slightly insecure about.
+
+LunaFrag messages me immediately.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;LunaFrag&quot; &quot;Direct message&quot; &quot;L&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;well. at least I&#39;m already a girl lmao. I&#39;ll just go extra femme. you&#39;re the one who has to do the heavy lifting&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;i might just eat the $500&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;dude you cannot afford to lose that $500 and you know it. just do the stream. three hours. it&#39;ll blow over&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+She&#39;s right. Of course she&#39;s right. Five hundred dollars I put on a credit card I can&#39;t pay off. The deposit is non-refundable. The dare is non-negotiable. The waiver I signed, scrolling past the terms like everyone does, has a clause about forfeiting the deposit if you refuse the punishment.
+
+Five hundred dollars for a skirt and a wig. Three hours. Then it&#39;s over.
+
+I text Riley. &quot;femboy stream&quot;
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;Riley&quot; &quot;Discord DM&quot; &quot;R&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;OH MY GOD&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;WAIT&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;actually&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;this could be incredible content&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+Trust Riley to see the angle before the embarrassment.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;The community Discord&quot; &quot;R4-GhostReaperCommunity&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Evening&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="100" name="R4-RileyDebrief" tags="release4" position="1225,1225" size="100,100">Riley messages me twenty minutes after the stream ends.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;Riley&quot; &quot;Discord DM&quot; &quot;R&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;hey. rough one. you okay?&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;no&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;fair. the semifinals was bad luck, their reads on your rotations were insane. not all on you&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;i choked riley. i just choked. i hit the shots in practice. i hit them last week. today my hands just stopped working&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;yeah. pressure does that. it&#39;s not a talent problem. it&#39;s a mental game problem. you&#39;re mechanically there. you just need reps under pressure&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+I know they&#39;re right. I know it intellectually. But intellectually knowing you choked doesn&#39;t change the fact that you can still feel it in your fingers. The phantom of the shot you didn&#39;t take. The milliseconds your body stole from you.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;Riley&quot; &quot;Discord DM&quot; &quot;R&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;listen. the punishment bet. duskblade hasn&#39;t announced the dares yet. whatever it is, lean into it. make it content. you lost the tournament but you can still win the week&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;easy for you to say&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;i know. but i&#39;m saying it anyway because someone needs to&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+There&#39;s a pause. Then.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;Riley&quot; &quot;Discord DM&quot; &quot;R&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;also. i noticed jess wasn&#39;t in your chat tonight&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;she was at marcus&#39;s. working&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;on a saturday night&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;riley&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;i know. i know. just. i&#39;m here. whatever you need&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+I close Discord. Sit in the dark. The LED strips cast their permanent purple across the ceiling. From the bedroom, I hear my phone buzz. A text from Jess, &quot;How&#39;d it go??&quot;
+
+Two question marks. Not one. The second one is doing something. Overcompensating, maybe. Or just the way she texts now. Everything a little extra, a little performed.
+
+&lt;div class=&quot;pt-phone&quot;&gt;
+&lt;&lt;phonehead &quot;Jess&quot; &quot;iMessage&quot; &quot;J&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;How&#39;d it go??&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Didn&#39;t win. Got the punishment bet.&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Oh no! What is it?&quot; &quot;left&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Don&#39;t know yet. Announced tomorrow.&quot; &quot;right&quot;&gt;&gt;
+&lt;&lt;msg &quot;&quot; &quot;Well whatever it is I&#39;m sure it&#39;ll be funny 😂&quot; &quot;left&quot;&gt;&gt;
+&lt;/div&gt;
+
+Funny. She thinks it&#39;ll be funny. I put the phone down. Pick it up. Put it down.
+
+She doesn&#39;t ask anything else. No are you okay. No sorry babe. Just the certainty that whatever public humiliation I&#39;m about to endure will be amusing content.
+
+The phone stays dark after that.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Sunday afternoon&quot; &quot;R4-PunishmentBet&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Afternoon&quot;&gt;&gt;&lt;&lt;set $dayLabel to &quot;Day Eighteen&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="101" name="R4-RileyPrep" tags="release4" position="100,1350" size="100,100">&lt;&lt;scene &quot;img/ui/riley-prep-doc.png&quot; &quot;Color coded. Six sessions. Ten days.&quot;&gt;&gt;
+
+Riley pulls me into a voice channel that night. They&#39;ve already done research. That&#39;s Riley. They don&#39;t half-ass anything.
+
+//&quot;Okay, so. The bracket format is double elimination collab. Teams of two. Your partner gets assigned randomly from the pool unless you request someone. I think you should request LunaFrag.&quot;//
+
+//&quot;Who?&quot;//
+
+//&quot;LunaFrag. She&#39;s a female FPS streamer, like 50K followers. She&#39;s been grinding ranked and her aim is disgusting. Plus she&#39;s got a good stream presence. Your play styles would complement.&quot;//
+
+Riley shares their screen. LunaFrag&#39;s VODs. I watch a few minutes. She&#39;s good. Quick rotations, clean callouts, the kind of game sense that comes from thousands of hours of pattern recognition. She&#39;s also funny. Dry humor, the kind that sneaks up on you.
+
+//&quot;Her community is active too,&quot;// Riley continues. //&quot;If you two vibe, that&#39;s cross pollination. Her 50K seeing you, your 80K seeing her.&quot;//
+
+//&quot;You&#39;ve really thought about this.&quot;//
+
+//&quot;Someone has to.&quot;// They pause. //&quot;Jess used to be the one thinking about this stuff for you.&quot;//
+
+The silence lasts three seconds. Long enough to mean something.
+
+//&quot;She&#39;s busy,&quot;// I say.
+
+//&quot;Yeah. I know.&quot;// Riley&#39;s tone is carefully neutral. The tone of someone who has opinions they&#39;re choosing not to voice. //&quot;Anyway. I&#39;ll message LunaFrag&#39;s mod about the partner request. You focus on warming up. Your crosshair placement has been sloppy the last few streams.&quot;//
+
+//&quot;Harsh.&quot;//
+
+//&quot;Accurate. Your pre-aim on off angles has degraded since you stopped doing the routines. I can see it in the VODs. You&#39;re flicking instead of pre-placing, which means you&#39;re reacting instead of anticipating.&quot;//
+
+This is Riley at their best. Brutally honest in a way that somehow doesn&#39;t sting because you can feel the love underneath. They&#39;ve watched my VODs. They&#39;ve analyzed my aim degradation. They care about my crosshair placement more than I do right now.
+
+//&quot;I&#39;ll start the routines again tomorrow,&quot;// I say.
+
+//&quot;Tonight. The tournament is in ten days. You need at least six sessions of structured practice. I&#39;ll build you a schedule.&quot;//
+
+They do. By the time I go to bed, there&#39;s a doc in my inbox titled &quot;EthX Invicta Prep, DO THESE OR I&#39;LL KILL YOU&quot; with daily aim training drills, VOD review assignments, and a warmup routine. Riley even color coded it.
+
+I fall asleep reading it. First time in a while I fall asleep thinking about gaming instead of thinking about where Jess is.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Three days before&quot; &quot;R4-DuskBladeBriefing&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Evening&quot;&gt;&gt;&lt;&lt;set $dayLabel to &quot;Day Fourteen&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="102" name="R4-End" tags="release4" position="225,1350" size="100,100">&lt;&lt;set $donationsMonthly to 380&gt;&gt;
+Tomorrow the wig comes out of the box for real, three hours, a camera, and whoever&#39;s still watching by then.
+
+&lt;&lt;if $r4EndChoice is &quot;askWhoCalled&quot;&gt;&gt;
+The question is asked and answered and neither one changes anything. You lie there with both versions of tonight, the one where it was just a thumbnail and the one where it wasn&#39;t, and you can&#39;t tell which one you&#39;re actually holding.
+&lt;&lt;elseif $r4EndChoice is &quot;focusOutfit&quot;&gt;&gt;
+Somewhere between the platform heels joke and the pillow she threw at you, tonight stopped being about the dare. You fall asleep still a little warm from it.
+&lt;&lt;elseif $r4EndChoice is &quot;suggestCanceling&quot;&gt;&gt;
+The five hundred dollars wins. It usually does. You go to sleep smaller than you were this morning, and the wig waits in its box for a body that hasn&#39;t agreed to anything yet.
+&lt;&lt;/if&gt;&gt;
+
+&lt;&lt;endcard &quot;Release 4, Complete&quot; &quot;The Tournament And The Bet&quot; &quot;Ethan lost the bracket and won a Saturday he didn&#39;t ask for. The wig is still in the closet.&quot;&gt;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;See where things stand&quot; &quot;R4-Stats&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="103" name="R4-Stats" tags="release4" position="350,1350" size="100,100">&lt;div class=&quot;pt-endcard&quot;&gt;
+&lt;div class=&quot;kicker&quot;&gt;End of Release 4&lt;/div&gt;
+&lt;h2&gt;Stats so far&lt;/h2&gt;
+&lt;/div&gt;
+
+&lt;&lt;statbar &quot;Viewers&quot; $viewers 250 $viewers &quot;&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Followers&quot; $followers 100000 $followers &quot;&quot;&gt;&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Donations, month&lt;/span&gt;&lt;b&gt;&lt;&lt;= &quot;$&quot; + $donationsMonthly&gt;&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;&lt;statbar &quot;Jess Closeness&quot; $jessCloseness 100 $jessCloseness &quot;&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Jess, Marcus Bond&quot; $jessMarcusBond 100 $jessMarcusBond &quot;&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Suspicion&quot; $suspicion 100 $suspicion &quot;trust&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Riley Trust&quot; $rileyTrust 100 $rileyTrust &quot;trust&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Community Bond&quot; $communityBond 20 $communityBond &quot;trust&quot;&gt;&gt;
+&lt;&lt;statbar &quot;Feminization&quot; $feminization 20 $feminization &quot;&quot;&gt;&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Stream Persona&lt;/span&gt;&lt;b&gt;$streamPersona&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Chat Mood&lt;/span&gt;&lt;b&gt;$chatMood&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Self-Image&lt;/span&gt;&lt;b&gt;$selfImage&lt;/b&gt;&lt;/div&gt;
+&lt;&lt;if $selfImageNote is not &quot;&quot;&gt;&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Self-Image note&lt;/span&gt;&lt;b&gt;$selfImageNote&lt;/b&gt;&lt;/div&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Money Stress&lt;/span&gt;&lt;b&gt;&lt;&lt;moneybadge $moneyStress&gt;&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Credit card balance&lt;/span&gt;&lt;b&gt;&lt;&lt;= &quot;$&quot; + $creditCardDebt&gt;&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Cash on hand&lt;/span&gt;&lt;b&gt;&lt;&lt;= &quot;$&quot; + $money&gt;&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;pt-hud-line&quot;&gt;&lt;span&gt;Night&#39;s end choice&lt;/span&gt;&lt;b&gt;$r4EndChoice&lt;/b&gt;&lt;/div&gt;
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;p class=&quot;pt-hud-sub&quot;&gt;Release 5 picks up from here. Use Restart in the sidebar menu to run the story again from a clean save.&lt;/p&gt;
+
+&lt;&lt;patreoncard&gt;&gt;</tw-passagedata><tw-passagedata pid="104" name="R4-TellingJess" tags="release4" position="475,1350" size="100,100">&lt;&lt;scene &quot;img/scenes/shopping-with-jess.png&quot; &quot;Definitely the pink ones&quot;&gt;&gt;
+
+She&#39;s home. Actually home. Sitting on the couch with her laptop, but present, here, in the apartment, existing in the same space as me. It&#39;s notable that this is notable.
+
+//&quot;Hey.&quot;//
+
+//&quot;Hey.&quot;// She looks up, smiles. It&#39;s her real smile, not the phone smile. //&quot;DuskBlade announced the dares?&quot;//
+
+//&quot;You saw?&quot;//
+
+//&quot;Riley posted about it in the Discord. Well. In the community Discord. I still check sometimes.&quot;// She closes the laptop. Full attention. I haven&#39;t had her full attention in two weeks. //&quot;So. Femboy stream.&quot;//
+
+I wait for the cringe. The eye roll. The gentle suggestion that maybe I should just pay the five hundred because the humiliation isn&#39;t worth it.
+
+Instead, she laughs. Not at me. With the situation. The kind of laugh that starts in the belly and catches on the way out, turning into a snort she tries to cover with her hand. Her eyes crinkle. Her nose scrunches. It&#39;s the laugh I fell in love with three years ago at a house party where she spilled beer on my shoes and then laughed exactly like this.
+
+//&quot;Oh my god.&quot;// She wipes her eyes. //&quot;Oh my god, you&#39;d actually look cute.&quot;//
+
+//&quot;What?&quot;//
+
+//&quot;Ethan. Babe. You have a pretty face. I&#39;ve always said that.&quot;//
+
+She hasn&#39;t always said that. She said it once, two years ago, when she was drunk and tracing his jawline with her finger in bed. But the fact that she remembers saying it. The fact that she&#39;s bringing it up now. Something warm unfolds in my chest.
+
+//&quot;Let me help you pick the outfit.&quot;//
+
+We sit on the couch together. She pulls up a shopping app on her phone and starts browsing with the intensity she usually reserves for Marcus&#39;s content calendar. Skirts, thigh highs, wigs, she&#39;s got opinions about everything.
+
+//&quot;Not the black skirt. Too goth. You want something playful, this plaid one, and these thigh highs. Definitely the pink ones.&quot;//
+
+//&quot;Pink?&quot;//
+
+//&quot;Trust me. Pink reads cute. Black reads try hard. You want chat to think this is fun, not fetish.&quot;//
+
+She&#39;s applying her content strategy brain to my femboy outfit. The same brain that schedules Marcus&#39;s shirtless streams and optimizes his thirst trap thumbnails is now selecting the optimal thigh high color for maximum audience engagement on my crossdressing punishment dare.
+
+This is my life.
+
+//&quot;Oh, and a wig. You need the wig.&quot;// She scrolls. //&quot;This one. Pink bob. Cheap but it&#39;ll read well on camera.&quot;//
+
+For twenty minutes, we are a couple again. Laughing, debating hem lengths, her showing me options and me reacting and her adjusting based on my reactions. It&#39;s the most connected we&#39;ve been in weeks. She&#39;s engaged. She&#39;s having fun. She&#39;s looking at me.
+
+&lt;&lt;scene &quot;img/scenes/the-phone-call.png&quot; &quot;Through a door that&#39;s almost closed&quot;&gt;&gt;
+
+Then her phone rings.
+
+The ringtone is different. She changed it. Marcus has his own ringtone now. A custom one. I don&#39;t recognize the song.
+
+She looks at the screen. Looks at me. Something flickers across her face. A calculation. A weighing.
+
+//&quot;Sorry. One sec. Work thing.&quot;//
+
+She takes the call in the other room. The bedroom. Our bedroom. She closes the door. Not all the way. Just enough.
+
+I hear her voice change. It goes soft. The register drops. Her words lose their edges, become rounded, warm, a voice that curls around whatever she&#39;s saying like fingers around a wine glass. It&#39;s the phone voice. The one she used to use with me in the first months. When we&#39;d talk for hours about nothing and everything and the nothing felt like everything because her voice was doing that.
+
+//&quot;Yeah, I think that&#39;s perfect.&quot;// A pause, laughter, low, private, the kind of laugh that&#39;s for one person. //&quot;No, you&#39;re right. That angle is way better.&quot;// Another pause. //&quot;Okay. Yeah. Tomorrow works.&quot;//
+
+Fifteen minutes. She&#39;s in the bedroom for fifteen minutes. I sit on the couch with the shopping cart open on my phone, pink thigh highs and a plaid skirt staring back at me, listening to my girlfriend murmur to another man through a door that&#39;s almost closed.
+
+&lt;&lt;set $jessMarcusBond += 5&gt;&gt;
+
+She comes back, bright, slightly flushed.
+
+//&quot;Sorry. Marcus needed feedback on a thumbnail. Where were we? Oh, the thigh highs. Definitely the pink ones.&quot;//
+
+She sits down close. Her thigh against mine. She smells like her perfume and something else. Not cologne. Just energy. The energy of a conversation that made her feel alive in a way this one didn&#39;t.
+
+//&quot;I&#39;ll order all of this tonight,&quot;// she says. //&quot;Should be here by Thursday. The stream is Saturday, right?&quot;//
+
+//&quot;Yeah.&quot;//
+
+//&quot;Perfect. I&#39;ll do your makeup. I used to do theater makeup in high school, remember?&quot;//
+
+I didn&#39;t remember. There&#39;s a version of Jess from before me that did theater makeup and dreamed of something bigger than a cramped apartment with a part time retail job and a boyfriend who plateaued at eighty thousand followers. Marcus is showing her that version. I&#39;m showing her a plaid skirt on a shopping app.
+
+//&quot;That&#39;d be great, babe. Thanks.&quot;//
+
+She squeezes my hand, real, present, warm.
+
+Then she picks up her phone and starts texting. Thumbs fast. The screen tilted slightly away from me. She&#39;s still smiling.
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Mid-week&quot; &quot;R4-BetPool&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Afternoon&quot;&gt;&gt;&lt;&lt;set $dayLabel to &quot;Day Twenty One&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="105" name="R4-Tournament" tags="release4" position="600,1350" size="100,100">&lt;&lt;set $viewers to 800&gt;&gt;
+&lt;&lt;set $followers += 200&gt;&gt;
+&lt;&lt;scene &quot;img/scenes/tournament-choke.png&quot; &quot;Semifinals. And this is where it falls apart.&quot;&gt;&gt;
+
+Tournament day. Saturday. I wake up at noon, which is my version of waking up early. I shower, eat eggs, real eggs, not ramen. I want protein. I want to feel like someone who takes care of himself before the biggest stream of his year.
+
+Jess left a note on the counter. &quot;Good luck today babe! I&#39;ll try to catch some of the stream. Working at M&#39;s today but rooting for you!! 💕&quot;
+
+Working at M&#39;s. She calls him M now, not Marcus, just M, like he&#39;s a Bond villain, like he&#39;s shorthand.
+
+I push it away. Today isn&#39;t about that. Today is about the crosshair. The callout. The bracket.
+
+I go live at 4 PM. Title, &quot;INVICTA OPEN, EthX plus LunaFrag versus the world.&quot;
+
+Eight hundred viewers. Eight hundred. I haven&#39;t seen this number since ever, actually, for a standard stream. The tournament hype pulled in viewers from DuskBlade&#39;s community, from LunaFrag&#39;s community, from the competitive subreddit where Riley posted a thread about the bracket.
+
+//&quot;Let&#39;s go, chat,&quot;// I say, and I mean it. My hands are warm. My posture is good. The ring light is on. The energy in my chest is the energy I&#39;ve been missing.
+
+First round. We draw a team called ShotCallerz. Mid tier players with flashy names and mediocre fundamentals. Luna and I dismantle them. Clean, decisive, almost surgical. I hit a triple kill in round four that makes chat erupt. Riley clips it before the round ends.
+
+&lt;div class=&quot;pt-chat&quot;&gt;
+&lt;&lt;chathead $viewers&gt;&gt;
+&lt;div class=&quot;pt-chat-body&quot;&gt;
+&lt;&lt;chatline &quot;TTVShadowMerc&quot; &quot;ETHX IS HIM TODAY&quot; &quot;#63b3ed&quot;&gt;&gt;
+&lt;&lt;chatline &quot;xX_FragQueen_Xx&quot; &quot;the aim is CRISPY&quot; &quot;#e0556f&quot;&gt;&gt;
+&lt;&lt;chatline &quot;GhostReaper42&quot; &quot;luna and ethx synergy is nuts&quot; &quot;#e0b84d&quot;&gt;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+We win three to one. Easy, momentum, blood pumping. This is it. This is what I&#39;ve been training for.
+
+Second round. Harder opponents. A team called VelocityPeak. Their entry fragger is fast, genuinely fast, the kind of player who makes you question if they&#39;re cheating until you watch the replay and realize they&#39;re just better at the game than you are.
+
+We win, barely. Three to two. Luna clutches the final round with a one versus two that makes me shout so loud the neighbors probably heard. My hands are shaking. Not from fear. From the adrenaline that lives in the gap between almost losing and barely winning.
+
+//&quot;Semifinals,&quot;// Luna says. //&quot;Deep breath.&quot;//
+
+Semifinals, and this is where it falls apart.
+
+Our opponents are KillSwitch. Two players I recognize from ranked. Both higher rated than me. Both with the calm, efficient playstyle of people who have been here before and expect to be here again. They don&#39;t panic. They don&#39;t make flashy plays. They just execute.
+
+Round one, we lose. A clean read on our rotation that leaves me exposed in a crossfire. Dead before I can react.
+
+Round two, I choke. The specific, terrible kind of choking where your body forgets how to do something it&#39;s done ten thousand times. My crosshair drifts. My pre-aims land three inches off target. I swing a corner and my brain says shoot and my hand does nothing for two hundred milliseconds that feel like two hundred years.
+
+I die. Luna dies trying to trade. We lose the round.
+
+Round three, I&#39;m tilting. I can feel it. The heat in my face, the tension in my shoulders, the way my breathing goes shallow and fast. Chat can see it too.
+
+&lt;div class=&quot;pt-chat&quot;&gt;
+&lt;&lt;chathead $viewers&gt;&gt;
+&lt;div class=&quot;pt-chat-body&quot;&gt;
+&lt;&lt;chatline &quot;TTVShadowMerc&quot; &quot;ethan&#39;s tilting hard&quot; &quot;#63b3ed&quot;&gt;&gt;
+&lt;&lt;chatline &quot;xX_FragQueen_Xx&quot; &quot;bro just breathe&quot; &quot;#e0556f&quot;&gt;&gt;
+&lt;&lt;chatline &quot;GhostReaper42&quot; &quot;this is painful to watch ngl&quot; &quot;#e0b84d&quot;&gt;&gt;
+&lt;&lt;chatline &quot;LunaFrag&quot; &quot;LunaFrag carrying rn&quot; &quot;#c084dc&quot;&gt;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+I slam my desk. The mic picks it up. The stream hears the frustration. One person in chat types it&#39;s just a game bro and I want to reach through the internet and shake them because it&#39;s not just a game. It&#39;s five hundred dollars I can&#39;t afford. It&#39;s the only shot at visibility I&#39;ve had in months. It&#39;s proof that I&#39;m not just a guy in a cramped apartment with a cracked monitor pretending the algorithm gives a damn about him.
+
+I accidentally mute my mic. Thirty seconds of silence. Luna is calling positions and I&#39;m not responding. She adapts, covers my angles, does the work of two people. We still lose.
+
+Round four, I unmute. //&quot;Sorry. I muted by accident.&quot;//
+
+//&quot;It&#39;s fine. Reset. We got this.&quot;//
+
+We don&#39;t got this. KillSwitch reads our setup perfectly. The round lasts ninety seconds. We get destroyed.
+
+Three to one loss. Dropped to lower bracket.
+
+The consolation match against another losing team should be a recovery. It isn&#39;t. My mental is shattered. The confidence from the first two rounds is gone, replaced by the specific self loathing that comes from choking when it mattered. I play like I&#39;m underwater. Luna plays her heart out but can&#39;t carry hard enough.
+
+We lose. Last place in our bracket.
+
+The stream ends. Luna is gracious. //&quot;We&#39;ll get &#39;em next time.&quot;// But her voice is tight. She wanted to win too. She entered this tournament to grow her channel, to prove she could hang at this level, and I let her down.
+
+//&quot;I&#39;m sorry,&quot;// I say.
+
+//&quot;Don&#39;t apologize. It happens. But do your aim drills.&quot;// She disconnects.
+
+I pull off my headset. Eight hundred viewers watched me choke. The clip of me slamming my desk is already on Twitter with the caption &quot;EthX having a normal one.&quot; Twelve quote tweets. All mocking.
+
+&lt;&lt;set $viewers to 200&gt;&gt;
+
+&lt;hr class=&quot;pt-hr&quot;&gt;
+
+&lt;div class=&quot;pt-choices&quot;&gt;
+&lt;&lt;link &quot;Twenty minutes later&quot; &quot;R4-RileyDebrief&quot;&gt;&gt;&lt;&lt;set $timeOfDay to &quot;Night&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="106" name="Widgets" tags="widget" position="725,1350" size="100,100">\
 &lt;&lt;widget &quot;scene&quot;&gt;&gt;\
 &lt;&lt;set _img to $args[0]&gt;&gt;\
 &lt;&lt;set _cap to $args[1]&gt;&gt;\

@@ -1,0 +1,49 @@
+:: R4-End [release4]
+<<set $donationsMonthly to 380>>
+Tomorrow the wig comes out of the box for real, three hours, a camera, and whoever's still watching by then.
+
+<<if $r4EndChoice is "askWhoCalled">>
+The question is asked and answered and neither one changes anything. You lie there with both versions of tonight, the one where it was just a thumbnail and the one where it wasn't, and you can't tell which one you're actually holding.
+<<elseif $r4EndChoice is "focusOutfit">>
+Somewhere between the platform heels joke and the pillow she threw at you, tonight stopped being about the dare. You fall asleep still a little warm from it.
+<<elseif $r4EndChoice is "suggestCanceling">>
+The five hundred dollars wins. It usually does. You go to sleep smaller than you were this morning, and the wig waits in its box for a body that hasn't agreed to anything yet.
+<</if>>
+
+<<endcard "Release 4, Complete" "The Tournament And The Bet" "Ethan lost the bracket and won a Saturday he didn't ask for. The wig is still in the closet.">>
+
+<div class="pt-choices">
+<<link "See where things stand" "R4-Stats">><</link>>
+</div>
+
+:: R4-Stats [release4]
+<div class="pt-endcard">
+<div class="kicker">End of Release 4</div>
+<h2>Stats so far</h2>
+</div>
+
+<<statbar "Viewers" $viewers 250 $viewers "">>
+<<statbar "Followers" $followers 100000 $followers "">>
+<div class="pt-hud-line"><span>Donations, month</span><b><<= "$" + $donationsMonthly>></b></div>
+<<statbar "Jess Closeness" $jessCloseness 100 $jessCloseness "">>
+<<statbar "Jess, Marcus Bond" $jessMarcusBond 100 $jessMarcusBond "">>
+<<statbar "Suspicion" $suspicion 100 $suspicion "trust">>
+<<statbar "Riley Trust" $rileyTrust 100 $rileyTrust "trust">>
+<<statbar "Community Bond" $communityBond 20 $communityBond "trust">>
+<<statbar "Feminization" $feminization 20 $feminization "">>
+<div class="pt-hud-line"><span>Stream Persona</span><b>$streamPersona</b></div>
+<div class="pt-hud-line"><span>Chat Mood</span><b>$chatMood</b></div>
+<div class="pt-hud-line"><span>Self-Image</span><b>$selfImage</b></div>
+<<if $selfImageNote is not "">>
+<div class="pt-hud-line"><span>Self-Image note</span><b>$selfImageNote</b></div>
+<</if>>
+<div class="pt-hud-line"><span>Money Stress</span><b><<moneybadge $moneyStress>></b></div>
+<div class="pt-hud-line"><span>Credit card balance</span><b><<= "$" + $creditCardDebt>></b></div>
+<div class="pt-hud-line"><span>Cash on hand</span><b><<= "$" + $money>></b></div>
+<div class="pt-hud-line"><span>Night's end choice</span><b>$r4EndChoice</b></div>
+
+<hr class="pt-hr">
+
+<p class="pt-hud-sub">Release 5 picks up from here. Use Restart in the sidebar menu to run the story again from a clean save.</p>
+
+<<patreoncard>>

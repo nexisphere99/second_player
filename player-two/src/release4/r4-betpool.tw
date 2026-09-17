@@ -1,0 +1,42 @@
+:: R4-BetPool [release4]
+TTVShadowMerc, who has too much time and not enough impulse control, starts an unofficial bet pool in the community Discord.
+
+<div class="pt-chat">
+<div class="pt-chat-head"><span>COMMUNITY DISCORD, #general</span></div>
+<div class="pt-chat-body">
+<<chatline "TTVShadowMerc" "ETHX-CHAN STREAM PREDICTIONS, place your bets" "#63b3ed">>
+</div>
+</div>
+
+He lists the categories. Viewer peak, over or under two thousand. Will he keep the wig on the whole stream, yes or no. Will he actually do the makeup or just slap on the wig, full makeup or wig only. Will he rage quit, yes, no, or maybe. Hotness rating, community vote, one to ten, post stream.
+
+The bet pool gets fifty entries in two days. Most people bet over two thousand viewers. Most bet he'll keep the wig on. The hotness rating pre vote average is 6.2, which is higher than I expected. Some of these people have really thought about what I'd look like in a skirt.
+
+TTVShadowMerc DMs me directly.
+
+<div class="pt-phone">
+<<phonehead "TTVShadowMerc" "Direct message" "T">>
+<<msg "" "bro i gotta be honest" "left">>
+<<msg "" "i'm kinda hyped for this" "left">>
+<<msg "" "glad my humiliation excites you" "right">>
+<<msg "" "nah fr tho. your normal streams are chill but they're... idk. you're holding back. like you're trying to be the version of a streamer you think you should be. this dare is going to force you out of that. whatever happens, it's going to be REAL. and real is what chat responds to" "left">>
+</div>
+
+I read it twice. TTVShadowMerc is not usually a philosopher. He's usually a guy who types nice shot king and argues about gun meta in the comments. But this. This is observation. He's seen something I've been hiding from myself.
+
+Holding back. Trying to be a version of myself I think I should be. Playing a character called mid tier competitive FPS streamer because I don't know what else to play.
+
+<div class="pt-phone">
+<<phonehead "TTVShadowMerc" "Direct message" "T">>
+<<msg "" "maybe you're right" "right">>
+<<msg "" "course i'm right. also i bet $5 on you being at least an 8 on the hotness scale so don't let me down" "left">>
+<<msg "" "there's no actual money in this bet pool right?" "right">>
+<<msg "" "..." "left">>
+<<msg "" "no comment" "left">>
+</div>
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Friday night" "R4-NightBefore">><<set $timeOfDay to "Evening">><<set $dayLabel to "Day Twenty Three">><</link>>
+</div>

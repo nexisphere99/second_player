@@ -1,0 +1,44 @@
+:: R4-RileyPrep [release4]
+<<scene "img/ui/riley-prep-doc.png" "Color coded. Six sessions. Ten days.">>
+
+Riley pulls me into a voice channel that night. They've already done research. That's Riley. They don't half-ass anything.
+
+//"Okay, so. The bracket format is double elimination collab. Teams of two. Your partner gets assigned randomly from the pool unless you request someone. I think you should request LunaFrag."//
+
+//"Who?"//
+
+//"LunaFrag. She's a female FPS streamer, like 50K followers. She's been grinding ranked and her aim is disgusting. Plus she's got a good stream presence. Your play styles would complement."//
+
+Riley shares their screen. LunaFrag's VODs. I watch a few minutes. She's good. Quick rotations, clean callouts, the kind of game sense that comes from thousands of hours of pattern recognition. She's also funny. Dry humor, the kind that sneaks up on you.
+
+//"Her community is active too,"// Riley continues. //"If you two vibe, that's cross pollination. Her 50K seeing you, your 80K seeing her."//
+
+//"You've really thought about this."//
+
+//"Someone has to."// They pause. //"Jess used to be the one thinking about this stuff for you."//
+
+The silence lasts three seconds. Long enough to mean something.
+
+//"She's busy,"// I say.
+
+//"Yeah. I know."// Riley's tone is carefully neutral. The tone of someone who has opinions they're choosing not to voice. //"Anyway. I'll message LunaFrag's mod about the partner request. You focus on warming up. Your crosshair placement has been sloppy the last few streams."//
+
+//"Harsh."//
+
+//"Accurate. Your pre-aim on off angles has degraded since you stopped doing the routines. I can see it in the VODs. You're flicking instead of pre-placing, which means you're reacting instead of anticipating."//
+
+This is Riley at their best. Brutally honest in a way that somehow doesn't sting because you can feel the love underneath. They've watched my VODs. They've analyzed my aim degradation. They care about my crosshair placement more than I do right now.
+
+//"I'll start the routines again tomorrow,"// I say.
+
+//"Tonight. The tournament is in ten days. You need at least six sessions of structured practice. I'll build you a schedule."//
+
+They do. By the time I go to bed, there's a doc in my inbox titled "EthX Invicta Prep, DO THESE OR I'LL KILL YOU" with daily aim training drills, VOD review assignments, and a warmup routine. Riley even color coded it.
+
+I fall asleep reading it. First time in a while I fall asleep thinking about gaming instead of thinking about where Jess is.
+
+<hr class="pt-hr">
+
+<div class="pt-choices">
+<<link "Three days before" "R4-DuskBladeBriefing">><<set $timeOfDay to "Evening">><<set $dayLabel to "Day Fourteen">><</link>>
+</div>
